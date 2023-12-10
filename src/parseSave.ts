@@ -8,11 +8,11 @@ const UnrealArchiveMagic = 0x9e2a83c1;
 class SatisfactoryFileParser {
   currentOffset: number;
   dataView: DataView;
-  worker: Worker;
 
   constructor(filename: string) {
     const buffer = readFileSync(filename).buffer;
     this.dataView = new DataView(buffer);
+    this.currentOffset = 0;
   }
 
   // Primitives types
