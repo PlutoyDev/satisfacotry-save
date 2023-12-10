@@ -1,0 +1,38 @@
+// Copyright Coffee Stain Studios. All Rights Reserved.
+
+#pragma once
+
+#include "Engine/AssetManager.h"
+#include "IncludeInBuild.h"
+#include "FGAssetManager.generated.h"
+
+/** Help us discard packages that shouldn't be cooked and add assets that's should always be cooked */
+UCLASS()
+class FACTORYGAME_API UFGAssetManager : public UAssetManager
+{
+	GENERATED_BODY()
+public:
+	UFGAssetManager();
+
+#if WITH_EDITOR
+	/** Change behavior dependent on the cook parameters */
+	virtual void SetCookParameters( const FString& commandlineValues ) override;
+
+	/** Convenient hook for when we want to be able to add more things to the cook */
+	virtual void ModifyCook( TArray<FName>& out_packagesToCook, TArray<FName>& out_packagesToNeverCook ) override;
+	
+	/** Let us exclude certain packages that we don't want to include */
+	virtual EPrimaryAssetCookRule GetPackageCookRule( FName PackageName ) const override;
+
+	// [ZolotukhinN:21/07/2023] Added this to make world partition content bundle system aware of the cooking parameters
+	FORCEINLINE EIncludeInBuilds GetMinimumIncludeInBuildFlag() const { return mMinimumIncludeInBuildFlag; }
+#endif
+protected:
+#if WITH_EDITORONLY_DATA
+	/** Cached version of the max current tier */
+	int32 mCachedMaxTechTier;
+
+	/** During cooking step, what's the minimum value of EIncludeInBuild on asset for it to be included in cooks */
+	EIncludeInBuilds mMinimumIncludeInBuildFlag;
+#endif
+};

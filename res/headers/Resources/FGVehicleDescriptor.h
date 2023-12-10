@@ -1,0 +1,43 @@
+// Copyright Coffee Stain Studios. All Rights Reserved.
+
+#pragma once
+
+#include "FGBuildDescriptor.h"
+#include "FGVehicleDescriptor.generated.h"
+
+/**
+ * Build descriptor for vehicles.
+ */
+UCLASS()
+class FACTORYGAME_API UFGVehicleDescriptor : public UFGBuildDescriptor
+{
+	GENERATED_BODY()
+	
+public:
+	UFGVehicleDescriptor();
+
+	//~ Begin UObject Interface
+	virtual void PostLoad() override;
+	//~ End UObject Interface
+
+	/** Get the vehicle class for this descriptor. */
+	UFUNCTION( BlueprintPure, Category = "FactoryGame|Descriptor|Vehicle" )
+	static TSubclassOf< class AFGVehicle > GetVehicleClass( TSubclassOf< UFGVehicleDescriptor > inClass );
+
+protected:
+	virtual FText GetItemNameInternal() const override;
+	virtual FText GetItemDescriptionInternal() const override;
+
+	virtual TSubclassOf< class AFGHologram > GetHologramClassInternal() const override;
+	virtual TSubclassOf< AActor > GetBuildClassInternal() const override;
+
+	FORCEINLINE virtual bool Internal_CanItemBePickedup() const override { return false; }
+
+public:
+	/** Value to display instead of display name and description. */
+	static FText mOverrideDisplayNameAndDescription;
+
+	/** The vehicle this descriptor describes. */
+	UPROPERTY( EditDefaultsOnly, Category = "Vehicle", meta = ( AddAutoJSON = true ) )
+	TSubclassOf< class AFGVehicle > mVehicleClass;
+};
