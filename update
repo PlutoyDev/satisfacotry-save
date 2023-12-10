@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Ensure git status is clean
+if [[ $(git status --porcelain) ]]; then
+    echo "Repository has uncommitted changes, please commit or stash them before running this script"
+    exit 1
+fi
+
+# Check if res folder exists
+if [ ! -d "res" ]; then
+    mkdir res
+else
+    rm -rf res/headers
+    rm -f res/docs.json
+fi
+
+# Copies the headers from the game to this project
+unzip -q "/mnt/c/Program Files (x86)/Steam/steamapps/common/Satisfactory/CommunityResources/Headers.zip" -d res/headers
+
+# Copies the docs from the game to this project
+cp "/mnt/c/Program Files (x86)/Steam/steamapps/common/Satisfactory/CommunityResources/Docs/Docs.json" res/docs.json
+
+# Check git status is dirty, if so, commit
+if [[ $(git status --porcelain) ]]; then
+    git add res/headers res/docs.json
+    git commit -q -m "Update headers and docs from game"
+fi
