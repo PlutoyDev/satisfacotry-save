@@ -12,7 +12,8 @@
   "dependencies": {
     "@types/node": "^20.10.4",
     "fflate": "^0.8.1",
-    "luxon": "^3.4.4"
+    "luxon": "^3.4.4",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@types/luxon": "^3.3.7"
