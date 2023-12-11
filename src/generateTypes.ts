@@ -1,4 +1,4 @@
-import ts, { isOptionalTypeNode } from 'typescript';
+import ts from 'typescript';
 import { readFile, writeFile } from 'fs/promises';
 
 const filePath = './res/docs.json';
