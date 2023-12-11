@@ -1,24 +1,15 @@
-import ts from 'typescript';
+import ts, { isOptionalTypeNode } from 'typescript';
 import { readFile, writeFile } from 'fs/promises';
 
 const filePath = './res/docs.json';
 const json = await readFile(filePath);
 const decoder = new TextDecoder('utf-16le');
 const docs = JSON.parse(decoder.decode(json)) as unknown;
-const errors: string[] = [];
 
 if (!docs || !Array.isArray(docs)) {
   throw new Error(`Invalid docs file: ${filePath}`);
 }
 
-// const printer = ts.createPrinter();
-// const sourceFile = ts.createSourceFile(
-//   'docs.ts',
-//   '',
-//   ts.ScriptTarget.Latest,
-//   false,
-//   ts.ScriptKind.TS
-// );
 const file = ts.createSourceFile(
   'source.ts',
   '',
@@ -26,11 +17,8 @@ const file = ts.createSourceFile(
   false,
   ts.ScriptKind.TS
 );
-const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
 
-function printTypescript(node: ts.Node) {
-  console.log(printer.printNode(ts.EmitHint.Unspecified, node, file));
-}
+const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
 
 function getTSPropertyTypeFromValue(value: unknown): ts.TypeNode {
   if (value === null) {
@@ -73,7 +61,16 @@ function getTSPropertyTypeFromValue(value: unknown): ts.TypeNode {
 
 const nativeClassRegex = /FactoryGame\.(.*)'/; //Sample: ///Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptor'
 const docsLength = docs.length;
-const nativeClasses: Map<string, ts.TypeNode> = new Map();
+const result: Map<
+  string /*native class name*/,
+  {
+    fullProperties: Map<string, ts.TypeNode>;
+    optionalProperties: Array<string>;
+  }
+> = new Map();
+
+const globalCommonProperties: Map<string, ts.TypeNode> = new Map();
+
 for (let i = 0; i < docsLength; i++) {
   const doc = docs[i];
   if (!doc || typeof doc !== 'object') {
@@ -92,120 +89,168 @@ for (let i = 0; i < docsLength; i++) {
   }
   const nativeClassName = match[1];
   const classes = doc.Classes as Record<string, unknown>[];
-  const classesLength = classes.length;
   const fullProperties: Map<string, ts.TypeNode> = new Map();
-  const commonProperties: Set<string> = new Set();
-
-  for (let j = 0; j < classesLength; j++) {
+  const commonProperties: Map<string, ts.TypeNode> = new Map();
+  console.log(`Parsing ${nativeClassName}, ${classes.length} classes`);
+  for (let j = 0; j < classes.length; j++) {
     const classObj = classes[j];
     if (!classObj || typeof classObj !== 'object') {
       continue;
     }
-    for (const [key, value] of Object.entries(classObj)) {
-      if (j !== 0 && !commonProperties.has(key)) {
-        commonProperties.delete(key);
-        continue;
+    for (const [pName, value] of Object.entries(classObj)) {
+      fullProperties.set(pName, getTSPropertyTypeFromValue(value));
+    }
+
+    if (j === 0) {
+      for (const [pName, value] of Object.entries(classObj)) {
+        commonProperties.set(pName, getTSPropertyTypeFromValue(value));
       }
-      const type = getTSPropertyTypeFromValue(value);
-      if (fullProperties.has(key)) {
-        const existingType = fullProperties.get(key)!;
-        if (existingType.kind !== type.kind) {
-          console.log(
-            `Type mismatch for ${nativeClassName}.${key}, existing: ${
-              ts.SyntaxKind[existingType.kind]
-            }, new: ${ts.SyntaxKind[type.kind]}`
-          );
-          if (existingType.kind !== ts.SyntaxKind.UnionType) {
-            fullProperties.set(
-              key,
-              ts.factory.createUnionTypeNode([existingType, type])
-            );
-          } else {
-            const types = (existingType as ts.UnionTypeNode).types;
-            if (types.some(t => t.kind === type.kind)) {
-              continue;
-            }
-            fullProperties.set(
-              key,
-              ts.factory.createUnionTypeNode([...types, type])
-            );
-          }
+    } else if (commonProperties.size > 0) {
+      for (const [pName] of commonProperties.entries()) {
+        if (!commonProperties.has(pName)) {
+          commonProperties.delete(pName);
         }
-        continue;
-      }
-      fullProperties.set(key, getTSPropertyTypeFromValue(value));
-      if (j === 0) {
-        commonProperties.add(key);
       }
     }
   }
 
-  nativeClasses.set(
-    nativeClassName,
-    ts.factory.createTypeLiteralNode(
-      Array.from(fullProperties.entries()).map(([key, value]) => {
-        return ts.factory.createPropertySignature(
+  const optionalProperties = Array.from(fullProperties.entries())
+    .filter(([pName]) => !commonProperties.has(pName))
+    .map(([pName]) => pName);
+
+  result.set(nativeClassName, {
+    fullProperties,
+    optionalProperties,
+  });
+
+  console.log(
+    'Common properties: ',
+    commonProperties.size,
+    optionalProperties.length
+  );
+
+  if (i === 0) {
+    for (const [pName, type] of commonProperties.entries()) {
+      globalCommonProperties.set(pName, type);
+    }
+  } else if (globalCommonProperties.size > 0) {
+    for (const [pName] of globalCommonProperties.entries()) {
+      if (!commonProperties.has(pName)) {
+        globalCommonProperties.delete(pName);
+      }
+    }
+  }
+}
+
+// Find inherited properties
+const ordered = Array.from(result.entries()).sort(
+  ([, { fullProperties: aProps }], [, { fullProperties: bProps }]) => {
+    // Descending order by number of properties
+    return bProps.size - aProps.size;
+  }
+);
+
+console.log('Common properties: ', Array.from(globalCommonProperties.keys()));
+
+ordered.push([
+  'Generic',
+  {
+    fullProperties: globalCommonProperties,
+    optionalProperties: [] as string[],
+  },
+]);
+
+const interfaces: ts.InterfaceDeclaration[] = [];
+const classNames: string[] = [];
+for (let i = 0; i < ordered.length; i++) {
+  const [
+    className,
+    { fullProperties: properties, optionalProperties: optional },
+  ] = ordered[i];
+
+  const inheritedProperties = new Set<string>();
+  let j = i + 1;
+  for (; j < ordered.length; j++) {
+    inheritedProperties.clear();
+    const [otherClassName, { fullProperties: otherProperties }] = ordered[j];
+    if (otherClassName === className) {
+      continue;
+    }
+    for (const [key] of properties.entries()) {
+      if (otherProperties.has(key)) {
+        inheritedProperties.add(key);
+      }
+    }
+    if (inheritedProperties.size === otherProperties.size) {
+      break;
+    }
+  }
+  interfaces.unshift(
+    ts.factory.createInterfaceDeclaration(
+      ts.factory.createModifiersFromModifierFlags(ts.ModifierFlags.Export),
+      className + '_Class',
+      undefined,
+      inheritedProperties.size > 0 && j < ordered.length
+        ? [
+            ts.factory.createHeritageClause(ts.SyntaxKind.ExtendsKeyword, [
+              ts.factory.createExpressionWithTypeArguments(
+                ts.factory.createIdentifier(ordered[j][0] + '_Class'),
+                undefined
+              ),
+            ]),
+          ]
+        : undefined,
+      Array.from(properties.entries())
+        .filter(([pName]) => !inheritedProperties.has(pName))
+        .map(([pName, type]) => {
+          return ts.factory.createPropertySignature(
+            undefined,
+            `'${pName}'`,
+            optional.includes(pName)
+              ? ts.factory.createToken(ts.SyntaxKind.QuestionToken)
+              : undefined,
+            type
+          );
+        })
+    ),
+    ts.factory.createInterfaceDeclaration(
+      ts.factory.createModifiersFromModifierFlags(ts.ModifierFlags.Export),
+      className + '_Parent',
+      undefined,
+      undefined,
+      [
+        ts.factory.createPropertySignature(
           undefined,
-          key,
-          commonProperties.has(key)
-            ? undefined
-            : ts.factory.createToken(ts.SyntaxKind.QuestionToken),
-          value
-        );
-      })
+          'NativeClass',
+          undefined,
+          ts.factory.createLiteralTypeNode(
+            ts.factory.createStringLiteral(
+              `/Script/CoreUObject.Class'/Script/FactoryGame.${className}'`
+            )
+          )
+        ),
+        ts.factory.createPropertySignature(
+          undefined,
+          'Classes',
+          undefined,
+          ts.factory.createArrayTypeNode(
+            ts.factory.createTypeReferenceNode(className + '_Class', undefined)
+          )
+        ),
+      ]
     )
   );
-  // printTypescript(nativeClasses.get(nativeClassName)!);
+
+  classNames.push(className + '_Parent');
 }
 
-// Combine all native classes into one file
-let typescriptCode: string = '// Generated by src/parseDocs.ts\n\n';
-const TopLevelUnionTypes = [];
-for (const [name, type] of nativeClasses.entries()) {
-  const typeAlias = ts.factory.createTypeAliasDeclaration(
-    ts.factory.createModifiersFromModifierFlags(ts.ModifierFlags.Export),
-    name + 'Class',
-    undefined,
-    type
-  );
-
-  const FullNativeClass = ts.factory.createTypeAliasDeclaration(
-    ts.factory.createModifiersFromModifierFlags(ts.ModifierFlags.Export),
-    name + '_FullNativeClass',
-    undefined,
-    ts.factory.createTypeLiteralNode([
-      ts.factory.createPropertySignature(
-        undefined,
-        'NativeClass',
-        undefined,
-        ts.factory.createLiteralTypeNode(
-          ts.factory.createStringLiteral(
-            `/Script/CoreUObject.Class'/Script/FactoryGame.${name}'`
-          )
-        )
-      ),
-      ts.factory.createPropertySignature(
-        undefined,
-        'Class',
-        undefined,
-        ts.factory.createTypeReferenceNode(name + 'Class', undefined)
-      ),
-    ])
-  );
-
-  const text =
-    printer.printNode(ts.EmitHint.Unspecified, typeAlias, file) +
-    '\n' +
-    printer.printNode(ts.EmitHint.Unspecified, FullNativeClass, file);
-
-  typescriptCode += text + '\n\n';
-
-  TopLevelUnionTypes.push(
-    ts.factory.createTypeReferenceNode(name + '_FullNativeClass', undefined)
-  );
-}
-
-typescriptCode +=
+const code =
+  printer.printList(
+    ts.ListFormat.MultiLine,
+    ts.factory.createNodeArray(interfaces),
+    file
+  ) +
+  '\n\n' +
   printer.printNode(
     ts.EmitHint.Unspecified,
     ts.factory.createTypeAliasDeclaration(
@@ -213,7 +258,13 @@ typescriptCode +=
       'Docs',
       undefined,
       ts.factory.createArrayTypeNode(
-        ts.factory.createUnionTypeNode(TopLevelUnionTypes)
+        ts.factory.createUnionTypeNode(
+          classNames.map(name =>
+            ts.factory.createLiteralTypeNode(
+              ts.factory.createStringLiteral(name)
+            )
+          )
+        )
       )
     ),
     file
@@ -225,4 +276,4 @@ typescriptCode +=
     file
   );
 
-await writeFile('./src/generated/docs.ts', typescriptCode);
+await writeFile('./src/generated/docs.ts', code);
