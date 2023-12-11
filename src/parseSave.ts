@@ -219,4 +219,26 @@ class SatisfactoryFileParser {
       isCreativeModeEnabled,
     };
   }
+
+  async importFromFile(filename: string) {
+    const { readFile } = await import('fs/promises');
+    const { buffer } = await readFile(filename);
+    this.dataView = new DataView(buffer);
+  }
+
+  async *parseSave() {
+    if (!this.dataView) {
+      throw new Error('No dataView');
+    }
+    this.currentOffset = 0;
+    const headers = this.parseSaveHeader();
+    yield {
+      status: 'parsedHeader',
+      headers,
+    };
+
+    yield {
+      status: 'test',
+    };
+  }
 }
