@@ -20,7 +20,25 @@ const file = ts.createSourceFile(
 
 const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
 
-function getTSPropertyTypeFromValue(value: unknown): ts.TypeNode {
+const stringParser = (value: string) => {
+  value = value.trim().toLowerCase();
+  if (value === 'true') {
+    return true;
+  }
+  if (value === 'false') {
+    return false;
+  }
+  const number = Number(value);
+  if (!Number.isNaN(number)) {
+    return number;
+  }
+  return value;
+};
+
+function getTSPropertyTypeFromValue(
+  value: unknown,
+  parseString = true
+): ts.TypeNode {
   if (value === null) {
     return ts.factory.createLiteralTypeNode(ts.factory.createNull());
   }
@@ -34,7 +52,9 @@ function getTSPropertyTypeFromValue(value: unknown): ts.TypeNode {
     return ts.factory.createKeywordTypeNode(ts.SyntaxKind.NumberKeyword);
   }
   if (typeof value === 'string') {
-    return ts.factory.createKeywordTypeNode(ts.SyntaxKind.StringKeyword);
+    return parseString
+      ? getTSPropertyTypeFromValue(stringParser(value), false)
+      : ts.factory.createKeywordTypeNode(ts.SyntaxKind.StringKeyword);
   }
   if (typeof value === 'bigint') {
     return ts.factory.createKeywordTypeNode(ts.SyntaxKind.BigIntKeyword);

@@ -10,13 +10,13 @@ export interface FGRecipe_Class extends Generic_Class {
     'mDisplayName': string;
     'mIngredients': string;
     'mProduct': string;
-    'mManufacturingMenuPriority': string;
-    'mManufactoringDuration': string;
-    'mManualManufacturingMultiplier': string;
+    'mManufacturingMenuPriority': number;
+    'mManufactoringDuration': number;
+    'mManualManufacturingMultiplier': number;
     'mProducedIn': string;
-    'mRelevantEvents': string;
-    'mVariablePowerConsumptionConstant': string;
-    'mVariablePowerConsumptionFactor': string;
+    'mRelevantEvents': number;
+    'mVariablePowerConsumptionConstant': number;
+    'mVariablePowerConsumptionFactor': number;
 }
 export interface FGRecipe_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGRecipe'";
@@ -29,19 +29,19 @@ export interface FGCustomizationRecipe_Parent {
     Classes: FGCustomizationRecipe_Class[];
 }
 export interface FGJumpingStilts_Class extends Generic_Class {
-    'mSprintSpeedFactor': string;
-    'mJumpSpeedFactor': string;
+    'mSprintSpeedFactor': number;
+    'mJumpSpeedFactor': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGJumpingStilts_Parent {
@@ -50,18 +50,18 @@ export interface FGJumpingStilts_Parent {
 }
 export interface FGPortableMinerDispenser_Class extends Generic_Class {
     'mAllowedResourceForms': string;
-    'mPlaceDistanceMax': string;
+    'mPlaceDistanceMax': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGPortableMinerDispenser_Parent {
@@ -70,20 +70,20 @@ export interface FGPortableMinerDispenser_Parent {
 }
 export interface FGParachute_Class extends Generic_Class {
     'ArmEquipmentsToSkipAnim': string;
-    'DeployedVFXComponents': string;
-    'mUseDistanceOverride': string;
-    'mIsDeployed': string;
+    'DeployedVFXComponents': number;
+    'mUseDistanceOverride': number;
+    'mIsDeployed': boolean;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
     'mCostToUse': string;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGParachute_Parent {
@@ -94,17 +94,17 @@ export interface FGConsumableEquipment_Class extends Generic_Class {
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
-    'mRandomAnim'?: string;
-    'mCanPress'?: string;
+    'mRandomAnim'?: number;
+    'mCanPress'?: boolean;
     'mAnimData'?: string;
     'mCurrentAnimData'?: string;
 }
@@ -113,22 +113,22 @@ export interface FGConsumableEquipment_Parent {
     Classes: FGConsumableEquipment_Class[];
 }
 export interface FGGolfCartDispenser_Class extends Generic_Class {
-    'mMaxSpawnDistance': string;
-    'mSpawningClearance': string;
+    'mMaxSpawnDistance': number;
+    'mSpawningClearance': number;
     'mBuildDisqualifierText': string;
-    'canDisplayDisqualifier': string;
-    'mPlaceDistanceMax': string;
+    'canDisplayDisqualifier': boolean;
+    'mPlaceDistanceMax': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGGolfCartDispenser_Parent {
@@ -137,21 +137,21 @@ export interface FGGolfCartDispenser_Parent {
 }
 export interface FGGasMask_Class extends Generic_Class {
     'mDamageTypesToProtectAgainst': string;
-    'mPostProcessEnabled': string;
-    'mFilterCountdown': string;
-    'mFilterDuration': string;
-    'mIsInPoisonGas': string;
+    'mPostProcessEnabled': boolean;
+    'mFilterCountdown': number;
+    'mFilterDuration': number;
+    'mIsInPoisonGas': boolean;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
     'mCostToUse': string;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGGasMask_Parent {
@@ -159,52 +159,52 @@ export interface FGGasMask_Parent {
     Classes: FGGasMask_Class[];
 }
 export interface FGEquipmentStunSpear_Class extends Generic_Class {
-    'mPunchAnimationWeight': string;
+    'mPunchAnimationWeight': number;
     'mDamageTypes': string;
-    'mSecondSwingMaxTime': string;
-    'mSecondSwingCooldDownTime': string;
-    'mAttackDistance': string;
-    'mAttackSweepRadius': string;
+    'mSecondSwingMaxTime': number;
+    'mSecondSwingCooldDownTime': number;
+    'mAttackDistance': number;
+    'mAttackSweepRadius': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
-    'mRandomAttackAnim'?: string;
-    'mRandomEquipAnim'?: string;
+    'mRandomAttackAnim'?: number;
+    'mRandomEquipAnim'?: number;
 }
 export interface FGEquipmentStunSpear_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGEquipmentStunSpear'";
     Classes: FGEquipmentStunSpear_Class[];
 }
 export interface FGEquipmentZipline_Class extends Generic_Class {
-    'mShouldPlayDeactivateSound': string;
-    'mZiplineJumpLaunchVelocity': string;
-    'mMaxZiplineAngle': string;
-    'mTraceDistance': string;
-    'mTraceStartOffset': string;
-    'mTraceRadius': string;
-    'mVisualizeTraceDistance': string;
-    'mActiveNoiseFrequency': string;
-    'mZiplineReattachCooldown': string;
+    'mShouldPlayDeactivateSound': boolean;
+    'mZiplineJumpLaunchVelocity': number;
+    'mMaxZiplineAngle': number;
+    'mTraceDistance': number;
+    'mTraceStartOffset': number;
+    'mTraceRadius': number;
+    'mVisualizeTraceDistance': boolean;
+    'mActiveNoiseFrequency': number;
+    'mZiplineReattachCooldown': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGEquipmentZipline_Parent {
@@ -212,26 +212,26 @@ export interface FGEquipmentZipline_Parent {
     Classes: FGEquipmentZipline_Class[];
 }
 export interface FGSuitBase_Class extends Generic_Class {
-    'mImmunity': string;
-    'mIsWorking': string;
-    'mHasNegatedDamage': string;
-    'mDamageNegated': string;
-    'mFilterDuration': string;
-    'mCountdown': string;
-    'mDisableEffectTimer': string;
-    'mIsBurningFuel': string;
+    'mImmunity': number;
+    'mIsWorking': boolean;
+    'mHasNegatedDamage': boolean;
+    'mDamageNegated': number;
+    'mFilterDuration': number;
+    'mCountdown': number;
+    'mDisableEffectTimer': number;
+    'mIsBurningFuel': boolean;
     'mSuit1PMeshMaterials': string;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
     'mCostToUse': string;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGSuitBase_Parent {
@@ -239,28 +239,28 @@ export interface FGSuitBase_Parent {
     Classes: FGSuitBase_Class[];
 }
 export interface FGPoleDescriptor_Class extends Generic_Class {
-    'mDisplayName': string;
-    'mDescription': string;
-    'mAbbreviatedDisplayName': string;
+    'mDisplayName': number;
+    'mDescription': number;
+    'mAbbreviatedDisplayName': number;
     'mStackSize': string;
-    'mCanBeDiscarded': string;
-    'mRememberPickUp': string;
-    'mEnergyValue': string;
-    'mRadioactiveDecay': string;
+    'mCanBeDiscarded': boolean;
+    'mRememberPickUp': boolean;
+    'mEnergyValue': number;
+    'mRadioactiveDecay': number;
     'mForm': string;
     'mSmallIcon': string;
     'mPersistentBigIcon': string;
     'mCrosshairMaterial': string;
-    'mDescriptorStatBars': string;
+    'mDescriptorStatBars': number;
     'mSubCategories': string;
-    'mMenuPriority': string;
+    'mMenuPriority': number;
     'mFluidColor': string;
     'mGasColor': string;
-    'mCompatibleItemDescriptors': string;
+    'mCompatibleItemDescriptors': number;
     'mClassToScanFor': string;
     'mScannableType': string;
-    'mShouldOverrideScannerDisplayText': string;
-    'mScannerDisplayText': string;
+    'mShouldOverrideScannerDisplayText': boolean;
+    'mScannerDisplayText': number;
     'mScannerLightColor': string;
 }
 export interface FGPoleDescriptor_Parent {
@@ -274,7 +274,7 @@ export interface FGBuildingDescriptor_Parent {
     Classes: FGBuildingDescriptor_Class[];
 }
 export interface FGItemDescriptorBiomass_Class extends FGBuildingDescriptor_Class {
-    'mResourceSinkPoints': string;
+    'mResourceSinkPoints': number;
 }
 export interface FGItemDescriptorBiomass_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptorBiomass'";
@@ -290,14 +290,14 @@ export interface FGSchematic_Class extends Generic_Class {
     'FullName': string;
     'mType': string;
     'mDisplayName': string;
-    'mDescription': string;
-    'mSubCategories': string;
-    'mMenuPriority': string;
-    'mTechTier': string;
-    'mCost': string;
-    'mTimeToComplete': string;
-    'mRelevantShopSchematics': string;
-    'mIsPlayerSpecific': string;
+    'mDescription': number;
+    'mSubCategories': number;
+    'mMenuPriority': number;
+    'mTechTier': number;
+    'mCost': number;
+    'mTimeToComplete': number;
+    'mRelevantShopSchematics': number;
+    'mIsPlayerSpecific': boolean;
     'mUnlocks': {
         Class: string;
         mEmotes: string;
@@ -305,12 +305,12 @@ export interface FGSchematic_Class extends Generic_Class {
     'mSchematicIcon': string;
     'mSmallSchematicIcon': string;
     'mSchematicDependencies': undefined[];
-    'mDependenciesBlocksSchematicAccess': string;
-    'mHiddenUntilDependenciesMet': string;
+    'mDependenciesBlocksSchematicAccess': boolean;
+    'mHiddenUntilDependenciesMet': boolean;
     'mRelevantEvents': string;
     'mIncludeInBuilds': string;
     'mUnlockName'?: string;
-    'mUnlockDescription'?: string;
+    'mUnlockDescription'?: number;
     'mUnlockIconBig'?: string;
     'mUnlockIconSmall'?: string;
     'mUnlockIconCategory'?: string;
@@ -326,30 +326,30 @@ export interface FGItemDescriptor_Parent {
     Classes: FGItemDescriptor_Class[];
 }
 export interface FGChainsaw_Class extends Generic_Class {
-    'mSawingMontageLength': string;
-    'mInterpSawProgress': string;
-    'mCurrentOutputDataSFX': string;
-    'mCurrentAkID': string;
-    'mCurrentHasFuel': string;
+    'mSawingMontageLength': number;
+    'mInterpSawProgress': number;
+    'mCurrentOutputDataSFX': number;
+    'mCurrentAkID': number;
+    'mCurrentHasFuel': boolean;
     'mPreviousState': string;
-    'mEnergyConsumption': string;
-    'mSawDownTreeTime': string;
-    'mCollateralPickupRadius': string;
-    'mExcludeChainsawableFoliage': string;
-    'mEnergyStored': string;
-    'mSawingProgress': string;
+    'mEnergyConsumption': number;
+    'mSawDownTreeTime': number;
+    'mCollateralPickupRadius': number;
+    'mExcludeChainsawableFoliage': boolean;
+    'mEnergyStored': number;
+    'mSawingProgress': number;
     'mChainsawState': string;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGChainsaw_Parent {
@@ -357,30 +357,30 @@ export interface FGChainsaw_Parent {
     Classes: FGChainsaw_Class[];
 }
 export interface FGJetPack_Class extends Generic_Class {
-    'FuelTypeDescriptos': string;
+    'FuelTypeDescriptos': number;
     'mOnFuelAmountChanged': string;
     'mOnBurnPercentChanged': string;
     'mOnFuelTypeChanged': string;
-    'mDefaultAirControl': string;
-    'mRTPCInterval': string;
-    'mThrustCooldown': string;
-    'mCurrentFuel': string;
-    'mIsThrusting': string;
+    'mDefaultAirControl': number;
+    'mRTPCInterval': number;
+    'mThrustCooldown': number;
+    'mCurrentFuel': number;
+    'mIsThrusting': boolean;
     'mFuelTypes': string;
-    'mSelectedFuelType': string;
-    'mCurrentFuelType': string;
-    'mActiveNoiseFrequency': string;
+    'mSelectedFuelType': number;
+    'mCurrentFuelType': number;
+    'mActiveNoiseFrequency': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
     'mCostToUse': string;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGJetPack_Parent {
@@ -388,31 +388,31 @@ export interface FGJetPack_Parent {
     Classes: FGJetPack_Class[];
 }
 export interface FGObjectScanner_Class extends Generic_Class {
-    'mPlayingSound': string;
+    'mPlayingSound': boolean;
     'mScreenUpdateTimer': string;
-    'mScanlineLerpT': string;
-    'mScreenUpdateTime': string;
-    'mNormalizedCloesnessToObject': string;
-    'mObjectIsWithinRange': string;
-    'mIsPlayingStaticSound': string;
-    'mBeepDelayMax': string;
-    'mBeepDelayMin': string;
-    'mDetectionRange': string;
-    'mUpdateClosestObjectTime': string;
-    'mClosestObjectInScanRange': string;
-    'mNormalizedDistanceToClosestObject': string;
-    'mAngleToClosestObject': string;
+    'mScanlineLerpT': number;
+    'mScreenUpdateTime': number;
+    'mNormalizedCloesnessToObject': number;
+    'mObjectIsWithinRange': boolean;
+    'mIsPlayingStaticSound': boolean;
+    'mBeepDelayMax': number;
+    'mBeepDelayMin': number;
+    'mDetectionRange': number;
+    'mUpdateClosestObjectTime': number;
+    'mClosestObjectInScanRange': boolean;
+    'mNormalizedDistanceToClosestObject': number;
+    'mAngleToClosestObject': number;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGObjectScanner_Parent {
@@ -420,8 +420,8 @@ export interface FGObjectScanner_Parent {
     Classes: FGObjectScanner_Class[];
 }
 export interface FGVehicleDescriptor_Class extends FGBuildingDescriptor_Class {
-    'mFuelConsumption': string;
-    'mInventorySize': string;
+    'mFuelConsumption': number;
+    'mInventorySize': number;
     'mPowerConsumption'?: string;
 }
 export interface FGVehicleDescriptor_Parent {
@@ -430,7 +430,7 @@ export interface FGVehicleDescriptor_Parent {
 }
 export interface FGItemDescriptorNuclearFuel_Class extends FGItemDescriptor_Class {
     'mSpentFuelClass': string;
-    'mAmountOfWaste': string;
+    'mAmountOfWaste': number;
 }
 export interface FGItemDescriptorNuclearFuel_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptorNuclearFuel'";
@@ -439,31 +439,31 @@ export interface FGItemDescriptorNuclearFuel_Parent {
 export interface FGBuildableFactoryBuilding_Class extends Generic_Class {
     'mDisplayName': string;
     'mDescription': string;
-    'MaxRenderDistance': string;
-    'mAlternativeMaterialRecipes': string;
-    'mContainsComponents': string;
-    'mIsConsideredForBaseWeightValue': string;
-    'mBuildEffectSpeed': string;
-    'mAllowColoring': string;
-    'mAllowPatterning': string;
-    'mSkipBuildEffect': string;
-    'mForceNetUpdateOnRegisterPlayer': string;
-    'mToggleDormancyOnInteraction': string;
-    'mIsMultiSpawnedBuildable': string;
-    'mShouldShowAttachmentPointVisuals': string;
-    'mCreateClearanceMeshRepresentation': string;
-    'mCanContainLightweightInstances': string;
-    'mAffectsOcclusion': string;
+    'MaxRenderDistance': number;
+    'mAlternativeMaterialRecipes': number;
+    'mContainsComponents': boolean;
+    'mIsConsideredForBaseWeightValue': number;
+    'mBuildEffectSpeed': number;
+    'mAllowColoring': boolean;
+    'mAllowPatterning': boolean;
+    'mSkipBuildEffect': boolean;
+    'mForceNetUpdateOnRegisterPlayer': boolean;
+    'mToggleDormancyOnInteraction': boolean;
+    'mIsMultiSpawnedBuildable': boolean;
+    'mShouldShowAttachmentPointVisuals': boolean;
+    'mCreateClearanceMeshRepresentation': boolean;
+    'mCanContainLightweightInstances': boolean;
+    'mAffectsOcclusion': boolean;
     'mOcclusionShape': string;
-    'mScaleCustomOffset': string;
+    'mScaleCustomOffset': number;
     'mCustomScaleType': string;
-    'mOcclusionBoxInfo': string;
-    'mAttachmentPoints': string;
-    'mInteractingPlayers': string;
-    'mIsUseable': string;
-    'mHideOnBuildEffectStart': string;
-    'mShouldModifyWorldGrid': string;
-    'mBlueprintBuildEffectID': string;
+    'mOcclusionBoxInfo': number;
+    'mAttachmentPoints': number;
+    'mInteractingPlayers': number;
+    'mIsUseable': boolean;
+    'mHideOnBuildEffectStart': boolean;
+    'mShouldModifyWorldGrid': boolean;
+    'mBlueprintBuildEffectID': number;
 }
 export interface FGBuildableFactoryBuilding_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFactoryBuilding'";
@@ -476,33 +476,33 @@ export interface FGBuildableSnowDispenser_Parent {
     Classes: FGBuildableSnowDispenser_Class[];
 }
 export interface FGBuildableAttachmentSplitter_Class extends FGBuildableSnowDispenser_Class {
-    'mCurrentOutputIndex': string;
+    'mCurrentOutputIndex': number;
 }
 export interface FGBuildableAttachmentSplitter_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableAttachmentSplitter'";
     Classes: FGBuildableAttachmentSplitter_Class[];
 }
 export interface FGBuildableAttachmentMerger_Class extends FGBuildableSnowDispenser_Class {
-    'mCurrentInputIndex': string;
+    'mCurrentInputIndex': number;
 }
 export interface FGBuildableAttachmentMerger_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableAttachmentMerger'";
     Classes: FGBuildableAttachmentMerger_Class[];
 }
 export interface FGConsumableDescriptor_Class extends FGItemDescriptor_Class {
-    'mCustomHandsMeshScale': string;
+    'mCustomHandsMeshScale': number;
     'mCustomRotation': string;
     'mCustomLocation': string;
-    'mHealthGain'?: string;
+    'mHealthGain'?: number;
 }
 export interface FGConsumableDescriptor_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGConsumableDescriptor'";
     Classes: FGConsumableDescriptor_Class[];
 }
 export interface FGResourceDescriptor_Class extends FGItemDescriptor_Class {
-    'mDecalSize': string;
+    'mDecalSize': number;
     'mPingColor': string;
-    'mCollectSpeedMultiplier': string;
+    'mCollectSpeedMultiplier': number;
     'mManualMiningAudioName': string;
 }
 export interface FGResourceDescriptor_Parent {
@@ -511,7 +511,7 @@ export interface FGResourceDescriptor_Parent {
 }
 export interface FGBuildablePillarLightweight_Class extends FGBuildableSnowDispenser_Class {
     'mSize': string;
-    'mIsSupport': string;
+    'mIsSupport': boolean;
 }
 export interface FGBuildablePillarLightweight_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePillarLightweight'";
@@ -519,7 +519,7 @@ export interface FGBuildablePillarLightweight_Parent {
 }
 export interface FGBuildable_Class extends FGBuildableSnowDispenser_Class {
     'mOccupiedText'?: string;
-    'Tier'?: string;
+    'Tier'?: number;
 }
 export interface FGBuildable_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildable'";
@@ -527,8 +527,8 @@ export interface FGBuildable_Parent {
 }
 export interface FGBuildableStair_Class extends FGBuildableSnowDispenser_Class {
     'mStairDirection': string;
-    'mHeight': string;
-    'mSize': string;
+    'mHeight': number;
+    'mSize': number;
 }
 export interface FGBuildableStair_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableStair'";
@@ -537,24 +537,24 @@ export interface FGBuildableStair_Parent {
 export interface FGBuildableMAM_Class extends FGBuildableSnowDispenser_Class {
     'mOccupiedText': string;
     'mCurrentResearchState': string;
-    'mSignificanceRange': string;
+    'mSignificanceRange': number;
 }
 export interface FGBuildableMAM_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableMAM'";
     Classes: FGBuildableMAM_Class[];
 }
 export interface FGBuildablePipeHyper_Class extends FGBuildableSnowDispenser_Class {
-    'mMeshLength': string;
-    'mSplineData': string;
-    'mSnappedPassthroughs': string;
+    'mMeshLength': number;
+    'mSplineData': number;
+    'mSnappedPassthroughs': number;
 }
 export interface FGBuildablePipeHyper_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePipeHyper'";
     Classes: FGBuildablePipeHyper_Class[];
 }
 export interface FGBuildableWalkway_Class extends FGBuildableSnowDispenser_Class {
-    'mSize': string;
-    'mElevation': string;
+    'mSize': number;
+    'mElevation': number;
     'mDisableSnapOn': string;
 }
 export interface FGBuildableWalkway_Parent {
@@ -568,62 +568,62 @@ export interface FGBuildableWalkwayLightweight_Parent {
     Classes: FGBuildableWalkwayLightweight_Class[];
 }
 export interface FGBuildableCornerWall_Class extends FGBuildableSnowDispenser_Class {
-    'mSize': string;
-    'mHeight': string;
-    'mIsInverted': string;
+    'mSize': number;
+    'mHeight': number;
+    'mIsInverted': boolean;
 }
 export interface FGBuildableCornerWall_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableCornerWall'";
     Classes: FGBuildableCornerWall_Class[];
 }
 export interface FGBuildableBeamLightweight_Class extends FGBuildableSnowDispenser_Class {
-    'mSize': string;
-    'mDefaultLength': string;
-    'mMaxLength': string;
-    'mLength': string;
+    'mSize': number;
+    'mDefaultLength': number;
+    'mMaxLength': number;
+    'mLength': number;
 }
 export interface FGBuildableBeamLightweight_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableBeamLightweight'";
     Classes: FGBuildableBeamLightweight_Class[];
 }
 export interface FGBuildablePowerPole_Class extends FGBuildableSnowDispenser_Class {
-    'mPowerConnections': string;
+    'mPowerConnections': number;
     'mPowerPoleType': string;
-    'mPowerTowerWireMaxLength': string;
-    'mHasPower': string;
+    'mPowerTowerWireMaxLength': number;
+    'mHasPower': boolean;
 }
 export interface FGBuildablePowerPole_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePowerPole'";
     Classes: FGBuildablePowerPole_Class[];
 }
 export interface FGBuildableLadder_Class extends FGBuildableSnowDispenser_Class {
-    'mWidth': string;
-    'mMeshHeight': string;
-    'mMaxSegmentCount': string;
-    'mNumSegments': string;
-    'mLadderMeshes': string;
+    'mWidth': number;
+    'mMeshHeight': number;
+    'mMaxSegmentCount': number;
+    'mNumSegments': number;
+    'mLadderMeshes': number;
 }
 export interface FGBuildableLadder_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableLadder'";
     Classes: FGBuildableLadder_Class[];
 }
 export interface FGConveyorPoleStackable_Class extends FGBuildableSnowDispenser_Class {
-    'mHeight': string;
-    'mSelectedPoleVersion': string;
-    'mUseStaticHeight': string;
-    'mCanStack': string;
-    'mStackHeight': string;
+    'mHeight': number;
+    'mSelectedPoleVersion': number;
+    'mUseStaticHeight': boolean;
+    'mCanStack': boolean;
+    'mStackHeight': number;
 }
 export interface FGConveyorPoleStackable_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGConveyorPoleStackable'";
     Classes: FGConveyorPoleStackable_Class[];
 }
 export interface FGBuildablePipelineSupport_Class extends FGBuildableSnowDispenser_Class {
-    'mLength': string;
-    'mVerticalAngle': string;
-    'mUseStaticHeight': string;
-    'mCanStack': string;
-    'mStackHeight': string;
+    'mLength': number;
+    'mVerticalAngle': number;
+    'mUseStaticHeight': boolean;
+    'mCanStack': boolean;
+    'mStackHeight': number;
 }
 export interface FGBuildablePipelineSupport_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePipelineSupport'";
@@ -636,12 +636,12 @@ export interface FGBuildablePoleLightweight_Parent {
     Classes: FGBuildablePoleLightweight_Class[];
 }
 export interface FGBuildableWall_Class extends FGBuildableSnowDispenser_Class {
-    'mWidth': string;
-    'mHeight': string;
-    'mElevation': string;
-    'mAngularDepth': string;
+    'mWidth': number;
+    'mHeight': number;
+    'mElevation': number;
+    'mAngularDepth': number;
     'mWallType': string;
-    'mAngledVariants': string;
+    'mAngledVariants': number;
 }
 export interface FGBuildableWall_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableWall'";
@@ -654,13 +654,13 @@ export interface FGBuildableWallLightweight_Parent {
     Classes: FGBuildableWallLightweight_Class[];
 }
 export interface FGBuildableFloodlight_Class extends FGBuildableSnowDispenser_Class {
-    'mFixtureAngle': string;
+    'mFixtureAngle': number;
     'OnBuildableLightSourceStateChanged': string;
-    'mIsEnabled': string;
+    'mIsEnabled': boolean;
     'mLightControlData': string;
-    'mPowerConsumption': string;
-    'mHasPower': string;
-    'mIsDay': string;
+    'mPowerConsumption': number;
+    'mHasPower': boolean;
+    'mIsDay': boolean;
 }
 export interface FGBuildableFloodlight_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFloodlight'";
@@ -669,22 +669,22 @@ export interface FGBuildableFloodlight_Parent {
 export interface FGBuildableLightSource_Class extends FGBuildableSnowDispenser_Class {
     'newCustomizationData': string;
     'OnBuildableLightSourceStateChanged': string;
-    'mIsEnabled': string;
+    'mIsEnabled': boolean;
     'mLightControlData': string;
-    'mPowerConsumption': string;
-    'mHasPower': string;
-    'mIsDay': string;
+    'mPowerConsumption': number;
+    'mHasPower': boolean;
+    'mIsDay': boolean;
 }
 export interface FGBuildableLightSource_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableLightSource'";
     Classes: FGBuildableLightSource_Class[];
 }
 export interface FGBuildableFoundationLightweight_Class extends FGBuildableSnowDispenser_Class {
-    'mWidth': string;
-    'mDepth': string;
-    'mHeight': string;
-    'mElevation': string;
-    'mIsFrame': string;
+    'mWidth': number;
+    'mDepth': number;
+    'mHeight': number;
+    'mElevation': number;
+    'mIsFrame': boolean;
     'mDisableSnapOn': string;
     'mDisableAttachmentSnapOn': string;
 }
@@ -699,13 +699,13 @@ export interface FGBuildableFoundation_Parent {
     Classes: FGBuildableFoundation_Class[];
 }
 export interface FGBuildableWire_Class extends FGBuildableSnowDispenser_Class {
-    'mMaxLength': string;
-    'mMaxPowerTowerLength': string;
-    'mLengthPerCost': string;
+    'mMaxLength': number;
+    'mMaxPowerTowerLength': number;
+    'mLengthPerCost': number;
     'mConnections': string;
     'mConnectionLocations': string;
-    'mWireInstances': string;
-    'mCachedLength': string;
+    'mWireInstances': number;
+    'mCachedLength': number;
 }
 export interface FGBuildableWire_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableWire'";
@@ -713,12 +713,12 @@ export interface FGBuildableWire_Parent {
 }
 export interface FGBuildableConveyorBelt_Class extends FGBuildableSnowDispenser_Class {
     'mCustomSkins': string;
-    'mMeshLength': string;
+    'mMeshLength': number;
     'mItemMeshMap': string;
-    'mSplineData': string;
-    'mSpeed': string;
+    'mSplineData': number;
+    'mSpeed': number;
     'mItems': string;
-    'mConveyorChainFlags': string;
+    'mConveyorChainFlags': number;
 }
 export interface FGBuildableConveyorBelt_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableConveyorBelt'";
@@ -727,12 +727,12 @@ export interface FGBuildableConveyorBelt_Parent {
 export interface FGBuildableLightsControlPanel_Class extends FGBuildableSnowDispenser_Class {
     'OnLightControlPanelStateChanged': string;
     'mLightControlData': string;
-    'mIsEnabled': string;
+    'mIsEnabled': boolean;
     'mOnControlledBuildablesChanged': string;
-    'mControlledBuildables': string;
+    'mControlledBuildables': number;
     'mOnCircuitsChanged': string;
-    'mIsBridgeConnected': string;
-    'mConnections': string;
+    'mIsBridgeConnected': boolean;
+    'mConnections': number;
 }
 export interface FGBuildableLightsControlPanel_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableLightsControlPanel'";
@@ -740,50 +740,50 @@ export interface FGBuildableLightsControlPanel_Parent {
 }
 export interface FGBuildableSplitterSmart_Class extends FGBuildableAttachmentSplitter_Class {
     'OnSortRulesChangedDelegate': string;
-    'mMaxNumSortRules': string;
+    'mMaxNumSortRules': number;
     'mLastItem': string;
     'mItemToLastOutputMap': string;
-    'mLastOutputIndex': string;
-    'mCurrentInventoryIndex': string;
-    'mDistributionTable': string;
+    'mLastOutputIndex': number;
+    'mCurrentInventoryIndex': number;
+    'mDistributionTable': number;
 }
 export interface FGBuildableSplitterSmart_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableSplitterSmart'";
     Classes: FGBuildableSplitterSmart_Class[];
 }
 export interface FGBuildableConveyorLift_Class extends FGBuildableSnowDispenser_Class {
-    'mMeshHeight': string;
+    'mMeshHeight': number;
     'mTopTransform': string;
-    'mIsReversed': string;
+    'mIsReversed': boolean;
     'mItemMeshMap': string;
-    'mSnappedPassthroughs': string;
-    'mSpeed': string;
+    'mSnappedPassthroughs': number;
+    'mSpeed': number;
     'mItems': string;
-    'mConveyorChainFlags': string;
+    'mConveyorChainFlags': number;
 }
 export interface FGBuildableConveyorLift_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableConveyorLift'";
     Classes: FGBuildableConveyorLift_Class[];
 }
 export interface FGBuildableRamp_Class extends FGBuildableFoundation_Class {
-    'mIsDoubleRamp': string;
-    'mIsRoof': string;
+    'mIsDoubleRamp': boolean;
+    'mIsRoof': boolean;
 }
 export interface FGBuildableRamp_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableRamp'";
     Classes: FGBuildableRamp_Class[];
 }
 export interface FGBuildablePassthroughPipeHyper_Class extends FGBuildableSnowDispenser_Class {
-    'mSnappedBuildingThickness': string;
-    'mMidMeshLength': string;
-    'mGenerateTunnelCollision': string;
+    'mSnappedBuildingThickness': number;
+    'mMidMeshLength': number;
+    'mGenerateTunnelCollision': boolean;
     'mEndCapRotation': string;
     'mMidMeshRotation': string;
     'mEndCapTranslation': string;
-    'mClearanceHeightMin': string;
-    'mClearanceThickness': string;
-    'mCostSegmentLength': string;
-    'mGeneratedMeshComponents': string;
+    'mClearanceHeightMin': number;
+    'mClearanceThickness': number;
+    'mCostSegmentLength': number;
+    'mGeneratedMeshComponents': number;
 }
 export interface FGBuildablePassthroughPipeHyper_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePassthroughPipeHyper'";
@@ -796,34 +796,34 @@ export interface FGBuildablePassthrough_Parent {
     Classes: FGBuildablePassthrough_Class[];
 }
 export interface FGBuildableBlueprintDesigner_Class extends FGBuildableSnowDispenser_Class {
-    'mTerminalDistanceFromEdge': string;
-    'mTerminalHalfDepth': string;
+    'mTerminalDistanceFromEdge': number;
+    'mTerminalHalfDepth': number;
     'mDimensions': string;
     'OnRecordDataChanged': string;
     'OnBlueprintCostChanged': string;
-    'mCurrentCost': string;
-    'mBuildables': string;
-    'mIntersectComponents': string;
+    'mCurrentCost': number;
+    'mBuildables': number;
+    'mIntersectComponents': number;
     'mCurrentRecordData': string;
-    'mIsDismantlingAll': string;
+    'mIsDismantlingAll': boolean;
 }
 export interface FGBuildableBlueprintDesigner_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableBlueprintDesigner'";
     Classes: FGBuildableBlueprintDesigner_Class[];
 }
 export interface FGBuildableCircuitSwitch_Class extends FGBuildableSnowDispenser_Class {
-    'mTextRenderers': string;
-    'bIsSignificant': string;
-    'mMaxCharacters': string;
+    'mTextRenderers': number;
+    'bIsSignificant': boolean;
+    'mMaxCharacters': number;
     'mOnIsSwitchOnChanged': string;
     'mOnIsConnectedChanged': string;
     'mOnBuildingTagChanged': string;
-    'mIsSwitchOn': string;
-    'mHasBuildingTag': string;
-    'mBuildingTag': string;
+    'mIsSwitchOn': boolean;
+    'mHasBuildingTag': boolean;
+    'mBuildingTag': number;
     'mOnCircuitsChanged': string;
-    'mIsBridgeConnected': string;
-    'mConnections': string;
+    'mIsBridgeConnected': boolean;
+    'mConnections': number;
 }
 export interface FGBuildableCircuitSwitch_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableCircuitSwitch'";
@@ -833,33 +833,33 @@ export interface FGBuildableRailroadSignal_Class extends FGBuildableSnowDispense
     'mPreviousAspect': string;
     'mOnAspectChangedDelegate': string;
     'mOnBlockValidationChangedDelegate': string;
-    'mDrawDebugVisualState': string;
-    'mGuardedConnections': string;
-    'mObservedConnections': string;
+    'mDrawDebugVisualState': boolean;
+    'mGuardedConnections': number;
+    'mObservedConnections': number;
     'mAspect': string;
     'mBlockValidation': string;
-    'mIsPathSignal': string;
-    'mIsBiDirectional': string;
-    'mVisualState': string;
-    'mSignificanceRange': string;
+    'mIsPathSignal': boolean;
+    'mIsBiDirectional': boolean;
+    'mVisualState': number;
+    'mSignificanceRange': number;
 }
 export interface FGBuildableRailroadSignal_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableRailroadSignal'";
     Classes: FGBuildableRailroadSignal_Class[];
 }
 export interface FGBuildableRailroadTrack_Class extends FGBuildableSnowDispenser_Class {
-    'mMeshLength': string;
+    'mMeshLength': number;
     'mConnections': string;
-    'mIsOwnedByPlatform': string;
-    'mTrackGraphID': string;
-    'mOverlappingTracks': string;
+    'mIsOwnedByPlatform': boolean;
+    'mTrackGraphID': number;
+    'mOverlappingTracks': number;
     'mVehicles': string;
-    'mSignalBlockID': string;
-    'mBlockVisualizationMeshLength': string;
-    'mBlockVisualizationNumPrimitiveDataFloats': string;
-    'mBlockVisualizationNumPerInstancePrimitiveDataCountOffset': string;
+    'mSignalBlockID': number;
+    'mBlockVisualizationMeshLength': number;
+    'mBlockVisualizationNumPrimitiveDataFloats': number;
+    'mBlockVisualizationNumPerInstancePrimitiveDataCountOffset': number;
     'mBlockVisualizationSplineDataSettings': string;
-    'mBlockVisualizationColorDataStartIndex': string;
+    'mBlockVisualizationColorDataStartIndex': number;
 }
 export interface FGBuildableRailroadTrack_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableRailroadTrack'";
@@ -867,44 +867,44 @@ export interface FGBuildableRailroadTrack_Parent {
 }
 export interface FGChargedWeapon_Class extends Generic_Class {
     'mShowCycleAmmoRadialMenuTimer': string;
-    'mRadialMenuShowUpTime': string;
-    'mDispensedProjectiles': string;
-    'mIsPendingExecuteFire': string;
-    'mMaxChargeTime': string;
-    'mMaxThrowForce': string;
-    'mMinThrowForce': string;
-    'mDelayBetweenSecondaryTriggers': string;
+    'mRadialMenuShowUpTime': number;
+    'mDispensedProjectiles': number;
+    'mIsPendingExecuteFire': boolean;
+    'mMaxChargeTime': number;
+    'mMaxThrowForce': number;
+    'mMinThrowForce': number;
+    'mDelayBetweenSecondaryTriggers': number;
     'mOnWeaponStateChanged': string;
     'mWeaponState': string;
-    'mAutomaticallyReload': string;
-    'mAutoReloadDelay': string;
+    'mAutomaticallyReload': boolean;
+    'mAutoReloadDelay': number;
     'mAutoReloadTimerHandle': string;
-    'mCurrentAmmoCount': string;
+    'mCurrentAmmoCount': number;
     'mAllowedAmmoClasses': string;
-    'mAttachMagazineToPlayer': string;
+    'mAttachMagazineToPlayer': boolean;
     'mMuzzleSocketName': string;
     'mCurrentMagazineBoneName': string;
     'mEjectMagazineBoneName': string;
-    'mDispersionOnNoMagazine': string;
-    'mWeaponDamageMultiplier': string;
-    'mFiringBlocksDispersionReduction': string;
-    'mCurrentDispersion': string;
-    'mReloadTime': string;
-    'mAmmoSwitchUsedRadialMenu': string;
+    'mDispersionOnNoMagazine': number;
+    'mWeaponDamageMultiplier': number;
+    'mFiringBlocksDispersionReduction': boolean;
+    'mCurrentDispersion': number;
+    'mReloadTime': number;
+    'mAmmoSwitchUsedRadialMenu': boolean;
     'mOnAmmoCyclingPressed': string;
     'mOnAmmoCyclingReleased': string;
-    'mBlockSprintWhenFiring': string;
+    'mBlockSprintWhenFiring': boolean;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGChargedWeapon_Parent {
@@ -912,46 +912,46 @@ export interface FGChargedWeapon_Parent {
     Classes: FGChargedWeapon_Class[];
 }
 export interface FGWeapon_Class extends Generic_Class {
-    'mMuteDryFire': string;
-    'mRandomReloadAnim': string;
-    'mRandomStingerAnim': string;
-    'mRebarGunStingerID': string;
-    'mRebarGunEquipID': string;
+    'mMuteDryFire': boolean;
+    'mRandomReloadAnim': number;
+    'mRandomStingerAnim': number;
+    'mRebarGunStingerID': number;
+    'mRebarGunEquipID': number;
     'mShowCycleAmmoRadialMenuTimer': string;
     'mOnWeaponStateChanged': string;
     'mWeaponState': string;
-    'mAutomaticallyReload': string;
-    'mAutoReloadDelay': string;
+    'mAutomaticallyReload': boolean;
+    'mAutoReloadDelay': number;
     'mAutoReloadTimerHandle': string;
-    'mCurrentAmmoCount': string;
+    'mCurrentAmmoCount': number;
     'mAllowedAmmoClasses': string;
-    'mAttachMagazineToPlayer': string;
+    'mAttachMagazineToPlayer': boolean;
     'mMuzzleSocketName': string;
     'mCurrentMagazineBoneName': string;
     'mEjectMagazineBoneName': string;
-    'mDispersionOnNoMagazine': string;
-    'mWeaponDamageMultiplier': string;
-    'mFiringBlocksDispersionReduction': string;
-    'mCurrentDispersion': string;
-    'mReloadTime': string;
-    'mAmmoSwitchUsedRadialMenu': string;
+    'mDispersionOnNoMagazine': number;
+    'mWeaponDamageMultiplier': number;
+    'mFiringBlocksDispersionReduction': boolean;
+    'mCurrentDispersion': number;
+    'mReloadTime': number;
+    'mAmmoSwitchUsedRadialMenu': boolean;
     'mOnAmmoCyclingPressed': string;
     'mOnAmmoCyclingReleased': string;
-    'mBlockSprintWhenFiring': string;
+    'mBlockSprintWhenFiring': boolean;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
     'Fire'?: string;
-    'mHasReloadedOnce'?: string;
+    'mHasReloadedOnce'?: boolean;
 }
 export interface FGWeapon_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGWeapon'";
@@ -959,21 +959,21 @@ export interface FGWeapon_Parent {
 }
 export interface FGBuildablePriorityPowerSwitch_Class extends FGBuildableCircuitSwitch_Class {
     'mOnPriorityChanged': string;
-    'mPriority': string;
+    'mPriority': number;
 }
 export interface FGBuildablePriorityPowerSwitch_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePriorityPowerSwitch'";
     Classes: FGBuildablePriorityPowerSwitch_Class[];
 }
 export interface FGBuildableDoor_Class extends FGBuildableWallLightweight_Class {
-    'IsDoorOpen': string;
-    'mCanBeLocked': string;
-    'mAnimationRate': string;
-    'mMovementRate': string;
+    'IsDoorOpen': boolean;
+    'mCanBeLocked': boolean;
+    'mAnimationRate': number;
+    'mMovementRate': number;
     'EasingFunction': string;
-    'BlendExp': string;
-    'Steps': string;
-    'bigOverlapList'?: string;
+    'BlendExp': number;
+    'Steps': number;
+    'bigOverlapList'?: number;
 }
 export interface FGBuildableDoor_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableDoor'";
@@ -981,47 +981,47 @@ export interface FGBuildableDoor_Parent {
 }
 export interface FGHoverPack_Class extends Generic_Class {
     'mHoverPackActiveTimer': string;
-    'mCurrentPlayerVelocity': string;
-    'mCurrentMouseDelta': string;
+    'mCurrentPlayerVelocity': number;
+    'mCurrentMouseDelta': number;
     'mHoverpackJoystickTimer': string;
-    'mCurrentBatteryPowerLevel': string;
+    'mCurrentBatteryPowerLevel': number;
     'm_PreviousHoverMode': string;
     'ConnectionLocationUpdatedDelegate': string;
     'ConnectionStatusUpdatedDelegate': string;
     'HoverModeChangedDelegate': string;
     'RangeWarningToggleDelegate': string;
-    'mHoverSpeed': string;
-    'mHoverAccelerationSpeed': string;
-    'mHoverSprintMultiplier': string;
-    'mHoverFriction': string;
-    'mJumpKeyHoldActivationTime': string;
-    'mFallSpeedLimitWhenPowered': string;
-    'mPowerConnectionSearchRadius': string;
-    'mPowerConnectionSearchTickRate': string;
-    'mPowerConnectionDisconnectionTime': string;
-    'mPowerCapacity': string;
-    'mPowerDrainRate': string;
-    'mPowerConsumption': string;
-    'mCurrentPowerLevel': string;
-    'mRangeWarningNormalizedDistanceThreshold': string;
+    'mHoverSpeed': number;
+    'mHoverAccelerationSpeed': number;
+    'mHoverSprintMultiplier': number;
+    'mHoverFriction': number;
+    'mJumpKeyHoldActivationTime': number;
+    'mFallSpeedLimitWhenPowered': number;
+    'mPowerConnectionSearchRadius': number;
+    'mPowerConnectionSearchTickRate': number;
+    'mPowerConnectionDisconnectionTime': number;
+    'mPowerCapacity': number;
+    'mPowerDrainRate': number;
+    'mPowerConsumption': number;
+    'mCurrentPowerLevel': number;
+    'mRangeWarningNormalizedDistanceThreshold': number;
     'mCurrentHoverMode': string;
-    'mHasConnection': string;
-    'mShouldAutomaticallyHoverWhenConnected': string;
-    'mCrouchHoverCancelTime': string;
-    'mCharacterUseDistanceWhenActive': string;
-    'mActiveNoiseFrequency': string;
+    'mHasConnection': boolean;
+    'mShouldAutomaticallyHoverWhenConnected': boolean;
+    'mCrouchHoverCancelTime': number;
+    'mCharacterUseDistanceWhenActive': number;
+    'mActiveNoiseFrequency': number;
     'mCurrentConnectionLocation': string;
     'mEquipmentSlot': string;
     'mAttachSocket': string;
     'mComponentNameToFirstPersonMaterials': string;
-    'mNeedsDefaultEquipmentMappingContext': string;
-    'mCostToUse': string;
+    'mNeedsDefaultEquipmentMappingContext': boolean;
+    'mCostToUse': number;
     'mArmAnimation': string;
     'mBackAnimation': string;
-    'mHasPersistentOwner': string;
-    'mOnlyVisibleToOwner': string;
-    'mDefaultEquipmentActions': string;
-    'mReceivedDamageModifiers': string;
+    'mHasPersistentOwner': boolean;
+    'mOnlyVisibleToOwner': boolean;
+    'mDefaultEquipmentActions': number;
+    'mReceivedDamageModifiers': number;
     'mSwappedOutThirdPersonMaterials': string;
 }
 export interface FGHoverPack_Parent {
@@ -1029,43 +1029,43 @@ export interface FGHoverPack_Parent {
     Classes: FGHoverPack_Class[];
 }
 export interface FGBuildableWidgetSign_Class extends FGBuildableSnowDispenser_Class {
-    'mGainSignificanceDistance': string;
+    'mGainSignificanceDistance': number;
     'mTextElementToDataMap': string;
     'mIconElementToDataMap': string;
     'mSignDrawSize': string;
-    'mPrefabTextElementSaveData': string;
-    'mPrefabIconElementSaveData': string;
+    'mPrefabTextElementSaveData': number;
+    'mPrefabIconElementSaveData': number;
     'mForegroundColor': string;
     'mBackgroundColor': string;
     'mAuxilaryColor': string;
-    'mEmissive': string;
-    'mGlossiness': string;
-    'mDataVersion': string;
-    'mSignPoles': string;
+    'mEmissive': number;
+    'mGlossiness': number;
+    'mDataVersion': number;
+    'mSignPoles': number;
     'mWorldDimensions': string;
     'mPoleOffset': string;
     'mPoleScale': string;
-    'mSignToSignOffset': string;
+    'mSignToSignOffset': number;
 }
 export interface FGBuildableWidgetSign_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableWidgetSign'";
     Classes: FGBuildableWidgetSign_Class[];
 }
 export interface FGBuildablePipeline_Class extends FGBuildablePipeHyper_Class {
-    'mRadius': string;
-    'mFlowLimit': string;
-    'mFlowIndicatorMinimumPipeLength': string;
-    'mPipeConnections': string;
+    'mRadius': number;
+    'mFlowLimit': number;
+    'mFlowIndicatorMinimumPipeLength': number;
+    'mPipeConnections': number;
     'mFluidBox': string;
     'mIndicatorData': string;
-    'mMaxIndicatorTurnAngle': string;
-    'mIgnoreActorsForIndicator': string;
+    'mMaxIndicatorTurnAngle': number;
+    'mIgnoreActorsForIndicator': number;
     'mFluidNames': string;
-    'mCurrentFluid': string;
-    'mLastContentForSound': string;
-    'mLastFlowForSound': string;
-    'mRattleLimit': string;
-    'mIsRattling': string;
+    'mCurrentFluid': number;
+    'mLastContentForSound': number;
+    'mLastFlowForSound': number;
+    'mRattleLimit': number;
+    'mIsRattling': boolean;
     'mUpdateSoundsHandle': string;
 }
 export interface FGBuildablePipeline_Parent {
@@ -1074,32 +1074,32 @@ export interface FGBuildablePipeline_Parent {
 }
 export interface FGAmmoTypeInstantHit_Class extends FGItemDescriptor_Class {
     'Location': string;
-    'Trail_Velocity': string;
-    'mPlayFireEffects': string;
+    'Trail_Velocity': number;
+    'mPlayFireEffects': boolean;
     'AmmoFiredDelegate': string;
     'mFiringTransform': string;
     'mFiringDirection': string;
-    'mMagazineSize': string;
-    'mMaxAmmoEffectiveRange': string;
-    'mReloadTimeMultiplier': string;
-    'mFireRate': string;
-    'mFiringTransformIgnoresDispersion': string;
-    'mDispersionFireRateMultiplier': string;
-    'mDispersionPerShot': string;
-    'mRestingDispersion': string;
-    'mFiringDispersion': string;
-    'mDispersionRecoveryTime': string;
-    'mHasBeenInitialized': string;
-    'mWeaponDamageMultiplier': string;
+    'mMagazineSize': number;
+    'mMaxAmmoEffectiveRange': number;
+    'mReloadTimeMultiplier': number;
+    'mFireRate': number;
+    'mFiringTransformIgnoresDispersion': boolean;
+    'mDispersionFireRateMultiplier': number;
+    'mDispersionPerShot': number;
+    'mRestingDispersion': number;
+    'mFiringDispersion': number;
+    'mDispersionRecoveryTime': number;
+    'mHasBeenInitialized': boolean;
+    'mWeaponDamageMultiplier': number;
     'mMagazineMeshMaterials': string;
     'mMagazineMeshMaterials1p': string;
     'mDamageTypesOnImpact': string;
     'mAmmoDamageFalloff': string;
     'mMuzzleFlashScale': string;
     'mFiringSounds': string;
-    'mFiringSounds1P': string;
+    'mFiringSounds1P': number;
     'mAmmoColor': string;
-    'mAmmoScale': string;
+    'mAmmoScale': number;
     'mAmmoTickFunction': string;
 }
 export interface FGAmmoTypeInstantHit_Parent {
@@ -1107,33 +1107,33 @@ export interface FGAmmoTypeInstantHit_Parent {
     Classes: FGAmmoTypeInstantHit_Class[];
 }
 export interface FGAmmoTypeSpreadshot_Class extends FGItemDescriptor_Class {
-    'SpreadTrail_Velocity': string;
+    'SpreadTrail_Velocity': number;
     'mNumShots': string;
-    'mSpreadAngleDegrees': string;
+    'mSpreadAngleDegrees': number;
     'AmmoFiredDelegate': string;
     'mFiringTransform': string;
     'mFiringDirection': string;
-    'mMagazineSize': string;
-    'mMaxAmmoEffectiveRange': string;
-    'mReloadTimeMultiplier': string;
-    'mFireRate': string;
-    'mFiringTransformIgnoresDispersion': string;
-    'mDispersionFireRateMultiplier': string;
-    'mDispersionPerShot': string;
-    'mRestingDispersion': string;
-    'mFiringDispersion': string;
-    'mDispersionRecoveryTime': string;
-    'mHasBeenInitialized': string;
-    'mWeaponDamageMultiplier': string;
+    'mMagazineSize': number;
+    'mMaxAmmoEffectiveRange': number;
+    'mReloadTimeMultiplier': number;
+    'mFireRate': number;
+    'mFiringTransformIgnoresDispersion': boolean;
+    'mDispersionFireRateMultiplier': number;
+    'mDispersionPerShot': number;
+    'mRestingDispersion': number;
+    'mFiringDispersion': number;
+    'mDispersionRecoveryTime': number;
+    'mHasBeenInitialized': boolean;
+    'mWeaponDamageMultiplier': number;
     'mMagazineMeshMaterials': string;
     'mMagazineMeshMaterials1p': string;
     'mDamageTypesOnImpact': string;
     'mAmmoDamageFalloff': string;
     'mMuzzleFlashScale': string;
     'mFiringSounds': string;
-    'mFiringSounds1P': string;
+    'mFiringSounds1P': number;
     'mAmmoColor': string;
-    'mAmmoScale': string;
+    'mAmmoScale': number;
     'mAmmoTickFunction': string;
 }
 export interface FGAmmoTypeSpreadshot_Parent {
@@ -1141,48 +1141,48 @@ export interface FGAmmoTypeSpreadshot_Parent {
     Classes: FGAmmoTypeSpreadshot_Class[];
 }
 export interface FGBuildableSpaceElevator_Class extends FGBuildableSnowDispenser_Class {
-    'mPowerConsumption': string;
-    'mPowerConsumptionExponent': string;
-    'mDoesHaveShutdownAnimation': string;
+    'mPowerConsumption': number;
+    'mPowerConsumptionExponent': number;
+    'mDoesHaveShutdownAnimation': boolean;
     'mOnHasPowerChanged': string;
     'mOnHasProductionChanged': string;
     'mOnHasStandbyChanged': string;
-    'mMinimumProducingTime': string;
-    'mMinimumStoppedTime': string;
-    'mCanEverMonitorProductivity': string;
-    'mCanChangePotential': string;
-    'mMinPotential': string;
-    'mMaxPotential': string;
-    'mMaxPotentialIncreasePerCrystal': string;
+    'mMinimumProducingTime': number;
+    'mMinimumStoppedTime': number;
+    'mCanEverMonitorProductivity': boolean;
+    'mCanChangePotential': boolean;
+    'mMinPotential': number;
+    'mMaxPotential': number;
+    'mMaxPotentialIncreasePerCrystal': number;
     'mFluidStackSizeDefault': string;
-    'mFluidStackSizeMultiplier': string;
+    'mFluidStackSizeMultiplier': number;
     'OnReplicationDetailActorCreatedEvent': string;
     'mInventoryPotentialHandlerData': string;
-    'mEffectUpdateInterval': string;
-    'mDefaultProductivityMeasurementDuration': string;
-    'mLastProductivityMeasurementProduceDuration': string;
-    'mLastProductivityMeasurementDuration': string;
-    'mCurrentProductivityMeasurementProduceDuration': string;
-    'mCurrentProductivityMeasurementDuration': string;
-    'mProductivityMonitorEnabled': string;
-    'mCachedSkeletalMeshes': string;
-    'mAddToSignificanceManager': string;
-    'mSignificanceRange': string;
-    'mTickExponent': string;
+    'mEffectUpdateInterval': number;
+    'mDefaultProductivityMeasurementDuration': number;
+    'mLastProductivityMeasurementProduceDuration': number;
+    'mLastProductivityMeasurementDuration': number;
+    'mCurrentProductivityMeasurementProduceDuration': number;
+    'mCurrentProductivityMeasurementDuration': number;
+    'mProductivityMonitorEnabled': boolean;
+    'mCachedSkeletalMeshes': number;
+    'mAddToSignificanceManager': boolean;
+    'mSignificanceRange': number;
+    'mTickExponent': number;
 }
 export interface FGBuildableSpaceElevator_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableSpaceElevator'";
     Classes: FGBuildableSpaceElevator_Class[];
 }
 export interface FGBuildableResourceSinkShop_Class extends FGBuildableSpaceElevator_Class {
-    'mShopInventoryDefaultSize': string;
+    'mShopInventoryDefaultSize': number;
 }
 export interface FGBuildableResourceSinkShop_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableResourceSinkShop'";
     Classes: FGBuildableResourceSinkShop_Class[];
 }
 export interface FGBuildableFactorySimpleProducer_Class extends FGBuildableSpaceElevator_Class {
-    'mTimeToProduceItem': string;
+    'mTimeToProduceItem': number;
     'mEventType': string;
 }
 export interface FGBuildableFactorySimpleProducer_Parent {
@@ -1191,7 +1191,7 @@ export interface FGBuildableFactorySimpleProducer_Parent {
 }
 export interface FGBuildableRadarTower_Class extends FGBuildableSpaceElevator_Class {
     'mMapText': string;
-    'mRevealRadius': string;
+    'mRevealRadius': number;
     'mScannableDescriptors': string;
 }
 export interface FGBuildableRadarTower_Parent {
@@ -1199,39 +1199,39 @@ export interface FGBuildableRadarTower_Parent {
     Classes: FGBuildableRadarTower_Class[];
 }
 export interface FGBuildableStorage_Class extends FGBuildableSpaceElevator_Class {
-    'mStackingHeight': string;
-    'mInventorySizeX': string;
-    'mInventorySizeY': string;
+    'mStackingHeight': number;
+    'mInventorySizeX': number;
+    'mInventorySizeY': number;
 }
 export interface FGBuildableStorage_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableStorage'";
     Classes: FGBuildableStorage_Class[];
 }
 export interface FGBuildablePipelineJunction_Class extends FGBuildableSpaceElevator_Class {
-    'mRadius': string;
-    'mFluidBoxVolume': string;
+    'mRadius': number;
+    'mFluidBoxVolume': number;
     'mFluidBox': string;
-    'mPipeConnections': string;
+    'mPipeConnections': number;
 }
 export interface FGBuildablePipelineJunction_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePipelineJunction'";
     Classes: FGBuildablePipelineJunction_Class[];
 }
 export interface FGBuildableFactory_Class extends FGBuildableSpaceElevator_Class {
-    'JumpForceCharacter': string;
-    'JumpForcePhysics': string;
-    'mDampeningFactor'?: string;
-    'mPlayerList'?: string;
+    'JumpForceCharacter': number;
+    'JumpForcePhysics': number;
+    'mDampeningFactor'?: number;
+    'mPlayerList'?: number;
 }
 export interface FGBuildableFactory_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFactory'";
     Classes: FGBuildableFactory_Class[];
 }
 export interface FGBuildablePipeReservoir_Class extends FGBuildableSpaceElevator_Class {
-    'mStackingHeight': string;
+    'mStackingHeight': number;
     'mFluidBox': string;
-    'mStorageCapacity': string;
-    'mPipeConnections': string;
+    'mStorageCapacity': number;
+    'mPipeConnections': number;
     'mIndicatorData': string;
 }
 export interface FGBuildablePipeReservoir_Parent {
@@ -1240,41 +1240,41 @@ export interface FGBuildablePipeReservoir_Parent {
 }
 export interface FGBuildableTrainPlatformEmpty_Class extends FGBuildableSpaceElevator_Class {
     'mPlatformConnections': string;
-    'mIsOrientationReversed': string;
+    'mIsOrientationReversed': boolean;
     'mPlatformDockingStatus': string;
     'mSavedDockingStatus': string;
     'mDockingSequenceTimerHandle': string;
     'mIdleUpdateTimerHandle': string;
-    'mDockWasCancelled': string;
+    'mDockWasCancelled': boolean;
 }
 export interface FGBuildableTrainPlatformEmpty_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableTrainPlatformEmpty'";
     Classes: FGBuildableTrainPlatformEmpty_Class[];
 }
 export interface FGBuildableResourceSink_Class extends FGBuildableSpaceElevator_Class {
-    'IsAnimationProducing': string;
-    'EnableTickGrinder': string;
-    'EnableTickEngine': string;
-    'mGrinderInterpDuration': string;
-    'mEngineInterpDuration': string;
+    'IsAnimationProducing': boolean;
+    'EnableTickGrinder': boolean;
+    'EnableTickEngine': boolean;
+    'mGrinderInterpDuration': number;
+    'mEngineInterpDuration': number;
     'mCouponInventoryHandler': string;
-    'mProcessingTime': string;
-    'mProducingTimer': string;
+    'mProcessingTime': number;
+    'mProducingTimer': number;
 }
 export interface FGBuildableResourceSink_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableResourceSink'";
     Classes: FGBuildableResourceSink_Class[];
 }
 export interface FGBuildableGeneratorGeoThermal_Class extends FGBuildableSpaceElevator_Class {
-    'mProductionEffectsRunning': string;
-    'mVariablePowerProductionConstant': string;
-    'mVariablePowerProductionFactor': string;
-    'mVariablePowerProductionCycleLength': string;
-    'mMinPowerProduction': string;
-    'mMaxPowerProduction': string;
-    'mVariablePowerProductionCycleOffset': string;
-    'mPowerProduction': string;
-    'mLoadPercentage': string;
+    'mProductionEffectsRunning': boolean;
+    'mVariablePowerProductionConstant': number;
+    'mVariablePowerProductionFactor': number;
+    'mVariablePowerProductionCycleLength': number;
+    'mMinPowerProduction': number;
+    'mMaxPowerProduction': number;
+    'mVariablePowerProductionCycleOffset': number;
+    'mPowerProduction': number;
+    'mLoadPercentage': number;
 }
 export interface FGBuildableGeneratorGeoThermal_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableGeneratorGeoThermal'";
@@ -1282,60 +1282,60 @@ export interface FGBuildableGeneratorGeoThermal_Parent {
 }
 export interface FGBuildablePowerStorage_Class extends FGBuildableSpaceElevator_Class {
     'm_PreviousBatteryStatus': string;
-    'mCurrentGameTimeSinceStateChange': string;
-    'mActivationEventID': string;
+    'mCurrentGameTimeSinceStateChange': number;
+    'mActivationEventID': number;
     'mBatteryStatus': string;
-    'mPowerStore': string;
-    'mPowerStoreCapacity': string;
-    'mPowerInputCapacity': string;
-    'mIndicatorLevelMax': string;
-    'mIndicatorLevel': string;
+    'mPowerStore': number;
+    'mPowerStoreCapacity': number;
+    'mPowerInputCapacity': number;
+    'mIndicatorLevelMax': number;
+    'mIndicatorLevel': number;
 }
 export interface FGBuildablePowerStorage_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildablePowerStorage'";
     Classes: FGBuildablePowerStorage_Class[];
 }
 export interface FGAmmoTypeProjectile_Class extends FGItemDescriptor_Class {
-    'mInitialProjectileSpeedOverride': string;
-    'mProjectileMaxSpeedOverride': string;
-    'mProjectileHealthOverride': string;
-    'mProjectileLifespan': string;
-    'mProjectileStickspan': string;
-    'mCanTakeDamageBySameProjectileOrChild': string;
+    'mInitialProjectileSpeedOverride': number;
+    'mProjectileMaxSpeedOverride': number;
+    'mProjectileHealthOverride': number;
+    'mProjectileLifespan': number;
+    'mProjectileStickspan': number;
+    'mCanTakeDamageBySameProjectileOrChild': boolean;
     'mDamageTypesAtEndOfLife': string;
     'mGravityScaleOverLifespan': string;
-    'mHomingProjectile': string;
-    'mHomingNeedsValidTarget': string;
-    'mMaxHomingAccelerationMagnitudeOverride': string;
+    'mHomingProjectile': boolean;
+    'mHomingNeedsValidTarget': boolean;
+    'mMaxHomingAccelerationMagnitudeOverride': number;
     'mHomingMagnitudeMultiplierOverLifespan': string;
     'mHomingMagnitudeMultiplierOverDistanceToTarget': string;
-    'mHomingOverlapSize': string;
-    'mHomingAngleLimit': string;
-    'mHomingOverrideTargets': string;
+    'mHomingOverlapSize': number;
+    'mHomingAngleLimit': number;
+    'mHomingOverrideTargets': number;
     'AmmoFiredDelegate': string;
     'mFiringTransform': string;
     'mFiringDirection': string;
-    'mMagazineSize': string;
-    'mMaxAmmoEffectiveRange': string;
-    'mReloadTimeMultiplier': string;
-    'mFireRate': string;
-    'mFiringTransformIgnoresDispersion': string;
-    'mDispersionFireRateMultiplier': string;
-    'mDispersionPerShot': string;
-    'mRestingDispersion': string;
-    'mFiringDispersion': string;
-    'mDispersionRecoveryTime': string;
-    'mHasBeenInitialized': string;
-    'mWeaponDamageMultiplier': string;
+    'mMagazineSize': number;
+    'mMaxAmmoEffectiveRange': number;
+    'mReloadTimeMultiplier': number;
+    'mFireRate': number;
+    'mFiringTransformIgnoresDispersion': boolean;
+    'mDispersionFireRateMultiplier': number;
+    'mDispersionPerShot': number;
+    'mRestingDispersion': number;
+    'mFiringDispersion': number;
+    'mDispersionRecoveryTime': number;
+    'mHasBeenInitialized': boolean;
+    'mWeaponDamageMultiplier': number;
     'mMagazineMeshMaterials': string;
     'mMagazineMeshMaterials1p': string;
     'mDamageTypesOnImpact': string;
     'mAmmoDamageFalloff': string;
     'mMuzzleFlashScale': string;
-    'mFiringSounds': string;
-    'mFiringSounds1P': string;
+    'mFiringSounds': number;
+    'mFiringSounds1P': number;
     'mAmmoColor': string;
-    'mAmmoScale': string;
+    'mAmmoScale': number;
     'mAmmoTickFunction': string;
 }
 export interface FGAmmoTypeProjectile_Parent {
@@ -1344,33 +1344,33 @@ export interface FGAmmoTypeProjectile_Parent {
 }
 export interface FGPipeHyperStart_Class extends FGBuildableSpaceElevator_Class {
     'mWindDirectionFromTurbine': string;
-    'mIsWindSoundPlaying?': string;
-    'mAudioTimerCounter': string;
+    'mIsWindSoundPlaying?': boolean;
+    'mAudioTimerCounter': number;
     'AudioCounterTimer': string;
-    'IsEnginePlaying': string;
-    'mOpeningOffset': string;
-    'mInitialMinSpeedFactor': string;
-    'mLength': string;
-    'mCanStack': string;
-    'mStackHeight': string;
-    'mUseStaticHeight': string;
+    'IsEnginePlaying': boolean;
+    'mOpeningOffset': number;
+    'mInitialMinSpeedFactor': number;
+    'mLength': number;
+    'mCanStack': boolean;
+    'mStackHeight': number;
+    'mUseStaticHeight': boolean;
 }
 export interface FGPipeHyperStart_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGPipeHyperStart'";
     Classes: FGPipeHyperStart_Class[];
 }
 export interface FGBuildableFrackingExtractor_Class extends FGBuildableSpaceElevator_Class {
-    'mExtractStartupTime': string;
-    'mExtractStartupTimer': string;
-    'mExtractCycleTime': string;
-    'mItemsPerCycle': string;
-    'mPipeOutputConnections': string;
-    'mReplicatedFlowRate': string;
+    'mExtractStartupTime': number;
+    'mExtractStartupTimer': number;
+    'mExtractCycleTime': number;
+    'mItemsPerCycle': number;
+    'mPipeOutputConnections': number;
+    'mReplicatedFlowRate': number;
     'mAllowedResourceForms': string;
-    'mOnlyAllowCertainResources': string;
+    'mOnlyAllowCertainResources': boolean;
     'mAllowedResources': string;
     'mExtractorTypeName': string;
-    'mTryFindMissingResource': string;
+    'mTryFindMissingResource': boolean;
 }
 export interface FGBuildableFrackingExtractor_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFrackingExtractor'";
@@ -1378,10 +1378,10 @@ export interface FGBuildableFrackingExtractor_Parent {
 }
 export interface FGBuildableRailroadStation_Class extends FGBuildableTrainPlatformEmpty_Class {
     'mMapText': string;
-    'mShouldTeleportHere': string;
-    'mDockedPlatformList': string;
+    'mShouldTeleportHere': boolean;
+    'mDockedPlatformList': number;
     'mCurrentDockedWithRuleSet': string;
-    'mCurrentDockForDuration': string;
+    'mCurrentDockForDuration': number;
 }
 export interface FGBuildableRailroadStation_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableRailroadStation'";
@@ -1390,27 +1390,27 @@ export interface FGBuildableRailroadStation_Parent {
 export interface FGBuildableFrackingActivator_Class extends FGBuildableSpaceElevator_Class {
     'CurrentPotentialChangedDelegate': string;
     'ConnectedExtractorCountChangedDelegate': string;
-    'mActivationStartupTime': string;
-    'mActivationStartupTimer': string;
-    'mSatelliteActivationComplete': string;
-    'mSatelliteNodeCount': string;
-    'mConnectedExtractorCount': string;
-    'mDefaultPotentialExtractionPerMinute': string;
+    'mActivationStartupTime': number;
+    'mActivationStartupTimer': number;
+    'mSatelliteActivationComplete': boolean;
+    'mSatelliteNodeCount': number;
+    'mConnectedExtractorCount': number;
+    'mDefaultPotentialExtractionPerMinute': number;
     'mAllowedResourceForms': string;
-    'mOnlyAllowCertainResources': string;
+    'mOnlyAllowCertainResources': boolean;
     'mAllowedResources': string;
     'mExtractorTypeName': string;
-    'mTryFindMissingResource': string;
+    'mTryFindMissingResource': boolean;
 }
 export interface FGBuildableFrackingActivator_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFrackingActivator'";
     Classes: FGBuildableFrackingActivator_Class[];
 }
 export interface FGBuildableWaterPump_Class extends FGBuildableFrackingExtractor_Class {
-    'mWaterpumpTimeline_RTPC_B8FA6F944E717E3B7A286E84901F620E': string;
+    'mWaterpumpTimeline_RTPC_B8FA6F944E717E3B7A286E84901F620E': number;
     'mWaterpumpTimeline__Direction_B8FA6F944E717E3B7A286E84901F620E': string;
-    'HasLostSignificance': string;
-    'mMinimumDepthForPlacement': string;
+    'HasLostSignificance': boolean;
+    'mMinimumDepthForPlacement': number;
     'mDepthTraceOriginOffset': string;
 }
 export interface FGBuildableWaterPump_Parent {
@@ -1419,12 +1419,12 @@ export interface FGBuildableWaterPump_Parent {
 }
 export interface FGBuildableResourceExtractor_Class extends FGBuildableFrackingExtractor_Class {
     'mParticleMap'?: string;
-    'mCanPlayAfterStartUpStopped'?: string;
+    'mCanPlayAfterStartUpStopped'?: boolean;
     'mInternalMiningState_0'?: string;
     'mToggleMiningStateHandle_0'?: string;
-    'mMinimumDrillTime_0'?: string;
-    'mMaximumDrillTime_0'?: string;
-    'CanPlayAfterStartUpStopped'?: string;
+    'mMinimumDrillTime_0'?: number;
+    'mMaximumDrillTime_0'?: number;
+    'CanPlayAfterStartUpStopped'?: boolean;
 }
 export interface FGBuildableResourceExtractor_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableResourceExtractor'";
@@ -1434,20 +1434,20 @@ export interface FGBuildableTradingPost_Class extends FGBuildableSpaceElevator_C
     'mWorkBenchOccupied': string;
     'mWorkBenchFree': string;
     'Meshes': string;
-    'mShipUpgradeLevel': string;
+    'mShipUpgradeLevel': number;
     'mStorageText': string;
     'mMamFreeText': string;
     'mMamOccupiedText': string;
     'mMeshes': string;
     'ABClass': string;
     'mSkeletalMeshSoftPtr': string;
-    'mGenerators': string;
-    'mStorageInventorySize': string;
-    'mStorageVisibilityLevel': string;
-    'mSpawningGroundZOffset': string;
-    'mGroundSearchZDistance': string;
-    'mDefaultResources': string;
-    'mNeedPlayingBuildEffectNotification': string;
+    'mGenerators': number;
+    'mStorageInventorySize': number;
+    'mStorageVisibilityLevel': number;
+    'mSpawningGroundZOffset': number;
+    'mGroundSearchZDistance': number;
+    'mDefaultResources': number;
+    'mNeedPlayingBuildEffectNotification': boolean;
     'mRepresentationText': string;
 }
 export interface FGBuildableTradingPost_Parent {
@@ -1459,20 +1459,20 @@ export interface FGBuildableDockingStation_Class extends FGBuildableSpaceElevato
     'ItemTransferRateChangedDelegate': string;
     'MaximumStackTransferRateChangedDelegate': string;
     'mDockPosition': string;
-    'mMinimumDockingTime': string;
-    'mStorageSizeX': string;
-    'mStorageSizeY': string;
-    'mFuelInventorySizeX': string;
-    'mFuelInventorySizeY': string;
-    'mTransferSpeed': string;
-    'mFuelTransferSpeed': string;
+    'mMinimumDockingTime': number;
+    'mStorageSizeX': number;
+    'mStorageSizeY': number;
+    'mFuelInventorySizeX': number;
+    'mFuelInventorySizeY': number;
+    'mTransferSpeed': number;
+    'mFuelTransferSpeed': number;
     'mFuelInventoryHandlerData': string;
     'mInventoryHandlerData': string;
-    'mStackTransferSize': string;
-    'mForceSignificance': string;
-    'mVehicleFuelConsumptionRate': string;
-    'mItemTransferRate': string;
-    'mMaximumStackTransferRate': string;
+    'mStackTransferSize': number;
+    'mForceSignificance': boolean;
+    'mVehicleFuelConsumptionRate': number;
+    'mItemTransferRate': number;
+    'mMaximumStackTransferRate': number;
     'mDockingVehicleStatistics': string;
 }
 export interface FGBuildableDockingStation_Parent {
@@ -1480,49 +1480,49 @@ export interface FGBuildableDockingStation_Parent {
     Classes: FGBuildableDockingStation_Class[];
 }
 export interface FGBuildableGeneratorNuclear_Class extends FGBuildableSpaceElevator_Class {
-    'mCachedLoadPercentage': string;
+    'mCachedLoadPercentage': number;
     'mOutputInventoryHandlerData': string;
-    'mWasteLeftFromCurrentFuel': string;
+    'mWasteLeftFromCurrentFuel': number;
     'mCurrentGeneratorNuclearWarning': string;
     'mFuelInventoryHandlerData': string;
-    'mFuelClasses': string;
+    'mFuelClasses': number;
     'mDefaultFuelClasses': string;
     'mFuel': {
         mFuelClass: string;
         mSupplementalResourceClass: string;
         mByproduct: string;
-        mByproductAmount: string;
+        mByproductAmount: number;
     }[];
-    'mAvailableFuelClasses': string;
+    'mAvailableFuelClasses': number;
     'mFuelResourceForm': string;
-    'mFuelLoadAmount': string;
-    'mRequiresSupplementalResource': string;
-    'mSupplementalLoadAmount': string;
-    'mSupplementalToPowerRatio': string;
-    'mIsFullBlast': string;
-    'mCachedInputConnections': string;
-    'mCachedPipeInputConnections': string;
-    'mPowerProduction': string;
-    'mLoadPercentage': string;
+    'mFuelLoadAmount': number;
+    'mRequiresSupplementalResource': boolean;
+    'mSupplementalLoadAmount': number;
+    'mSupplementalToPowerRatio': number;
+    'mIsFullBlast': boolean;
+    'mCachedInputConnections': number;
+    'mCachedPipeInputConnections': number;
+    'mPowerProduction': number;
+    'mLoadPercentage': number;
 }
 export interface FGBuildableGeneratorNuclear_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableGeneratorNuclear'";
     Classes: FGBuildableGeneratorNuclear_Class[];
 }
 export interface FGBuildablePipelinePump_Class extends FGBuildablePipelineJunction_Class {
-    'mLastFlowUpdate': string;
-    'mUpdateFlowTime': string;
-    'mAnimSpeed': string;
-    'mLastFlowValue': string;
-    'mTimeScaleOffset': string;
-    'mIsPipePumpPlaying': string;
-    'mIsExceedingHeadLift': string;
-    'mCurrentAudioHeadLift': string;
-    'mMaxPressure': string;
-    'mDesignPressure': string;
-    'mDefaultFlowLimit': string;
-    'mUserFlowLimit': string;
-    'mMinimumFlowPercentForStandby': string;
+    'mLastFlowUpdate': number;
+    'mUpdateFlowTime': number;
+    'mAnimSpeed': number;
+    'mLastFlowValue': number;
+    'mTimeScaleOffset': number;
+    'mIsPipePumpPlaying': boolean;
+    'mIsExceedingHeadLift': boolean;
+    'mCurrentAudioHeadLift': number;
+    'mMaxPressure': number;
+    'mDesignPressure': number;
+    'mDefaultFlowLimit': number;
+    'mUserFlowLimit': number;
+    'mMinimumFlowPercentForStandby': number;
     'mIndicatorData': string;
     'mPistonAudioTimer'?: string;
 }
@@ -1532,81 +1532,81 @@ export interface FGBuildablePipelinePump_Parent {
 }
 export interface FGBuildableGeneratorFuel_Class extends FGBuildableSpaceElevator_Class {
     'm_SFXSockets': string;
-    'm_CurrentPotential': string;
+    'm_CurrentPotential': number;
     'mFuelInventoryHandlerData': string;
-    'mFuelClasses': string;
+    'mFuelClasses': number;
     'mDefaultFuelClasses': string;
     'mFuel': {
         mFuelClass: string;
-        mSupplementalResourceClass: string;
-        mByproduct: string;
-        mByproductAmount: string;
+        mSupplementalResourceClass: number;
+        mByproduct: number;
+        mByproductAmount: number;
     }[];
-    'mAvailableFuelClasses': string;
+    'mAvailableFuelClasses': number;
     'mFuelResourceForm': string;
-    'mFuelLoadAmount': string;
-    'mRequiresSupplementalResource': string;
-    'mSupplementalLoadAmount': string;
-    'mSupplementalToPowerRatio': string;
-    'mIsFullBlast': string;
-    'mCachedInputConnections': string;
-    'mCachedPipeInputConnections': string;
-    'mPowerProduction': string;
-    'mLoadPercentage': string;
-    'mRTPCInterval'?: string;
-    'mCachedLoadPercentage'?: string;
+    'mFuelLoadAmount': number;
+    'mRequiresSupplementalResource': boolean;
+    'mSupplementalLoadAmount': number;
+    'mSupplementalToPowerRatio': number;
+    'mIsFullBlast': boolean;
+    'mCachedInputConnections': number;
+    'mCachedPipeInputConnections': number;
+    'mPowerProduction': number;
+    'mLoadPercentage': number;
+    'mRTPCInterval'?: number;
+    'mCachedLoadPercentage'?: number;
 }
 export interface FGBuildableGeneratorFuel_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableGeneratorFuel'";
     Classes: FGBuildableGeneratorFuel_Class[];
 }
 export interface FGBuildableJumppad_Class extends FGBuildableSpaceElevator_Class {
-    'mPowerBankCapacity': string;
-    'mLaunchPowerCost': string;
-    'mChargeRateMultiplier': string;
-    'mCurrentPowerLevel': string;
-    'mLaunchVelocity': string;
-    'mLaunchAngle': string;
-    'mPlayerChainJumpResetTime': string;
-    'mHasPowerForLaunch': string;
-    'ComponentsToLaunch': string;
-    'CharactersToLaunch': string;
-    'VehiclesToLaunch': string;
+    'mPowerBankCapacity': number;
+    'mLaunchPowerCost': number;
+    'mChargeRateMultiplier': number;
+    'mCurrentPowerLevel': number;
+    'mLaunchVelocity': number;
+    'mLaunchAngle': number;
+    'mPlayerChainJumpResetTime': number;
+    'mHasPowerForLaunch': boolean;
+    'ComponentsToLaunch': number;
+    'CharactersToLaunch': number;
+    'VehiclesToLaunch': number;
     'mTrajectoryData': string;
     'mTrajectoryMeshScale': string;
     'mTrajectoryMeshRotation': string;
-    'mDestinationMeshHeightOffset': string;
-    'mTrajectorySplineMeshNumPrimitiveDataFloats': string;
+    'mDestinationMeshHeightOffset': number;
+    'mTrajectorySplineMeshNumPrimitiveDataFloats': number;
     'mTrajectorySplineMeshSplineDataSettings': string;
-    'mNumArrows': string;
+    'mNumArrows': number;
     'mKillTimer': string;
-    'mTrajectoryGravityMultiplier': string;
-    'mShowTrajectoryCounter': string;
+    'mTrajectoryGravityMultiplier': number;
+    'mShowTrajectoryCounter': number;
 }
 export interface FGBuildableJumppad_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableJumppad'";
     Classes: FGBuildableJumppad_Class[];
 }
 export interface FGBuildableManufacturerVariablePower_Class extends FGBuildableSpaceElevator_Class {
-    'IsPowered': string;
-    'mSequenceDuration': string;
+    'IsPowered': boolean;
+    'mSequenceDuration': number;
     'mLightningTimer': string;
-    'mGameTimeAtProducing': string;
-    'mCurrentProducingSeekTime': string;
+    'mGameTimeAtProducing': number;
+    'mCurrentProducingSeekTime': number;
     'mStartVector_VFX_Small_Start': string;
     'mStartVector_VFX_Small_End': string;
     'mStartVector_VFX_Medium_Start': string;
     'mStartVector_VFX_Medium_End': string;
     'mStartVector_VFX_Large_Start': string;
     'mStartVector_VFX_Large_End': string;
-    'mEstimatedMininumPowerConsumption': string;
-    'mEstimatedMaximumPowerConsumption': string;
+    'mEstimatedMininumPowerConsumption': number;
+    'mEstimatedMaximumPowerConsumption': number;
     'mCurrentRecipeChanged': string;
-    'mManufacturingSpeed': string;
-    'mFactoryInputConnections': string;
-    'mPipeInputConnections': string;
-    'mFactoryOutputConnections': string;
-    'mPipeOutputConnections': string;
+    'mManufacturingSpeed': number;
+    'mFactoryInputConnections': number;
+    'mPipeInputConnections': number;
+    'mFactoryOutputConnections': number;
+    'mPipeOutputConnections': number;
     'mInputInventoryHandlerData': string;
     'mOutputInventoryHandlerData': string;
 }
@@ -1615,30 +1615,30 @@ export interface FGBuildableManufacturerVariablePower_Parent {
     Classes: FGBuildableManufacturerVariablePower_Class[];
 }
 export interface FGBuildableManufacturer_Class extends FGBuildableSpaceElevator_Class {
-    'IsPowered': string;
-    'mProductionEffectsRunning': string;
+    'IsPowered': boolean;
+    'mProductionEffectsRunning': boolean;
     'mCurrentRecipeChanged': string;
-    'mManufacturingSpeed': string;
-    'mFactoryInputConnections': string;
-    'mPipeInputConnections': string;
-    'mFactoryOutputConnections': string;
-    'mPipeOutputConnections': string;
+    'mManufacturingSpeed': number;
+    'mFactoryInputConnections': number;
+    'mPipeInputConnections': number;
+    'mFactoryOutputConnections': number;
+    'mPipeOutputConnections': number;
     'mInputInventoryHandlerData': string;
     'mOutputInventoryHandlerData': string;
-    'bIsPendingToKillVfx'?: string;
+    'bIsPendingToKillVfx'?: boolean;
     'mCurrentColor_VFX'?: string;
-    'CurrentPackagingMode'?: string;
+    'CurrentPackagingMode'?: number;
     'mCurrentColorVFX'?: string;
     'm_NotifyNameREferences'?: string;
-    'mColor'?: string;
-    'mIsRadioActive'?: string;
-    'mStoppedProducingAnimationSounds'?: string;
-    'mStoppedAkComponents'?: string;
-    'mSocketStoppedAkComponents'?: string;
-    'mIsPendingToKillVFX'?: string;
-    'mCachedCurrentPotential'?: string;
-    'mCurrentRecipeCheck'?: string;
-    'mPreviousRecipeCheck'?: string;
+    'mColor'?: number;
+    'mIsRadioActive'?: boolean;
+    'mStoppedProducingAnimationSounds'?: boolean;
+    'mStoppedAkComponents'?: number;
+    'mSocketStoppedAkComponents'?: number;
+    'mIsPendingToKillVFX'?: boolean;
+    'mCachedCurrentPotential'?: number;
+    'mCurrentRecipeCheck'?: number;
+    'mPreviousRecipeCheck'?: number;
     'CurrentPotentialConvert'?: string;
 }
 export interface FGBuildableManufacturer_Parent {
@@ -1646,34 +1646,34 @@ export interface FGBuildableManufacturer_Parent {
     Classes: FGBuildableManufacturer_Class[];
 }
 export interface FGBuildableDroneStation_Class extends FGBuildableSpaceElevator_Class {
-    'mStoppedProducingAnimationSounds': string;
-    'mStoppedAkComponents': string;
-    'mSocketStoppedAkComponents': string;
+    'mStoppedProducingAnimationSounds': boolean;
+    'mStoppedAkComponents': number;
+    'mSocketStoppedAkComponents': number;
     'm_DockingStates': string;
-    'm_OffsetTime': string;
+    'm_OffsetTime': number;
     'mDroneDockingStartLocationLocal': string;
     'mDroneDockingLocationLocal': string;
     'mBatteryClasses': string;
-    'mDroneDockingQueue': string;
-    'mStationHasDronesInQueue': string;
+    'mDroneDockingQueue': number;
+    'mStationHasDronesInQueue': boolean;
     'mItemTransferringStage': string;
-    'mTransferProgress': string;
-    'mTransferSpeed': string;
-    'mStackTransferSize': string;
-    'mDroneQueueRadius': string;
-    'mDroneQueueSeparationRadius': string;
-    'mDroneQueueVerticalSeparation': string;
-    'mTripPowerCost': string;
-    'mTripPowerPerMeterCost': string;
-    'mTripInformationSampleCount': string;
-    'mStorageSizeX': string;
-    'mStorageSizeY': string;
-    'mBatteryStorageSizeX': string;
-    'mBatteryStorageSizeY': string;
+    'mTransferProgress': number;
+    'mTransferSpeed': number;
+    'mStackTransferSize': number;
+    'mDroneQueueRadius': number;
+    'mDroneQueueSeparationRadius': number;
+    'mDroneQueueVerticalSeparation': number;
+    'mTripPowerCost': number;
+    'mTripPowerPerMeterCost': number;
+    'mTripInformationSampleCount': number;
+    'mStorageSizeX': number;
+    'mStorageSizeY': number;
+    'mBatteryStorageSizeX': number;
+    'mBatteryStorageSizeY': number;
     'mInputInventoryHandler': string;
     'mOutputInventoryHandler': string;
     'mBatteryInventoryHandler': string;
-    'mMapText': string;
+    'mMapText': number;
 }
 export interface FGBuildableDroneStation_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableDroneStation'";
@@ -1682,38 +1682,38 @@ export interface FGBuildableDroneStation_Parent {
 export interface FGBuildableTrainPlatformCargo_Class extends FGBuildableTrainPlatformEmpty_Class {
     'mOnTransferRateUpdated': string;
     'mFreightCargoType': string;
-    'mStorageSizeX': string;
-    'mStorageSizeY': string;
-    'mCanUnloadAny': string;
-    'mIsFullUnload': string;
-    'mCanLoadAny': string;
-    'mIsFullLoad': string;
-    'mTimeToCompleteLoad': string;
-    'mTimeToSwapLoadVisibility': string;
-    'mTimeToCompleteUnload': string;
-    'mTimeToSwapUnloadVisibility': string;
-    'mWaitForConditionUpdatePeriod': string;
-    'mStorageInputConnections': string;
-    'mPipeInputConnections': string;
-    'mPipeOutputConnections': string;
+    'mStorageSizeX': number;
+    'mStorageSizeY': number;
+    'mCanUnloadAny': boolean;
+    'mIsFullUnload': boolean;
+    'mCanLoadAny': boolean;
+    'mIsFullLoad': boolean;
+    'mTimeToCompleteLoad': number;
+    'mTimeToSwapLoadVisibility': number;
+    'mTimeToCompleteUnload': number;
+    'mTimeToSwapUnloadVisibility': number;
+    'mWaitForConditionUpdatePeriod': number;
+    'mStorageInputConnections': number;
+    'mPipeInputConnections': number;
+    'mPipeOutputConnections': number;
     'mDockingRuleSet': string;
-    'mLoadItemFilter': string;
-    'mUnloadItemFilter': string;
-    'mHasFullyLoadUnloadRule': string;
-    'mDockForDuration': string;
-    'mMustDockForDuration': string;
-    'mCurrentDockForDuration': string;
-    'mHasAnyRelevantStacksToMove': string;
-    'mAllowDepartureNoValidItemsToTransfer': string;
-    'mShouldExecuteLoadOrUnload': string;
-    'mRanCompleteBeforeNone': string;
+    'mLoadItemFilter': number;
+    'mUnloadItemFilter': number;
+    'mHasFullyLoadUnloadRule': boolean;
+    'mDockForDuration': number;
+    'mMustDockForDuration': boolean;
+    'mCurrentDockForDuration': number;
+    'mHasAnyRelevantStacksToMove': boolean;
+    'mAllowDepartureNoValidItemsToTransfer': boolean;
+    'mShouldExecuteLoadOrUnload': boolean;
+    'mRanCompleteBeforeNone': boolean;
     'mSwapCargoVisibilityTimerHandle': string;
-    'mTimeSinceLastLoadTransferUpdate': string;
-    'mTimeSinceLastUnloadTransferUpdate': string;
-    'mSmoothedLoadRate': string;
-    'mSmoothedUnloadRate': string;
-    'mReplicatedOutflowRate': string;
-    'mReplicatedInflowRate': string;
+    'mTimeSinceLastLoadTransferUpdate': number;
+    'mTimeSinceLastUnloadTransferUpdate': number;
+    'mSmoothedLoadRate': number;
+    'mSmoothedUnloadRate': number;
+    'mReplicatedOutflowRate': number;
+    'mReplicatedInflowRate': number;
 }
 export interface FGBuildableTrainPlatformCargo_Parent {
     NativeClass: "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableTrainPlatformCargo'";
