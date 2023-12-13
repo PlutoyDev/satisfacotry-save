@@ -5,13 +5,10 @@ import { unzlib } from 'fflate';
 
 const UnrealArchiveMagic = 0x9e2a83c1;
 
-class SatisfactoryFileParser {
+class CppDataReader {
   currentOffset = 0;
   dataView: DataView | null = null;
   buffer: ArrayBuffer | null = null;
-  verbose: boolean = false;
-
-  constructor() {}
 
   // Primitives types
   readChar(incOffset = true) {
@@ -91,15 +88,6 @@ class SatisfactoryFileParser {
     return value;
   }
 
-  readDuration(incOffset = true) {
-    const totalSeconds = this.readInt32(incOffset);
-    return {
-      hours: Math.floor(totalSeconds / 3600),
-      minutes: Math.floor((totalSeconds % 3600) / 60),
-      seconds: totalSeconds % 60,
-    };
-  }
-
   // For debuging
   debug(length = 1, as: 'hex' | 'bin', incOffset = false) {
     if (!this.buffer) {
@@ -124,8 +112,18 @@ class SatisfactoryFileParser {
     }
     return value;
   }
+}
 
-  // Unreal Types
+class UnrealDataReader extends CppDataReader {
+  readDuration(incOffset = true) {
+    const totalSeconds = this.readInt32(incOffset);
+    return {
+      hours: Math.floor(totalSeconds / 3600),
+      minutes: Math.floor((totalSeconds % 3600) / 60),
+      seconds: totalSeconds % 60,
+    };
+  }
+
   readBool(incOffset = true) {
     const value = this.readInt32(incOffset);
     return value === 1;
@@ -190,6 +188,59 @@ class SatisfactoryFileParser {
   readFSoftObjectPath(incOffset = true) {
     const value = this.readFString(incOffset);
     return value;
+  }
+}
+
+interface SatisfactorySaveHeader {
+  saveHeaderVersion: number;
+  saveVersion: number;
+  buildVersion: number;
+  mapName: string;
+  mapOptions: string;
+  sessionName: string;
+  playDurationSeconds: {
+    hours: number;
+    minutes: number;
+    seconds: number;
+  };
+  saveDateTime: Date;
+  sessionVisibility: number;
+  editorObjectVersion: number;
+  modMetadata: string;
+  isModdedSave: boolean;
+  saveIdentifier: string;
+  isPartitionedWorld: boolean;
+  saveDataHash: string;
+  isCreativeModeEnabled: boolean;
+}
+
+class SatisfactorySaveBuilder {
+  header: SatisfactorySaveHeader | null = null;
+  uint8Array: Uint8Array | null = null;
+
+  constructor() {}
+
+  addHeader(header: SatisfactorySaveHeader) {
+    this.header = header;
+  }
+
+  addChunk(chunk: Uint8Array) {
+    if (!this.uint8Array) {
+      this.uint8Array = chunk;
+    } else {
+      this.uint8Array = new Uint8Array([...this.uint8Array, ...chunk]);
+    }
+  }
+}
+
+class SatisfactoryFileParser extends UnrealDataReader {
+  currentOffset = 0;
+  dataView: DataView | null = null;
+  buffer: ArrayBuffer | null = null;
+  verbose: boolean = false;
+
+  constructor() {
+    super();
   }
 
   parseSaveHeader() {
@@ -283,7 +334,7 @@ class SatisfactoryFileParser {
       });
     });
 
-    console.log('data', data);
+    console.log('after', this.currentOffset.toString(16), this.debug(4, 'hex'));
   }
 
   async *importFromFile(filename: string) {
