@@ -1,14 +1,14 @@
 /*
 Parsing of Satisfactory File
 */
-import { unzlib } from 'fflate';
+import { unzlibSync } from 'fflate';
 
 const UnrealArchiveMagic = 0x9e2a83c1;
 
 class CppDataReader {
   currentOffset = 0;
-  dataView: DataView | null = null;
-  buffer: ArrayBuffer | null = null;
+  dataView?: DataView;
+  buffer?: Uint8Array;
 
   // Primitives types
   readChar(incOffset = true) {
@@ -101,12 +101,12 @@ class CppDataReader {
       this.currentOffset += length;
     }
     if (as === 'hex') {
-      return [...new Uint8Array(value)]
+      return [...value]
         .map(value => value.toString(16).padStart(2, '0'))
         .join(' ');
     }
     if (as === 'bin') {
-      return [...new Uint8Array(value)]
+      return [...value]
         .map(value => value.toString(2).padStart(8, '0'))
         .join(' ');
     }
@@ -214,34 +214,8 @@ interface SatisfactorySaveHeader {
   isCreativeModeEnabled: boolean;
 }
 
-class SatisfactorySaveBuilder {
-  header: SatisfactorySaveHeader | null = null;
-  uint8Array: Uint8Array | null = null;
-
-  constructor() {}
-
-  addHeader(header: SatisfactorySaveHeader) {
-    this.header = header;
-  }
-
-  addChunk(chunk: Uint8Array) {
-    if (!this.uint8Array) {
-      this.uint8Array = chunk;
-    } else {
-      this.uint8Array = new Uint8Array([...this.uint8Array, ...chunk]);
-    }
-  }
-}
-
 class SatisfactoryFileParser extends UnrealDataReader {
-  currentOffset = 0;
-  dataView: DataView | null = null;
-  buffer: ArrayBuffer | null = null;
-  verbose: boolean = false;
-
-  constructor() {
-    super();
-  }
+  parsedHeader: SatisfactorySaveHeader | null = null;
 
   parseSaveHeader() {
     if (!this.dataView) {
@@ -283,7 +257,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     const saveDataHash = this.readFMD5Hash();
     const isCreativeModeEnabled = this.readBool();
 
-    return {
+    const header = {
       saveHeaderVersion,
       saveVersion,
       buildVersion,
@@ -301,9 +275,12 @@ class SatisfactoryFileParser extends UnrealDataReader {
       saveDataHash,
       isCreativeModeEnabled,
     };
+
+    this.parsedHeader = header;
+    return header;
   }
 
-  async inflateChunk() {
+  inflateChunk() {
     if (!this.dataView || !this.buffer) {
       throw new Error('Save file not imported');
     }
@@ -315,26 +292,56 @@ class SatisfactoryFileParser extends UnrealDataReader {
     if (version !== 0x22222222) {
       throw new Error('Invalid header');
     }
-    const maxChunkSize = this.readUInt64(); // 131072 or 0x20000 = 128kb
-    const cNum = this.readChar(); // 3 = zlib
-    const compressedSizeSum = this.readInt64();
-    const uncompressedSizeSum = this.readInt64();
+
+    this.currentOffset += 8 + 1 + 8 + 8;
     const compressedSize = Number(this.readInt64());
-    const uncompressedSize = this.readInt64();
-
-    const chunkBuffer = this.buffer.slice(
-      this.currentOffset,
-      this.currentOffset + compressedSize
+    const uncompressedSize = Number(this.readInt64());
+    const infaltedData = new Uint8Array(uncompressedSize);
+    unzlibSync(
+      this.buffer.slice(
+        this.currentOffset,
+        this.currentOffset + compressedSize
+      ),
+      { out: infaltedData }
     );
-    this.currentOffset += compressedSize;
-    const data = await new Promise(resolve => {
-      unzlib(new Uint8Array(chunkBuffer), (err, data) => {
-        if (err) throw err;
-        resolve(data);
-      });
-    });
 
-    console.log('after', this.currentOffset.toString(16), this.debug(4, 'hex'));
+    return {
+      size: uncompressedSize,
+      infaltedData,
+    };
+  }
+
+  inflateChunks() {
+    if (!this.buffer) {
+      throw new Error('Save file not imported');
+    }
+    let totalSize = 0;
+    const infaltedDatas: Uint8Array[] = [];
+    const offsets: number[] = [];
+    while (this.currentOffset < this.buffer.byteLength) {
+      const { size, infaltedData } = this.inflateChunk();
+      infaltedDatas.push(infaltedData);
+      totalSize += size;
+      offsets.push(size);
+    }
+
+    delete this.buffer;
+    delete this.dataView;
+
+    this.buffer = new Uint8Array(totalSize);
+    for (let i = 0; i < offsets.length; i++) {
+      const data = infaltedDatas[i];
+      const offset = i == 0 ? 0 : offsets[i - 1];
+      this.buffer.set(data, offset);
+    }
+
+    this.dataView = new DataView(this.buffer.buffer);
+    this.currentOffset = 0;
+  }
+
+  parseSaveBody() {
+    const length = this.readInt64();
+    // FWorldPartitionValidationData ValidationData
   }
 
   async *importFromFile(filename: string) {
@@ -342,7 +349,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     const { readFile } = await import('fs/promises');
     const { buffer } = await readFile(filename);
     yield { status: 'read', length: buffer.byteLength };
-    this.buffer = buffer;
+    this.buffer = new Uint8Array(buffer);
     this.dataView = new DataView(buffer);
   }
 
@@ -358,13 +365,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
       headers: headers,
     };
 
-    this.inflateChunk();
-
-    yield {
-      status: 'test',
-      next: this.debug(4, 'hex'),
-      at: this.currentOffset.toString(16),
-    };
+    this.inflateChunks();
   }
 }
 
