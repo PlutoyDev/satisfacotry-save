@@ -305,33 +305,38 @@ class SatisfactoryFileParser extends UnrealDataReader {
       { out: infaltedData }
     );
 
+    this.currentOffset += compressedSize;
+
     return {
       size: uncompressedSize,
       infaltedData,
     };
   }
 
-  inflateChunks() {
+  *inflateChunks() {
     if (!this.buffer) {
       throw new Error('Save file not imported');
     }
     let totalSize = 0;
+    let count = 0;
     const infaltedDatas: Uint8Array[] = [];
     const offsets: number[] = [];
     while (this.currentOffset < this.buffer.byteLength) {
+      yield { status: 'inflating', totalSize, count };
       const { size, infaltedData } = this.inflateChunk();
       infaltedDatas.push(infaltedData);
+      offsets.push(totalSize);
       totalSize += size;
-      offsets.push(size);
+      count += 1;
     }
 
     delete this.buffer;
     delete this.dataView;
 
     this.buffer = new Uint8Array(totalSize);
-    for (let i = 0; i < offsets.length; i++) {
+    for (let i = 0; i < count; i++) {
       const data = infaltedDatas[i];
-      const offset = i == 0 ? 0 : offsets[i - 1];
+      const offset = offsets[i];
       this.buffer.set(data, offset);
     }
 
