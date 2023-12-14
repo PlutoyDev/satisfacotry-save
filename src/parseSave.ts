@@ -134,7 +134,6 @@ class UnrealDataReader extends CppDataReader {
       throw new Error('Save file not imported');
     }
     const length = this.readUInt32(incOffset);
-    console.log('length', length);
     if (length === 0) {
       return '';
     }
@@ -188,6 +187,17 @@ class UnrealDataReader extends CppDataReader {
   readFSoftObjectPath(incOffset = true) {
     const value = this.readFString(incOffset);
     return value;
+  }
+
+  readTMap<T>(valueParser: (key: string) => T, incOffset = true) {
+    const length = this.readInt32(incOffset);
+    const map: Map<string, T> = new Map();
+    for (let i = 0; i < length; i++) {
+      const key = this.readFString(incOffset);
+      const value = valueParser(key);
+      map.set(key, value);
+    }
+    return map;
   }
 }
 
@@ -344,9 +354,100 @@ class SatisfactoryFileParser extends UnrealDataReader {
     this.currentOffset = 0;
   }
 
+  parseSatisfactoryObject() {
+    // res/headers/FGActorSaveHeaderTypes.h:7
+    const type = this.readInt32();
+    const className = this.readFString();
+    const reference = {
+      levelName: this.readFString(),
+      pathName: this.readFString(),
+    };
+    if (type === 0) {
+      // Object
+      // res/headers/FGActorSaveHeaderTypes.h:55
+      const outerPathName = this.readFString();
+      return { type, className, reference, outerPathName };
+    } else if (type === 1) {
+      //Actor
+      // res/headers/FGActorSaveHeaderTypes.h:90
+      const needTransform = this.readBool();
+      // Ordering are unconfirmed
+      const transform = {
+        rotation: {
+          x: this.readFloat(),
+          y: this.readFloat(),
+          z: this.readFloat(),
+          w: this.readFloat(),
+        },
+        translation: {
+          x: this.readFloat(),
+          y: this.readFloat(),
+          z: this.readFloat(),
+        },
+        scale: {
+          x: this.readFloat(),
+          y: this.readFloat(),
+          z: this.readFloat(),
+        },
+      };
+      const wasPlacedInLevel = this.readBool();
+      return { type, className, reference, needTransform, transform };
+    }
+  }
+
   parseSaveBody() {
-    const length = this.readInt64();
-    // FWorldPartitionValidationData ValidationData
+    const bodySize = this.readInt64();
+
+    /* 
+      The following validation grid is not usefull to us but its still parsed
+
+      res/headers/FGWorldSettings.h:158
+      FWorldPartitionValidationData SaveGameValidationData
+
+      res/headers/FWPSaveDataMigrationContext.h:68
+      FWorldPartitionValidationData { TMap<FName, FWPGridValidationData> Grids }
+
+      res/headers/FWPSaveDataMigrationContext.h:42
+      FWPGridValidationData { int32 cellSize, uint32 gridHash, TMap<FName, uint32> cellHash }
+    */
+    // const validationGrids = //Uncomment if need to store
+    this.readTMap(() => {
+      const cellSize = this.readInt32();
+      const gridHash = this.readUInt32();
+      const cellHash = this.readTMap(() => this.readUInt32());
+      return { cellSize, gridHash, cellHash };
+    });
+
+    /*
+      res/headers/FGSaveSession.h:471
+
+      Map with unique data for each level
+      TMap<FName, FPerStreamingLevelSaveData> mPerLevelDataMap
+
+      res/headers/FGSaveSession.h:50
+      FPerStreamingLevelSaveData = FPerBasicLevelSaveData = { 
+        TArray<uint8, TSizedDefaultAllocator<64>> TOCBlob64c (Table of Content)
+        TArray<uint8, TSizedDefaultAllocator<64>> DataBlob64
+      }
+    */
+    // const perLevelDataMap = this.readTMap(() => {
+
+    const mapSize = this.readInt32(); //Part of readTMap (but just read 1)
+    const firstKey = this.readFString(); //Part of readTMap (but just read 1)
+
+    const totalLength = this.readUInt64();
+
+    const objectCount = this.readInt32();
+    const objects: ReturnType<typeof this.parseSatisfactoryObject>[] = [];
+    for (let i = 0; i < objectCount; i++) {
+      objects.push(this.parseSatisfactoryObject());
+    }
+
+    // });
+
+    console.log(this.currentOffset.toString(16), this.debug(4, 'hex', false));
+
+    return { bodySize };
   }
 
   async *importFromFile(filename: string) {
@@ -359,7 +460,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
   }
 
   async *parseSave() {
-    if (!this.dataView) {
+    if (!this.dataView || !this.buffer) {
       throw new Error('Save file not imported');
     }
     this.currentOffset = 0;
@@ -370,7 +471,31 @@ class SatisfactoryFileParser extends UnrealDataReader {
       headers: headers,
     };
 
-    this.inflateChunks();
+    const inflateProgress = this.inflateChunks();
+
+    for (const progress of inflateProgress) {
+      yield {
+        status: 'inflating chunks',
+        progress,
+      };
+    }
+
+    yield {
+      status: 'inflated',
+      length: this.buffer.byteLength,
+    };
+
+    /* Comment this line (only) to output the inflated save file
+    const { writeFile } = await import('fs/promises');
+    await writeFile('binwalk/satisfactory_inflated.bin', this.buffer);
+    //*/
+
+    const body = this.parseSaveBody();
+
+    yield {
+      status: 'parsedBody',
+      body,
+    };
   }
 }
 
