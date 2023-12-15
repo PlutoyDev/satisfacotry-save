@@ -480,13 +480,19 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     //DataBlob64
     const dataLength = this.readUInt64();
+    const dataCount = this.readInt32();
     const from = this.currentOffset.toString(16);
-    this.currentOffset += Number(dataLength) + 4;
+    this.currentOffset += Number(dataLength);
     const to = this.currentOffset.toString(16);
 
     return {
       TOCBlob64c,
-      DataBlob64: { size: Number(dataLength), from, to },
+      DataBlob64: {
+        size: Number(dataLength),
+        count: dataCount,
+        from,
+        to,
+      },
     };
   }
 
@@ -534,7 +540,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     import('fs/promises').then(async ({ writeFile }) => {
       await writeFile(
         'satisfactory_perLevelDataMap.json',
-        JSON.stringify(perLevelDataMap, null, 2)
+        JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2)
       );
     });
     //*/
