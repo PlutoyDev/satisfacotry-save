@@ -235,6 +235,15 @@ class UnrealDataReader extends CppDataReader {
     }
     return map;
   }
+
+  readProperties(incOffset = true) {
+    const props = new Map<string, any>();
+    while (true) {
+      const name = this.readFString(incOffset);
+      if (name === 'none') return props;
+      const type = this.readFString(incOffset);
+    }
+  }
 }
 
 interface SatisfactorySaveHeader {
@@ -431,13 +440,30 @@ class SatisfactoryFileParser extends UnrealDataReader {
         },
       };
       const wasPlacedInLevel = this.readBool();
-      return {
+      const data = {
         type,
         className,
         reference,
         needTransform,
         transform,
         wasPlacedInLevel,
+      };
+      return data as typeof data & {
+        parent: {
+          levelName: string;
+          pathName: string;
+        };
+        children: {
+          levelName: string;
+          pathName: string;
+        }[];
+      };
+    } else {
+      console.warn('Unknown object type', type);
+      return {
+        type,
+        className,
+        reference,
       };
     }
   }
@@ -479,19 +505,44 @@ class SatisfactoryFileParser extends UnrealDataReader {
     };
 
     //DataBlob64
+    this.debugLog();
     const dataLength = this.readUInt64();
     const dataCount = this.readInt32();
-    const from = this.currentOffset.toString(16);
-    this.currentOffset += Number(dataLength);
-    const to = this.currentOffset.toString(16);
+    const endOffset = this.currentOffset + Number(dataLength);
+
+    console.log({ dataLength, dataCount });
+
+    if (dataCount !== objectCount) {
+      console.warn("Warning: Data count doesn't match object count", {
+        dataCount,
+        objectCount,
+      });
+    }
+
+    for (let i = 0; i < dataCount; i++) {
+      const obj = objects[i];
+      const size = this.readInt32();
+      // if (obj.type == 1 && 'needTransform' in obj) {
+      //   // To make typescript happy but this is just to check if its actor
+      //   // Actor
+      //   obj.parent = this.parseObjectReference();
+      //   const childrenCount = this.readInt32();
+      //   obj.children = [];
+      //   for (let i = 0; i < childrenCount; i++) {
+      //     obj.children.push(this.parseObjectReference());
+      //   }
+      // }
+
+      // Read Properties
+      // const propperties = new Map<string, unknown>();
+    }
+    this.currentOffset = endOffset;
 
     return {
       TOCBlob64c,
       DataBlob64: {
         size: Number(dataLength),
         count: dataCount,
-        from,
-        to,
       },
     };
   }
