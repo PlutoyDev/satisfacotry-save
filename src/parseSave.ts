@@ -1,7 +1,7 @@
 /*
 Parsing of Satisfactory File
 */
-import { unzlibSync } from 'fflate';
+import { unzlibSync } from "fflate";
 
 const UnrealArchiveMagic = 0x9e2a83c1;
 
@@ -13,7 +13,7 @@ class CppDataReader {
   // Primitives types
   readChar(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getInt8(this.currentOffset);
     if (incOffset) {
@@ -24,7 +24,7 @@ class CppDataReader {
 
   readDouble(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getFloat64(this.currentOffset, true);
     if (incOffset) {
@@ -35,7 +35,7 @@ class CppDataReader {
 
   readFloat(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getFloat32(this.currentOffset, true);
     if (incOffset) {
@@ -46,7 +46,7 @@ class CppDataReader {
 
   readUInt32(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getUint32(this.currentOffset, true);
     if (incOffset) {
@@ -57,7 +57,7 @@ class CppDataReader {
 
   readInt32(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getInt32(this.currentOffset, true);
     if (incOffset) {
@@ -68,7 +68,7 @@ class CppDataReader {
 
   readUInt64(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getBigUint64(this.currentOffset, true);
     if (incOffset) {
@@ -79,7 +79,7 @@ class CppDataReader {
 
   readInt64(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const value = this.dataView.getBigInt64(this.currentOffset, true);
     if (incOffset) {
@@ -89,45 +89,32 @@ class CppDataReader {
   }
 
   // For debuging
-  debug(length = 1, as: 'hex' | 'bin', incOffset = false) {
+  debug(length = 1, as: "hex" | "bin", incOffset = false) {
     if (!this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
-    const value = this.buffer.slice(
-      this.currentOffset,
-      this.currentOffset + length
-    );
+    const value = this.buffer.slice(this.currentOffset, this.currentOffset + length);
     if (incOffset) {
       this.currentOffset += length;
     }
-    if (as === 'hex') {
-      return [...value]
-        .map(value => value.toString(16).padStart(2, '0'))
-        .join(' ');
+    if (as === "hex") {
+      return [...value].map((value) => value.toString(16).padStart(2, "0")).join(" ");
     }
-    if (as === 'bin') {
-      return [...value]
-        .map(value => value.toString(2).padStart(8, '0'))
-        .join(' ');
+    if (as === "bin") {
+      return [...value].map((value) => value.toString(2).padStart(8, "0")).join(" ");
     }
     return value;
   }
 
   debugLog(length = 4) {
     if (!this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const atHex = this.currentOffset.toString(16);
     const atDec = this.currentOffset.toString(10);
-    const valueArr = Array.from(
-      this.buffer.slice(this.currentOffset, this.currentOffset + length)
-    );
-    const hexValue = valueArr
-      .map(value => value.toString(16).padStart(2, '0'))
-      .join(' ');
-    const decValue = valueArr
-      .map(value => value.toString(10).padStart(3, '0'))
-      .join(' ');
+    const valueArr = Array.from(this.buffer.slice(this.currentOffset, this.currentOffset + length));
+    const hexValue = valueArr.map((value) => value.toString(16).padStart(2, "0")).join(" ");
+    const decValue = valueArr.map((value) => value.toString(10).padStart(3, "0")).join(" ");
     console.table({
       hex: { at: atHex, value: hexValue },
       dec: { at: atDec, value: decValue },
@@ -152,15 +139,13 @@ class UnrealDataReader extends CppDataReader {
 
   readFString(incOffset = true) {
     if (!this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const length = this.readUInt32(incOffset);
     if (length === 0) {
-      return '';
+      return "";
     }
-    const value = new TextDecoder().decode(
-      this.buffer.slice(this.currentOffset, this.currentOffset + length)
-    );
+    const value = new TextDecoder().decode(this.buffer.slice(this.currentOffset, this.currentOffset + length));
     if (incOffset) {
       this.currentOffset += length;
     }
@@ -177,7 +162,7 @@ class UnrealDataReader extends CppDataReader {
 
   readFMD5Hash(incOffset = true) {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
 
     const isValid = this.readBool(incOffset);
@@ -187,7 +172,7 @@ class UnrealDataReader extends CppDataReader {
     if (incOffset) {
       this.currentOffset += 16;
     }
-    return (v2 * 2n ** 64n + v1).toString(16).padStart(32, '0');
+    return (v2 * 2n ** 64n + v1).toString(16).padStart(32, "0");
   }
 
   readFText(incOffset = true) {
@@ -223,11 +208,7 @@ class UnrealDataReader extends CppDataReader {
     return map;
   }
 
-  readTMap<V>(
-    valueParser: (key: string, index: number) => V,
-    limit: number | undefined = undefined,
-    incOffset = true
-  ) {
+  readTMap<V>(valueParser: (key: string, index: number) => V, limit: number | undefined = undefined, incOffset = true) {
     const length = this.readInt32(incOffset);
     const map: Map<string, V> = new Map();
     for (let i = 0; i < Math.min(length, limit ?? length); i++) {
@@ -242,7 +223,7 @@ class UnrealDataReader extends CppDataReader {
     const props = new Map<string, any>();
     while (true) {
       const name = this.readFString(incOffset);
-      if (name === 'none') return props;
+      if (name === "none") return props;
       const type = this.readFString(incOffset);
     }
   }
@@ -276,7 +257,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
   parseSaveHeader() {
     if (!this.dataView) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     // Retrieve from C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\CommunityResources\Headers\FGSaveManagerInterface.h#L45
     // int32    SaveHeaderVersion
@@ -338,28 +319,22 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
   inflateChunk() {
     if (!this.dataView || !this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     const magicNumber = this.readUInt32();
     if (magicNumber !== UnrealArchiveMagic) {
-      throw new Error('Invalid magic number');
+      throw new Error("Invalid magic number");
     }
     const version = this.readUInt32();
     if (version !== 0x22222222) {
-      throw new Error('Invalid header');
+      throw new Error("Invalid header");
     }
 
     this.currentOffset += 8 + 1 + 8 + 8;
     const compressedSize = Number(this.readInt64());
     const uncompressedSize = Number(this.readInt64());
     const infaltedData = new Uint8Array(uncompressedSize);
-    unzlibSync(
-      this.buffer.slice(
-        this.currentOffset,
-        this.currentOffset + compressedSize
-      ),
-      { out: infaltedData }
-    );
+    unzlibSync(this.buffer.slice(this.currentOffset, this.currentOffset + compressedSize), { out: infaltedData });
 
     this.currentOffset += compressedSize;
 
@@ -371,14 +346,14 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
   *inflateChunks() {
     if (!this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     let totalSize = 0;
     let count = 0;
     const infaltedDatas: Uint8Array[] = [];
     const offsets: number[] = [];
     while (this.currentOffset < this.buffer.byteLength) {
-      yield { status: 'inflating', totalSize, count };
+      yield { status: "inflating", totalSize, count };
       const { size, infaltedData } = this.inflateChunk();
       infaltedDatas.push(infaltedData);
       offsets.push(totalSize);
@@ -460,7 +435,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
         }[];
       };
     } else {
-      console.warn('Unknown object type', type);
+      console.warn("Unknown object type", type);
       return {
         type,
         className,
@@ -471,7 +446,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
   parsePerStreamingLevelSaveData() {
     if (!this.dataView || !this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     /*
       FPerStreamingLevelSaveData = FPerBasicLevelSaveData = { 
@@ -510,16 +485,13 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     //DataBlob64
     // - Object Data
-    const objectDataLength = this.readUInt64();
-    const objectDataCount = this.readInt32();
-    const objectDataEndOffset =
-      this.currentOffset + Number(objectDataLength) - 4; // Length not include the last int32
-    const objectData = this.buffer.slice(
-      this.currentOffset,
-      objectDataEndOffset
-    );
+    const objectDataSize = this.readUInt64();
+    const objectDataEndOffset = this.currentOffset + Number(objectDataSize);
+    const objectData = this.buffer.slice(this.currentOffset, objectDataEndOffset);
     const objectDataFrom = this.currentOffset.toString(16);
     const objectDataTo = objectDataEndOffset.toString(16);
+
+    const objectDataCount = this.readInt32();
 
     if (objectDataCount !== objectCount) {
       console.warn("Warning: Data count doesn't match object count", {
@@ -545,7 +517,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
       // Read Properties
       // const propperties = new Map<string, unknown>();
     }
-    this.currentOffset = objectDataEndOffset;
+    this.currentOffset = objectDataEndOffset; //Jump to end of object data to continue parsing
 
     // - Destroyed Actor Data
     const destroyedActorDataCount = this.readInt32();
@@ -567,9 +539,9 @@ class SatisfactoryFileParser extends UnrealDataReader {
       TOCBlob64c,
       DataBlob64: {
         objects: {
-          size: Number(objectDataLength),
+          size: Number(objectDataSize),
           count: objectDataCount,
-          dataBase64: Buffer.from(objectData).toString('base64'), //For using with ChatGPT
+          dataBase64: Buffer.from(objectData).toString("base64"), //For using with ChatGPT
           from: objectDataFrom,
           to: objectDataTo,
         },
@@ -623,10 +595,10 @@ class SatisfactoryFileParser extends UnrealDataReader {
     }, 11);
 
     // /* Uncomment if need to store
-    import('fs/promises').then(async ({ writeFile }) => {
+    import("fs/promises").then(async ({ writeFile }) => {
       await writeFile(
-        'satisfactory_perLevelDataMap.json',
-        JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2)
+        "satisfactory_perLevelDataMap.json",
+        JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2),
       );
     });
     //*/
@@ -635,23 +607,23 @@ class SatisfactoryFileParser extends UnrealDataReader {
   }
 
   async *importFromFile(filename: string) {
-    yield { status: 'importing' };
-    const { readFile } = await import('fs/promises');
+    yield { status: "importing" };
+    const { readFile } = await import("fs/promises");
     const { buffer } = await readFile(filename);
-    yield { status: 'read', length: buffer.byteLength };
+    yield { status: "read", length: buffer.byteLength };
     this.buffer = new Uint8Array(buffer);
     this.dataView = new DataView(buffer);
   }
 
   async *parseSave() {
     if (!this.dataView || !this.buffer) {
-      throw new Error('Save file not imported');
+      throw new Error("Save file not imported");
     }
     this.currentOffset = 0;
     const headers = this.parseSaveHeader();
 
     yield {
-      status: 'parsedHeader',
+      status: "parsedHeader",
       headers: headers,
     };
 
@@ -659,13 +631,13 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     for (const progress of inflateProgress) {
       yield {
-        status: 'inflating chunks',
+        status: "inflating chunks",
         progress,
       };
     }
 
     yield {
-      status: 'inflated',
+      status: "inflated",
       length: this.buffer.byteLength,
     };
 
@@ -677,14 +649,14 @@ class SatisfactoryFileParser extends UnrealDataReader {
     const body = this.parseSaveBody();
 
     yield {
-      status: 'parsedBody',
+      status: "parsedBody",
       body,
     };
   }
 }
 
 const parser = new SatisfactoryFileParser();
-let statuses = parser.importFromFile('save_files/satisfactory.sav');
-for await (const status of statuses) console.log('Importing: ', status);
+let statuses = parser.importFromFile("save_files/satisfactory.sav");
+for await (const status of statuses) console.log("Importing: ", status);
 statuses = parser.parseSave();
-for await (const status of statuses) console.log('Parsing: ', status);
+for await (const status of statuses) console.log("Parsing: ", status);
