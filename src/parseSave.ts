@@ -469,6 +469,9 @@ class SatisfactoryFileParser extends UnrealDataReader {
   }
 
   parsePerStreamingLevelSaveData() {
+    if (!this.dataView || !this.buffer) {
+      throw new Error('Save file not imported');
+    }
     /*
       FPerStreamingLevelSaveData = FPerBasicLevelSaveData = { 
         TArray<uint8, TSizedDefaultAllocator<64>> TOCBlob64c (Table of Content)
@@ -505,21 +508,26 @@ class SatisfactoryFileParser extends UnrealDataReader {
     };
 
     //DataBlob64
-    this.debugLog();
-    const dataLength = this.readUInt64();
-    const dataCount = this.readInt32();
-    const endOffset = this.currentOffset + Number(dataLength);
+    // - Object Data
+    const objectDataLength = this.readUInt64();
+    const objectDataCount = this.readInt32();
+    const objectDataEndOffset =
+      this.currentOffset + Number(objectDataLength) - 4; // Length not include the last int32
+    const objectData = this.buffer.slice(
+      this.currentOffset,
+      objectDataEndOffset
+    );
+    const objectDataFrom = this.currentOffset.toString(16);
+    const objectDataTo = objectDataEndOffset.toString(16);
 
-    console.log({ dataLength, dataCount });
-
-    if (dataCount !== objectCount) {
+    if (objectDataCount !== objectCount) {
       console.warn("Warning: Data count doesn't match object count", {
-        dataCount,
+        objectDataCount,
         objectCount,
       });
     }
 
-    for (let i = 0; i < dataCount; i++) {
+    for (let i = 0; i < objectDataCount; i++) {
       const obj = objects[i];
       const size = this.readInt32();
       // if (obj.type == 1 && 'needTransform' in obj) {
@@ -536,13 +544,39 @@ class SatisfactoryFileParser extends UnrealDataReader {
       // Read Properties
       // const propperties = new Map<string, unknown>();
     }
-    this.currentOffset = endOffset;
+    this.currentOffset = objectDataEndOffset;
+
+    // - Destroyed Actor Data
+    const destroyedActorDataCount = this.readInt32();
+
+    if (destroyedActorDataCount !== destroyedActorCount) {
+      console.warn("Warning: Data count doesn't match destroyed actor count", {
+        destroyedActorDataCount,
+        destroyedActorCount,
+      });
+    }
+
+    for (let i = 0; i < destroyedActorDataCount; i++) {
+      const ref = this.parseObjectReference();
+    }
+
+    this.debugLog();
 
     return {
       TOCBlob64c,
       DataBlob64: {
-        size: Number(dataLength),
-        count: dataCount,
+        objects: {
+          size: Number(objectDataLength),
+          count: objectDataCount,
+          dataBase64: Buffer.from(objectData).toString('base64'), //For using with ChatGPT
+          from: objectDataFrom,
+          to: objectDataTo,
+        },
+        // size: Number(objectDataLength),
+        // count: objectDataCount,
+        // dataBase64: Buffer.from(objectData).toString('base64'), //For using with ChatGPT
+        // from: objectDataFrom,
+        // to: objectDataTo,
       },
     };
   }
@@ -585,9 +619,9 @@ class SatisfactoryFileParser extends UnrealDataReader {
     const perLevelDataMap = this.readTMap(() => {
       const data = this.parsePerStreamingLevelSaveData();
       return data;
-    }, 10);
+    }, 11);
 
-    /* Uncomment if need to store
+    // /* Uncomment if need to store
     import('fs/promises').then(async ({ writeFile }) => {
       await writeFile(
         'satisfactory_perLevelDataMap.json',
