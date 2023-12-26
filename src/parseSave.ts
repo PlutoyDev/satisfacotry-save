@@ -169,10 +169,9 @@ class UnrealDataReader extends CppDataReader {
 
     const v1 = this.readUInt64(incOffset);
     const v2 = this.readUInt64(incOffset);
-    if (incOffset) {
-      this.currentOffset += 16;
-    }
-    return (v2 * 2n ** 64n + v1).toString(16).padStart(32, "0");
+
+    const hash = (v2 * 2n ** 64n + v1).toString(16).padStart(32, "0");
+    return { isValid, hash };
   }
 
   readFText(incOffset = true) {
@@ -248,7 +247,10 @@ interface SatisfactorySaveHeader {
   isModdedSave: boolean;
   saveIdentifier: string;
   isPartitionedWorld: boolean;
-  saveDataHash: string;
+  saveDataHash: {
+    isValid: boolean;
+    hash: string;
+  };
   isCreativeModeEnabled: boolean;
 }
 
