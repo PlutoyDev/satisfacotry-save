@@ -180,8 +180,10 @@ class UnrealDataReader extends CppDataReader {
       throw new Error('Save file not imported');
     }
 
-    const v1 = this.dataView.getBigUint64(this.currentOffset, true);
-    const v2 = this.dataView.getBigUint64(this.currentOffset + 8, true);
+    const isValid = this.readBool(incOffset);
+
+    const v1 = this.readUInt64(incOffset);
+    const v2 = this.readUInt64(incOffset);
     if (incOffset) {
       this.currentOffset += 16;
     }
@@ -308,7 +310,6 @@ class SatisfactoryFileParser extends UnrealDataReader {
     const isModdedSave = this.readBool();
     const saveIdentifier = this.readFString();
     const isPartitionedWorld = this.readBool();
-    this.readBool(); //Unknown Boolean
     const saveDataHash = this.readFMD5Hash();
     const isCreativeModeEnabled = this.readBool();
 
