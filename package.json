@@ -20,6 +20,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@types/luxon": "^3.3.7"
+    "@types/luxon": "^3.3.7",
+    "prettier": "^3.1.1"
   }
 }
