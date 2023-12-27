@@ -183,6 +183,13 @@ class UnrealDataReader extends CppDataReader {
     return { flags, historyType, historyCount, string, namespace };
   }
 
+  readObjectReference() {
+    // res/headers/FGObjectReferencer.h:23
+    const levelName = this.readFString();
+    const pathName = this.readFString();
+    return { levelName, pathName };
+  }
+
   readFDateTime(incOffset = true) {
     // 100 nanoseconds since 1/1/0001
     const ticks = this.readInt64(incOffset);
@@ -215,18 +222,36 @@ class UnrealDataReader extends CppDataReader {
     return map;
   }
 
-  readPropertyTag(incOffset = true) {
+  readSimpleProperty = {
+    ByteProperty: () => this.readChar(),
+    Int8Property: () => this.readChar(),
+    IntProperty: () => this.readInt32(),
+    Int64Property: () => this.readInt64(),
+    UInt32Property: () => this.readUInt32(),
+    EnumProperty: () => this.readFString(),
+    FloatProperty: () => this.readFloat(),
+    DoubleProperty: () => this.readDouble(),
+    StrProperty: () => this.readFString(),
+    NameProperty: () => this.readFString(),
+    ObjectProperty: () => this.readObjectReference(),
+    InterfaceProperty: () => this.readObjectReference(),
+    TextProperty: () => this.readFText(),
+  };
+
+  readProperty(nested?: { type: string; parentType: string }, incOffset = true) {
+    // return key value pair [tag, value]
+
     // Translated from Unreal Source Code
     // https://github.com/EpicGames/UnrealEngine/blob/5.2.0-release/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTag.h
     interface PropertyTag {
-      type?: string; // Type of property
+      name?: string; // Name/Key of property
+      type: string; // Type of property
+      size?: number; // Property size (default is 0)
       boolValue?: boolean; // a boolean property's value (default is false)
-      name?: string; // Name of property
       structName?: string; // Struct name if FStructProperty.
       enumName?: string; // Enum name if FByteProperty or FEnumProperty
       innerType?: string; // Inner type if FArrayProperty, FSetProperty, or FMapProperty
       valueType?: string; // Value type if UMapPropery
-      size?: number; // Property size (default is 0)
       arrayIndex?: number; // Index if an array (default is 0)
       sizeOffset?: number; // location in stream of tag size member ?? (default is 0)
       structGuid?: ReturnType<typeof UnrealDataReader.prototype.readFGuid>;
@@ -234,18 +259,25 @@ class UnrealDataReader extends CppDataReader {
       propertyGuid?: ReturnType<typeof UnrealDataReader.prototype.readFGuid>;
     }
 
-    const tag: PropertyTag = {
-      type: this.readFString(incOffset),
-      size: this.readInt32(incOffset),
-    };
+    const tag: PropertyTag = nested
+      ? {
+          type: nested.type,
+        }
+      : {
+          name: this.readFString(incOffset),
+          type: this.readFString(incOffset),
+          size: this.readInt32(incOffset),
+        };
 
-    if (tag.type === "None") {
-      return tag;
+    if (tag.type === "None" || tag.name === "None") {
+      return null;
     }
 
-    // Translated from Unreal Source Code
+    // Translated and adapted from Unreal Source Code
     // https://github.com/EpicGames/UnrealEngine/blob/407acc04a93f09ecb42c07c98b74fd00cc967100/Engine/Source/Runtime/CoreUObject/Private/UObject/PropertyTag.cpp#L16
-    tag.arrayIndex = this.readInt32(incOffset);
+    if (!nested) {
+      tag.arrayIndex = this.readInt32(incOffset);
+    }
     if (tag.type === "StructProperty") {
       tag.structName = this.readFString(incOffset);
       tag.structGuid = this.readFGuid(incOffset);
@@ -258,19 +290,78 @@ class UnrealDataReader extends CppDataReader {
     } else if (tag.type === "MapProperty") {
       tag.innerType = this.readFString(incOffset);
       tag.valueType = this.readFString(incOffset);
-    } else {
-      throw new Error("Unknown property type " + tag.type);
     }
-    tag.hasPropertyGuid = this.readBool(incOffset);
-    if (tag.hasPropertyGuid) {
-      tag.propertyGuid = this.readFGuid(incOffset);
+    if (!nested) {
+      tag.hasPropertyGuid = this.readBool(incOffset);
+      if (tag.hasPropertyGuid) {
+        tag.propertyGuid = this.readFGuid(incOffset);
+      }
     }
-  }
 
-  readProperty(incOffset = true) {
-    const key = this.readFString(incOffset);
-    const tag = this.readPropertyTag(incOffset);
+    /* 
+      Possible Type:
+        BoolProperty
+        ByteProperty
+        Int8Property
+        IntProperty
+        Int64Property
+        UInt32Property
+        EnumProperty
+        FloatProperty
+        DoubleProperty
+        StrProperty
+        NameProperty
+        StructProperty
+        ObjectProperty
+        InterfaceProperty
+        ArrayProperty
+        SetProperty
+        MapProperty
+        TextProperty
+      Generated using: strings outputs/inflated.bin -n 4 | grep -xe "\w*Property" | sort | uniq > outputs/propertyTypes.txt
+    */
 
+    if (tag.type === "BoolProperty") {
+      return nested ? tag.boolValue : [tag, tag.boolValue];
+    } else if (Object.keys(this.readSimpleProperty).includes(tag.type)) {
+      const value = this.readSimpleProperty[tag.type as keyof typeof this.readSimpleProperty]();
+      return nested ? value : [tag, value];
+    }
+    // Nested types
+    else if (tag.type === "ArrayProperty") {
+      const count = this.readInt32(incOffset);
+      const values: unknown[] = [];
+      for (let i = 0; i < count; i++) {
+        values.push(this.readProperty({ type: tag.innerType!, parentType: tag.type }, incOffset));
+      }
+      return nested ? values : [tag, values];
+    }
+    // Old code
+    // } else if (['ByteProperty', 'Int8Property'].includes(tag.type)) {
+    //   const value = this.readChar(incOffset);
+    //   return nested ? value : [tag, value];
+    // } else if (tag.type === "IntProperty") {
+    //   const value = this.readInt32(incOffset);
+    //   return nested ? value : [tag, value];
+    // } else if (tag.type === "Int64Property") {
+    //   const value = this.readInt64(incOffset);
+    //   return nested ? value : [tag, value];
+    // } else if (tag.type === "UInt32Property") {
+    //   const value = this.readUInt32(incOffset);
+    //   return nested ? value : [tag, value];
+    // } else if (tag.type === "EnumProperty") {
+    //   const value = this.readFString(incOffset);
+    //   return nested ? value : [tag, value];
+    // } else if (tag.type === "FloatProperty") {
+    //   const value = this.readFloat(incOffset);
+    //   return nested ? value : [tag, value];
+    // } else if (tag.type === "DoubleProperty") {
+    //   const value = this.readDouble(incOffset);
+    //   return nested ? value : [tag, value];
+    // }
+
+    // Header
+    // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h#L219
     // Parse Properties
     // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Private/UObject/Property.cpp#L769
   }
@@ -434,18 +525,11 @@ class SatisfactoryFileParser extends UnrealDataReader {
     this.currentOffset = 0;
   }
 
-  parseObjectReference() {
-    // res/headers/FGObjectReferencer.h:23
-    const levelName = this.readFString();
-    const pathName = this.readFString();
-    return { levelName, pathName };
-  }
-
   parseObjectToc() {
     // res/headers/FGActorSaveHeaderTypes.h:7
     const type = this.readInt32();
     const className = this.readFString();
-    const reference = this.parseObjectReference();
+    const reference = this.readObjectReference();
     if (type === 0) {
       // Object
       // res/headers/FGActorSaveHeaderTypes.h:55
@@ -534,7 +618,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     const TOCBlob64c: {
       objects: typeof objects;
-      destroyedActors?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["parseObjectReference"]>[];
+      destroyedActors?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["readObjectReference"]>[];
     } = {
       objects,
     };
@@ -543,10 +627,10 @@ class SatisfactoryFileParser extends UnrealDataReader {
       //There is destroyed actors and we need to parse them
 
       const destroyedActorCount = this.readInt32();
-      const destroyedActors: ReturnType<typeof this.parseObjectReference>[] = [];
+      const destroyedActors: ReturnType<typeof this.readObjectReference>[] = [];
 
       for (let i = 0; i < destroyedActorCount; i++) {
-        destroyedActors.push(this.parseObjectReference());
+        destroyedActors.push(this.readObjectReference());
       }
       TOCBlob64c.destroyedActors = destroyedActors;
     }
@@ -630,7 +714,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
       }
 
       for (let i = 0; i < destroyedActorDataCount; i++) {
-        this.parseObjectReference();
+        this.readObjectReference();
         // Not sure what to do with this
       }
     }
