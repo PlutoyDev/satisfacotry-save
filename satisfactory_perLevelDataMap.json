@@ -1,119 +1,176 @@
 {
-  "Persistent_Level_LandscapeGrid_L7_X-1_Y-1": {
+  "Persistent_Level_LandscapeGrid_L7_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L6_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L6_X0_Y-1": null,
+  "Persistent_Level_LandscapeGrid_L6_X-1_Y-1": null,
+  "Persistent_Level_LandscapeGrid_L6_X0_Y-1": null,
+  "Persistent_Level_MainGrid_L5_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L5_X0_Y-1": null,
+  "Persistent_Level_ExplorationGrid_L5_X0_Y-1": null,
+  "Persistent_Level_MainGrid_L4_X-1_Y-1": null,
+  "Persistent_Level_ExplorationGrid_L4_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L4_X0_Y-1": null,
+  "Persistent_Level_ExplorationGrid_L4_X0_Y-1": null,
+  "Persistent_Level_LandscapeGrid_L4_X0_Y-1": null,
+  "Persistent_Level_MainGrid_L3_X-1_Y-2": null,
+  "Persistent_Level_ExplorationGrid_L3_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L3_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L3_X0_Y-2": null,
+  "Persistent_Level_LandscapeGrid_L3_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L3_X0_Y-1": null,
+  "Persistent_Level_ExplorationGrid_L3_X0_Y-1": null,
+  "Persistent_Level_ExplorationGrid_L3_X-1_Y-2": null,
+  "Persistent_Level_ExplorationGrid_L3_X0_Y-2": null,
+  "Persistent_Level_LandscapeGrid_L3_X0_Y-1": null,
+  "Persistent_Level_MainGrid_L2_X-1_Y-3": null,
+  "Persistent_Level_ExplorationGrid_L2_X-1_Y-2": null,
+  "Persistent_Level_MainGrid_L2_X-1_Y-2": null,
+  "Persistent_Level_MainGrid_L2_X0_Y-3": null,
+  "Persistent_Level_LandscapeGrid_L2_X-1_Y-1": null,
+  "Persistent_Level_ExplorationGrid_L2_X0_Y-2": null,
+  "Persistent_Level_MainGrid_L2_X0_Y-2": null,
+  "Persistent_Level_ExplorationGrid_L2_X-1_Y-3": null,
+  "Persistent_Level_ExplorationGrid_L2_X0_Y-3": null,
+  "Persistent_Level_LandscapeGrid_L2_X0_Y-2": null,
+  "Persistent_Level_MainGrid_L1_X-1_Y-5": null,
+  "Persistent_Level_ExplorationGrid_L1_X-1_Y-4": null,
+  "Persistent_Level_MainGrid_L1_X-1_Y-6": null,
+  "Persistent_Level_MainGrid_L1_X-2_Y-5": null,
+  "Persistent_Level_ExplorationGrid_L1_X-2_Y-3": null,
+  "Persistent_Level_MainGrid_L1_X0_Y-5": null,
+  "Persistent_Level_MainGrid_L1_X0_Y-6": null,
+  "Persistent_Level_MainGrid_L1_X-2_Y-6": null,
+  "Persistent_Level_LandscapeGrid_L1_X-1_Y-1": null,
+  "Persistent_Level_MainGrid_L1_X-1_Y-4": null,
+  "Persistent_Level_ExplorationGrid_L1_X-2_Y-4": null,
+  "Persistent_Level_ExplorationGrid_L1_X0_Y-3": null,
+  "Persistent_Level_MainGrid_L1_X0_Y-4": null,
+  "Persistent_Level_ExplorationGrid_L1_X-1_Y-5": null,
+  "Persistent_Level_LandscapeGrid_L1_X0_Y-2": null,
+  "Persistent_Level_ExplorationGrid_L1_X0_Y-5": null,
+  "Persistent_Level_MainGrid_L0_X-1_Y-10": null,
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-10": null,
+  "Persistent_Level_ExplorationGrid_L0_X-1_Y-7": null,
+  "Persistent_Level_ExplorationGrid_L0_X-1_Y-6": null,
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-11": null,
+  "Persistent_Level_MainGrid_L0_X-1_Y-11": null,
+  "Persistent_Level_MainGrid_L0_X-2_Y-10": null,
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-10": null,
+  "Persistent_Level_LandscapeGrid_L0_X-1_Y-3": null,
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-10": null,
+  "Persistent_Level_MainGrid_L0_X-3_Y-10": null,
+  "Persistent_Level_ExplorationGrid_L0_X-2_Y-6": null,
+  "Persistent_Level_MainGrid_L0_X-2_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X0_Y-10": null,
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X0_Y-11": null,
+  "Persistent_Level_MainGrid_L0_X0_Y-11": null,
+  "Persistent_Level_ExplorationGrid_L0_X-2_Y-7": null,
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-11": null,
+  "Persistent_Level_MainGrid_L0_X-2_Y-11": null,
+  "Persistent_Level_FoliageGrid_L0_X-4_Y-10": null,
+  "Persistent_Level_MainGrid_L0_X-1_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X-4_Y-9": null,
+  "Persistent_Level_ExplorationGrid_L0_X0_Y-7": null,
+  "Persistent_Level_ExplorationGrid_L0_X-3_Y-6": null,
+  "Persistent_Level_ExplorationGrid_L0_X0_Y-6": null,
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-11": null,
+  "Persistent_Level_MainGrid_L0_X-3_Y-11": null,
+  "Persistent_Level_FoliageGrid_L0_X-4_Y-8": null,
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-12": null,
+  "Persistent_Level_MainGrid_L0_X-1_Y-12": null,
+  "Persistent_Level_FoliageGrid_L0_X0_Y-9": null,
+  "Persistent_Level_LandscapeGrid_L0_X-1_Y-2": null,
+  "Persistent_Level_LandscapeGrid_L0_X-2_Y-3": null,
+  "Persistent_Level_ExplorationGrid_L0_X-2_Y-5": null,
+  "Persistent_Level_FoliageGrid_L0_X-5_Y-10": null,
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-8": null,
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-12": null,
+  "Persistent_Level_MainGrid_L0_X-2_Y-12": null,
+  "Persistent_Level_FoliageGrid_L0_X0_Y-12": null,
+  "Persistent_Level_MainGrid_L0_X0_Y-12": null,
+  "Persistent_Level_MainGrid_L0_X1_Y-10": null,
+  "Persistent_Level_FoliageGrid_L0_X1_Y-10": null,
+  "Persistent_Level_FoliageGrid_L0_X1_Y-11": null,
+  "Persistent_Level_MainGrid_L0_X1_Y-11": null,
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-8": null,
+  "Persistent_Level_ExplorationGrid_L0_X-1_Y-8": null,
+  "Persistent_Level_LandscapeGrid_L0_X-2_Y-2": null,
+  "Persistent_Level_ExplorationGrid_L0_X-3_Y-7": null,
+  "Persistent_Level_ExplorationGrid_L0_X-1_Y-5": null,
+  "Persistent_Level_MainGrid_L0_X-1_Y-8": null,
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-8": null,
+  "Persistent_Level_FoliageGrid_L0_X-4_Y-11": null,
+  "Persistent_Level_LandscapeGrid_L0_X0_Y-3": null,
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-12": null,
+  "Persistent_Level_MainGrid_L0_X1_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X1_Y-9": null,
+  "Persistent_Level_FoliageGrid_L0_X1_Y-12": null,
+  "Persistent_Level_ExplorationGrid_L0_X0_Y-8": null,
+  "Persistent_Level_MainGrid_L0_X1_Y-12": null,
+  "Persistent_Level_ExplorationGrid_L0_X-2_Y-8": null,
+  "Persistent_Level_MainGrid_L0_X0_Y-8": null,
+  "Persistent_Level_FoliageGrid_L0_X0_Y-8": null,
+  "Persistent_Level_FoliageGrid_L0_X-5_Y-11": null,
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-7": null,
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-13": null,
+  "Persistent_Level_ExplorationGrid_L0_X1_Y-7": null,
+  "Persistent_Level_FoliageGrid_L0_X-4_Y-12": null,
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-13": null,
+  "Persistent_Level_FoliageGrid_L0_X0_Y-13": {
     "TOCBlob64c": {
       "objects": [],
       "destroyedActors": []
     },
     "DataBlob64": {
-      "size": 4,
-      "count": 0,
-      "dataBase64": "AAAAAA==",
-      "from": "1b620",
-      "to": "1b624"
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "461ad",
+        "to": "461b1"
+      }
     }
   },
-  "Persistent_Level_MainGrid_L6_X-1_Y-1": {
+  "Persistent_Level_FoliageGrid_L0_X-2_Y-7": {
     "TOCBlob64c": {
       "objects": [],
       "destroyedActors": []
     },
     "DataBlob64": {
-      "size": 4,
-      "count": 0,
-      "dataBase64": "AAAAAA==",
-      "from": "1b669",
-      "to": "1b66d"
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "461f9",
+        "to": "461fd"
+      }
     }
   },
-  "Persistent_Level_MainGrid_L6_X0_Y-1": {
-    "TOCBlob64c": {
-      "objects": [],
-      "destroyedActors": []
-    },
-    "DataBlob64": {
-      "size": 4,
-      "count": 0,
-      "dataBase64": "AAAAAA==",
-      "from": "1b6b1",
-      "to": "1b6b5"
-    }
-  },
-  "Persistent_Level_LandscapeGrid_L6_X-1_Y-1": {
-    "TOCBlob64c": {
-      "objects": [],
-      "destroyedActors": []
-    },
-    "DataBlob64": {
-      "size": 4,
-      "count": 0,
-      "dataBase64": "AAAAAA==",
-      "from": "1b6ff",
-      "to": "1b703"
-    }
-  },
-  "Persistent_Level_LandscapeGrid_L6_X0_Y-1": {
-    "TOCBlob64c": {
-      "objects": [],
-      "destroyedActors": []
-    },
-    "DataBlob64": {
-      "size": 4,
-      "count": 0,
-      "dataBase64": "AAAAAA==",
-      "from": "1b74c",
-      "to": "1b750"
-    }
-  },
-  "Persistent_Level_MainGrid_L5_X-1_Y-1": {
+  "Persistent_Level_ExplorationGrid_L0_X0_Y-5": {
     "TOCBlob64c": {
       "objects": [
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
           "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit132"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner507_110"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
-              "x": -0.6236866116523743,
-              "y": -0.6046176552772522,
-              "z": 0.3564774692058563,
-              "w": -0.3440585732460022
-            },
-            "translation": {
-              "x": -60491.37109375,
-              "y": -204499.828125,
-              "z": -1394.312744140625
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_1"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.05239739269018173,
+              "x": 0,
               "y": 0,
               "z": 0,
-              "w": 0.9986262917518616
+              "w": 1
             },
             "translation": {
-              "x": -5742,
-              "y": -205413.09375,
-              "z": -1308.9495849609375
+              "x": 3469.9111328125,
+              "y": -97609.03125,
+              "z": 11856.111328125
             },
             "scale": {
               "x": 1,
@@ -125,23 +182,499 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
           "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit133"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner329"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
-              "x": 0.6378137469291687,
-              "y": 0.30160507559776306,
-              "z": -0.6404417157173157,
-              "w": 0.303417831659317
+              "x": 0,
+              "y": 0,
+              "z": 1.6644756684058848e-8,
+              "w": 1
             },
             "translation": {
-              "x": -56347.75,
-              "y": -204981.375,
-              "z": -875.1175537109375
+              "x": 12553.2763671875,
+              "y": -101934.734375,
+              "z": 11630.7109375
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/Resource/Environment/Crystal/BP_Crystal.BP_Crystal_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_Crystal70"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0.6012046933174133,
+              "y": -0.10710751265287399,
+              "z": 0.7698364853858948,
+              "w": 0.1855604350566864
+            },
+            "translation": {
+              "x": 14540.03125,
+              "y": -82989.234375,
+              "z": 12499.2978515625
+            },
+            "scale": {
+              "x": 1.399999976158142,
+              "y": 1.399999976158142,
+              "z": 1.399999976158142
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2289"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.8572022318840027,
+              "w": 0.5149799585342407
+            },
+            "translation": {
+              "x": 427.29296875,
+              "y": -91317.1640625,
+              "z": 11914.5625
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2288"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.5851138830184937,
+              "w": 0.8109511137008667
+            },
+            "translation": {
+              "x": 1910.6015625,
+              "y": -91562.0625,
+              "z": 11816.705078125
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2261"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.9996460676193237,
+              "w": 0.026602772995829582
+            },
+            "translation": {
+              "x": 13826.296875,
+              "y": -98898.1796875,
+              "z": 12236.6552734375
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2298"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.9310253858566284,
+              "w": 0.36495441198349
+            },
+            "translation": {
+              "x": 6020.15234375,
+              "y": -101093.34375,
+              "z": 11878.2265625
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/Prototype/WAT/BP_WAT2.BP_WAT2_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_WAT6_7"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "translation": {
+              "x": 4660.99609375,
+              "y": -96894.625,
+              "z": 14835.638671875
+            },
+            "scale": {
+              "x": 3,
+              "y": 3,
+              "z": 3
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2273"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.9528533816337585,
+              "w": 0.3034311532974243
+            },
+            "translation": {
+              "x": 18595.400390625,
+              "y": -82393.1875,
+              "z": 12323.54296875
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2292"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.9768117666244507,
+              "w": 0.21410000324249268
+            },
+            "translation": {
+              "x": 6423.3828125,
+              "y": -85019.5,
+              "z": 10348.296875
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/Resource/Environment/Crystal/BP_Crystal.BP_Crystal_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_Crystal62"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": -0.06696221232414246,
+              "y": 0.0060079521499574184,
+              "z": 0.9974920153617859,
+              "w": 0.022128447890281677
+            },
+            "translation": {
+              "x": 7206.1953125,
+              "y": -84186.0390625,
+              "z": 10442.3349609375
+            },
+            "scale": {
+              "x": 1.399999976158142,
+              "y": 1.399999976158142,
+              "z": 1.399999976158142
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2262"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.8671576976776123,
+              "w": 0.49803370237350464
+            },
+            "translation": {
+              "x": 16098.03125,
+              "y": -97660.6328125,
+              "z": 12387.9970703125
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2290"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.013134734705090523,
+              "w": 0.99991375207901
+            },
+            "translation": {
+              "x": 5890.92578125,
+              "y": -82959.8125,
+              "z": 10349.1259765625
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2286"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.20355179905891418,
+              "w": 0.9790641665458679
+            },
+            "translation": {
+              "x": 6272.9375,
+              "y": -98646.953125,
+              "z": 11870.2998046875
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2296"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.9965192079544067,
+              "w": 0.08336381614208221
+            },
+            "translation": {
+              "x": 7758.9765625,
+              "y": -84909.5703125,
+              "z": 10450.5244140625
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2260"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.34176987409591675,
+              "w": 0.9397836923599243
+            },
+            "translation": {
+              "x": 14442.91796875,
+              "y": -91887.34375,
+              "z": 12239.830078125
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2294"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -0.7579143047332764,
+              "w": 0.6523541212081909
+            },
+            "translation": {
+              "x": 11743.1015625,
+              "y": -85218.8203125,
+              "z": 10293.125
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2291"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.855320155620575,
+              "w": 0.5180997848510742
+            },
+            "translation": {
+              "x": 8373.64453125,
+              "y": -82723.8515625,
+              "z": 10365.6474609375
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/Mushroom/BP_Shroom_01.BP_Shroom_01_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X0_Y-5",
+            "pathName": "Persistent_Level:PersistentLevel.BP_Shroom_634"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "translation": {
+              "x": 19520.685546875,
+              "y": -100275.0859375,
+              "z": 12232.30078125
             },
             "scale": {
               "x": 1,
@@ -155,848 +688,54 @@
       "destroyedActors": []
     },
     "DataBlob64": {
-      "size": 421,
-      "count": 3,
-      "dataBase64": "KgAAAAAAAACyAAAAAAAAAAAAAAAAAAAAGwAAAG1SZXNvdXJjZURlcG9zaXRUYWJsZUluZGV4AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAAAAAADAAAAG1NaW5lQW1vdW50AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAADwAAAG1SZXNvdXJjZXNMZWZ0AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAzAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAUAAABOb25lAAAAAAAqAAAAAAAAALIAAAAAAAAAAAAAAAAAAAAbAAAAbVJlc291cmNlRGVwb3NpdFRhYmxlSW5kZXgADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAAAAAAMAAAAbU1pbmVBbW91bnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAUAAAAPAAAAbVJlc291cmNlc0xlZnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAADYAAAAFAAAATm9uZQAAAAAAAAAAAA==",
-      "from": "1ba33",
-      "to": "1bbd8"
+      "objects": {
+        "size": 4346,
+        "count": 19,
+        "dataBase64": "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",
+        "from": "47318",
+        "to": "48412"
+      }
     }
   },
-  "Persistent_Level_MainGrid_L5_X0_Y-1": {
+  "Persistent_Level_FoliageGrid_L0_X2_Y-10": {
     "TOCBlob64c": {
-      "objects": [
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit122_43"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": -0.03074774518609047,
-              "y": 0.31217148900032043,
-              "z": -0.31988438963890076,
-              "w": 0.8940232396125793
-            },
-            "translation": {
-              "x": 170635,
-              "y": -204480,
-              "z": 16400
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_5"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 203915,
-              "y": -137085,
-              "z": 18065
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit1647"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": -3.585666661365394e-7,
-              "y": -0.9924809336662292,
-              "z": 0.000002907450152633828,
-              "w": -0.12239953875541687
-            },
-            "translation": {
-              "x": 189000,
-              "y": -204585,
-              "z": 23380
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_2"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.07331918179988861,
-              "y": -0.03009156882762909,
-              "z": -0.22607365250587463,
-              "w": 0.9708808064460754
-            },
-            "translation": {
-              "x": 100015,
-              "y": -200327.1875,
-              "z": -1877.1607666015625
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit_C_36"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.24558545649051666,
-              "y": 0.6705561280250549,
-              "z": -0.1334790587425232,
-              "w": 0.6871867179870605
-            },
-            "translation": {
-              "x": 204830,
-              "y": -132900,
-              "z": 14185
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit291_234"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0.628048300743103,
-              "w": 0.7781743407249451
-            },
-            "translation": {
-              "x": 204693.484375,
-              "y": -11109.90625,
-              "z": 8700.001953125
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit1229_255"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.33390793204307556,
-              "y": 0.6373993754386902,
-              "z": -0.30667245388031006,
-              "w": 0.623040497303009
-            },
-            "translation": {
-              "x": 204722.5625,
-              "y": -46847.91015625,
-              "z": 4765.94140625
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        }
-      ],
+      "objects": [],
       "destroyedActors": []
     },
     "DataBlob64": {
-      "size": 1028,
-      "count": 7,
-      "dataBase64": "KgAAAAAAAACyAAAAAAAAAAAAAAAAAAAAGwAAAG1SZXNvdXJjZURlcG9zaXRUYWJsZUluZGV4AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAGAAAADAAAAG1NaW5lQW1vdW50AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAADwAAAG1SZXNvdXJjZXNMZWZ0AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAPAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAUAAABOb25lAAAAAAAqAAAAAAAAALIAAAAAAAAAAAAAAAAAAAAbAAAAbVJlc291cmNlRGVwb3NpdFRhYmxlSW5kZXgADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAkAAAAMAAAAbU1pbmVBbW91bnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAUAAAAPAAAAbVJlc291cmNlc0xlZnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAADUAAAAFAAAATm9uZQAAAAAAKgAAAAAAAAAZAAAAAAAAAAAAAAAAAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAsgAAAAAAAAAAAAAAAAAAABsAAABtUmVzb3VyY2VEZXBvc2l0VGFibGVJbmRleAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAACQAAAAwAAABtTWluZUFtb3VudAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAABQAAAA8AAABtUmVzb3VyY2VzTGVmdAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAOAAAAAUAAABOb25lAAAAAAAqAAAAAAAAALIAAAAAAAAAAAAAAAAAAAAbAAAAbVJlc291cmNlRGVwb3NpdFRhYmxlSW5kZXgADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAIAAAAMAAAAbU1pbmVBbW91bnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAUAAAAPAAAAbVJlc291cmNlc0xlZnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAABkAAAAFAAAATm9uZQAAAAAAKgAAAAAAAACyAAAAAAAAAAAAAAAAAAAAGwAAAG1SZXNvdXJjZURlcG9zaXRUYWJsZUluZGV4AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAEAAAADAAAAG1NaW5lQW1vdW50AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAADwAAAG1SZXNvdXJjZXNMZWZ0AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAVAAAABQAAAE5vbmUAAAAAAAAAAAA=",
-      "from": "1c247",
-      "to": "1c64b"
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "4845a",
+        "to": "4845e"
+      }
     }
   },
-  "Persistent_Level_ExplorationGrid_L5_X0_Y-1": {
+  "Persistent_Level_FoliageGrid_L0_X2_Y-11": {
     "TOCBlob64c": {
-      "objects": [
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1092"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 325212.28125,
-              "y": -209657.921875,
-              "z": 3797.8671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1098"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 328337.28125,
-              "y": -187532.921875,
-              "z": 3887.8671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1150"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 334597.28125,
-              "y": -174627.921875,
-              "z": 4307.8671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1100_UAID_40B076DF2F793F8101_1406096484"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 375691.375,
-              "y": -114563.890625,
-              "z": 5676.88037109375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1100_UAID_40B076DF2F793A8101_1513630599"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 379161.375,
-              "y": -120188.890625,
-              "z": 7091.88037109375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1100_UAID_40B076DF2F79408101_1370825662"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 378911.375,
-              "y": -121883.890625,
-              "z": 6806.88037109375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1159"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 299092.28125,
-              "y": -151272.921875,
-              "z": 4012.8671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1100"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 374316.375,
-              "y": -115423.890625,
-              "z": 5526.88037109375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1109"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 365327.28125,
-              "y": -135662.921875,
-              "z": 5337.8671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1107"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 349556.40625,
-              "y": -107002.140625,
-              "z": 5721.9970703125
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1170"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 325251.40625,
-              "y": -24612.140625,
-              "z": -1613.0029296875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner_C_182"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 327136.28125,
-              "y": -39658.921875,
-              "z": 6036.8671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner502"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 327902.3125,
-              "y": -262384.1875,
-              "z": 2038.02001953125
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_04D9F5D25C208C8001_2069563972"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 330170,
-              "y": -117150,
-              "z": 7110
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower_C_101"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 328511,
-              "y": -81269.8125,
-              "z": 5793.09716796875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L5_X0_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_04D9F5D25C208C8001_1473444968"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": 324170,
-              "y": -32850,
-              "z": -80
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        }
-      ],
+      "objects": [],
       "destroyedActors": []
     },
     "DataBlob64": {
-      "size": 5494,
-      "count": 16,
-      "dataBase64": "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",
-      "from": "1d638",
-      "to": "1ebae"
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "484a6",
+        "to": "484aa"
+      }
     }
   },
-  "Persistent_Level_MainGrid_L4_X-1_Y-1": {
-    "TOCBlob64c": {
-      "objects": [
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit347_89"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": -147132.671875,
-              "y": -102375.5078125,
-              "z": 1203.43310546875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit235_53"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.2197115570306778,
-              "y": -0.46980538964271545,
-              "z": -0.02677120827138424,
-              "w": 0.8545718193054199
-            },
-            "translation": {
-              "x": -102433,
-              "y": -29029,
-              "z": 15355.4130859375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit30_99"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "translation": {
-              "x": -43825,
-              "y": -102234,
-              "z": 1297
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit348_92"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": -0.5382872223854065,
-              "y": -0.8223189115524292,
-              "z": -0.0648440569639206,
-              "w": 0.17272436618804932
-            },
-            "translation": {
-              "x": -157977.859375,
-              "y": -102442.359375,
-              "z": 271.771240234375
-            },
-            "scale": {
-              "x": 1.3062039613723755,
-              "y": 1.3062039613723755,
-              "z": 1.3062039613723755
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
-          "reference": {
-            "levelName": "Persistent_Level_MainGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit_C_UAID_04421A9713F0836601_1780959934"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.27866387367248535,
-              "y": -0.6245805025100708,
-              "z": 0.20262500643730164,
-              "w": 0.7008485794067383
-            },
-            "translation": {
-              "x": -102793,
-              "y": -65239,
-              "z": 13452
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        }
-      ],
-      "destroyedActors": []
-    },
-    "DataBlob64": {
-      "size": 954,
-      "count": 5,
-      "dataBase64": "KgAAAAAAAACyAAAAAAAAAAAAAAAAAAAAGwAAAG1SZXNvdXJjZURlcG9zaXRUYWJsZUluZGV4AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAACAAAADAAAAG1NaW5lQW1vdW50AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAADwAAAG1SZXNvdXJjZXNMZWZ0AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAVAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAsgAAAAAAAAAAAAAAAAAAABsAAABtUmVzb3VyY2VEZXBvc2l0VGFibGVJbmRleAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAACAAAAAwAAABtTWluZUFtb3VudAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAAgAAAA8AAABtUmVzb3VyY2VzTGVmdAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAANAAAAAUAAABOb25lAAAAAAAqAAAAAAAAALIAAAAAAAAAAAAAAAAAAAAbAAAAbVJlc291cmNlRGVwb3NpdFRhYmxlSW5kZXgADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAYAAAAMAAAAbU1pbmVBbW91bnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAUAAAAPAAAAbVJlc291cmNlc0xlZnQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAABMAAAAFAAAATm9uZQAAAAAAKgAAAAAAAACyAAAAAAAAAAAAAAAAAAAAGwAAAG1SZXNvdXJjZURlcG9zaXRUYWJsZUluZGV4AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAAAAAADAAAAG1NaW5lQW1vdW50AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAADwAAAG1SZXNvdXJjZXNMZWZ0AAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAA8AAAABQAAAE5vbmUAAAAAACoAAAAAAAAAsgAAAAAAAAAAAAAAAAAAABsAAABtUmVzb3VyY2VEZXBvc2l0VGFibGVJbmRleAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAABgAAAAwAAABtTWluZUFtb3VudAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAABQAAAA8AAABtUmVzb3VyY2VzTGVmdAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAEQAAAAUAAABOb25lAAAAAAAAAAAA",
-      "from": "1f07b",
-      "to": "1f435"
-    }
-  },
-  "Persistent_Level_ExplorationGrid_L4_X-1_Y-1": {
+  "Persistent_Level_ExplorationGrid_L0_X1_Y-6": {
     "TOCBlob64c": {
       "objects": [
         {
           "type": 1,
           "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner718"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner94_3"
           },
           "needTransform": false,
           "transform": {
@@ -1007,9 +746,9 @@
               "w": 1
             },
             "translation": {
-              "x": -61070.953125,
-              "y": -168572.328125,
-              "z": -1486.633056640625
+              "x": 39093.49609375,
+              "y": -112422.9296875,
+              "z": 10239.7021484375
             },
             "scale": {
               "x": 1,
@@ -1023,8 +762,8 @@
           "type": 1,
           "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner444"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner502_104"
           },
           "needTransform": false,
           "transform": {
@@ -1035,9 +774,9 @@
               "w": 1
             },
             "translation": {
-              "x": -38898.8125,
-              "y": -164840.140625,
-              "z": -1457.5687255859375
+              "x": 25309.412109375,
+              "y": -118940.7109375,
+              "z": 12653.0478515625
             },
             "scale": {
               "x": 1,
@@ -1051,8 +790,8 @@
           "type": 1,
           "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner717"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner95"
           },
           "needTransform": false,
           "transform": {
@@ -1063,9 +802,9 @@
               "w": 1
             },
             "translation": {
-              "x": -72414.671875,
-              "y": -171045.109375,
-              "z": -1113.74853515625
+              "x": 40774.46484375,
+              "y": -111176.2890625,
+              "z": 10245.52734375
             },
             "scale": {
               "x": 1,
@@ -1079,21 +818,21 @@
           "type": 1,
           "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner750"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner328"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
               "x": 0,
               "y": 0,
-              "z": 0,
+              "z": 1.6644756684058848e-8,
               "w": 1
             },
             "translation": {
-              "x": -45476.5,
-              "y": -163924.171875,
-              "z": -1584.2091064453125
+              "x": 23165.94921875,
+              "y": -122250.25,
+              "z": 13900.763671875
             },
             "scale": {
               "x": 1,
@@ -1105,23 +844,23 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner105_2"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush544"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
               "x": 0,
               "y": 0,
-              "z": 0,
-              "w": 1
+              "z": -0.3140552043914795,
+              "w": 0.9494047164916992
             },
             "translation": {
-              "x": -132485.859375,
-              "y": -159781.171875,
-              "z": 7601.59375
+              "x": 24946.384765625,
+              "y": -104959.6171875,
+              "z": 13963.833984375
             },
             "scale": {
               "x": 1,
@@ -1133,10 +872,10 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+          "className": "/Game/FactoryGame/Prototype/WAT/BP_WAT2.BP_WAT2_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner509"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_WAT4"
           },
           "needTransform": false,
           "transform": {
@@ -1147,65 +886,37 @@
               "w": 1
             },
             "translation": {
-              "x": -164736.875,
-              "y": -6133.48779296875,
-              "z": 2840.6630859375
+              "x": 37683.64453125,
+              "y": -112590.328125,
+              "z": 10724.443359375
             },
             "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
+              "x": 3,
+              "y": 3,
+              "z": 3
             }
           },
           "wasPlacedInLevel": true
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_14"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": -0.016416408121585846,
-              "y": 0.0067215850576758385,
-              "z": 0.006709950510412455,
-              "w": 0.9998201131820679
-            },
-            "translation": {
-              "x": -259797.953125,
-              "y": -164336.203125,
-              "z": 10417.138671875
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/World/Benefit/NutBush/BP_NutBush.BP_NutBush_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_NutBush373_23"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2172"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
               "x": 0,
               "y": 0,
-              "z": 0,
-              "w": 1
+              "z": -0.8048206567764282,
+              "w": 0.5935180187225342
             },
             "translation": {
-              "x": -163740,
-              "y": -149320,
-              "z": 7372
+              "x": 39842.31640625,
+              "y": -109824.0625,
+              "z": 12464.431640625
             },
             "scale": {
               "x": 1,
@@ -1219,21 +930,21 @@
           "type": 1,
           "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower230"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower311"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
-              "x": -0.005475711543112993,
-              "y": 0.037444330751895905,
-              "z": 0.9182072877883911,
-              "w": 0.3942883610725403
+              "x": 0.05154074355959892,
+              "y": -0.003147443989291787,
+              "z": -0.7715486288070679,
+              "w": 0.6340712904930115
             },
             "translation": {
-              "x": -264163.46875,
-              "y": -164968.328125,
-              "z": 10431.498046875
+              "x": 38300.6484375,
+              "y": -112698.828125,
+              "z": 10451.2783203125
             },
             "scale": {
               "x": 1,
@@ -1245,10 +956,10 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+          "className": "/Game/FactoryGame/Prototype/WAT/BP_WAT2.BP_WAT2_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower213_61"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_WAT3_4"
           },
           "needTransform": false,
           "transform": {
@@ -1259,149 +970,37 @@
               "w": 1
             },
             "translation": {
-              "x": -140995.71875,
-              "y": -163954.171875,
-              "z": 9380.3505859375
+              "x": 25598.796875,
+              "y": -118720.4296875,
+              "z": 12511.8984375
             },
             "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
+              "x": 3,
+              "y": 3,
+              "z": 3
             }
           },
           "wasPlacedInLevel": true
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/World/Benefit/NutBush/BP_NutBush.BP_NutBush_C",
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_NutBush88_7050"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.024533836171030998,
-              "y": -0.024533836171030998,
-              "z": 0.0006022718735039234,
-              "w": 0.9993977546691895
-            },
-            "translation": {
-              "x": -163823,
-              "y": -23776,
-              "z": 506
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_141"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.048284947872161865,
-              "y": 0.016117773950099945,
-              "z": -0.005334347952157259,
-              "w": 0.9986892938613892
-            },
-            "translation": {
-              "x": -50329.125,
-              "y": -162337.796875,
-              "z": -1830.429931640625
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_143"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.06463698297739029,
-              "y": 0.03735442832112312,
-              "z": -0.3081319034099579,
-              "w": 0.9484099745750427
-            },
-            "translation": {
-              "x": -48867.08203125,
-              "y": -161703.640625,
-              "z": -1829.2991943359375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower212_60"
-          },
-          "needTransform": false,
-          "transform": {
-            "rotation": {
-              "x": 0.044725414365530014,
-              "y": 0.1369948387145996,
-              "z": 0.38540053367614746,
-              "w": 0.9114266037940979
-            },
-            "translation": {
-              "x": -135890.859375,
-              "y": -163509.6875,
-              "z": 8533.0537109375
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            }
-          },
-          "wasPlacedInLevel": true
-        },
-        {
-          "type": 1,
-          "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
-          "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_D8CB8A31967EB97E01_1410577789"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2221"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
               "x": 0,
               "y": 0,
-              "z": 0,
-              "w": 1
+              "z": -0.033167582005262375,
+              "w": 0.9994497895240784
             },
             "translation": {
-              "x": -112320,
-              "y": -159450,
-              "z": 3690
+              "x": 24330.162109375,
+              "y": -117974.265625,
+              "z": 12521.177734375
             },
             "scale": {
               "x": 1,
@@ -1413,23 +1012,23 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_15"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2190"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
-              "x": 0.03874862939119339,
-              "y": 0.04137736186385155,
-              "z": 0.007691549137234688,
-              "w": 0.9983623027801514
+              "x": 0,
+              "y": 0,
+              "z": -0.6238270401954651,
+              "w": 0.7815624475479126
             },
             "translation": {
-              "x": -252021,
-              "y": -166214.625,
-              "z": 9670.7001953125
+              "x": 30590.2265625,
+              "y": -115974.4453125,
+              "z": 12768.4482421875
             },
             "scale": {
               "x": 1,
@@ -1441,23 +1040,23 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_142"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2188"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
-              "x": 0.06463698297739029,
-              "y": 0.03735442832112312,
-              "z": -0.3081319034099579,
-              "w": 0.9484099745750427
+              "x": 0,
+              "y": 0,
+              "z": -0.8679682612419128,
+              "w": 0.49661970138549805
             },
             "translation": {
-              "x": -49666.06640625,
-              "y": -161838.890625,
-              "z": -1826.175048828125
+              "x": 22302.06640625,
+              "y": -115318.484375,
+              "z": 12891.2490234375
             },
             "scale": {
               "x": 1,
@@ -1469,23 +1068,23 @@
         },
         {
           "type": 1,
-          "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
           "reference": {
-            "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-            "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower228"
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2217"
           },
           "needTransform": false,
           "transform": {
             "rotation": {
-              "x": 0.1111455038189888,
-              "y": -0.0179272647947073,
-              "z": -0.5047512054443359,
-              "w": 0.8558922410011292
+              "x": 0,
+              "y": 0,
+              "z": 0.3469006419181824,
+              "w": 0.9379019141197205
             },
             "translation": {
-              "x": -258157.84375,
-              "y": -162196.15625,
-              "z": 11377.4853515625
+              "x": 28939.0703125,
+              "y": -121680.6796875,
+              "z": 14167.33984375
             },
             "scale": {
               "x": 1,
@@ -1494,21 +1093,133 @@
             }
           },
           "wasPlacedInLevel": true
-        }
-      ],
-      "destroyedActors": [
+        },
         {
-          "levelName": "Persistent_Level_ExplorationGrid_L4_X-1_Y-1",
-          "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower398"
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush657"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.9696438312530518,
+              "w": 0.2445216178894043
+            },
+            "translation": {
+              "x": 27432.1015625,
+              "y": -107203.890625,
+              "z": 12635.2470703125
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
+        },
+        {
+          "type": 1,
+          "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+          "reference": {
+            "levelName": "Persistent_Level_ExplorationGrid_L0_X1_Y-6",
+            "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush2176"
+          },
+          "needTransform": false,
+          "transform": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.9216023087501526,
+              "w": 0.38813546299934387
+            },
+            "translation": {
+              "x": 28708.298828125,
+              "y": -115693.625,
+              "z": 12331.9619140625
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          },
+          "wasPlacedInLevel": true
         }
       ]
     },
     "DataBlob64": {
-      "size": 4032,
-      "count": 18,
-      "dataBase64": "KgAAAAAAAACWAQAAAAAAAAAAAAAAAAAACwAAAG1TcGF3bkRhdGEADgAAAEFycmF5UHJvcGVydHkADwEAAAAAAAAPAAAAU3RydWN0UHJvcGVydHkAAAEAAAALAAAAbVNwYXduRGF0YQAPAAAAU3RydWN0UHJvcGVydHkAwgAAAAAAAAAKAAAAU3Bhd25EYXRhAAAAAAAAAAAAAAAAAAAAAAAACQAAAGNyZWF0dXJlAA8AAABPYmplY3RQcm9wZXJ0eQAIAAAAAAAAAAAAAAAAAAAAAAoAAABXYXNLaWxsZWQADQAAAEJvb2xQcm9wZXJ0eQAAAAAAAAAAAAAADwAAAE51bVRpbWVzS2lsbGVkAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAABAAAADgAAAEtpbGxlZE9uRGF5TnIADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAP////8FAAAATm9uZQASAAAAbUNhY2hlZElzTmVhckJhc2UADQAAAEJvb2xQcm9wZXJ0eQAAAAAAAAAAAAEABQAAAE5vbmUAAAAAACoAAAAAAAAAlgEAAAAAAAAAAAAAAAAAAAsAAABtU3Bhd25EYXRhAA4AAABBcnJheVByb3BlcnR5AA8BAAAAAAAADwAAAFN0cnVjdFByb3BlcnR5AAABAAAACwAAAG1TcGF3bkRhdGEADwAAAFN0cnVjdFByb3BlcnR5AMIAAAAAAAAACgAAAFNwYXduRGF0YQAAAAAAAAAAAAAAAAAAAAAAAAkAAABjcmVhdHVyZQAPAAAAT2JqZWN0UHJvcGVydHkACAAAAAAAAAAAAAAAAAAAAAAKAAAAV2FzS2lsbGVkAA0AAABCb29sUHJvcGVydHkAAAAAAAAAAAAAAA8AAABOdW1UaW1lc0tpbGxlZAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAAQAAAA4AAABLaWxsZWRPbkRheU5yAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAD/////BQAAAE5vbmUAEgAAAG1DYWNoZWRJc05lYXJCYXNlAA0AAABCb29sUHJvcGVydHkAAAAAAAAAAAABAAUAAABOb25lAAAAAAAqAAAAAAAAAJYBAAAAAAAAAAAAAAAAAAALAAAAbVNwYXduRGF0YQAOAAAAQXJyYXlQcm9wZXJ0eQAPAQAAAAAAAA8AAABTdHJ1Y3RQcm9wZXJ0eQAAAQAAAAsAAABtU3Bhd25EYXRhAA8AAABTdHJ1Y3RQcm9wZXJ0eQDCAAAAAAAAAAoAAABTcGF3bkRhdGEAAAAAAAAAAAAAAAAAAAAAAAAJAAAAY3JlYXR1cmUADwAAAE9iamVjdFByb3BlcnR5AAgAAAAAAAAAAAAAAAAAAAAACgAAAFdhc0tpbGxlZAANAAAAQm9vbFByb3BlcnR5AAAAAAAAAAAAAAAPAAAATnVtVGltZXNLaWxsZWQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAEAAAAOAAAAS2lsbGVkT25EYXlOcgAMAAAASW50UHJvcGVydHkABAAAAAAAAAAA/////wUAAABOb25lABIAAABtQ2FjaGVkSXNOZWFyQmFzZQANAAAAQm9vbFByb3BlcnR5AAAAAAAAAAAAAQAFAAAATm9uZQAAAAAAKgAAAAAAAACWAQAAAAAAAAAAAAAAAAAACwAAAG1TcGF3bkRhdGEADgAAAEFycmF5UHJvcGVydHkADwEAAAAAAAAPAAAAU3RydWN0UHJvcGVydHkAAAEAAAALAAAAbVNwYXduRGF0YQAPAAAAU3RydWN0UHJvcGVydHkAwgAAAAAAAAAKAAAAU3Bhd25EYXRhAAAAAAAAAAAAAAAAAAAAAAAACQAAAGNyZWF0dXJlAA8AAABPYmplY3RQcm9wZXJ0eQAIAAAAAAAAAAAAAAAAAAAAAAoAAABXYXNLaWxsZWQADQAAAEJvb2xQcm9wZXJ0eQAAAAAAAAAAAAAADwAAAE51bVRpbWVzS2lsbGVkAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAABAAAADgAAAEtpbGxlZE9uRGF5TnIADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAP////8FAAAATm9uZQASAAAAbUNhY2hlZElzTmVhckJhc2UADQAAAEJvb2xQcm9wZXJ0eQAAAAAAAAAAAAEABQAAAE5vbmUAAAAAACoAAAAAAAAAJwIAAAAAAAAAAAAAAAAAAAsAAABtU3Bhd25EYXRhAA4AAABBcnJheVByb3BlcnR5ANEBAAAAAAAADwAAAFN0cnVjdFByb3BlcnR5AAACAAAACwAAAG1TcGF3bkRhdGEADwAAAFN0cnVjdFByb3BlcnR5AIQBAAAAAAAACgAAAFNwYXduRGF0YQAAAAAAAAAAAAAAAAAAAAAAAAkAAABjcmVhdHVyZQAPAAAAT2JqZWN0UHJvcGVydHkACAAAAAAAAAAAAAAAAAAAAAAKAAAAV2FzS2lsbGVkAA0AAABCb29sUHJvcGVydHkAAAAAAAAAAAAAAA8AAABOdW1UaW1lc0tpbGxlZAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAAAAAAA4AAABLaWxsZWRPbkRheU5yAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAD/////BQAAAE5vbmUACQAAAGNyZWF0dXJlAA8AAABPYmplY3RQcm9wZXJ0eQAIAAAAAAAAAAAAAAAAAAAAAAoAAABXYXNLaWxsZWQADQAAAEJvb2xQcm9wZXJ0eQAAAAAAAAAAAAAADwAAAE51bVRpbWVzS2lsbGVkAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAAAAAADgAAAEtpbGxlZE9uRGF5TnIADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAP////8FAAAATm9uZQAFAAAATm9uZQAAAAAAKgAAAAAAAAAnAgAAAAAAAAAAAAAAAAAACwAAAG1TcGF3bkRhdGEADgAAAEFycmF5UHJvcGVydHkA0QEAAAAAAAAPAAAAU3RydWN0UHJvcGVydHkAAAIAAAALAAAAbVNwYXduRGF0YQAPAAAAU3RydWN0UHJvcGVydHkAhAEAAAAAAAAKAAAAU3Bhd25EYXRhAAAAAAAAAAAAAAAAAAAAAAAACQAAAGNyZWF0dXJlAA8AAABPYmplY3RQcm9wZXJ0eQAIAAAAAAAAAAAAAAAAAAAAAAoAAABXYXNLaWxsZWQADQAAAEJvb2xQcm9wZXJ0eQAAAAAAAAAAAAAADwAAAE51bVRpbWVzS2lsbGVkAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAAAAAADgAAAEtpbGxlZE9uRGF5TnIADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAP////8FAAAATm9uZQAJAAAAY3JlYXR1cmUADwAAAE9iamVjdFByb3BlcnR5AAgAAAAAAAAAAAAAAAAAAAAACgAAAFdhc0tpbGxlZAANAAAAQm9vbFByb3BlcnR5AAAAAAAAAAAAAAAPAAAATnVtVGltZXNLaWxsZWQADAAAAEludFByb3BlcnR5AAQAAAAAAAAAAAAAAAAOAAAAS2lsbGVkT25EYXlOcgAMAAAASW50UHJvcGVydHkABAAAAAAAAAAA/////wUAAABOb25lAAUAAABOb25lAAAAAAAqAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAFAAAATm9uZQAAAAAAKgAAAAAAAABJAAAAAAAAAAAAAAAAAAAADwAAAG1TYXZlZE51bUl0ZW1zAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAUAAABOb25lAAAAAAAqAAAAAAAAABkAAAAAAAAAAAAAAAAAAAAFAAAATm9uZQAAAAAAKgAAAAAAAABJAAAAAAAAAAAAAAAAAAAADwAAAG1TYXZlZE51bUl0ZW1zAAwAAABJbnRQcm9wZXJ0eQAEAAAAAAAAAAAFAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAogAAAAAAAAAAAAAAAAAAAAsAAABtVHJpZ2dlcmVkAA0AAABCb29sUHJvcGVydHkAAAAAAAAAAAABAAwAAABtRGF5T2ZEZWF0aAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAGAAAAA8AAABtQ3VycmVudEhlYWx0aAAOAAAARmxvYXRQcm9wZXJ0eQAEAAAAAAAAAAAAAODABQAAAE5vbmUAAAAAACoAAAAAAAAAogAAAAAAAAAAAAAAAAAAAAsAAABtVHJpZ2dlcmVkAA0AAABCb29sUHJvcGVydHkAAAAAAAAAAAABAAwAAABtRGF5T2ZEZWF0aAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAGAAAAA8AAABtQ3VycmVudEhlYWx0aAAOAAAARmxvYXRQcm9wZXJ0eQAEAAAAAAAAAAAAAODABQAAAE5vbmUAAAAAACoAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAUAAABOb25lAAAAAAAqAAAAAAAAADABAAAAAAAAAAAAAAAAAAAXAAAAbVJlbW92ZWRXb3JsZExvY2F0aW9ucwAOAAAAQXJyYXlQcm9wZXJ0eQDOAAAAAAAAAA8AAABTdHJ1Y3RQcm9wZXJ0eQAABQAAABcAAABtUmVtb3ZlZFdvcmxkTG9jYXRpb25zAA8AAABTdHJ1Y3RQcm9wZXJ0eQB4AAAAAAAAAAcAAABWZWN0b3IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoJj8wAAAAABgaQPBAAAAAAB4rkAAAAAAIJL7wAAAAACAdgPBAAAAAADCsEAAAADgsR/8wAAAAACOHQPBAAAAgOfcsEAAAABgSUf7wAAAAIBqBQPBAAAAYKP9sUAAAAAAQNv7wAAAAACA0QLBAAAAAAAqskAFAAAATm9uZQAAAAAAKgAAAAAAAAAZAAAAAAAAAAAAAAAAAAAABQAAAE5vbmUAAAAAACoAAAAAAAAAogAAAAAAAAAAAAAAAAAAAAsAAABtVHJpZ2dlcmVkAA0AAABCb29sUHJvcGVydHkAAAAAAAAAAAABAAwAAABtRGF5T2ZEZWF0aAAMAAAASW50UHJvcGVydHkABAAAAAAAAAAAGAAAAA8AAABtQ3VycmVudEhlYWx0aAAOAAAARmxvYXRQcm9wZXJ0eQAEAAAAAAAAAAAAAODABQAAAE5vbmUAAAAAACoAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAUAAABOb25lAAAAAAABAAAA",
-      "from": "20608",
-      "to": "215c8"
+      "objects": {
+        "size": 3272,
+        "count": 15,
+        "dataBase64": "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",
+        "from": "49242",
+        "to": "49f0a"
+      }
+    }
+  },
+  "Persistent_Level_FoliageGrid_L0_X-1_Y-7": {
+    "TOCBlob64c": {
+      "objects": [],
+      "destroyedActors": []
+    },
+    "DataBlob64": {
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "49f52",
+        "to": "49f56"
+      }
+    }
+  },
+  "Persistent_Level_FoliageGrid_L0_X-3_Y-13": {
+    "TOCBlob64c": {
+      "objects": [],
+      "destroyedActors": []
+    },
+    "DataBlob64": {
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "49f9f",
+        "to": "49fa3"
+      }
+    }
+  },
+  "Persistent_Level_FoliageGrid_L0_X1_Y-8": {
+    "TOCBlob64c": {
+      "objects": [],
+      "destroyedActors": []
+    },
+    "DataBlob64": {
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "49fea",
+        "to": "49fee"
+      }
+    }
+  },
+  "Persistent_Level_FoliageGrid_L0_X1_Y-13": {
+    "TOCBlob64c": {
+      "objects": [],
+      "destroyedActors": []
+    },
+    "DataBlob64": {
+      "objects": {
+        "size": 4,
+        "count": 0,
+        "dataBase64": "AAAAAA==",
+        "from": "4a036",
+        "to": "4a03a"
+      }
     }
   }
 }

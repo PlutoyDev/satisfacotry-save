@@ -446,7 +446,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     }
   }
 
-  parsePerStreamingLevelSaveData() {
+  parsePerStreamingLevelSaveData(key: string, index: number) {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -466,24 +466,40 @@ class SatisfactoryFileParser extends UnrealDataReader {
     for (let i = 0; i < objectCount; i++) {
       objects.push(this.parseSatisfactoryObject());
     }
-    const destroyedActorCount = this.readInt32();
-    const destroyedActors: ReturnType<typeof this.parseObjectReference>[] = [];
-    for (let i = 0; i < destroyedActorCount; i++) {
-      destroyedActors.push(this.parseObjectReference());
-    }
 
-    if (this.currentOffset !== tocExpectEndOffset) {
+    const TOCBlob64c: {
+      objects: typeof objects;
+      destroyedActors?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["parseObjectReference"]>[];
+    } = {
+      objects,
+    };
+
+    if (this.currentOffset < tocExpectEndOffset) {
+      //There is destroyed actors and we need to parse them
+
+      const destroyedActorCount = this.readInt32();
+      const destroyedActors: ReturnType<typeof this.parseObjectReference>[] = [];
+
+      for (let i = 0; i < destroyedActorCount; i++) {
+        destroyedActors.push(this.parseObjectReference());
+      }
+
+      if (this.currentOffset !== tocExpectEndOffset) {
+        console.warn("Warning: TOC doesn't end where expected", {
+          current: this.currentOffset.toString(16),
+          expects: tocExpectEndOffset.toString(16),
+        });
+        this.currentOffset = tocExpectEndOffset;
+      }
+
+      TOCBlob64c.destroyedActors = destroyedActors;
+    } else if (this.currentOffset !== tocExpectEndOffset) {
       console.warn("Warning: TOC doesn't end where expected", {
         current: this.currentOffset.toString(16),
         expects: tocExpectEndOffset.toString(16),
       });
       this.currentOffset = tocExpectEndOffset;
     }
-
-    const TOCBlob64c = {
-      objects,
-      destroyedActors,
-    };
 
     //DataBlob64
     // - Object Data
@@ -503,8 +519,8 @@ class SatisfactoryFileParser extends UnrealDataReader {
     }
 
     for (let i = 0; i < objectDataCount; i++) {
-      const obj = objects[i];
-      const size = this.readInt32();
+      // const obj = objects[i];
+      // const size = this.readInt32();
       // if (obj.type == 1 && 'needTransform' in obj) {
       //   // To make typescript happy but this is just to check if its actor
       //   // Actor
@@ -515,7 +531,6 @@ class SatisfactoryFileParser extends UnrealDataReader {
       //     obj.children.push(this.parseObjectReference());
       //   }
       // }
-
       // Read Properties
       // const propperties = new Map<string, unknown>();
     }
@@ -523,19 +538,27 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     // - Destroyed Actor Data
     const destroyedActorDataCount = this.readInt32();
+    if (destroyedActorDataCount !== 0) {
+      if (TOCBlob64c.destroyedActors) {
+        if (destroyedActorDataCount !== TOCBlob64c.destroyedActors.length) {
+          console.warn("Warning: Data count doesn't match destroyed actor count", {
+            destroyedActorDataCount,
+            destroyedActorCount: TOCBlob64c.destroyedActors.length,
+          });
+        }
+      } else {
+        console.warn("Warning: DataBlob has destroyed actor data but TOC doesn't", {
+          destroyedActorDataCount,
+          key,
+          index,
+        });
+      }
 
-    if (destroyedActorDataCount !== destroyedActorCount) {
-      console.warn("Warning: Data count doesn't match destroyed actor count", {
-        destroyedActorDataCount,
-        destroyedActorCount,
-      });
+      for (let i = 0; i < destroyedActorDataCount; i++) {
+        this.parseObjectReference();
+        // Not sure what to do with this
+      }
     }
-
-    for (let i = 0; i < destroyedActorDataCount; i++) {
-      const ref = this.parseObjectReference();
-    }
-
-    this.debugLog();
 
     return {
       TOCBlob64c,
@@ -591,10 +614,28 @@ class SatisfactoryFileParser extends UnrealDataReader {
       }
     */
 
-    const perLevelDataMap = this.readTMap(() => {
-      const data = this.parsePerStreamingLevelSaveData();
-      return data;
-    }, 11);
+    const perLevelDataMap = this.readTMap((k, i) => {
+      const startOffset = this.currentOffset;
+      try {
+        const data = this.parsePerStreamingLevelSaveData(k, i);
+        if (i < 120) {
+          return null; // Skip first 120 levels (Debugging)
+        }
+        return data;
+      } catch (e) {
+        console.error("Error parsing per level data", {
+          level: k,
+          index: i,
+          startOffset: startOffset.toString(16),
+          error: e,
+        });
+        throw e;
+      }
+    }, 130);
+
+    console.log("Per Level Data Map Info", {
+      count: perLevelDataMap.size,
+    });
 
     // /* Uncomment if need to store
     import("fs/promises").then(async ({ writeFile }) => {
