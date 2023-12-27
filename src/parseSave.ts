@@ -501,6 +501,12 @@ class SatisfactoryFileParser extends UnrealDataReader {
       this.currentOffset = tocExpectEndOffset;
     }
 
+    // If Empty Skip DataBlob64
+    if (TOCBlob64c.objects.length === 0 && (!TOCBlob64c.destroyedActors || TOCBlob64c.destroyedActors.length === 0)) {
+      this.currentOffset += 8 + 4 + 4; // objectDataSize, objectDataCount, destroyedActorDataCount
+      return {};
+    }
+
     //DataBlob64
     // - Object Data
     const objectDataSize = this.readUInt64();
@@ -580,6 +586,9 @@ class SatisfactoryFileParser extends UnrealDataReader {
   }
 
   parseSaveBody() {
+    if (!this.dataView || !this.buffer) {
+      throw new Error("Save file not imported");
+    }
     const bodySize = this.readInt64();
 
     /* 
@@ -618,9 +627,6 @@ class SatisfactoryFileParser extends UnrealDataReader {
       const startOffset = this.currentOffset;
       try {
         const data = this.parsePerStreamingLevelSaveData(k, i);
-        if (i < 120) {
-          return null; // Skip first 120 levels (Debugging)
-        }
         return data;
       } catch (e) {
         console.error("Error parsing per level data", {
@@ -631,7 +637,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
         });
         throw e;
       }
-    }, 130);
+    });
 
     console.log("Per Level Data Map Info", {
       count: perLevelDataMap.size,
