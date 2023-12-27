@@ -196,17 +196,6 @@ class UnrealDataReader extends CppDataReader {
     return value;
   }
 
-  readTMapStringKey<T>(valueParser: (key: string) => T, incOffset = true) {
-    const length = this.readInt32(incOffset);
-    const map: Map<string, T> = new Map();
-    for (let i = 0; i < length; i++) {
-      const key = this.readFString(incOffset);
-      const value = valueParser(key);
-      map.set(key, value);
-    }
-    return map;
-  }
-
   readTMap<V>(valueParser: (key: string, index: number) => V, limit: number | undefined = undefined, incOffset = true) {
     const length = this.readInt32(incOffset);
     const map: Map<string, V> = new Map();
@@ -483,20 +472,14 @@ class SatisfactoryFileParser extends UnrealDataReader {
       for (let i = 0; i < destroyedActorCount; i++) {
         destroyedActors.push(this.parseObjectReference());
       }
-
-      if (this.currentOffset !== tocExpectEndOffset) {
-        console.warn("Warning: TOC doesn't end where expected", {
-          current: this.currentOffset.toString(16),
-          expects: tocExpectEndOffset.toString(16),
-        });
-        this.currentOffset = tocExpectEndOffset;
-      }
-
       TOCBlob64c.destroyedActors = destroyedActors;
-    } else if (this.currentOffset !== tocExpectEndOffset) {
+    }
+
+    if (this.currentOffset !== tocExpectEndOffset) {
       console.warn("Warning: TOC doesn't end where expected", {
         current: this.currentOffset.toString(16),
         expects: tocExpectEndOffset.toString(16),
+        hasDestroyedActors: TOCBlob64c.destroyedActors !== undefined,
       });
       this.currentOffset = tocExpectEndOffset;
     }
@@ -585,6 +568,15 @@ class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
+  parsePersistentAndRuntimeData() {
+    // res/headers/FGSaveSession.h:87
+    const streamingLevelSaveData = this.parsePerStreamingLevelSaveData("PersistentLevel", 0);
+    this.debugLog();
+    return {
+      streamingLevelSaveData,
+    };
+  }
+
   parseSaveBody() {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
@@ -639,16 +631,21 @@ class SatisfactoryFileParser extends UnrealDataReader {
       }
     });
 
-    console.log("Per Level Data Map Info", {
-      count: perLevelDataMap.size,
-    });
+    console.log("Per Level Data Map Info", { count: perLevelDataMap.size });
 
     // /* Uncomment if need to store
-    import("fs/promises").then(async ({ writeFile }) => {
-      await writeFile(
-        "satisfactory_perLevelDataMap.json",
-        JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2),
-      );
+    import("fs/promises").then(async ({ writeFile, mkdir }) => {
+      await mkdir("outputs").catch(() => {});
+      await writeFile("outputs/perLevelDataMap.json", JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2));
+    });
+    //*/
+
+    const persistentAndRuntimeData = this.parsePersistentAndRuntimeData();
+
+    // /* Uncomment if need to store
+    import("fs/promises").then(async ({ writeFile, mkdir }) => {
+      await mkdir("outputs").catch(() => {});
+      await writeFile("outputs/persistentAndRuntimeData.json", JSON.stringify(persistentAndRuntimeData, null, 2));
     });
     //*/
 
@@ -690,9 +687,10 @@ class SatisfactoryFileParser extends UnrealDataReader {
       length: this.buffer.byteLength,
     };
 
-    /* Comment this line (only) to output the inflated save file
-    const { writeFile } = await import('fs/promises');
-    await writeFile('satisfactory_inflated.bin', this.buffer);
+    // /* Comment this line (only) to output the inflated save file
+    const { writeFile, mkdir } = await import("fs/promises");
+    await mkdir("outputs").catch(() => {});
+    await writeFile("outputs/inflated.bin", this.buffer);
     //*/
 
     const body = this.parseSaveBody();
