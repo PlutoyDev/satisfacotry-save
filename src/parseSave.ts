@@ -435,7 +435,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     }
   }
 
-  parsePerStreamingLevelSaveData(key: string, index: number) {
+  parsePerStreamingLevelSaveData(key: string) {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -486,9 +486,12 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     // If Empty Skip DataBlob64
     if (TOCBlob64c.objects.length === 0 && (!TOCBlob64c.destroyedActors || TOCBlob64c.destroyedActors.length === 0)) {
-      this.currentOffset += 8 + 4 + 4; // objectDataSize, objectDataCount, destroyedActorDataCount
+      this.currentOffset += 16; // objectDataSize (8) + objectDataCount (4) + destroyedActorDataCount (4)
       return {};
     }
+
+    // Used to store data, group by class name
+    const assembleData = new Map<string, Array<Record<string, unknown>>>();
 
     //DataBlob64
     // - Object Data
@@ -523,7 +526,15 @@ class SatisfactoryFileParser extends UnrealDataReader {
       // Read Properties
       // const propperties = new Map<string, unknown>();
     }
-    this.currentOffset = objectDataEndOffset; //Jump to end of object data to continue parsing
+    if (this.currentOffset !== objectDataEndOffset) {
+      // console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
+      //   current: this.currentOffset.toString(16),
+      //   expects: objectDataEndOffset.toString(16),
+      //   diff: objectDataEndOffset - this.currentOffset,
+      // });
+
+      this.currentOffset = objectDataEndOffset; //Jump to end of object data to continue parsing
+    }
 
     // - Destroyed Actor Data
     const destroyedActorDataCount = this.readInt32();
@@ -539,7 +550,6 @@ class SatisfactoryFileParser extends UnrealDataReader {
         console.warn("Warning: DataBlob has destroyed actor data but TOC doesn't", {
           destroyedActorDataCount,
           key,
-          index,
         });
       }
 
@@ -559,21 +569,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
           from: objectDataFrom,
           to: objectDataTo,
         },
-        // size: Number(objectDataLength),
-        // count: objectDataCount,
-        // dataBase64: Buffer.from(objectData).toString('base64'), //For using with ChatGPT
-        // from: objectDataFrom,
-        // to: objectDataTo,
       },
-    };
-  }
-
-  parsePersistentAndRuntimeData() {
-    // res/headers/FGSaveSession.h:87
-    const streamingLevelSaveData = this.parsePerStreamingLevelSaveData("PersistentLevel", 0);
-    this.debugLog();
-    return {
-      streamingLevelSaveData,
     };
   }
 
@@ -618,7 +614,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     const perLevelDataMap = this.readTMap((k, i) => {
       const startOffset = this.currentOffset;
       try {
-        const data = this.parsePerStreamingLevelSaveData(k, i);
+        const data = this.parsePerStreamingLevelSaveData(k);
         return data;
       } catch (e) {
         console.error("Error parsing per level data", {
@@ -633,16 +629,18 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     console.log("Per Level Data Map Info", { count: perLevelDataMap.size });
 
-    // /* Uncomment if need to store
+    /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
       await mkdir("outputs").catch(() => {});
       await writeFile("outputs/perLevelDataMap.json", JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2));
     });
     //*/
 
-    const persistentAndRuntimeData = this.parsePersistentAndRuntimeData();
+    const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level");
 
-    // /* Uncomment if need to store
+    console.log("Persistent And Runtime Data Info", {});
+
+    /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
       await mkdir("outputs").catch(() => {});
       await writeFile("outputs/persistentAndRuntimeData.json", JSON.stringify(persistentAndRuntimeData, null, 2));
