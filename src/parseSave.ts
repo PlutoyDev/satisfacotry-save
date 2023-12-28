@@ -222,21 +222,22 @@ class UnrealDataReader extends CppDataReader {
     return map;
   }
 
-  readSimpleProperty = {
-    ByteProperty: () => this.readChar(),
-    Int8Property: () => this.readChar(),
-    IntProperty: () => this.readInt32(),
-    Int64Property: () => this.readInt64(),
-    UInt32Property: () => this.readUInt32(),
-    EnumProperty: () => this.readFString(),
-    FloatProperty: () => this.readFloat(),
-    DoubleProperty: () => this.readDouble(),
-    StrProperty: () => this.readFString(),
-    NameProperty: () => this.readFString(),
-    ObjectProperty: () => this.readObjectReference(),
-    InterfaceProperty: () => this.readObjectReference(),
-    TextProperty: () => this.readFText(),
-  };
+  PropertyTypeReader = {
+    Byte: "readChar",
+    Int8: "readChar",
+    Int: "readInt32",
+    Int64: "readInt64",
+    UInt32: "readUInt32",
+    Enum: "readFString",
+    Float: "readFloat",
+    Double: "readDouble",
+    Str: "readFString",
+    Name: "readFString",
+    Struct: "readFString",
+    Object: "readObjectReference",
+    Interface: "readObjectReference",
+    Text: "readFText",
+  } satisfies Record<string, keyof UnrealDataReader>;
 
   readProperty(nested?: { type: string; parentType: string }, incOffset = true) {
     // return key value pair [tag, value]
@@ -260,9 +261,7 @@ class UnrealDataReader extends CppDataReader {
     }
 
     const tag: PropertyTag = nested
-      ? {
-          type: nested.type,
-        }
+      ? { type: nested.type }
       : {
           name: this.readFString(incOffset),
           type: this.readFString(incOffset),
@@ -273,21 +272,23 @@ class UnrealDataReader extends CppDataReader {
       return null;
     }
 
+    tag.type = tag.type.substring(0, tag.type.length - 8); // Remove "Property"
+
     // Translated and adapted from Unreal Source Code
     // https://github.com/EpicGames/UnrealEngine/blob/407acc04a93f09ecb42c07c98b74fd00cc967100/Engine/Source/Runtime/CoreUObject/Private/UObject/PropertyTag.cpp#L16
     if (!nested) {
       tag.arrayIndex = this.readInt32(incOffset);
     }
-    if (tag.type === "StructProperty") {
+    if (tag.type === "Struct") {
       tag.structName = this.readFString(incOffset);
       tag.structGuid = this.readFGuid(incOffset);
-    } else if (tag.type === "BoolProperty") {
+    } else if (tag.type === "Bool") {
       tag.boolValue = this.readBool(incOffset);
-    } else if (tag.type === "ByteProperty" || tag.type === "EnumProperty") {
+    } else if (tag.type === "Byte" || tag.type === "Enum") {
       tag.enumName = this.readFString(incOffset);
-    } else if (tag.type === "ArrayProperty" || tag.type === "SetProperty") {
+    } else if (tag.type === "Array" || tag.type === "Set") {
       tag.innerType = this.readFString(incOffset);
-    } else if (tag.type === "MapProperty") {
+    } else if (tag.type === "Map") {
       tag.innerType = this.readFString(incOffset);
       tag.valueType = this.readFString(incOffset);
     }
@@ -323,8 +324,9 @@ class UnrealDataReader extends CppDataReader {
 
     if (tag.type === "BoolProperty") {
       return nested ? tag.boolValue : [tag, tag.boolValue];
-    } else if (Object.keys(this.readSimpleProperty).includes(tag.type)) {
-      const value = this.readSimpleProperty[tag.type as keyof typeof this.readSimpleProperty]();
+    } else if (Object.keys(this.PropertyTypeReader).includes(tag.type)) {
+      const parserName = this.PropertyTypeReader[tag.type as keyof typeof this.PropertyTypeReader];
+      const value = this[parserName].bind(this)(incOffset);
       return nested ? value : [tag, value];
     }
     // Nested types
