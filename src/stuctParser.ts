@@ -1,8 +1,8 @@
 // Pre-defined struct parser from binary data
-// export each struct type parser as a function readXXX, that expects a UnrealDataReader and returns a parsed struct
+// export each struct type parser as a function readXXX, that expects a SatisfactoryFileParser and returns a parsed struct
 // export interface of each struct type
 
-import UnrealDataReader from "./unrealDataReader.js";
+import type { SatisfactoryFileParser } from "./parseSave.js";
 import type { ObjectReference } from "./unrealDataReader.js";
 
 /*
@@ -63,11 +63,11 @@ export interface Vector {
   z: number;
 }
 
-export function readVector(reader: UnrealDataReader): Vector {
+export function readVector(this: SatisfactoryFileParser): Vector {
   return {
-    x: reader.readDouble(),
-    y: reader.readDouble(),
-    z: reader.readDouble(),
+    x: this.readDouble(),
+    y: this.readDouble(),
+    z: this.readDouble(),
   };
 }
 
@@ -78,12 +78,12 @@ export interface Quat {
   w: number;
 }
 
-export function readQuat(reader: UnrealDataReader): Quat {
+export function readQuat(this: SatisfactoryFileParser): Quat {
   return {
-    x: reader.readDouble(),
-    y: reader.readDouble(),
-    z: reader.readDouble(),
-    w: reader.readDouble(),
+    x: this.readDouble(),
+    y: this.readDouble(),
+    z: this.readDouble(),
+    w: this.readDouble(),
   };
 }
 
@@ -93,11 +93,11 @@ export interface Box {
   isValid: boolean;
 }
 
-export function readBox(reader: UnrealDataReader): Box {
+export function readBox(this: SatisfactoryFileParser): Box {
   return {
-    min: readVector(reader),
-    max: readVector(reader),
-    isValid: reader.readChar() !== 0,
+    min: readVector.call(this),
+    max: readVector.call(this),
+    isValid: this.readChar() !== 0,
   };
 }
 
@@ -108,12 +108,12 @@ export interface LinearColor {
   a: number;
 }
 
-export function readLinearColor(reader: UnrealDataReader): LinearColor {
+export function readLinearColor(this: SatisfactoryFileParser): LinearColor {
   return {
-    r: reader.readFloat(),
-    g: reader.readFloat(),
-    b: reader.readFloat(),
-    a: reader.readFloat(),
+    r: this.readFloat(),
+    g: this.readFloat(),
+    b: this.readFloat(),
+    a: this.readFloat(),
   };
 }
 
@@ -121,9 +121,9 @@ export interface FluidBox {
   content: number; //The current content of this fluid box in m^3
 }
 
-export function readFluidBox(reader: UnrealDataReader): FluidBox {
+export function readFluidBox(this: SatisfactoryFileParser): FluidBox {
   return {
-    content: reader.readFloat(),
+    content: this.readFloat(),
   };
 }
 
@@ -133,16 +133,30 @@ export interface InventoryItem {
   numItems: number;
 }
 
-export function readInventoryItem(reader: UnrealDataReader): InventoryItem {
-  reader.currentOffset += 4; // Unknown
-  const itemClass = reader.readFString();
-  const reference = reader.readObjectReference();
+export function readInventoryItem(this: SatisfactoryFileParser): InventoryItem {
+  this.currentOffset += 4; // Unknown
+  const itemClass = this.readFString();
+  const reference = this.readObjectReference();
 
-  reader.currentOffset += 38; // "NumItems\0" + "IntProperty\0" + size + arrayIndex + hasPropertyGuid
-  const numItems = reader.readInt32();
+  this.currentOffset += 38; // "NumItems\0" + "IntProperty\0" + size + arrayIndex + hasPropertyGuid
+  const numItems = this.readInt32();
   return {
     itemClass,
     reference,
     numItems,
+  };
+}
+
+export interface IntVector {
+  x: number;
+  y: number;
+  z: number;
+}
+
+export function readIntVector(this: SatisfactoryFileParser): IntVector {
+  return {
+    x: this.readInt32(),
+    y: this.readInt32(),
+    z: this.readInt32(),
   };
 }

@@ -32,7 +32,7 @@ interface SatisfactorySaveHeader {
   isCreativeModeEnabled: boolean;
 }
 
-class SatisfactoryFileParser extends UnrealDataReader {
+export class SatisfactoryFileParser extends UnrealDataReader {
   parsedHeader: SatisfactorySaveHeader | null = null;
 
   parseSaveHeader() {
@@ -233,17 +233,9 @@ class SatisfactoryFileParser extends UnrealDataReader {
     Interface: "readObjectReference",
   } satisfies Record<string, keyof UnrealDataReader>;
 
-  getStructReader(structName: string) {
-    // const readerName = "read" + structName;
-    // if ("read" + structName in StructReaders) {
-    //   // @ts-ignore
-    //   return StructReaders["read" + structName];
-    // } else {
-    //   // Parse as generic struct
-    //   return () => this.readProperties();
-    // }
+  getStructReader(structName: string): (this: SatisfactoryFileParser) => any {
     // @ts-ignore
-    return StructReaders["read" + structName] ?? (() => this.readProperties());
+    return StructReaders["read" + structName];
   }
 
   /**
@@ -271,64 +263,53 @@ class SatisfactoryFileParser extends UnrealDataReader {
         InterfaceProperty, ArrayProperty, SetProperty, StructProperty
         MapProperty, TextProperty
       Generated using: strings outputs/inflated.bin -n 4 | grep -xe "\w*Property" | sort | uniq
+
+      Array/Set Inner Type:
+        ByteProperty, Int64Property, IntProperty, InterfaceProperty
+        ObjectProperty, StrProperty, StructProperty, UInt32Property
+      Generated using: grep -aoP "(Array|Set)Property(.|\n|\r){13}\w*Property" outputs/inflated.bin | grep -aoP "\w*Property$" | sort | uniq
     */
 
     if (tag.type === "Bool") {
       return [tag, tag.boolValue!] as const;
     }
-    // Basic types
-    else if (Object.keys(this.PropertyTypeReader).includes(tag.type)) {
-      const parserName = this.PropertyTypeReader[tag.type as keyof typeof this.PropertyTypeReader];
-      const value = this[parserName](incOffset);
-      return [tag, value] as const;
-    }
-    // Nested types
-    else if (tag.type === "Array" || tag.type === "Set") {
-      /*
-        Possible inner types:
-          Generated using: grep -aoP "(Array|Set)Property(.|\n|\r){13}\w*Property" outputs/inflated.bin | grep -aoP "\w*Property$" | sort | uniq
-          
-          ByteProperty, Int64Property, IntProperty, InterfaceProperty
-          ObjectProperty, StrProperty, StructProperty, UInt32Property
-          
-          All except StructProperty are basic types and can be parsed using PropertyTypeReader
-        */
-      const count = this.readInt32(incOffset);
-      const values: unknown[] = [];
-      if (Object.keys(this.PropertyTypeReader).includes(tag.type)) {
-        const parserName = this.PropertyTypeReader[tag.type as keyof typeof this.PropertyTypeReader];
-        for (let i = 0; i < count; i++) {
-          values.push(this[parserName](incOffset));
-        }
-      } else if (tag.innerType === "Struct") {
-        const innerTag = this.readPropertyTag(incOffset)!;
 
-        if (!innerTag.structName) {
-          throw new Error(`Unable to parse Struct inner type: ${innerTag.innerType}`);
-        }
-        const reader = this.getStructReader(innerTag.structName);
+    const arrCount = tag.type === "Array" || tag.type === "Set" ? this.readInt32(incOffset) : undefined;
+    const valueType = tag.innerType ?? tag.type; // innerType is only for Array, Set, Map(key)
+    let valueParser: (this: SatisfactoryFileParser) => any;
 
-        for (let i = 0; i < count; i++) {
-          values.push(reader.call(this, this));
-        }
-      } else {
-        throw new Error(`Unable to parse Array/Set inner type: ${tag.innerType}`);
+    if (Object.keys(this.PropertyTypeReader).includes(valueType)) {
+      const parserName = this.PropertyTypeReader[valueType as keyof typeof this.PropertyTypeReader];
+      valueParser = this[parserName];
+    } else if (valueType === "Struct" && tag.type !== "Map") {
+      let innerTag: ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag> | undefined = undefined;
+      if (tag.type === "Array" || tag.type === "Set") {
+        innerTag = this.readPropertyTag(incOffset)!;
       }
-      return [tag, values] as const;
-    } else if (tag.type === "Struct") {
-      if (!tag.structName) {
+      const structName = innerTag?.structName ?? tag.structName;
+      if (!structName) {
         throw new Error(`Unable to parse Struct: ${tag.type}`);
       }
-      const reader = this.getStructReader(tag.structName);
-      return [tag, reader.call(this, this)] as const;
+      valueParser = this.getStructReader(structName) ?? this.readProperties;
     } else if (tag.type === "Map") {
-      // Idk how to parse this yet
-      console.log("MapType", tag);
-      this.debugLog(16);
-      throw new Error(`Map type not implemented: ${tag.type}`);
+      console.log("Unimplemented Map Parser", tag);
+      throw new Error("Unimplemented Map Parser");
     } else {
-      throw new Error(`Unknown property type: ${tag.type}`);
+      console.log("Unknown property type", tag);
+      throw new Error("Unknown property type");
     }
+
+    if (tag.type === "Array" || tag.type === "Set") {
+      const values: unknown[] = [];
+      for (let i = 0; i < arrCount!; i++) {
+        values.push(valueParser.call(this));
+      }
+      return [tag, values] as const;
+    } else {
+      return [tag, valueParser.call(this)] as const;
+    }
+
+    throw new Error("Unreachable code");
   }
 
   readProperties(incOffset = true) {
@@ -398,7 +379,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
-  parsePerStreamingLevelSaveData(key: string) {
+  parsePerStreamingLevelSaveData(key: string, parseData = true) {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -421,7 +402,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     const TOCBlob64c: {
       objects: typeof objects;
-      destroyedActors?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["readObjectReference"]>[];
+      destroyedActors?: ReturnType<typeof SatisfactoryFileParser.prototype.readObjectReference>[];
     } = {
       objects,
     };
@@ -452,17 +433,21 @@ class SatisfactoryFileParser extends UnrealDataReader {
     // If Empty Skip DataBlob64
     if (TOCBlob64c.objects.length === 0 && (!TOCBlob64c.destroyedActors || TOCBlob64c.destroyedActors.length === 0)) {
       this.currentOffset += 16; // objectDataSize (8) + objectDataCount (4) + destroyedActorDataCount (4)
-      return {};
+      return {
+        ...TOCBlob64c,
+        objectsData: [],
+        objectDataBase64: "AAAAAAAAAAAAAAAAAAAAAA==", // Empty
+      };
     }
 
     // Used to store data, group by class name
-    const assembleData = new Map<string, Array<ReturnType<typeof this.parseObjectData>>>();
+    const objectsData: ReturnType<typeof this.parseObjectData>[] = [];
 
     //DataBlob64
     // - Object Data
     const objectDataSize = this.readUInt64();
     const objectDataEndOffset = this.currentOffset + Number(objectDataSize);
-    const objectData = this.buffer.slice(this.currentOffset, objectDataEndOffset);
+    const objectDataRaw = this.buffer.slice(this.currentOffset, objectDataEndOffset);
     const objectDataFrom = this.currentOffset.toString(16);
     const objectDataTo = objectDataEndOffset.toString(16);
 
@@ -478,12 +463,10 @@ class SatisfactoryFileParser extends UnrealDataReader {
     for (let i = 0; i < objectDataCount; i++) {
       const object = objects[i];
       try {
-        const data = this.parseObjectData(object);
-        const className = object.className;
-        if (!assembleData.has(className)) {
-          assembleData.set(className, []);
+        if (parseData) {
+          const data = this.parseObjectData(object);
+          objectsData.push(data);
         }
-        assembleData.get(className)?.push(data);
       } catch (e) {
         console.error("Error parsing object data", {
           object,
@@ -496,11 +479,13 @@ class SatisfactoryFileParser extends UnrealDataReader {
       }
     }
     if (this.currentOffset !== objectDataEndOffset) {
-      console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
-        current: this.currentOffset.toString(16),
-        expects: objectDataEndOffset.toString(16),
-        diff: objectDataEndOffset - this.currentOffset,
-      });
+      if (parseData) {
+        console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
+          current: this.currentOffset.toString(16),
+          expects: objectDataEndOffset.toString(16),
+          diff: objectDataEndOffset - this.currentOffset,
+        });
+      }
 
       this.currentOffset = objectDataEndOffset; //Jump to end of object data to continue parsing
     }
@@ -528,10 +513,10 @@ class SatisfactoryFileParser extends UnrealDataReader {
       }
     }
 
-    console.log("Data", assembleData);
-
     return {
-      assembleData,
+      ...TOCBlob64c,
+      objectsData,
+      objectDataBase64: Buffer.from(objectDataRaw).toString("base64"),
     };
   }
 
@@ -553,13 +538,13 @@ class SatisfactoryFileParser extends UnrealDataReader {
       res/headers/FWPSaveDataMigrationContext.h:42
       FWPGridValidationData { int32 cellSize, uint32 gridHash, TMap<FName, uint32> cellHash }
     */
-    const validationGrids = //Uncomment if need to store
-      this.readTMap(() => {
-        const cellSize = this.readInt32();
-        const gridHash = this.readUInt32();
-        const cellHash = this.readTMap(() => this.readUInt32());
-        return { cellSize, gridHash, cellHash };
-      });
+    // const validationGrids = //Uncomment if need to store
+    this.readTMap(() => {
+      const cellSize = this.readInt32();
+      const gridHash = this.readUInt32();
+      const cellHash = this.readTMap(() => this.readUInt32());
+      return { cellSize, gridHash, cellHash };
+    });
     /*
       res/headers/FGSaveSession.h:471
 
@@ -589,23 +574,33 @@ class SatisfactoryFileParser extends UnrealDataReader {
       }
     });
 
-    console.log("Per Level Data Map Info", { count: perLevelDataMap.size });
-
     /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
       await mkdir("outputs").catch(() => {});
-      await writeFile("outputs/perLevelDataMap.json", JSON.stringify(Object.fromEntries(perLevelDataMap), null, 2));
+      await writeFile(
+        "outputs/perLevelDataMap.json",
+        JSON.stringify(
+          Object.fromEntries(Array.from(perLevelDataMap).map(([k, v]) => [k, { ...v, objectDataBase64: null }])),
+          null,
+          2,
+        ),
+      );
     });
     //*/
 
-    const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level");
-
-    console.log("Persistent And Runtime Data Info", {});
+    const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level", false);
 
     /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
       await mkdir("outputs").catch(() => {});
-      await writeFile("outputs/persistentAndRuntimeData.json", JSON.stringify(persistentAndRuntimeData, null, 2));
+      await writeFile(
+        "outputs/persistentAndRuntimeData.bin",
+        Buffer.from(persistentAndRuntimeData.objectDataBase64, "base64"),
+      );
+      await writeFile(
+        "outputs/persistentAndRuntimeDataTOC.json",
+        JSON.stringify({ ...persistentAndRuntimeData, objectDataBase64: null }, null, 2),
+      );
     });
     //*/
 
