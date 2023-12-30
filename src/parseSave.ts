@@ -1,127 +1,10 @@
 /*
 Parsing of Satisfactory File
 */
+import { CppDataReader } from "./cppDataReader.js";
 import { unzlibSync } from "fflate";
 
 const UnrealArchiveMagic = 0x9e2a83c1;
-
-class CppDataReader {
-  currentOffset = 0;
-  dataView?: DataView;
-  buffer?: Uint8Array;
-
-  // Primitives types
-  readChar(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getInt8(this.currentOffset);
-    if (incOffset) {
-      this.currentOffset += 1;
-    }
-    return value;
-  }
-
-  readDouble(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getFloat64(this.currentOffset, true);
-    if (incOffset) {
-      this.currentOffset += 8;
-    }
-    return value;
-  }
-
-  readFloat(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getFloat32(this.currentOffset, true);
-    if (incOffset) {
-      this.currentOffset += 4;
-    }
-    return value;
-  }
-
-  readUInt32(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getUint32(this.currentOffset, true);
-    if (incOffset) {
-      this.currentOffset += 4;
-    }
-    return value;
-  }
-
-  readInt32(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getInt32(this.currentOffset, true);
-    if (incOffset) {
-      this.currentOffset += 4;
-    }
-    return value;
-  }
-
-  readUInt64(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getBigUint64(this.currentOffset, true);
-    if (incOffset) {
-      this.currentOffset += 8;
-    }
-    return value;
-  }
-
-  readInt64(incOffset = true) {
-    if (!this.dataView) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.dataView.getBigInt64(this.currentOffset, true);
-    if (incOffset) {
-      this.currentOffset += 8;
-    }
-    return value;
-  }
-
-  // For debuging
-  debug(length = 1, as: "hex" | "bin", incOffset = false) {
-    if (!this.buffer) {
-      throw new Error("Save file not imported");
-    }
-    const value = this.buffer.slice(this.currentOffset, this.currentOffset + length);
-    if (incOffset) {
-      this.currentOffset += length;
-    }
-    if (as === "hex") {
-      return [...value].map((value) => value.toString(16).padStart(2, "0")).join(" ");
-    }
-    if (as === "bin") {
-      return [...value].map((value) => value.toString(2).padStart(8, "0")).join(" ");
-    }
-    return value;
-  }
-
-  debugLog(length = 4) {
-    if (!this.buffer) {
-      throw new Error("Save file not imported");
-    }
-    const atHex = this.currentOffset.toString(16);
-    const atDec = this.currentOffset.toString(10);
-    const valueArr = Array.from(this.buffer.slice(this.currentOffset, this.currentOffset + length));
-    const hexValue = valueArr.map((value) => value.toString(16).padStart(2, "0")).join(" ");
-    const decValue = valueArr.map((value) => value.toString(10).padStart(3, "0")).join(" ");
-    console.table({
-      hex: { at: atHex, value: hexValue },
-      dec: { at: atDec, value: decValue },
-    });
-  }
-}
-
 class UnrealDataReader extends CppDataReader {
   readDuration(incOffset = true) {
     const totalSeconds = this.readInt32(incOffset);
@@ -233,13 +116,18 @@ class UnrealDataReader extends CppDataReader {
     Double: "readDouble",
     Str: "readFString",
     Name: "readFString",
-    Struct: "readFString",
     Object: "readObjectReference",
     Interface: "readObjectReference",
     Text: "readFText",
   } satisfies Record<string, keyof UnrealDataReader>;
 
-  readProperty(nested?: { type: string; parentType: string }, incOffset = true) {
+  /**
+   * Read a property. For DataBlob64 as well as innerType of Array, Set, Map
+   * @param nested
+   * @param incOffset
+   * @returns
+   */
+  readProperty(incOffset = true) {
     // return key value pair [tag, value]
 
     // Translated from Unreal Source Code
@@ -260,25 +148,21 @@ class UnrealDataReader extends CppDataReader {
       propertyGuid?: ReturnType<typeof UnrealDataReader.prototype.readFGuid>;
     }
 
-    const tag: PropertyTag = nested
-      ? { type: nested.type }
-      : {
-          name: this.readFString(incOffset),
-          type: this.readFString(incOffset),
-          size: this.readInt32(incOffset),
-        };
+    const tag: PropertyTag = {
+      name: this.readFString(incOffset),
+      type: this.readFString(incOffset).slice(0, -8), // Remove "Property"
+      size: this.readInt32(incOffset),
+    };
 
     if (tag.type === "None" || tag.name === "None") {
       return null;
     }
 
-    tag.type = tag.type.substring(0, tag.type.length - 8); // Remove "Property"
-
-    // Translated and adapted from Unreal Source Code
+    // Translated from Unreal Source Code
     // https://github.com/EpicGames/UnrealEngine/blob/407acc04a93f09ecb42c07c98b74fd00cc967100/Engine/Source/Runtime/CoreUObject/Private/UObject/PropertyTag.cpp#L16
-    if (!nested) {
-      tag.arrayIndex = this.readInt32(incOffset);
-    }
+
+    tag.arrayIndex = this.readInt32(incOffset);
+
     if (tag.type === "Struct") {
       tag.structName = this.readFString(incOffset);
       tag.structGuid = this.readFGuid(incOffset);
@@ -287,16 +171,15 @@ class UnrealDataReader extends CppDataReader {
     } else if (tag.type === "Byte" || tag.type === "Enum") {
       tag.enumName = this.readFString(incOffset);
     } else if (tag.type === "Array" || tag.type === "Set") {
-      tag.innerType = this.readFString(incOffset);
+      tag.innerType = this.readFString(incOffset).slice(0, -8); // Remove "Property"
     } else if (tag.type === "Map") {
-      tag.innerType = this.readFString(incOffset);
-      tag.valueType = this.readFString(incOffset);
+      tag.innerType = this.readFString(incOffset).slice(0, -8); // Remove "Property"
+      tag.valueType = this.readFString(incOffset).slice(0, -8); // Remove "Property"
     }
-    if (!nested) {
-      tag.hasPropertyGuid = this.readBool(incOffset);
-      if (tag.hasPropertyGuid) {
-        tag.propertyGuid = this.readFGuid(incOffset);
-      }
+
+    tag.hasPropertyGuid = this.readChar(incOffset) === 1;
+    if (tag.hasPropertyGuid) {
+      tag.propertyGuid = this.readFGuid(incOffset);
     }
 
     /* 
@@ -312,32 +195,62 @@ class UnrealDataReader extends CppDataReader {
         DoubleProperty
         StrProperty
         NameProperty
-        StructProperty
         ObjectProperty
         InterfaceProperty
         ArrayProperty
         SetProperty
+        StructProperty
         MapProperty
         TextProperty
-      Generated using: strings outputs/inflated.bin -n 4 | grep -xe "\w*Property" | sort | uniq > outputs/propertyTypes.txt
+      Generated using: strings outputs/inflated.bin -n 4 | grep -xe "\w*Property" | sort | uniq
     */
 
-    if (tag.type === "BoolProperty") {
-      return nested ? tag.boolValue : [tag, tag.boolValue];
-    } else if (Object.keys(this.PropertyTypeReader).includes(tag.type)) {
+    if (tag.type === "Bool") {
+      return [tag, tag.boolValue];
+    }
+    // Basic types
+    else if (Object.keys(this.PropertyTypeReader).includes(tag.type)) {
       const parserName = this.PropertyTypeReader[tag.type as keyof typeof this.PropertyTypeReader];
-      const value = this[parserName].bind(this)(incOffset);
-      return nested ? value : [tag, value];
+      const value = this[parserName](incOffset);
+      return [tag, value];
     }
     // Nested types
-    else if (tag.type === "ArrayProperty") {
+    else if (tag.type === "Array" || tag.type === "Set") {
       const count = this.readInt32(incOffset);
       const values: unknown[] = [];
-      for (let i = 0; i < count; i++) {
-        values.push(this.readProperty({ type: tag.innerType!, parentType: tag.type }, incOffset));
+      /*
+        Possible inner types:
+          Type + Null(1) + Size(4) + Index(4) + LengthOfInnerType(4) + InnerType => Type + 13 bytes + InnerType
+          Generated using: grep -aoP "(Array|Set)Property(.|\n|\r){13}\w*Property" outputs/inflated.bin | grep -aoP "\w*Property$" | sort | uniq
+          
+          ByteProperty
+          Int64Property
+          IntProperty
+          InterfaceProperty
+          ObjectProperty
+          StrProperty
+          StructProperty
+          UInt32Property
+          
+          All except StructProperty are basic types and can be parsed using PropertyTypeReader
+        */
+      if (Object.keys(this.PropertyTypeReader).includes(tag.type)) {
+        const parserName = this.PropertyTypeReader[tag.type as keyof typeof this.PropertyTypeReader];
+        for (let i = 0; i < count; i++) {
+          values.push(this[parserName](incOffset));
+        }
+      } else if (tag.innerType === "Struct") {
+        for (let i = 0; i < count; i++) {}
+      } else {
       }
-      return nested ? values : [tag, values];
+      return [tag, values];
+    } else if (tag.type === "Struct") {
+    } else if (tag.type === "Map") {
+      // Idk how to parse this yet
+      console.log("MapType", tag);
+      this.debugLog(16);
     }
+
     // Old code
     // } else if (['ByteProperty', 'Int8Property'].includes(tag.type)) {
     //   const value = this.readChar(incOffset);
@@ -366,6 +279,7 @@ class UnrealDataReader extends CppDataReader {
     // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h#L219
     // Parse Properties
     // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Private/UObject/Property.cpp#L769
+    return [tag, null];
   }
 
   // readProperties(incOffset = true) {
@@ -594,7 +508,42 @@ class SatisfactoryFileParser extends UnrealDataReader {
       throw new Error("Save file not imported");
     }
 
-    const count = this.readInt32();
+    const version = this.readInt32();
+    if (version < 42) {
+      throw new Error(`Unable to parse object data: version (${version}) < 42`);
+    }
+    this.currentOffset += 4; // Skip unknown
+    const size = this.readInt32();
+    const expectedEndOffset = this.currentOffset + size;
+
+    interface ParentChildrenData {
+      parent?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["readObjectReference"]>;
+      children?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["readObjectReference"]>[];
+    }
+
+    const pcInfo: ParentChildrenData = {};
+    if (toc.type === 1) {
+      // Actor has additional data
+      pcInfo.parent = this.readObjectReference();
+      pcInfo.children = [];
+      const childrenCount = this.readInt32();
+      for (let i = 0; i < childrenCount; i++) {
+        pcInfo.children.push(this.readObjectReference());
+      }
+    }
+
+    const properties = new Map<string, unknown>();
+    while (true) {
+      const prop = this.readProperty();
+      if (prop === null) break; // End of properties
+      const [tag, value] = prop;
+    }
+
+    return {
+      version,
+      pcInfo,
+      properties,
+    };
   }
 
   parsePerStreamingLevelSaveData(key: string) {
@@ -635,6 +584,8 @@ class SatisfactoryFileParser extends UnrealDataReader {
         destroyedActors.push(this.readObjectReference());
       }
       TOCBlob64c.destroyedActors = destroyedActors;
+    } else {
+      console.log("TOC ended without destroyed actors");
     }
 
     if (this.currentOffset !== tocExpectEndOffset) {
@@ -653,7 +604,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
     }
 
     // Used to store data, group by class name
-    const assembleData = new Map<string, Array<Record<string, unknown>>>();
+    const assembleData = new Map<string, Array<ReturnType<typeof this.parseObjectData>>>();
 
     //DataBlob64
     // - Object Data
@@ -673,20 +624,13 @@ class SatisfactoryFileParser extends UnrealDataReader {
     }
 
     for (let i = 0; i < objectDataCount; i++) {
-      // const obj = objects[i];
-      // const size = this.readInt32();
-      // if (obj.type == 1 && 'needTransform' in obj) {
-      //   // To make typescript happy but this is just to check if its actor
-      //   // Actor
-      //   obj.parent = this.parseObjectReference();
-      //   const childrenCount = this.readInt32();
-      //   obj.children = [];
-      //   for (let i = 0; i < childrenCount; i++) {
-      //     obj.children.push(this.parseObjectReference());
-      //   }
-      // }
-      // Read Properties
-      // const propperties = new Map<string, unknown>();
+      const object = objects[i];
+      const data = this.parseObjectData(object);
+      const className = object.className;
+      if (!assembleData.has(className)) {
+        assembleData.set(className, []);
+      }
+      assembleData.get(className)?.push(data);
     }
     if (this.currentOffset !== objectDataEndOffset) {
       // console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
