@@ -293,7 +293,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
         if (!innerTag.structName) {
           throw new Error(`Unable to parse Struct inner type: ${innerTag.innerType}`);
         }
-        let parser: (this: SatisfactoryFileParser) => unknown;
+        let parser: (reader: SatisfactoryFileParser) => unknown;
         if ("read" + innerTag.structName in StructReaders) {
           // @ts-ignore
           parser = StructReaders["read" + innerTag.structName];
@@ -303,7 +303,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
         }
 
         for (let i = 0; i < count; i++) {
-          values.push(parser.call(this));
+          values.push(parser.call(this, this));
         }
       } else {
         throw new Error(`Unable to parse Array/Set inner type: ${tag.innerType}`);
@@ -313,20 +313,20 @@ class SatisfactoryFileParser extends UnrealDataReader {
       if (!tag.structName) {
         throw new Error(`Unable to parse Struct: ${tag.type}`);
       }
-      let parser: (this: SatisfactoryFileParser) => unknown;
       if ("read" + tag.structName in StructReaders) {
         // @ts-ignore
-        parser = StructReaders["read" + tag.structName];
+        return [tag, StructReaders["read" + tag.structName].call(this, this)] as const;
       } else {
         // Parse as generic struct
-        parser = () => this.readProperties(incOffset);
+        return [tag, this.readProperties(incOffset)] as const;
       }
-      const value = parser.call(this);
-      return [tag, value] as const;
     } else if (tag.type === "Map") {
       // Idk how to parse this yet
       console.log("MapType", tag);
       this.debugLog(16);
+      throw new Error(`Map type not implemented: ${tag.type}`);
+    } else {
+      throw new Error(`Unknown property type: ${tag.type}`);
     }
 
     // Old code
@@ -357,17 +357,26 @@ class SatisfactoryFileParser extends UnrealDataReader {
     // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h#L219
     // Parse Properties
     // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Private/UObject/Property.cpp#L769
-    return [tag, null] as const;
   }
 
   readProperties(incOffset = true) {
     const properties: Record<string, unknown> = {};
     while (true) {
-      const prop = this.readProperty(incOffset);
-      if (prop === null) break; // End of properties
-      const [tag, value] = prop;
-      properties[tag.name] = value;
+      try {
+        const prop = this.readProperty(incOffset);
+        if (prop === null) break; // End of properties
+        const [tag, value] = prop;
+        console.log("Property Read finished @", this.currentOffset.toString(16), value);
+        properties[tag.name] = value;
+      } catch (e) {
+        console.error("Error parsing property", {
+          offset: this.currentOffset.toString(16),
+          error: e,
+        });
+        throw e;
+      }
     }
+    console.log("Properties Read", properties, this.currentOffset.toString(16));
     return properties;
   }
 
@@ -496,12 +505,23 @@ class SatisfactoryFileParser extends UnrealDataReader {
 
     for (let i = 0; i < objectDataCount; i++) {
       const object = objects[i];
-      const data = this.parseObjectData(object);
-      const className = object.className;
-      if (!assembleData.has(className)) {
-        assembleData.set(className, []);
+      try {
+        const data = this.parseObjectData(object);
+        const className = object.className;
+        if (!assembleData.has(className)) {
+          assembleData.set(className, []);
+        }
+        assembleData.get(className)?.push(data);
+      } catch (e) {
+        console.error("Error parsing object data", {
+          object,
+          index: i,
+          objectDataFrom,
+          objectDataTo,
+          error: e,
+        });
+        throw e;
       }
-      assembleData.get(className)?.push(data);
     }
     if (this.currentOffset !== objectDataEndOffset) {
       console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
@@ -595,7 +615,7 @@ class SatisfactoryFileParser extends UnrealDataReader {
         });
         throw e;
       }
-    }, 8);
+    });
 
     console.log("Per Level Data Map Info", { count: perLevelDataMap.size });
 

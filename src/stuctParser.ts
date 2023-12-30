@@ -140,7 +140,6 @@ export function readInventoryItem(reader: UnrealDataReader): InventoryItem {
 
   reader.currentOffset += 38; // "NumItems\0" + "IntProperty\0" + size + arrayIndex + hasPropertyGuid
   const numItems = reader.readInt32();
-  reader.currentOffset += 9; //("None\0");
   return {
     itemClass,
     reference,
