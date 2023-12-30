@@ -233,6 +233,19 @@ class SatisfactoryFileParser extends UnrealDataReader {
     Interface: "readObjectReference",
   } satisfies Record<string, keyof UnrealDataReader>;
 
+  getStructReader(structName: string) {
+    // const readerName = "read" + structName;
+    // if ("read" + structName in StructReaders) {
+    //   // @ts-ignore
+    //   return StructReaders["read" + structName];
+    // } else {
+    //   // Parse as generic struct
+    //   return () => this.readProperties();
+    // }
+    // @ts-ignore
+    return StructReaders["read" + structName] ?? (() => this.readProperties());
+  }
+
   /**
    * Read a property. For DataBlob64 as well as innerType of Array, Set, Map
    * @param nested
@@ -293,17 +306,10 @@ class SatisfactoryFileParser extends UnrealDataReader {
         if (!innerTag.structName) {
           throw new Error(`Unable to parse Struct inner type: ${innerTag.innerType}`);
         }
-        let parser: (reader: SatisfactoryFileParser) => unknown;
-        if ("read" + innerTag.structName in StructReaders) {
-          // @ts-ignore
-          parser = StructReaders["read" + innerTag.structName];
-        } else {
-          // Parse as generic struct
-          parser = () => this.readProperties(incOffset);
-        }
+        const reader = this.getStructReader(innerTag.structName);
 
         for (let i = 0; i < count; i++) {
-          values.push(parser.call(this, this));
+          values.push(reader.call(this, this));
         }
       } else {
         throw new Error(`Unable to parse Array/Set inner type: ${tag.innerType}`);
@@ -313,13 +319,8 @@ class SatisfactoryFileParser extends UnrealDataReader {
       if (!tag.structName) {
         throw new Error(`Unable to parse Struct: ${tag.type}`);
       }
-      if ("read" + tag.structName in StructReaders) {
-        // @ts-ignore
-        return [tag, StructReaders["read" + tag.structName].call(this, this)] as const;
-      } else {
-        // Parse as generic struct
-        return [tag, this.readProperties(incOffset)] as const;
-      }
+      const reader = this.getStructReader(tag.structName);
+      return [tag, reader.call(this, this)] as const;
     } else if (tag.type === "Map") {
       // Idk how to parse this yet
       console.log("MapType", tag);
@@ -328,35 +329,6 @@ class SatisfactoryFileParser extends UnrealDataReader {
     } else {
       throw new Error(`Unknown property type: ${tag.type}`);
     }
-
-    // Old code
-    // } else if (['ByteProperty', 'Int8Property'].includes(tag.type)) {
-    //   const value = this.readChar(incOffset);
-    //   return nested ? value : [tag, value];
-    // } else if (tag.type === "IntProperty") {
-    //   const value = this.readInt32(incOffset);
-    //   return nested ? value : [tag, value];
-    // } else if (tag.type === "Int64Property") {
-    //   const value = this.readInt64(incOffset);
-    //   return nested ? value : [tag, value];
-    // } else if (tag.type === "UInt32Property") {
-    //   const value = this.readUInt32(incOffset);
-    //   return nested ? value : [tag, value];
-    // } else if (tag.type === "EnumProperty") {
-    //   const value = this.readFString(incOffset);
-    //   return nested ? value : [tag, value];
-    // } else if (tag.type === "FloatProperty") {
-    //   const value = this.readFloat(incOffset);
-    //   return nested ? value : [tag, value];
-    // } else if (tag.type === "DoubleProperty") {
-    //   const value = this.readDouble(incOffset);
-    //   return nested ? value : [tag, value];
-    // }
-
-    // Header
-    // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h#L219
-    // Parse Properties
-    // https://github.com/EpicGames/UnrealEngine/blob/02dc8dbdd89f749cd5500376e9bb87271bf64848/Engine/Source/Runtime/CoreUObject/Private/UObject/Property.cpp#L769
   }
 
   readProperties(incOffset = true) {
