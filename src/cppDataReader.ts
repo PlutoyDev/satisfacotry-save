@@ -13,7 +13,7 @@ export class CppDataReader {
     if (!this.dataView) {
       throw new Error("Save file not imported");
     }
-    const value = this.dataView.getInt8(this.currentOffset);
+    const value = this.dataView.getUint8(this.currentOffset);
     if (incOffset) {
       this.currentOffset += 1;
     }
@@ -84,6 +84,10 @@ export class CppDataReader {
       this.currentOffset += 8;
     }
     return value;
+  }
+
+  readInt64AsNumber(incOffset = true) {
+    return Number(this.readInt64(incOffset));
   }
 
   // For debuging

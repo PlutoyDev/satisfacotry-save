@@ -189,23 +189,13 @@ export class SatisfactoryFileParser extends UnrealDataReader {
         },
       };
       const wasPlacedInLevel = this.readBool();
-      const data = {
+      return {
         type,
         className,
         reference,
         needTransform,
         transform,
         wasPlacedInLevel,
-      };
-      return data as typeof data & {
-        parent: {
-          levelName: string;
-          pathName: string;
-        };
-        children: {
-          levelName: string;
-          pathName: string;
-        }[];
       };
     } else {
       console.warn("Unknown object type", type);
@@ -220,7 +210,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
   PropertyTypeReader = {
     Int8: "readChar",
     Int: "readInt32",
-    Int64: "readInt64",
+    Int64: "readInt64AsNumber",
     UInt32: "readUInt32",
     Enum: "readFString",
     Float: "readFloat",
@@ -428,13 +418,16 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     const tocExpectEndOffset = tocOffset + Number(tocLength);
 
     const objectCount = this.readInt32();
-    const objects: ReturnType<typeof this.parseObjectToc>[] = [];
+    type ObjectType =
+      | ReturnType<typeof this.parseObjectToc>
+      | (ReturnType<typeof this.parseObjectToc> & ReturnType<typeof this.parseObjectData>);
+    const objects: ObjectType[] = [];
     for (let i = 0; i < objectCount; i++) {
       objects.push(this.parseObjectToc());
     }
 
     const TOCBlob64c: {
-      objects: typeof objects;
+      objects: ObjectType[];
       destroyedActors?: ReturnType<typeof SatisfactoryFileParser.prototype.readObjectReference>[];
     } = {
       objects,
@@ -498,7 +491,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       try {
         if (parseData) {
           const data = this.parseObjectData(object);
-          objectsData.push(data);
+          Object.assign(object, data); //Mutate object
         }
       } catch (e) {
         console.error("Error parsing object data", {
@@ -548,7 +541,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     return {
       ...TOCBlob64c,
-      objectsData,
+      // objectsData,
       objectDataBase64: Buffer.from(objectDataRaw).toString("base64"),
     };
   }
@@ -607,7 +600,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       }
     });
 
-    /* Comment if need to store
+    // /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
       await mkdir("outputs").catch(() => {});
       await writeFile(
@@ -623,7 +616,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level");
 
-    /* Comment if need to store
+    // /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
       await mkdir("outputs").catch(() => {});
       await writeFile(
