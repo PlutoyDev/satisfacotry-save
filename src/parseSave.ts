@@ -218,7 +218,6 @@ export class SatisfactoryFileParser extends UnrealDataReader {
   }
 
   PropertyTypeReader = {
-    Byte: "readChar",
     Int8: "readChar",
     Int: "readInt32",
     Int64: "readInt64",
@@ -244,6 +243,9 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     if (Object.keys(this.PropertyTypeReader).includes(valueType)) {
       const parserName = this.PropertyTypeReader[valueType as keyof typeof this.PropertyTypeReader];
       valueParser = this[parserName];
+    } else if (valueType === "Byte") {
+      // Not sure why the type is Byte but the value is stored as String
+      valueParser = tag.enumName === "None" ? this.readChar : this.readFString;
     } else if (valueType === "Struct") {
       let innerTag: ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag> | undefined = undefined;
       let structName: string | undefined = tag.structName;
