@@ -245,7 +245,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       valueParser = this[parserName];
     } else if (valueType === "Byte") {
       // Not sure why the type is Byte but the value is stored as String
-      valueParser = tag.enumName === "None" ? this.readChar : this.readFString;
+      valueParser = !tag.enumName || tag.enumName === "None" ? this.readChar : this.readFString;
     } else if (valueType === "Struct") {
       let innerTag: ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag> | undefined = undefined;
       let structName: string | undefined = tag.structName;
@@ -277,7 +277,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       // delete tag.valueType;
       const keyParser = this.getTypeReader({ ...tag, valueType: undefined });
       // tag.valueType = valueType;
-      return function (this: SatisfactoryFileParser) {
+      return function (this: SatisfactoryFileParser): [unknown, unknown] {
         return [keyParser.call(this), valueParser!.call(this)];
       };
     }
