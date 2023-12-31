@@ -238,18 +238,63 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     return StructReaders["read" + structName];
   }
 
+  getTypeReader(tag: Exclude<ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag>, null>) {
+    const valueType = tag.valueType ?? tag.innerType ?? tag.type; // valueType for Map, innerType is only for Array, Set
+    let valueParser: ((this: SatisfactoryFileParser) => any) | undefined = undefined;
+    if (Object.keys(this.PropertyTypeReader).includes(valueType)) {
+      const parserName = this.PropertyTypeReader[valueType as keyof typeof this.PropertyTypeReader];
+      valueParser = this[parserName];
+    } else if (valueType === "Struct") {
+      let innerTag: ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag> | undefined = undefined;
+      let structName: string | undefined = tag.structName;
+      if (tag.type === "Array" || tag.type === "Set") {
+        innerTag = this.readPropertyTag()!;
+        if (innerTag.type !== "Struct") {
+          throw new Error(`Expected Struct but got ${innerTag.type}`);
+        }
+        structName = innerTag.structName;
+      } else if (tag.type === "Map") {
+        // Special case for MapProperty, struct in map doesn't have structName
+        // Instead, it store it as TLVs that can be read using readProperties
+        // Except 2 case: where tag.name are mSaveData, mUnresolvedSaveData
+        // Both use FIntVector as key but doesn't have field names
+        if ((tag.name === "mSaveData" || tag.name === "mUnresolvedSaveData") && !tag.valueType) {
+          // If tag.valueType is undefined, the valueType the Key
+          structName = "IntVector";
+        }
+      }
+      valueParser = (structName && this.getStructReader(structName)) || this.readProperties;
+    }
+
+    if (!valueParser) {
+      console.log("Unknown property type", tag);
+      throw new Error("Unknown property type");
+    }
+
+    if (tag.type === "Map" && tag.valueType) {
+      // delete tag.valueType;
+      const keyParser = this.getTypeReader({ ...tag, valueType: undefined });
+      // tag.valueType = valueType;
+      return function (this: SatisfactoryFileParser) {
+        return [keyParser.call(this), valueParser!.call(this)];
+      };
+    }
+
+    return valueParser;
+  }
+
   /**
    * Read a property. For DataBlob64 as well as innerType of Array, Set, Map
    * @param nested
    * @param incOffset
    * @returns
    */
-  readProperty(incOffset = true) {
+  readProperty() {
     // return key value pair [tag, value]
     const startOffset = this.currentOffset;
-    const tag = this.readPropertyTag(incOffset);
-    console.log(`Reading Property @ ${startOffset.toString(16)}`, tag);
-    this.debugLog(4);
+    console.log(`Reading Property @ ${startOffset.toString(16)}`);
+    const tag = this.readPropertyTag();
+    console.log({ readUntil: this.currentOffset.toString(16), tag });
 
     if (tag === null) {
       return null;
@@ -274,39 +319,25 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       return [tag, tag.boolValue!] as const;
     }
 
-    const arrCount = tag.type === "Array" || tag.type === "Set" ? this.readInt32(incOffset) : undefined;
-    const valueType = tag.innerType ?? tag.type; // innerType is only for Array, Set, Map(key)
-    let valueParser: (this: SatisfactoryFileParser) => any;
-
-    if (Object.keys(this.PropertyTypeReader).includes(valueType)) {
-      const parserName = this.PropertyTypeReader[valueType as keyof typeof this.PropertyTypeReader];
-      valueParser = this[parserName];
-    } else if (valueType === "Struct" && tag.type !== "Map") {
-      let innerTag: ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag> | undefined = undefined;
-      if (tag.type === "Array" || tag.type === "Set") {
-        innerTag = this.readPropertyTag(incOffset)!;
-      }
-      const structName = innerTag?.structName ?? tag.structName;
-      if (!structName) {
-        throw new Error(`Unable to parse Struct: ${tag.type}`);
-      }
-      valueParser = this.getStructReader(structName) ?? this.readProperties;
-    } else if (tag.type === "Map") {
-      console.log("Unimplemented Map Parser", tag);
-      throw new Error("Unimplemented Map Parser");
-    } else {
-      console.log("Unknown property type", tag);
-      throw new Error("Unknown property type");
-    }
+    let arrCount = tag.type === "Array" || tag.type === "Set" ? this.readInt32() : undefined;
+    const valueReader = this.getTypeReader(tag);
+    // else {
+    //   console.log("Unknown property type", tag);
+    //   throw new Error("Unknown property type");
+    // }
 
     if (tag.type === "Array" || tag.type === "Set") {
       const values: unknown[] = [];
       for (let i = 0; i < arrCount!; i++) {
-        values.push(valueParser.call(this));
+        values.push(valueReader.call(this));
       }
       return [tag, values] as const;
+    } else if (tag.type === "Map") {
+      console.log("Detected MapProperty", tag);
+      this.currentOffset += tag.size; // Skip it for now
+      return [tag, null] as const;
     } else {
-      return [tag, valueParser.call(this)] as const;
+      return [tag, valueReader.call(this)] as const;
     }
 
     throw new Error("Unreachable code");
@@ -316,7 +347,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     const properties: Record<string, unknown> = {};
     while (true) {
       try {
-        const prop = this.readProperty(incOffset);
+        const prop = this.readProperty();
         if (prop === null) break; // End of properties
         const [tag, value] = prop;
         console.log("Property Read finished @", this.currentOffset.toString(16), value);
@@ -588,7 +619,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     });
     //*/
 
-    const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level", false);
+    const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level");
 
     /* Comment if need to store
     import("fs/promises").then(async ({ writeFile, mkdir }) => {
