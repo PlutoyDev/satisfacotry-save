@@ -58,7 +58,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     });
     this.outputPrefix = "outputs/" + saveFilePath.split("/").pop()!.split(".").shift()! + "/";
     if (this.options.toOutput && Object.values(this.options.toOutput).some((v) => v)) {
-      mkdir("outputs", { recursive: true }).catch(() => {});
+      mkdir(this.outputPrefix, { recursive: true }).catch(() => {});
     }
   }
 
@@ -708,5 +708,5 @@ export class SatisfactoryFileParser extends UnrealDataReader {
   }
 }
 
-const parser = new SatisfactoryFileParser("save_files/satisfactory.sav");
+const parser = new SatisfactoryFileParser("save_files/main.sav", { toOutput: { all: true } });
 parser.parseSave();

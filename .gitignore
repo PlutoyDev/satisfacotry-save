@@ -1,3 +1,6 @@
 binwalk/
 node_modules
 dist
+
+save_files/
+outputs/
