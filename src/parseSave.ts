@@ -34,6 +34,7 @@ interface SatisfactorySaveHeader {
 
 export class SatisfactoryFileParser extends UnrealDataReader {
   parsedHeader: SatisfactorySaveHeader | null = null;
+  nestingLevel = 0;
 
   parseSaveHeader() {
     if (!this.dataView) {
@@ -283,10 +284,10 @@ export class SatisfactoryFileParser extends UnrealDataReader {
    */
   readProperty() {
     // return key value pair [tag, value]
-    const startOffset = this.currentOffset;
-    console.log(`Reading Property @ ${startOffset.toString(16)}`);
+    // const startOffset = this.currentOffset;
+    // console.log(`Reading Property @ ${startOffset.toString(16)}`);
     const tag = this.readPropertyTag();
-    console.log({ readUntil: this.currentOffset.toString(16), tag });
+    // console.log({ readUntil: this.currentOffset.toString(16), tag });
 
     if (tag === null) {
       return null;
@@ -311,7 +312,11 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       return [tag, tag.boolValue!] as const;
     }
 
-    let arrCount = tag.type === "Array" || tag.type === "Set" ? this.readInt32() : undefined;
+    let count: number | undefined = undefined;
+    if (tag.type === "Array" || tag.type === "Set" || tag.type === "Map") {
+      if (tag.type === "Set" || tag.type === "Map") this.currentOffset += 4; // Skip unknown (Set has 1 extra int in front of count, that is 0)
+      count = this.readInt32();
+    }
     const valueReader = this.getTypeReader(tag);
     // else {
     //   console.log("Unknown property type", tag);
@@ -320,13 +325,15 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     if (tag.type === "Array" || tag.type === "Set") {
       const values: unknown[] = [];
-      for (let i = 0; i < arrCount!; i++) {
+      for (let i = 0; i < count!; i++) {
         values.push(valueReader.call(this));
       }
       return [tag, values] as const;
     } else if (tag.type === "Map") {
-      console.log("Detected MapProperty", tag);
-      this.currentOffset += tag.size; // Skip it for now
+      const values: [unknown, unknown][] = [];
+      for (let i = 0; i < count!; i++) {
+        values.push(valueReader.call(this));
+      }
       return [tag, null] as const;
     } else {
       return [tag, valueReader.call(this)] as const;
@@ -335,14 +342,25 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     throw new Error("Unreachable code");
   }
 
-  readProperties(incOffset = true) {
+  readProperties() {
+    // Nesting level: 1 is the object properties, >=2 is struct properties
+    this.nestingLevel += 1;
     const properties: Record<string, unknown> = {};
     while (true) {
       try {
         const prop = this.readProperty();
-        if (prop === null) break; // End of properties
+        if (prop === null) {
+          // End of properties
+          // But for object properties, there might have an extra Int 0
+          if (this.nestingLevel === 1) {
+            if (this.readInt32() !== 0) {
+              this.currentOffset -= 4;
+            }
+          }
+          break;
+        }
         const [tag, value] = prop;
-        console.log("Property Read finished @", this.currentOffset.toString(16), value);
+        // console.log("Property Read finished @", this.currentOffset.toString(16), value);
         properties[tag.name] = value;
       } catch (e) {
         console.error("Error parsing property", {
@@ -352,7 +370,8 @@ export class SatisfactoryFileParser extends UnrealDataReader {
         throw e;
       }
     }
-    console.log("Properties Read", properties, this.currentOffset.toString(16));
+    this.nestingLevel -= 1;
+    // console.log("Properties Read", properties, this.currentOffset.toString(16));
     return properties;
   }
 
@@ -386,19 +405,24 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     }
 
     const properties = this.readProperties();
-
+    let extraDataBase64: string | undefined = undefined;
     if (this.currentOffset !== expectedEndOffset) {
-      console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
-        current: this.currentOffset.toString(16),
-        expects: expectedEndOffset.toString(16),
-        diff: expectedEndOffset - this.currentOffset,
-      });
-      this.currentOffset = expectedEndOffset; //Jump to end of object data to continue parsing
+      if (this.currentOffset < expectedEndOffset) {
+        const extraData = this.buffer.slice(this.currentOffset, expectedEndOffset);
+        // if non-zero, convert to base64 and store
+        if (extraData.every((v) => v !== 0)) {
+          extraDataBase64 = Buffer.from(extraData).toString("base64");
+        }
+        this.currentOffset = expectedEndOffset;
+      } else {
+        throw new Error("Object data ended after expected");
+      }
     }
 
     return {
       pcInfo,
       properties,
+      extraDataBase64,
     };
   }
 
@@ -443,8 +467,6 @@ export class SatisfactoryFileParser extends UnrealDataReader {
         destroyedActors.push(this.readObjectReference());
       }
       TOCBlob64c.destroyedActors = destroyedActors;
-    } else {
-      console.log("TOC ended without destroyed actors");
     }
 
     if (this.currentOffset !== tocExpectEndOffset) {
@@ -519,22 +541,33 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     // - Destroyed Actor Data
     const destroyedActorDataCount = this.readInt32();
     if (destroyedActorDataCount !== 0) {
+      let mismatch = false;
       if (TOCBlob64c.destroyedActors) {
         if (destroyedActorDataCount !== TOCBlob64c.destroyedActors.length) {
+          mismatch = true;
           console.warn("Warning: Data count doesn't match destroyed actor count", {
             destroyedActorDataCount,
             destroyedActorCount: TOCBlob64c.destroyedActors.length,
           });
         }
       } else {
+        TOCBlob64c.destroyedActors = [];
+        mismatch = true;
         console.warn("Warning: DataBlob has destroyed actor data but TOC doesn't", {
           destroyedActorDataCount,
           key,
         });
       }
 
+      if (mismatch) {
+        TOCBlob64c.destroyedActors?.push({ levelName: "---DataBlob64---", pathName: "---DataBlob64---" });
+      }
+
       for (let i = 0; i < destroyedActorDataCount; i++) {
-        this.readObjectReference();
+        const ref = this.readObjectReference();
+        if (mismatch) {
+          TOCBlob64c.destroyedActors.push(ref);
+        }
         // Not sure what to do with this
       }
     }

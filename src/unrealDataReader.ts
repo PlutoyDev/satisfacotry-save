@@ -121,13 +121,6 @@ export class UnrealDataReader extends CppDataReader {
 
     if (name === "None") {
       // End of properties
-      // But might have a int 0 after it
-      if (this.readInt32(incOffset) !== 0) {
-        console.log("Int 0 not found after None");
-        this.currentOffset -= 4;
-      } else {
-        console.log("Int 0 found after None");
-      }
       return null;
     }
 
