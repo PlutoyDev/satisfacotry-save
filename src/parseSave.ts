@@ -125,7 +125,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
-  *inflateChunks() {
+  inflateChunks() {
     if (!this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -134,7 +134,6 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     const infaltedDatas: Uint8Array[] = [];
     const offsets: number[] = [];
     while (this.currentOffset < this.buffer.byteLength) {
-      yield { status: "inflating", totalSize, count };
       const { size, infaltedData } = this.inflateChunk();
       infaltedDatas.push(infaltedData);
       offsets.push(totalSize);
@@ -584,6 +583,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       throw new Error("Save file not imported");
     }
     const bodySize = this.readInt64();
+    const bodyEndOffset = this.currentOffset + Number(bodySize);
 
     /* 
       The following validation grid is not usefull to us but its still parsed
@@ -597,13 +597,13 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       res/headers/FWPSaveDataMigrationContext.h:42
       FWPGridValidationData { int32 cellSize, uint32 gridHash, TMap<FName, uint32> cellHash }
     */
-    // const validationGrids = //Uncomment if need to store
-    this.readTMap(() => {
-      const cellSize = this.readInt32();
-      const gridHash = this.readUInt32();
-      const cellHash = this.readTMap(() => this.readUInt32());
-      return { cellSize, gridHash, cellHash };
-    });
+    const validationGrids = //Uncomment if need to store
+      this.readTMap(() => {
+        const cellSize = this.readInt32();
+        const gridHash = this.readUInt32();
+        const cellHash = this.readTMap(() => this.readUInt32());
+        return { cellSize, gridHash, cellHash };
+      });
     /*
       res/headers/FGSaveSession.h:471
 
@@ -663,43 +663,36 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     });
     //*/
 
-    return { bodySize };
+    if (this.currentOffset !== bodyEndOffset) {
+      console.warn("Warning: Body doesn't end where expected", {
+        current: this.currentOffset.toString(16),
+        expects: bodyEndOffset.toString(16),
+        diff: bodyEndOffset - this.currentOffset,
+      });
+    }
+
+    return {
+      validationGrids,
+      perLevelDataMap,
+      persistentAndRuntimeData,
+    };
   }
 
-  async *importFromFile(filename: string) {
-    yield { status: "importing" };
+  async importFromFile(filename: string) {
     const { readFile } = await import("fs/promises");
     const { buffer } = await readFile(filename);
-    yield { status: "read", length: buffer.byteLength };
     this.buffer = new Uint8Array(buffer);
     this.dataView = new DataView(buffer);
   }
 
-  async *parseSave() {
+  async parseSave() {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
     this.currentOffset = 0;
     const headers = this.parseSaveHeader();
 
-    yield {
-      status: "parsedHeader",
-      headers: headers,
-    };
-
-    const inflateProgress = this.inflateChunks();
-
-    for (const progress of inflateProgress) {
-      yield {
-        status: "inflating chunks",
-        progress,
-      };
-    }
-
-    yield {
-      status: "inflated",
-      length: this.buffer.byteLength,
-    };
+    this.inflateChunks(); // Inflate and override this.buffer and this.dataView
 
     // /* Comment this line (only) to output the inflated save file
     const { writeFile, mkdir } = await import("fs/promises");
@@ -709,15 +702,12 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     const body = this.parseSaveBody();
 
-    yield {
-      status: "parsedBody",
+    return {
+      headers,
       body,
     };
   }
 }
 
 const parser = new SatisfactoryFileParser();
-let statuses = parser.importFromFile("save_files/satisfactory.sav");
-for await (const status of statuses) console.log("Importing: ", status);
-statuses = parser.parseSave();
-for await (const status of statuses) console.log("Parsing: ", status);
+parser.importFromFile("save_files/satisfactory.sav").then(() => parser.parseSave());
