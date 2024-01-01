@@ -4,6 +4,7 @@ Parsing of Satisfactory File
 import UnrealDataReader from "./unrealDataReader.js";
 import * as StructReaders from "./stuctParser.js";
 import { unzlibSync } from "fflate";
+import { readFile, writeFile, mkdir } from "fs/promises";
 
 const UnrealArchiveMagic = 0x9e2a83c1;
 interface SatisfactorySaveHeader {
@@ -32,9 +33,34 @@ interface SatisfactorySaveHeader {
   isCreativeModeEnabled: boolean;
 }
 
+interface ParserOptions {
+  toOutput?: {
+    all?: boolean;
+    inflatedBin?: boolean;
+    perLevelDataMap?: boolean;
+    persistentAndRuntimeData?: boolean;
+  };
+}
+
 export class SatisfactoryFileParser extends UnrealDataReader {
   parsedHeader: SatisfactorySaveHeader | null = null;
   nestingLevel = 0;
+  options: ParserOptions = {};
+  outputPrefix: string;
+  readPr: Promise<void>;
+
+  constructor(saveFilePath: string, options?: ParserOptions) {
+    super();
+    this.options = options || {};
+    this.readPr = readFile(saveFilePath).then(({ buffer }) => {
+      this.buffer = new Uint8Array(buffer);
+      this.dataView = new DataView(buffer);
+    });
+    this.outputPrefix = "outputs/" + saveFilePath.split("/").pop()!.split(".").shift()! + "/";
+    if (this.options.toOutput && Object.values(this.options.toOutput).some((v) => v)) {
+      mkdir("outputs", { recursive: true }).catch(() => {});
+    }
+  }
 
   parseSaveHeader() {
     if (!this.dataView) {
@@ -317,10 +343,6 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       count = this.readInt32();
     }
     const valueReader = this.getTypeReader(tag);
-    // else {
-    //   console.log("Unknown property type", tag);
-    //   throw new Error("Unknown property type");
-    // }
 
     if (tag.type === "Array" || tag.type === "Set") {
       const values: unknown[] = [];
@@ -487,14 +509,10 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       };
     }
 
-    // Used to store data, group by class name
-    const objectsData: ReturnType<typeof this.parseObjectData>[] = [];
-
     //DataBlob64
     // - Object Data
     const objectDataSize = this.readUInt64();
     const objectDataEndOffset = this.currentOffset + Number(objectDataSize);
-    const objectDataRaw = this.buffer.slice(this.currentOffset, objectDataEndOffset);
     const objectDataFrom = this.currentOffset.toString(16);
     const objectDataTo = objectDataEndOffset.toString(16);
 
@@ -573,12 +591,10 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     return {
       ...TOCBlob64c,
-      // objectsData,
-      objectDataBase64: Buffer.from(objectDataRaw).toString("base64"),
     };
   }
 
-  parseSaveBody() {
+  async parseSaveBody() {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -633,35 +649,25 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       }
     });
 
-    // /* Comment if need to store
-    import("fs/promises").then(async ({ writeFile, mkdir }) => {
-      await mkdir("outputs").catch(() => {});
+    if (this.options.toOutput?.all || this.options.toOutput?.perLevelDataMap) {
       await writeFile(
-        "outputs/perLevelDataMap.json",
+        this.outputPrefix + "perLevelDataMap.json",
         JSON.stringify(
           Object.fromEntries(Array.from(perLevelDataMap).map(([k, v]) => [k, { ...v, objectDataBase64: null }])),
           null,
           2,
         ),
       );
-    });
-    //*/
+    }
 
     const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level");
 
-    // /* Comment if need to store
-    import("fs/promises").then(async ({ writeFile, mkdir }) => {
-      await mkdir("outputs").catch(() => {});
+    if (this.options.toOutput?.all || this.options.toOutput?.persistentAndRuntimeData) {
       await writeFile(
-        "outputs/persistentAndRuntimeData.bin",
-        Buffer.from(persistentAndRuntimeData.objectDataBase64, "base64"),
-      );
-      await writeFile(
-        "outputs/persistentAndRuntimeDataTOC.json",
+        this.outputPrefix + "persistentAndRuntimeData.json",
         JSON.stringify({ ...persistentAndRuntimeData, objectDataBase64: null }, null, 2),
       );
-    });
-    //*/
+    }
 
     if (this.currentOffset !== bodyEndOffset) {
       console.warn("Warning: Body doesn't end where expected", {
@@ -678,14 +684,9 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
-  async importFromFile(filename: string) {
-    const { readFile } = await import("fs/promises");
-    const { buffer } = await readFile(filename);
-    this.buffer = new Uint8Array(buffer);
-    this.dataView = new DataView(buffer);
-  }
-
   async parseSave() {
+    await this.readPr;
+
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -694,11 +695,9 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     this.inflateChunks(); // Inflate and override this.buffer and this.dataView
 
-    // /* Comment this line (only) to output the inflated save file
-    const { writeFile, mkdir } = await import("fs/promises");
-    await mkdir("outputs").catch(() => {});
-    await writeFile("outputs/inflated.bin", this.buffer);
-    //*/
+    if (this.options.toOutput?.all || this.options.toOutput?.inflatedBin) {
+      await writeFile(this.outputPrefix + "inflated.bin", this.buffer);
+    }
 
     const body = this.parseSaveBody();
 
@@ -709,5 +708,5 @@ export class SatisfactoryFileParser extends UnrealDataReader {
   }
 }
 
-const parser = new SatisfactoryFileParser();
-parser.importFromFile("save_files/satisfactory.sav").then(() => parser.parseSave());
+const parser = new SatisfactoryFileParser("save_files/satisfactory.sav");
+parser.parseSave();
