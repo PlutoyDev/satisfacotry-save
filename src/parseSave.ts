@@ -66,7 +66,8 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     if (!this.dataView) {
       throw new Error("Save file not imported");
     }
-    // Retrieve from C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\CommunityResources\Headers\FGSaveManagerInterface.h#L45
+
+    // res/headers/FGSaveManagerInterface.h:45
     // int32    SaveHeaderVersion
     // int32    SaveVersion
     // int32    BuildVersion
@@ -192,10 +193,10 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       const outerPathName = this.readFString();
       return { type, className, reference, outerPathName };
     } else if (type === 1) {
-      //Actor
+      // Actor
       // res/headers/FGActorSaveHeaderTypes.h:90
       const needTransform = this.readBool();
-      // Ordering are unconfirmed
+
       const transform = {
         rotation: {
           x: this.readFloat(),
@@ -223,14 +224,8 @@ export class SatisfactoryFileParser extends UnrealDataReader {
         transform,
         wasPlacedInLevel,
       };
-    } else {
-      console.warn("Unknown object type", type);
-      return {
-        type,
-        className,
-        reference,
-      };
     }
+    throw new Error(`Unknown Object Type ${type}`)
   }
 
   PropertyTypeReader = {
