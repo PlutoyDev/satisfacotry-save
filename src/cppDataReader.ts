@@ -9,6 +9,17 @@ export class CppDataReader {
   }
 
   // Primitives types
+  readInt8(incOffset = true) {
+    if (!this.dataView) {
+      throw new Error("Save file not imported");
+    }
+    const value = this.dataView.getInt8(this.currentOffset);
+    if (incOffset) {
+      this.currentOffset += 1;
+    }
+    return value;
+  }
+
   readChar(incOffset = true) {
     if (!this.dataView) {
       throw new Error("Save file not imported");
