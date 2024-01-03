@@ -225,7 +225,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
         wasPlacedInLevel,
       };
     }
-    throw new Error(`Unknown Object Type ${type}`)
+    throw new Error(`Unknown Object Type ${type}`);
   }
 
   PropertyTypeReader = {
@@ -242,11 +242,6 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     Object: "readObjectReference",
     Interface: "readObjectReference",
   } satisfies Record<string, keyof UnrealDataReader>;
-
-  getStructReader(structName: string): (this: SatisfactoryFileParser) => any {
-    // @ts-ignore
-    return StructReaders["read" + structName];
-  }
 
   getTypeReader(tag: Exclude<ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag>, null>) {
     const valueType = tag.valueType ?? tag.innerType ?? tag.type; // valueType for Map, innerType is only for Array, Set
@@ -276,7 +271,8 @@ export class SatisfactoryFileParser extends UnrealDataReader {
           structName = "IntVector";
         }
       }
-      valueParser = (structName && this.getStructReader(structName)) || this.readProperties;
+      // @ts-ignore
+      valueParser = (structName && StructReaders["read" + structName]) || this.readProperties;
     }
 
     if (!valueParser) {
