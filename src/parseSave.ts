@@ -334,20 +334,15 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       if (tag.type === "Set" || tag.type === "Map") this.currentOffset += 4; // Skip unknown (Set has 1 extra int in front of count, that is 0)
       count = this.readInt32();
     }
+
     const valueReader = this.getTypeReader(tag);
 
-    if (tag.type === "Array" || tag.type === "Set") {
+    if (tag.type === "Array" || tag.type === "Set" || tag.type === "Map") {
       const values: unknown[] = [];
       for (let i = 0; i < count!; i++) {
         values.push(valueReader.call(this));
       }
       return [tag, values] as const;
-    } else if (tag.type === "Map") {
-      const values: [unknown, unknown][] = [];
-      for (let i = 0; i < count!; i++) {
-        values.push(valueReader.call(this));
-      }
-      return [tag, null] as const;
     } else {
       return [tag, valueReader.call(this)] as const;
     }
