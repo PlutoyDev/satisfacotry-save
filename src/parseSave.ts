@@ -447,7 +447,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       objects?: ObjectType[];
       destroyedActors: {
         inTOC?: DestroyedActorType[];
-        afterData?: DestroyedActorType[];
+        afterData?: DestroyedActorType[] | [string, DestroyedActorType[]][];
       };
     }
     const levelData: LevelData = {
@@ -502,7 +502,13 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       this.currentOffset = objectDataEndOffset; //Jump to end of object data to continue parsing
     }
 
-    levelData.destroyedActors.afterData = this.readTArray(() => this.readObjectReference());
+    if (key !== "Persistent_Level") {
+      levelData.destroyedActors.afterData = this.readTArray(() => this.readObjectReference());
+    } else {
+      levelData.destroyedActors.afterData = this.readTArray(
+        () => [this.readFString(), this.readTArray(() => this.readObjectReference())] as [string, DestroyedActorType[]],
+      );
+    }
 
     return levelData;
   }
