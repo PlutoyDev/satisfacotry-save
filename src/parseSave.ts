@@ -505,12 +505,6 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       this.currentOffset = tocExpectEndOffset;
     }
 
-    // If Empty Skip DataBlob64
-    if (levelData.objects.length === 0 && (!levelData.destroyedActors || levelData.destroyedActors.length === 0)) {
-      this.currentOffset += 16; // objectDataSize (8) + objectDataCount (4) + destroyedActorDataCount (4)
-      return levelData;
-    }
-
     //DataBlob64
     // - Object Data
     const objectDataSize = this.readUInt64();
