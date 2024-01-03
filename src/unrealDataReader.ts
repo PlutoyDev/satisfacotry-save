@@ -40,8 +40,8 @@ export class UnrealDataReader extends CppDataReader {
 
   readFText(incOffset = true) {
     this.currentOffset += 4; // Flags (unused)
-    const historyType = this.readChar(incOffset);
-    if (historyType === 255) {
+    const historyType = this.readInt8(incOffset);
+    if (historyType === -1) {
       this.currentOffset += 4; // Unknown
       return this.readFString(incOffset);
     }

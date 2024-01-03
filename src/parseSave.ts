@@ -229,7 +229,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
   }
 
   PropertyTypeReader = {
-    Int8: "readChar",
+    Int8: "readInt8",
     Int: "readInt32",
     Int64: "readInt64AsNumber",
     UInt32: "readUInt32",
