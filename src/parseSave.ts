@@ -439,10 +439,22 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     };
   }
 
-  readPerStreamingLevelSaveData(key: string, readObjectData = true) {
+  readLevelData(key: string, readObjectData = true) {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
+    type ObjectType =
+      | ReturnType<typeof this.readObjectToc>
+      | (ReturnType<typeof this.readObjectToc> & ReturnType<typeof this.readObjectData>);
+    type DestroyedActorType = ReturnType<typeof this.readObjectReference>;
+    interface LevelData {
+      objects: ObjectType[];
+      destroyedActors?: DestroyedActorType[];
+    }
+    const levelData: LevelData = {
+      objects: [],
+    };
+
     /*
       FPerStreamingLevelSaveData = FPerBasicLevelSaveData = { 
         TArray<uint8, TSizedDefaultAllocator<64>> TOCBlob64c (Table of Content)
@@ -455,50 +467,42 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const tocExpectEndOffset = tocOffset + Number(tocLength);
 
     const objectCount = this.readInt32();
-    type ObjectType =
-      | ReturnType<typeof this.readObjectToc>
-      | (ReturnType<typeof this.readObjectToc> & ReturnType<typeof this.readObjectData>);
-    const objects: ObjectType[] = [];
     for (let i = 0; i < objectCount; i++) {
-      objects.push(this.readObjectToc());
+      try {
+        levelData.objects.push(this.readObjectToc());
+      } catch (e) {
+        console.error("Error reader Object TOC", { index: i, readObjects: levelData.objects });
+      }
     }
-
-    const TOCBlob64c: {
-      objects: ObjectType[];
-      destroyedActors?: ReturnType<typeof SatisfactoryFileReader.prototype.readObjectReference>[];
-    } = {
-      objects,
-    };
 
     if (this.currentOffset < tocExpectEndOffset) {
       //There is destroyed actors and we need to read them
 
       const destroyedActorCount = this.readInt32();
-      const destroyedActors: ReturnType<typeof this.readObjectReference>[] = [];
+      levelData.destroyedActors = [];
 
       for (let i = 0; i < destroyedActorCount; i++) {
-        destroyedActors.push(this.readObjectReference());
+        try {
+          levelData.destroyedActors.push(this.readObjectReference());
+        } catch (e) {
+          console.error("Error reader Destroyed Actor", { index: i, readDestroyedActors: levelData.destroyedActors });
+        }
       }
-      TOCBlob64c.destroyedActors = destroyedActors;
     }
 
     if (this.currentOffset !== tocExpectEndOffset) {
       console.warn("Warning: TOC doesn't end where expected", {
         current: this.currentOffset.toString(16),
         expects: tocExpectEndOffset.toString(16),
-        hasDestroyedActors: TOCBlob64c.destroyedActors !== undefined,
+        hasDestroyedActors: levelData.destroyedActors !== undefined,
       });
       this.currentOffset = tocExpectEndOffset;
     }
 
     // If Empty Skip DataBlob64
-    if (TOCBlob64c.objects.length === 0 && (!TOCBlob64c.destroyedActors || TOCBlob64c.destroyedActors.length === 0)) {
+    if (levelData.objects.length === 0 && (!levelData.destroyedActors || levelData.destroyedActors.length === 0)) {
       this.currentOffset += 16; // objectDataSize (8) + objectDataCount (4) + destroyedActorDataCount (4)
-      return {
-        ...TOCBlob64c,
-        objectsData: [],
-        objectDataBase64: "AAAAAAAAAAAAAAAAAAAAAA==", // Empty
-      };
+      return levelData;
     }
 
     //DataBlob64
@@ -518,7 +522,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     }
 
     for (let i = 0; i < objectDataCount; i++) {
-      const object = objects[i];
+      const object = levelData.objects[i];
       try {
         if (readObjectData) {
           const data = this.readObjectData(object);
@@ -551,16 +555,16 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const destroyedActorDataCount = this.readInt32();
     if (destroyedActorDataCount !== 0) {
       let mismatch = false;
-      if (TOCBlob64c.destroyedActors) {
-        if (destroyedActorDataCount !== TOCBlob64c.destroyedActors.length) {
+      if (levelData.destroyedActors) {
+        if (destroyedActorDataCount !== levelData.destroyedActors.length) {
           mismatch = true;
           console.warn("Warning: Data count doesn't match destroyed actor count", {
             destroyedActorDataCount,
-            destroyedActorCount: TOCBlob64c.destroyedActors.length,
+            destroyedActorCount: levelData.destroyedActors.length,
           });
         }
       } else {
-        TOCBlob64c.destroyedActors = [];
+        levelData.destroyedActors = [];
         mismatch = true;
         console.warn("Warning: DataBlob has destroyed actor data but TOC doesn't", {
           destroyedActorDataCount,
@@ -569,21 +573,19 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       }
 
       if (mismatch) {
-        TOCBlob64c.destroyedActors?.push({ levelName: "---DataBlob64---", pathName: "---DataBlob64---" });
+        levelData.destroyedActors?.push({ levelName: "---DataBlob64---", pathName: "---DataBlob64---" });
       }
 
       for (let i = 0; i < destroyedActorDataCount; i++) {
         const ref = this.readObjectReference();
         if (mismatch) {
-          TOCBlob64c.destroyedActors.push(ref);
+          levelData.destroyedActors.push(ref);
         }
         // Not sure what to do with this
       }
     }
 
-    return {
-      ...TOCBlob64c,
-    };
+    return levelData;
   }
 
   async readSaveBody() {
@@ -628,7 +630,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const perLevelDataMap = this.readTMap((k, i) => {
       const startOffset = this.currentOffset;
       try {
-        const data = this.readPerStreamingLevelSaveData(k);
+        const data = this.readLevelData(k);
         return data;
       } catch (e) {
         console.error("Error parsing per level data", {
@@ -652,7 +654,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       );
     }
 
-    const persistentAndRuntimeData = this.readPerStreamingLevelSaveData("Persistent_Level");
+    const persistentAndRuntimeData = this.readLevelData("Persistent_Level");
 
     if (this.options.toOutput?.all || this.options.toOutput?.persistentAndRuntimeData) {
       await writeFile(
