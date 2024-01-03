@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "tsc && node dist/cli.js",
     "build": "tsc",
     "dev": "tsc -w",
     "parseSave": "tsc && node dist/parseSave.js"

@@ -54,6 +54,7 @@ interface SatisfactorySaveHeader {
 interface SatisfactoryFileReaderOptions {
   toOutput?: {
     all?: boolean;
+    header?: boolean;
     inflatedBin?: boolean;
     perLevelDataMap?: boolean;
     persistentAndRuntimeData?: boolean;
@@ -684,6 +685,10 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     this.currentOffset = 0;
     const headers = this.readSaveHeader();
 
+    if (this.options.toOutput?.all || this.options.toOutput?.header) {
+      await writeFile(this.outputPrefix + "header.json", JSON.stringify(headers, null, 2));
+    }
+
     this.inflateChunks(); // Inflate and override this.buffer and this.dataView
 
     if (this.options.toOutput?.all || this.options.toOutput?.inflatedBin) {
@@ -699,5 +704,4 @@ export class SatisfactoryFileReader extends UnrealDataReader {
   }
 }
 
-const reader = new SatisfactoryFileReader("save_files/main.sav", { toOutput: { all: true } });
-reader.readSave();
+export default SatisfactoryFileReader;
