@@ -410,11 +410,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     if (toc.type === 1) {
       // Actor has additional data
       pcInfo.parent = this.readObjectReference();
-      pcInfo.children = [];
-      const childrenCount = this.readInt32();
-      for (let i = 0; i < childrenCount; i++) {
-        pcInfo.children.push(this.readObjectReference());
-      }
+      pcInfo.children = this.readTArray(() => this.readObjectReference());
     }
 
     const properties = this.readProperties();
@@ -448,17 +444,22 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       | (ReturnType<typeof this.readObjectToc> & ReturnType<typeof this.readObjectData>);
     type DestroyedActorType = ReturnType<typeof this.readObjectReference>;
     interface LevelData {
-      objects: ObjectType[];
-      destroyedActors?: DestroyedActorType[];
+      objects?: ObjectType[];
+      destroyedActors: {
+        inTOC?: DestroyedActorType[];
+        afterData?: DestroyedActorType[];
+      };
     }
     const levelData: LevelData = {
       objects: [],
+      destroyedActors: {},
     };
 
     /*
       FPerStreamingLevelSaveData = FPerBasicLevelSaveData = { 
         TArray<uint8, TSizedDefaultAllocator<64>> TOCBlob64c (Table of Content)
         TArray<uint8, TSizedDefaultAllocator<64>> DataBlob64
+        TArray<struct FObjectReferenceDisc> DestroyedActors
       }
     */
     //TOCBlob64c
@@ -466,34 +467,11 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const tocOffset = this.currentOffset;
     const tocExpectEndOffset = tocOffset + Number(tocLength);
 
-    const objectCount = this.readInt32();
-    for (let i = 0; i < objectCount; i++) {
-      try {
-        levelData.objects.push(this.readObjectToc());
-      } catch (e) {
-        console.error("Error reader Object TOC", { index: i, count: objectCount, readObjects: levelData.objects });
-        throw e;
-      }
-    }
+    levelData.objects = this.readTArray(() => this.readObjectToc());
 
     if (this.currentOffset < tocExpectEndOffset) {
       //There is destroyed actors and we need to read them
-
-      const destroyedActorCount = this.readInt32();
-      levelData.destroyedActors = [];
-
-      for (let i = 0; i < destroyedActorCount; i++) {
-        try {
-          levelData.destroyedActors.push(this.readObjectReference());
-        } catch (e) {
-          console.error("Error reader Destroyed Actor", {
-            index: i,
-            count: destroyedActorCount,
-            readDestroyedActors: levelData.destroyedActors,
-          });
-          throw e;
-        }
-      }
+      levelData.destroyedActors.inTOC = this.readTArray(() => this.readObjectReference());
     }
 
     if (this.currentOffset !== tocExpectEndOffset) {
@@ -509,34 +487,9 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     // - Object Data
     const objectDataSize = this.readUInt64();
     const objectDataEndOffset = this.currentOffset + Number(objectDataSize);
-    const objectDataFrom = this.currentOffset.toString(16);
-    const objectDataTo = objectDataEndOffset.toString(16);
 
-    const objectDataCount = this.readInt32();
+    this.readTArray((i) => Object.assign(levelData.objects![i], this.readObjectData(levelData.objects![i])));
 
-    if (objectDataCount !== objectCount) {
-      console.warn("Warning: Data count doesn't match object count", {
-        objectDataCount,
-        objectCount,
-      });
-    }
-
-    for (let i = 0; i < objectDataCount; i++) {
-      const object = levelData.objects[i];
-      if (readObjectData) {
-        try {
-          const data = this.readObjectData(object);
-          Object.assign(object, data); //Mutate object
-        } catch (e) {
-          console.error("Error parsing object data", {
-            index: i,
-            object,
-            read: levelData.objects.slice(0, i),
-          });
-          throw e;
-        }
-      }
-    }
     if (this.currentOffset !== objectDataEndOffset) {
       if (readObjectData) {
         console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
@@ -549,39 +502,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       this.currentOffset = objectDataEndOffset; //Jump to end of object data to continue parsing
     }
 
-    // - Destroyed Actor Data
-    const destroyedActorDataCount = this.readInt32();
-    if (destroyedActorDataCount !== 0) {
-      let mismatch = false;
-      if (levelData.destroyedActors) {
-        if (destroyedActorDataCount !== levelData.destroyedActors.length) {
-          mismatch = true;
-          console.warn("Warning: Data count doesn't match destroyed actor count", {
-            destroyedActorDataCount,
-            destroyedActorCount: levelData.destroyedActors.length,
-          });
-        }
-      } else {
-        levelData.destroyedActors = [];
-        mismatch = true;
-        console.warn("Warning: DataBlob has destroyed actor data but TOC doesn't", {
-          destroyedActorDataCount,
-          key,
-        });
-      }
-
-      if (mismatch) {
-        levelData.destroyedActors?.push({ levelName: "---DataBlob64---", pathName: "---DataBlob64---" });
-      }
-
-      for (let i = 0; i < destroyedActorDataCount; i++) {
-        const ref = this.readObjectReference();
-        if (mismatch) {
-          levelData.destroyedActors.push(ref);
-        }
-        // Not sure what to do with this
-      }
-    }
+    levelData.destroyedActors.afterData = this.readTArray(() => this.readObjectReference());
 
     return levelData;
   }
@@ -661,6 +582,8 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       );
     }
 
+    const unresolvedDestoryedActors = this.readTArray(() => this.readObjectReference());
+
     if (this.currentOffset !== bodyEndOffset) {
       console.warn("Warning: Body doesn't end where expected", {
         current: this.currentOffset.toString(16),
@@ -673,6 +596,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       validationGrids,
       perLevelDataMap,
       persistentAndRuntimeData,
+      unresolvedDestoryedActors,
     };
   }
 

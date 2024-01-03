@@ -89,6 +89,15 @@ export class UnrealDataReader extends CppDataReader {
     return { a, b, c, d };
   }
 
+  readTArray<V>(valueParser: (index: number) => V, limit: number | undefined = undefined, incOffset = true) {
+    const length = this.readInt32(incOffset);
+    const array: V[] = [];
+    for (let i = 0; i < Math.min(length, limit ?? length); i++) {
+      array.push(valueParser(i));
+    }
+    return array;
+  }
+
   readTMap<V>(valueParser: (key: string, index: number) => V, limit: number | undefined = undefined, incOffset = true) {
     const length = this.readInt32(incOffset);
     const map: Map<string, V> = new Map();
