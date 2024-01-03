@@ -2,7 +2,7 @@
 // export each struct type parser as a function readXXX, that expects a SatisfactoryFileParser and returns a parsed struct
 // export interface of each struct type
 
-import type { SatisfactoryFileParser } from "./parseSave.js";
+import type { SatisfactoryFileReader } from "./parseSave.js";
 import type { ObjectReference } from "./unrealDataReader.js";
 
 /*
@@ -63,7 +63,7 @@ export interface Vector {
   z: number;
 }
 
-export function readVector(this: SatisfactoryFileParser): Vector {
+export function readVector(this: SatisfactoryFileReader): Vector {
   return {
     x: this.readDouble(),
     y: this.readDouble(),
@@ -78,7 +78,7 @@ export interface Quat {
   w: number;
 }
 
-export function readQuat(this: SatisfactoryFileParser): Quat {
+export function readQuat(this: SatisfactoryFileReader): Quat {
   return {
     x: this.readDouble(),
     y: this.readDouble(),
@@ -93,7 +93,7 @@ export interface Box {
   isValid: boolean;
 }
 
-export function readBox(this: SatisfactoryFileParser): Box {
+export function readBox(this: SatisfactoryFileReader): Box {
   return {
     min: readVector.call(this),
     max: readVector.call(this),
@@ -108,7 +108,7 @@ export interface LinearColor {
   a: number;
 }
 
-export function readLinearColor(this: SatisfactoryFileParser): LinearColor {
+export function readLinearColor(this: SatisfactoryFileReader): LinearColor {
   return {
     r: this.readFloat(),
     g: this.readFloat(),
@@ -121,7 +121,7 @@ export interface FluidBox {
   content: number; //The current content of this fluid box in m^3
 }
 
-export function readFluidBox(this: SatisfactoryFileParser): FluidBox {
+export function readFluidBox(this: SatisfactoryFileReader): FluidBox {
   return {
     content: this.readFloat(),
   };
@@ -133,7 +133,7 @@ export interface InventoryItem {
   numItems: number;
 }
 
-export function readInventoryItem(this: SatisfactoryFileParser): InventoryItem {
+export function readInventoryItem(this: SatisfactoryFileReader): InventoryItem {
   this.currentOffset += 4; // Unknown
   const itemClass = this.readFString();
   const reference = this.readObjectReference();
@@ -153,7 +153,7 @@ export interface IntVector {
   z: number;
 }
 
-export function readIntVector(this: SatisfactoryFileParser): IntVector {
+export function readIntVector(this: SatisfactoryFileReader): IntVector {
   return {
     x: this.readInt32(),
     y: this.readInt32(),

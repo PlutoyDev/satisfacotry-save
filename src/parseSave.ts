@@ -2,12 +2,30 @@
 Parsing of Satisfactory File
 */
 import UnrealDataReader from "./unrealDataReader.js";
-import * as StructReaders from "./stuctParser.js";
+import * as StructReaders from "./stuctReader.js";
 import { unzlibSync } from "fflate";
 import { readFile, writeFile, mkdir } from "fs/promises";
 
 const UnrealArchiveMagic = 0x9e2a83c1;
 interface SatisfactorySaveHeader {
+  // res/headers/FGSaveManagerInterface.h:45
+  // int32    SaveHeaderVersion
+  // int32    SaveVersion
+  // int32    BuildVersion
+  // FString  MapName
+  // FString  MapOptions
+  // FString  SessionName
+  // int32    PlayDurationSeconds
+  // int64    SaveDateTime
+  // int8     SessionVisibility
+  // int32    EditorObjectVersion
+  // FString  ModMetadata
+  // bool     IsModdedSave
+  // FString  SaveIdentifier
+  // bool     IsPartitionedWorld
+  // FMD5Hash SaveDataHash
+  // bool     IsCreativeModeEnabled
+
   saveHeaderVersion: number;
   saveVersion: number;
   buildVersion: number;
@@ -33,7 +51,7 @@ interface SatisfactorySaveHeader {
   isCreativeModeEnabled: boolean;
 }
 
-interface ParserOptions {
+interface SatisfactoryFileReaderOptions {
   toOutput?: {
     all?: boolean;
     inflatedBin?: boolean;
@@ -42,14 +60,14 @@ interface ParserOptions {
   };
 }
 
-export class SatisfactoryFileParser extends UnrealDataReader {
-  parsedHeader: SatisfactorySaveHeader | null = null;
+export class SatisfactoryFileReader extends UnrealDataReader {
+  header: SatisfactorySaveHeader | null = null;
   nestingLevel = 0;
-  options: ParserOptions = {};
+  options: SatisfactoryFileReaderOptions = {};
   outputPrefix: string;
   readPr: Promise<void>;
 
-  constructor(saveFilePath: string, options?: ParserOptions) {
+  constructor(saveFilePath: string, options?: SatisfactoryFileReaderOptions) {
     super();
     this.options = options || {};
     this.readPr = readFile(saveFilePath).then(({ buffer }) => {
@@ -62,28 +80,10 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     }
   }
 
-  parseSaveHeader() {
+  readSaveHeader() {
     if (!this.dataView) {
       throw new Error("Save file not imported");
     }
-
-    // res/headers/FGSaveManagerInterface.h:45
-    // int32    SaveHeaderVersion
-    // int32    SaveVersion
-    // int32    BuildVersion
-    // FString  MapName
-    // FString  MapOptions
-    // FString  SessionName
-    // int32    PlayDurationSeconds
-    // int64    SaveDateTime
-    // int8     SessionVisibility
-    // int32    EditorObjectVersion
-    // FString  ModMetadata
-    // bool     IsModdedSave
-    // FString  SaveIdentifier
-    // bool     IsPartitionedWorld
-    // FMD5Hash SaveDataHash
-    // bool     IsCreativeModeEnabled
 
     const saveHeaderVersion = this.readInt32();
     const saveVersion = this.readInt32();
@@ -121,7 +121,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       isCreativeModeEnabled,
     };
 
-    this.parsedHeader = header;
+    this.header = header;
     return header;
   }
 
@@ -182,7 +182,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     this.currentOffset = 0;
   }
 
-  parseObjectToc() {
+  readObjectToc() {
     // res/headers/FGActorSaveHeaderTypes.h:7
     const type = this.readInt32();
     const className = this.readFString();
@@ -243,17 +243,17 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     Interface: "readObjectReference",
   } satisfies Record<string, keyof UnrealDataReader>;
 
-  getTypeReader(tag: Exclude<ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag>, null>) {
+  getTypeReader(tag: Exclude<ReturnType<typeof SatisfactoryFileReader.prototype.readPropertyTag>, null>) {
     const valueType = tag.valueType ?? tag.innerType ?? tag.type; // valueType for Map, innerType is only for Array, Set
-    let valueParser: ((this: SatisfactoryFileParser) => any) | undefined = undefined;
+    let typeReader: ((this: SatisfactoryFileReader) => any) | undefined = undefined;
     if (Object.keys(this.PropertyTypeReader).includes(valueType)) {
-      const parserName = this.PropertyTypeReader[valueType as keyof typeof this.PropertyTypeReader];
-      valueParser = this[parserName];
+      const readerName = this.PropertyTypeReader[valueType as keyof typeof this.PropertyTypeReader];
+      typeReader = this[readerName];
     } else if (valueType === "Byte") {
       // Not sure why the type is Byte but the value is stored as String
-      valueParser = !tag.enumName || tag.enumName === "None" ? this.readChar : this.readFString;
+      typeReader = !tag.enumName || tag.enumName === "None" ? this.readChar : this.readFString;
     } else if (valueType === "Struct") {
-      let innerTag: ReturnType<typeof SatisfactoryFileParser.prototype.readPropertyTag> | undefined = undefined;
+      let innerTag: ReturnType<typeof SatisfactoryFileReader.prototype.readPropertyTag> | undefined = undefined;
       let structName: string | undefined = tag.structName;
       if (tag.type === "Array" || tag.type === "Set") {
         innerTag = this.readPropertyTag()!;
@@ -272,24 +272,24 @@ export class SatisfactoryFileParser extends UnrealDataReader {
         }
       }
       // @ts-ignore
-      valueParser = (structName && StructReaders["read" + structName]) || this.readProperties;
+      typeReader = (structName && StructReaders["read" + structName]) || this.readProperties;
     }
 
-    if (!valueParser) {
+    if (!typeReader) {
       console.log("Unknown property type", tag);
       throw new Error("Unknown property type");
     }
 
     if (tag.type === "Map" && tag.valueType) {
       // delete tag.valueType;
-      const keyParser = this.getTypeReader({ ...tag, valueType: undefined });
+      const keyReader = this.getTypeReader({ ...tag, valueType: undefined });
       // tag.valueType = valueType;
-      return function (this: SatisfactoryFileParser): [unknown, unknown] {
-        return [keyParser.call(this), valueParser!.call(this)];
+      return function (this: SatisfactoryFileReader): [unknown, unknown] {
+        return [keyReader.call(this), typeReader!.call(this)];
       };
     }
 
-    return valueParser;
+    return typeReader;
   }
 
   /**
@@ -387,22 +387,22 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     return properties;
   }
 
-  parseObjectData(toc: ReturnType<typeof this.parseObjectToc>) {
+  readObjectData(toc: ReturnType<typeof this.readObjectToc>) {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
 
     const version = this.readInt32();
     if (version < 42) {
-      throw new Error(`Unable to parse object data: version (${version}) < 42`);
+      throw new Error(`Unable to read object data: version (${version}) < 42`);
     }
     this.currentOffset += 4; // Skip unknown
     const size = this.readInt32();
     const expectedEndOffset = this.currentOffset + size;
 
     interface ParentChildrenData {
-      parent?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["readObjectReference"]>;
-      children?: ReturnType<(typeof SatisfactoryFileParser)["prototype"]["readObjectReference"]>[];
+      parent?: ReturnType<(typeof SatisfactoryFileReader)["prototype"]["readObjectReference"]>;
+      children?: ReturnType<(typeof SatisfactoryFileReader)["prototype"]["readObjectReference"]>[];
     }
 
     const pcInfo: ParentChildrenData = {};
@@ -438,7 +438,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
-  parsePerStreamingLevelSaveData(key: string, parseData = true) {
+  readPerStreamingLevelSaveData(key: string, readObjectData = true) {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -455,22 +455,22 @@ export class SatisfactoryFileParser extends UnrealDataReader {
 
     const objectCount = this.readInt32();
     type ObjectType =
-      | ReturnType<typeof this.parseObjectToc>
-      | (ReturnType<typeof this.parseObjectToc> & ReturnType<typeof this.parseObjectData>);
+      | ReturnType<typeof this.readObjectToc>
+      | (ReturnType<typeof this.readObjectToc> & ReturnType<typeof this.readObjectData>);
     const objects: ObjectType[] = [];
     for (let i = 0; i < objectCount; i++) {
-      objects.push(this.parseObjectToc());
+      objects.push(this.readObjectToc());
     }
 
     const TOCBlob64c: {
       objects: ObjectType[];
-      destroyedActors?: ReturnType<typeof SatisfactoryFileParser.prototype.readObjectReference>[];
+      destroyedActors?: ReturnType<typeof SatisfactoryFileReader.prototype.readObjectReference>[];
     } = {
       objects,
     };
 
     if (this.currentOffset < tocExpectEndOffset) {
-      //There is destroyed actors and we need to parse them
+      //There is destroyed actors and we need to read them
 
       const destroyedActorCount = this.readInt32();
       const destroyedActors: ReturnType<typeof this.readObjectReference>[] = [];
@@ -519,8 +519,8 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     for (let i = 0; i < objectDataCount; i++) {
       const object = objects[i];
       try {
-        if (parseData) {
-          const data = this.parseObjectData(object);
+        if (readObjectData) {
+          const data = this.readObjectData(object);
           Object.assign(object, data); //Mutate object
         }
       } catch (e) {
@@ -535,7 +535,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       }
     }
     if (this.currentOffset !== objectDataEndOffset) {
-      if (parseData) {
+      if (readObjectData) {
         console.warn("Warning: Object data doesn't end where expected, Jumping to end", {
           current: this.currentOffset.toString(16),
           expects: objectDataEndOffset.toString(16),
@@ -585,7 +585,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
-  async parseSaveBody() {
+  async readSaveBody() {
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
@@ -593,7 +593,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     const bodyEndOffset = this.currentOffset + Number(bodySize);
 
     /* 
-      The following validation grid is not usefull to us but its still parsed
+      The following validation grid is not usefull to us but its still read
 
       res/headers/FGWorldSettings.h:158
       FWorldPartitionValidationData SaveGameValidationData
@@ -627,7 +627,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     const perLevelDataMap = this.readTMap((k, i) => {
       const startOffset = this.currentOffset;
       try {
-        const data = this.parsePerStreamingLevelSaveData(k);
+        const data = this.readPerStreamingLevelSaveData(k);
         return data;
       } catch (e) {
         console.error("Error parsing per level data", {
@@ -651,7 +651,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       );
     }
 
-    const persistentAndRuntimeData = this.parsePerStreamingLevelSaveData("Persistent_Level");
+    const persistentAndRuntimeData = this.readPerStreamingLevelSaveData("Persistent_Level");
 
     if (this.options.toOutput?.all || this.options.toOutput?.persistentAndRuntimeData) {
       await writeFile(
@@ -675,14 +675,14 @@ export class SatisfactoryFileParser extends UnrealDataReader {
     };
   }
 
-  async parseSave() {
+  async readSave() {
     await this.readPr;
 
     if (!this.dataView || !this.buffer) {
       throw new Error("Save file not imported");
     }
     this.currentOffset = 0;
-    const headers = this.parseSaveHeader();
+    const headers = this.readSaveHeader();
 
     this.inflateChunks(); // Inflate and override this.buffer and this.dataView
 
@@ -690,7 +690,7 @@ export class SatisfactoryFileParser extends UnrealDataReader {
       await writeFile(this.outputPrefix + "inflated.bin", this.buffer);
     }
 
-    const body = this.parseSaveBody();
+    const body = this.readSaveBody();
 
     return {
       headers,
@@ -699,5 +699,5 @@ export class SatisfactoryFileParser extends UnrealDataReader {
   }
 }
 
-const parser = new SatisfactoryFileParser("save_files/main.sav", { toOutput: { all: true } });
-parser.parseSave();
+const reader = new SatisfactoryFileReader("save_files/main.sav", { toOutput: { all: true } });
+reader.readSave();
