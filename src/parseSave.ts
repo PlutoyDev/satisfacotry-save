@@ -471,7 +471,8 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       try {
         levelData.objects.push(this.readObjectToc());
       } catch (e) {
-        console.error("Error reader Object TOC", { index: i, readObjects: levelData.objects });
+        console.error("Error reader Object TOC", { index: i, count: objectCount, readObjects: levelData.objects });
+        throw e;
       }
     }
 
@@ -485,7 +486,12 @@ export class SatisfactoryFileReader extends UnrealDataReader {
         try {
           levelData.destroyedActors.push(this.readObjectReference());
         } catch (e) {
-          console.error("Error reader Destroyed Actor", { index: i, readDestroyedActors: levelData.destroyedActors });
+          console.error("Error reader Destroyed Actor", {
+            index: i,
+            count: destroyedActorCount,
+            readDestroyedActors: levelData.destroyedActors,
+          });
+          throw e;
         }
       }
     }
@@ -523,20 +529,18 @@ export class SatisfactoryFileReader extends UnrealDataReader {
 
     for (let i = 0; i < objectDataCount; i++) {
       const object = levelData.objects[i];
-      try {
-        if (readObjectData) {
+      if (readObjectData) {
+        try {
           const data = this.readObjectData(object);
           Object.assign(object, data); //Mutate object
+        } catch (e) {
+          console.error("Error parsing object data", {
+            index: i,
+            object,
+            read: levelData.objects.slice(0, i),
+          });
+          throw e;
         }
-      } catch (e) {
-        console.error("Error parsing object data", {
-          object,
-          index: i,
-          objectDataFrom,
-          objectDataTo,
-          error: e,
-        });
-        throw e;
       }
     }
     if (this.currentOffset !== objectDataEndOffset) {
