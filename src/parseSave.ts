@@ -620,7 +620,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       await writeFile(this.outputPrefix + "inflated.bin", this.buffer);
     }
 
-    const body = this.readSaveBody();
+    const body = await this.readSaveBody();
 
     return {
       headers,

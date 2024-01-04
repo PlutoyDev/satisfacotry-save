@@ -37,6 +37,9 @@ for (let i = 0; i < args.length; i++) {
       console.error(`Unknown output option: ${output}`);
       process.exit(1);
     }
+  } else {
+    console.error(`Unknown argument: ${arg}`);
+    continue;
   }
 }
 
@@ -51,5 +54,7 @@ if (!options.toOutput) {
 }
 
 console.log("\nReading save file:", saveFilePath);
+console.time("Read save file");
 const reader = new SatisfactoryFileReader(saveFilePath, options);
-await reader.readSave();
+const data = await reader.readSave();
+console.timeEnd("Read save file");
