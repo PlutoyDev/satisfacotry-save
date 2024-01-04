@@ -16,6 +16,12 @@ Notably:
 
 - [saveProps.md](./research/saveProps.md) - a list of all classes, properties, enums and struct in the save file
 
+## Copyright
+
+The header files and docs.json, located in ./res direactory, are provided by Coffee Stain Studios.
+
+The rest of the code are my painstaking work, feel free to use/copy it as you wish, but please give credit where credit is due. Thank you.
+
 ## Environment
 
 This project uses Node.js and TypeScript.
@@ -31,7 +37,7 @@ pnpm install
 
 ## Run code
 
-```basg
+```bash
 pnpm start
 ```
 
