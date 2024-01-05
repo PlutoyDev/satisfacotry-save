@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1388": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -112,7 +112,7 @@
       "mBuildTimeStamp": -165321.59375
     }
   },
-  {
+  "1389": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -225,7 +225,7 @@
       "mBuildTimeStamp": -165317.8125
     }
   },
-  {
+  "1941": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -340,7 +340,7 @@
       "mBuildTimeStamp": -147515.25
     }
   },
-  {
+  "1942": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -455,7 +455,7 @@
       "mBuildTimeStamp": -147511.390625
     }
   },
-  {
+  "1987": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -570,7 +570,7 @@
       "mBuildTimeStamp": -145525.453125
     }
   },
-  {
+  "1993": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -685,7 +685,7 @@
       "mBuildTimeStamp": -144954.640625
     }
   },
-  {
+  "2003": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -798,7 +798,7 @@
       "mBuildTimeStamp": -144554.234375
     }
   },
-  {
+  "3472": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -911,7 +911,7 @@
       "mBuildTimeStamp": -114196.9921875
     }
   },
-  {
+  "3617": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1026,7 +1026,7 @@
       "mBuildTimeStamp": -107779.7578125
     }
   },
-  {
+  "6127": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1145,7 +1145,7 @@
       }
     }
   },
-  {
+  "6165": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1260,7 +1260,7 @@
       }
     }
   },
-  {
+  "6170": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1375,7 +1375,7 @@
       }
     }
   },
-  {
+  "6367": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1492,7 +1492,7 @@
       }
     }
   },
-  {
+  "6372": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1609,7 +1609,7 @@
       }
     }
   },
-  {
+  "7807": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1724,7 +1724,7 @@
       }
     }
   },
-  {
+  "7840": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1839,7 +1839,7 @@
       }
     }
   },
-  {
+  "8075": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
     "reference": {
@@ -1952,4 +1952,4 @@
       "mBuildTimeStamp": -1113.294677734375
     }
   }
-]
+}

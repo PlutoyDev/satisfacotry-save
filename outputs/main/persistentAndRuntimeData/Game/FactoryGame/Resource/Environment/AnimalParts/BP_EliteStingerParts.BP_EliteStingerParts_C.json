@@ -1,5 +1,5 @@
-[
-  {
+{
+  "5905": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_EliteStingerParts.BP_EliteStingerParts_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "5916": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_EliteStingerParts.BP_EliteStingerParts_C",
     "reference": {
@@ -71,4 +71,4 @@
     },
     "properties": {}
   }
-]
+}

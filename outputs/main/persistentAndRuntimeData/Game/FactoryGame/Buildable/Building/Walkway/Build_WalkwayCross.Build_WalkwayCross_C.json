@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6281": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -46742.0078125
     }
   },
-  {
+  "6284": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -95,7 +95,7 @@
       "mBuildTimeStamp": -46058.79296875
     }
   },
-  {
+  "6285": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -143,7 +143,7 @@
       "mBuildTimeStamp": -46057.55078125
     }
   },
-  {
+  "6286": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -191,7 +191,7 @@
       "mBuildTimeStamp": -46055.1953125
     }
   },
-  {
+  "6291": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -239,7 +239,7 @@
       "mBuildTimeStamp": -45979.66015625
     }
   },
-  {
+  "6292": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -287,7 +287,7 @@
       "mBuildTimeStamp": -45979.66015625
     }
   },
-  {
+  "6293": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -335,7 +335,7 @@
       "mBuildTimeStamp": -45979.66015625
     }
   },
-  {
+  "6294": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -383,7 +383,7 @@
       "mBuildTimeStamp": -45979.66015625
     }
   },
-  {
+  "6300": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -431,7 +431,7 @@
       "mBuildTimeStamp": -45938.84765625
     }
   },
-  {
+  "6301": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -479,7 +479,7 @@
       "mBuildTimeStamp": -45938.84765625
     }
   },
-  {
+  "6302": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -527,7 +527,7 @@
       "mBuildTimeStamp": -45935.86328125
     }
   },
-  {
+  "6303": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -575,7 +575,7 @@
       "mBuildTimeStamp": -45935.86328125
     }
   },
-  {
+  "6304": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -623,7 +623,7 @@
       "mBuildTimeStamp": -45930.9453125
     }
   },
-  {
+  "6305": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -671,7 +671,7 @@
       "mBuildTimeStamp": -45930.9453125
     }
   },
-  {
+  "6306": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -719,7 +719,7 @@
       "mBuildTimeStamp": -45926.4140625
     }
   },
-  {
+  "6307": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -767,7 +767,7 @@
       "mBuildTimeStamp": -45926.4140625
     }
   },
-  {
+  "6308": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C",
     "reference": {
@@ -815,4 +815,4 @@
       "mBuildTimeStamp": -45926.4140625
     }
   }
-]
+}

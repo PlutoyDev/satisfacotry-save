@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6310": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Crate/BP_Crate.BP_Crate_C",
     "reference": {
@@ -45,7 +45,7 @@
       }
     }
   },
-  {
+  "6437": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Crate/BP_Crate.BP_Crate_C",
     "reference": {
@@ -91,4 +91,4 @@
       }
     }
   }
-]
+}

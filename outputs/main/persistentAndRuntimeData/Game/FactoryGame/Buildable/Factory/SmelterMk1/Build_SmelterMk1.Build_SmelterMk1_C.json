@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1192": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -107,7 +107,7 @@
       "mBuildTimeStamp": -172325.640625
     }
   },
-  {
+  "1193": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -216,7 +216,7 @@
       "mBuildTimeStamp": -172320.46875
     }
   },
-  {
+  "1198": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -325,7 +325,7 @@
       "mBuildTimeStamp": -172230.78125
     }
   },
-  {
+  "1224": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -434,7 +434,7 @@
       "mBuildTimeStamp": -171520.65625
     }
   },
-  {
+  "1693": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -543,7 +543,7 @@
       "mBuildTimeStamp": -155206.953125
     }
   },
-  {
+  "1694": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -651,7 +651,7 @@
       "mBuildTimeStamp": -155195.6875
     }
   },
-  {
+  "1695": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -759,7 +759,7 @@
       "mBuildTimeStamp": -155194.734375
     }
   },
-  {
+  "1720": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -870,7 +870,7 @@
       "mBuildTimeStamp": -155031.625
     }
   },
-  {
+  "1791": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -979,7 +979,7 @@
       "mBuildTimeStamp": -150679.3125
     }
   },
-  {
+  "1793": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -1088,7 +1088,7 @@
       "mBuildTimeStamp": -150666.125
     }
   },
-  {
+  "1794": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -1197,7 +1197,7 @@
       "mBuildTimeStamp": -150665.3125
     }
   },
-  {
+  "1795": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -1306,7 +1306,7 @@
       "mBuildTimeStamp": -150659.421875
     }
   },
-  {
+  "3819": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -1419,7 +1419,7 @@
       }
     }
   },
-  {
+  "3822": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -1532,7 +1532,7 @@
       }
     }
   },
-  {
+  "3825": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
     "reference": {
@@ -1647,4 +1647,4 @@
       }
     }
   }
-]
+}

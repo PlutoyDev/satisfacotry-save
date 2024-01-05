@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6498": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -34281.6171875
     }
   },
-  {
+  "6499": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -95,7 +95,7 @@
       "mBuildTimeStamp": -34270.4453125
     }
   },
-  {
+  "6500": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -143,7 +143,7 @@
       "mBuildTimeStamp": -34270.4453125
     }
   },
-  {
+  "6501": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -191,7 +191,7 @@
       "mBuildTimeStamp": -34270.4453125
     }
   },
-  {
+  "6502": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -239,7 +239,7 @@
       "mBuildTimeStamp": -34270.4453125
     }
   },
-  {
+  "6503": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -287,7 +287,7 @@
       "mBuildTimeStamp": -34270.4453125
     }
   },
-  {
+  "6505": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -335,7 +335,7 @@
       "mBuildTimeStamp": -34237.11328125
     }
   },
-  {
+  "6506": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -383,7 +383,7 @@
       "mBuildTimeStamp": -34237.11328125
     }
   },
-  {
+  "6507": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -431,7 +431,7 @@
       "mBuildTimeStamp": -34237.11328125
     }
   },
-  {
+  "6509": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -479,7 +479,7 @@
       "mBuildTimeStamp": -34179.11328125
     }
   },
-  {
+  "6510": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -527,7 +527,7 @@
       "mBuildTimeStamp": -34179.11328125
     }
   },
-  {
+  "6513": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -575,7 +575,7 @@
       "mBuildTimeStamp": -34147.0234375
     }
   },
-  {
+  "6514": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -623,7 +623,7 @@
       "mBuildTimeStamp": -34147.0234375
     }
   },
-  {
+  "6515": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -671,7 +671,7 @@
       "mBuildTimeStamp": -34147.0234375
     }
   },
-  {
+  "7983": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -719,7 +719,7 @@
       "mBuildTimeStamp": -3211.509765625
     }
   },
-  {
+  "7984": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -767,7 +767,7 @@
       "mBuildTimeStamp": -3211.509765625
     }
   },
-  {
+  "7985": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -815,7 +815,7 @@
       "mBuildTimeStamp": -3211.509765625
     }
   },
-  {
+  "7986": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -863,7 +863,7 @@
       "mBuildTimeStamp": -3202.48681640625
     }
   },
-  {
+  "7987": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -911,7 +911,7 @@
       "mBuildTimeStamp": -3202.48681640625
     }
   },
-  {
+  "7988": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -959,7 +959,7 @@
       "mBuildTimeStamp": -3202.48681640625
     }
   },
-  {
+  "7989": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1007,7 +1007,7 @@
       "mBuildTimeStamp": -3202.48681640625
     }
   },
-  {
+  "7990": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1055,7 +1055,7 @@
       "mBuildTimeStamp": -3202.48681640625
     }
   },
-  {
+  "8044": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1103,7 +1103,7 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   },
-  {
+  "8045": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1151,7 +1151,7 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   },
-  {
+  "8046": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1199,7 +1199,7 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   },
-  {
+  "8047": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1247,7 +1247,7 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   },
-  {
+  "8048": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1295,7 +1295,7 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   },
-  {
+  "8049": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1343,7 +1343,7 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   },
-  {
+  "8050": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C",
     "reference": {
@@ -1391,4 +1391,4 @@
       "mBuildTimeStamp": -3084.910888671875
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8409": {
     "type": 0,
     "className": "/Script/FactoryGame.FGShoppingListComponent",
     "reference": {
@@ -10,7 +10,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12587": {
     "type": 0,
     "className": "/Script/FactoryGame.FGShoppingListComponent",
     "reference": {
@@ -21,4 +21,4 @@
     "pcInfo": {},
     "properties": {}
   }
-]
+}

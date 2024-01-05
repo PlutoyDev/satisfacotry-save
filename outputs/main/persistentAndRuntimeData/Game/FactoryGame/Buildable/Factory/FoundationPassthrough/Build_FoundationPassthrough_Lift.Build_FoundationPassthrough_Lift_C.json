@@ -1,5 +1,5 @@
-[
-  {
+{
+  "3859": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -56,7 +56,7 @@
       "mBuildTimeStamp": -106235.5078125
     }
   },
-  {
+  "4160": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -113,7 +113,7 @@
       "mBuildTimeStamp": -100471.484375
     }
   },
-  {
+  "4226": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -170,7 +170,7 @@
       "mBuildTimeStamp": -98495.8671875
     }
   },
-  {
+  "4241": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -227,7 +227,7 @@
       "mBuildTimeStamp": -98157.390625
     }
   },
-  {
+  "4242": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -284,7 +284,7 @@
       "mBuildTimeStamp": -98148.6171875
     }
   },
-  {
+  "4627": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -341,7 +341,7 @@
       "mBuildTimeStamp": -96143.796875
     }
   },
-  {
+  "4780": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -398,7 +398,7 @@
       "mBuildTimeStamp": -85715.421875
     }
   },
-  {
+  "6136": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -455,7 +455,7 @@
       "mBuildTimeStamp": -53752.55859375
     }
   },
-  {
+  "6137": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -504,7 +504,7 @@
       "mBuildTimeStamp": -53750.51953125
     }
   },
-  {
+  "6207": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -561,7 +561,7 @@
       "mBuildTimeStamp": -52141.41015625
     }
   },
-  {
+  "6976": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -618,7 +618,7 @@
       "mBuildTimeStamp": -24763.494140625
     }
   },
-  {
+  "6984": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -675,7 +675,7 @@
       "mBuildTimeStamp": -24655.296875
     }
   },
-  {
+  "7229": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -732,7 +732,7 @@
       "mBuildTimeStamp": -22180.91015625
     }
   },
-  {
+  "7764": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -789,7 +789,7 @@
       "mBuildTimeStamp": -13254.521484375
     }
   },
-  {
+  "7824": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
     "reference": {
@@ -846,4 +846,4 @@
       "mBuildTimeStamp": -12602.326171875
     }
   }
-]
+}

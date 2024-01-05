@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6365": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Build_StoragePlayer.Build_StoragePlayer_C",
     "reference": {
@@ -58,7 +58,7 @@
       "mBuildTimeStamp": -39093.24609375
     }
   },
-  {
+  "6366": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Build_StoragePlayer.Build_StoragePlayer_C",
     "reference": {
@@ -117,4 +117,4 @@
       "mBuildTimeStamp": -39089.3046875
     }
   }
-]
+}

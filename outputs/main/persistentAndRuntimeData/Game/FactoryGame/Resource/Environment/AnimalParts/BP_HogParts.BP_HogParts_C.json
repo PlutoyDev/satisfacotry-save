@@ -1,5 +1,5 @@
-[
-  {
+{
+  "3019": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "3020": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "4839": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "6327": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
     "reference": {
@@ -143,7 +143,7 @@
     },
     "properties": {}
   },
-  {
+  "6332": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
     "reference": {
@@ -179,7 +179,7 @@
     },
     "properties": {}
   },
-  {
+  "6335": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
     "reference": {
@@ -215,4 +215,4 @@
     },
     "properties": {}
   }
-]
+}

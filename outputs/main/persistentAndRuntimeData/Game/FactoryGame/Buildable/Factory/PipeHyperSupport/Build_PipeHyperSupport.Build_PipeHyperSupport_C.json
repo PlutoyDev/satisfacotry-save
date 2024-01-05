@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6912": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PipeHyperSupport/Build_PipeHyperSupport.Build_PipeHyperSupport_C",
     "reference": {
@@ -53,7 +53,7 @@
       "mBuildTimeStamp": -26242.30078125
     }
   },
-  {
+  "6913": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PipeHyperSupport/Build_PipeHyperSupport.Build_PipeHyperSupport_C",
     "reference": {
@@ -107,4 +107,4 @@
       "mBuildTimeStamp": -26242.30078125
     }
   }
-]
+}

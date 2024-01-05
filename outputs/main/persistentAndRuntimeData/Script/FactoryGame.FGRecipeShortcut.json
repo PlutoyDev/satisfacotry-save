@@ -1,5 +1,5 @@
-[
-  {
+{
+  "13959": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -15,7 +15,7 @@
       }
     }
   },
-  {
+  "13960": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -32,7 +32,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "13961": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -49,7 +49,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "13962": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -66,7 +66,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "13963": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -83,7 +83,7 @@
       "mShortcutIndex": 4
     }
   },
-  {
+  "13964": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -100,7 +100,7 @@
       "mShortcutIndex": 5
     }
   },
-  {
+  "13965": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -117,7 +117,7 @@
       "mShortcutIndex": 6
     }
   },
-  {
+  "13966": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -134,7 +134,7 @@
       "mShortcutIndex": 7
     }
   },
-  {
+  "13967": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -150,7 +150,7 @@
       }
     }
   },
-  {
+  "13968": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -167,7 +167,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "13969": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -184,7 +184,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "13970": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -201,7 +201,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "13971": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -218,7 +218,7 @@
       "mShortcutIndex": 4
     }
   },
-  {
+  "13972": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -235,7 +235,7 @@
       "mShortcutIndex": 5
     }
   },
-  {
+  "13973": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -251,7 +251,7 @@
       }
     }
   },
-  {
+  "13974": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -268,7 +268,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "13975": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -285,7 +285,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "13976": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -302,7 +302,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "13977": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -319,7 +319,7 @@
       "mShortcutIndex": 4
     }
   },
-  {
+  "13978": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -336,7 +336,7 @@
       "mShortcutIndex": 5
     }
   },
-  {
+  "13979": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -353,7 +353,7 @@
       "mShortcutIndex": 6
     }
   },
-  {
+  "13980": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -370,7 +370,7 @@
       "mShortcutIndex": 7
     }
   },
-  {
+  "13981": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -386,7 +386,7 @@
       }
     }
   },
-  {
+  "13982": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -403,7 +403,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "13983": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -420,7 +420,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "13984": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -437,7 +437,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "13985": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -454,7 +454,7 @@
       "mShortcutIndex": 4
     }
   },
-  {
+  "13986": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -471,7 +471,7 @@
       "mShortcutIndex": 5
     }
   },
-  {
+  "13987": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -488,7 +488,7 @@
       "mShortcutIndex": 6
     }
   },
-  {
+  "13988": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -505,7 +505,7 @@
       "mShortcutIndex": 7
     }
   },
-  {
+  "13989": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -521,7 +521,7 @@
       }
     }
   },
-  {
+  "13990": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -538,7 +538,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "13991": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -555,7 +555,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "13992": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -572,7 +572,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "13993": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -589,7 +589,7 @@
       "mShortcutIndex": 4
     }
   },
-  {
+  "13994": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -606,7 +606,7 @@
       "mShortcutIndex": 5
     }
   },
-  {
+  "13995": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -623,7 +623,7 @@
       "mShortcutIndex": 6
     }
   },
-  {
+  "13996": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -639,7 +639,7 @@
       }
     }
   },
-  {
+  "13997": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -656,7 +656,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "13998": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -673,7 +673,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "13999": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -690,7 +690,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "14000": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -706,7 +706,7 @@
       }
     }
   },
-  {
+  "14001": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -723,7 +723,7 @@
       "mShortcutIndex": 1
     }
   },
-  {
+  "14002": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -740,7 +740,7 @@
       "mShortcutIndex": 2
     }
   },
-  {
+  "14003": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -757,7 +757,7 @@
       "mShortcutIndex": 3
     }
   },
-  {
+  "14004": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -774,7 +774,7 @@
       "mShortcutIndex": 4
     }
   },
-  {
+  "14005": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -791,7 +791,7 @@
       "mShortcutIndex": 5
     }
   },
-  {
+  "14006": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -808,7 +808,7 @@
       "mShortcutIndex": 6
     }
   },
-  {
+  "14007": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -825,7 +825,7 @@
       "mShortcutIndex": 7
     }
   },
-  {
+  "14008": {
     "type": 0,
     "className": "/Script/FactoryGame.FGRecipeShortcut",
     "reference": {
@@ -842,4 +842,4 @@
       "mShortcutIndex": 8
     }
   }
-]
+}

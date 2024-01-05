@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6155": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightPole.Build_FloodlightPole_C",
     "reference": {
@@ -61,7 +61,7 @@
       "mBuildTimeStamp": -52830.625
     }
   },
-  {
+  "6157": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightPole.Build_FloodlightPole_C",
     "reference": {
@@ -123,7 +123,7 @@
       "mBuildTimeStamp": -52772.5390625
     }
   },
-  {
+  "6159": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightPole.Build_FloodlightPole_C",
     "reference": {
@@ -185,7 +185,7 @@
       "mBuildTimeStamp": -52733.9453125
     }
   },
-  {
+  "6161": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightPole.Build_FloodlightPole_C",
     "reference": {
@@ -247,7 +247,7 @@
       "mBuildTimeStamp": -52664.98828125
     }
   },
-  {
+  "6163": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightPole.Build_FloodlightPole_C",
     "reference": {
@@ -308,4 +308,4 @@
       "mBuildTimeStamp": -52636.48046875
     }
   }
-]
+}

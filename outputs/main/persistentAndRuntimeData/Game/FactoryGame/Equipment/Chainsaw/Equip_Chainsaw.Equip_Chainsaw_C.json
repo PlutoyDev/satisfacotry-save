@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6318": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/Chainsaw/Equip_Chainsaw.Equip_Chainsaw_C",
     "reference": {
@@ -37,4 +37,4 @@
       "mEnergyStored": 402.9676208496094
     }
   }
-]
+}

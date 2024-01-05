@@ -1,5 +1,5 @@
-[
-  {
+{
+  "986": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -70,7 +70,7 @@
       "mBuildTimeStamp": -177373.390625
     }
   },
-  {
+  "1369": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -141,7 +141,7 @@
       "mBuildTimeStamp": -166869.03125
     }
   },
-  {
+  "1370": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -212,7 +212,7 @@
       "mBuildTimeStamp": -166861.296875
     }
   },
-  {
+  "1880": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -283,7 +283,7 @@
       "mBuildTimeStamp": -149120.71875
     }
   },
-  {
+  "1881": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -354,7 +354,7 @@
       "mBuildTimeStamp": -149078.3125
     }
   },
-  {
+  "1948": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -425,7 +425,7 @@
       "mBuildTimeStamp": -147274.34375
     }
   },
-  {
+  "2016": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -496,7 +496,7 @@
       "mBuildTimeStamp": -144214.59375
     }
   },
-  {
+  "2043": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -567,7 +567,7 @@
       "mBuildTimeStamp": -143339.8125
     }
   },
-  {
+  "2053": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -638,7 +638,7 @@
       "mBuildTimeStamp": -141979.5625
     }
   },
-  {
+  "3471": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -709,7 +709,7 @@
       "mBuildTimeStamp": -114341.2109375
     }
   },
-  {
+  "3549": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -780,7 +780,7 @@
       "mBuildTimeStamp": -112245.5078125
     }
   },
-  {
+  "3616": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -851,7 +851,7 @@
       "mBuildTimeStamp": -108001.4453125
     }
   },
-  {
+  "6389": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -922,7 +922,7 @@
       "mBuildTimeStamp": -38506.234375
     }
   },
-  {
+  "6392": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -993,7 +993,7 @@
       "mBuildTimeStamp": -38450.62890625
     }
   },
-  {
+  "6393": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -1064,7 +1064,7 @@
       "mBuildTimeStamp": -38448.015625
     }
   },
-  {
+  "7861": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -1135,7 +1135,7 @@
       "mBuildTimeStamp": -11436.693359375
     }
   },
-  {
+  "7903": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
     "reference": {
@@ -1206,4 +1206,4 @@
       "mBuildTimeStamp": -10539.5615234375
     }
   }
-]
+}

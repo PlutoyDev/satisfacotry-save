@@ -1,5 +1,5 @@
-[
-  {
+{
+  "815": {
     "type": 1,
     "className": "/Game/FactoryGame/Recipes/Research/BP_ResearchManager.BP_ResearchManager_C",
     "reference": {
@@ -75,4 +75,4 @@
       "mIsActivated": true
     }
   }
-]
+}

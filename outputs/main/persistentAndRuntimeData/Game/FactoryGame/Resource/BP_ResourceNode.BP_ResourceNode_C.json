@@ -1,5 +1,5 @@
-[
-  {
+{
+  "39": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -37,7 +37,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "40": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -75,7 +75,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "41": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -113,7 +113,7 @@
       "mResourcesLeft": 78
     }
   },
-  {
+  "42": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -151,7 +151,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "43": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -189,7 +189,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "44": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -227,7 +227,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "46": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -265,7 +265,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "48": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -303,7 +303,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "49": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -341,7 +341,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "50": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -379,7 +379,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "51": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -417,7 +417,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "53": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -455,7 +455,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "54": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -491,7 +491,7 @@
     },
     "properties": {}
   },
-  {
+  "55": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -529,7 +529,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "56": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -567,7 +567,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "57": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -605,7 +605,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "58": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -643,7 +643,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "59": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -681,7 +681,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "60": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -717,7 +717,7 @@
     },
     "properties": {}
   },
-  {
+  "61": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -755,7 +755,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "62": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -793,7 +793,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "63": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -831,7 +831,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "64": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -869,7 +869,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "65": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -907,7 +907,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "66": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -945,7 +945,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "67": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -983,7 +983,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "68": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1021,7 +1021,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "69": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1059,7 +1059,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "70": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1097,7 +1097,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "71": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1135,7 +1135,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "72": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1173,7 +1173,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "73": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1211,7 +1211,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "75": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1249,7 +1249,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "76": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1287,7 +1287,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "77": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1325,7 +1325,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "79": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1361,7 +1361,7 @@
     },
     "properties": {}
   },
-  {
+  "80": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1399,7 +1399,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "81": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1437,7 +1437,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "83": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1475,7 +1475,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "84": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1513,7 +1513,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "86": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1551,7 +1551,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "88": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1589,7 +1589,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "90": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1627,7 +1627,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "92": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1665,7 +1665,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "93": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1703,7 +1703,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "94": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1741,7 +1741,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "95": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1779,7 +1779,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "96": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1818,7 +1818,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "97": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1856,7 +1856,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "98": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1892,7 +1892,7 @@
     },
     "properties": {}
   },
-  {
+  "99": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1930,7 +1930,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "100": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -1968,7 +1968,7 @@
       "mResourcesLeft": 84
     }
   },
-  {
+  "103": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2006,7 +2006,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "104": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2044,7 +2044,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "105": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2082,7 +2082,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "108": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2120,7 +2120,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "109": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2158,7 +2158,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "110": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2196,7 +2196,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "111": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2234,7 +2234,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "114": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2272,7 +2272,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "117": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2310,7 +2310,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "119": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2348,7 +2348,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "120": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2386,7 +2386,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "122": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2424,7 +2424,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "125": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2462,7 +2462,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "126": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2500,7 +2500,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "127": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2536,7 +2536,7 @@
     },
     "properties": {}
   },
-  {
+  "128": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2574,7 +2574,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "129": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2613,7 +2613,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "130": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2652,7 +2652,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "132": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2690,7 +2690,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "133": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2726,7 +2726,7 @@
     },
     "properties": {}
   },
-  {
+  "134": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2764,7 +2764,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "135": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2802,7 +2802,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "136": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2840,7 +2840,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "137": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2878,7 +2878,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "138": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2916,7 +2916,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "139": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2954,7 +2954,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "140": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -2992,7 +2992,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "141": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3030,7 +3030,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "142": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3069,7 +3069,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "143": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3107,7 +3107,7 @@
       "mResourcesLeft": 72
     }
   },
-  {
+  "144": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3143,7 +3143,7 @@
     },
     "properties": {}
   },
-  {
+  "145": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3181,7 +3181,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "146": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3217,7 +3217,7 @@
     },
     "properties": {}
   },
-  {
+  "147": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3255,7 +3255,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "148": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3293,7 +3293,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "149": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3331,7 +3331,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "150": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3369,7 +3369,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "152": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3407,7 +3407,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "153": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3445,7 +3445,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "155": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3483,7 +3483,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "156": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3521,7 +3521,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "157": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3557,7 +3557,7 @@
     },
     "properties": {}
   },
-  {
+  "158": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3595,7 +3595,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "159": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3631,7 +3631,7 @@
     },
     "properties": {}
   },
-  {
+  "160": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3669,7 +3669,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "163": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3707,7 +3707,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "165": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3745,7 +3745,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "166": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3783,7 +3783,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "168": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3821,7 +3821,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "169": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3859,7 +3859,7 @@
       "mResourcesLeft": 62
     }
   },
-  {
+  "170": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3897,7 +3897,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "172": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3933,7 +3933,7 @@
     },
     "properties": {}
   },
-  {
+  "173": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -3971,7 +3971,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "174": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4007,7 +4007,7 @@
     },
     "properties": {}
   },
-  {
+  "175": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4043,7 +4043,7 @@
     },
     "properties": {}
   },
-  {
+  "176": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4081,7 +4081,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "178": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4119,7 +4119,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "180": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4157,7 +4157,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "181": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4195,7 +4195,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "182": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4233,7 +4233,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "184": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4271,7 +4271,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "187": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4309,7 +4309,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "188": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4347,7 +4347,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "189": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4385,7 +4385,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "190": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4423,7 +4423,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "193": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4462,7 +4462,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "195": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4500,7 +4500,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "196": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4538,7 +4538,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "197": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4576,7 +4576,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "200": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4614,7 +4614,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "201": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4652,7 +4652,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "203": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4690,7 +4690,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "204": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4728,7 +4728,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "205": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4766,7 +4766,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "207": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4804,7 +4804,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "209": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4842,7 +4842,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "210": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4880,7 +4880,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "211": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4918,7 +4918,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "212": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4956,7 +4956,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "213": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -4994,7 +4994,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "215": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5032,7 +5032,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "216": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5070,7 +5070,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "219": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5108,7 +5108,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "220": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5146,7 +5146,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "222": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5184,7 +5184,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "223": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5220,7 +5220,7 @@
     },
     "properties": {}
   },
-  {
+  "224": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5258,7 +5258,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "225": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5296,7 +5296,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "227": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5334,7 +5334,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "228": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5372,7 +5372,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "230": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5410,7 +5410,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "231": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5448,7 +5448,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "232": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5484,7 +5484,7 @@
     },
     "properties": {}
   },
-  {
+  "233": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5522,7 +5522,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "235": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5560,7 +5560,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "236": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5598,7 +5598,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "237": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5636,7 +5636,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "238": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5672,7 +5672,7 @@
     },
     "properties": {}
   },
-  {
+  "239": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5710,7 +5710,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "241": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5746,7 +5746,7 @@
     },
     "properties": {}
   },
-  {
+  "242": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5784,7 +5784,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "243": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5823,7 +5823,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "244": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5861,7 +5861,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "245": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5899,7 +5899,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "246": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5937,7 +5937,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "248": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -5975,7 +5975,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "250": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6013,7 +6013,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "253": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6051,7 +6051,7 @@
       "mResourcesLeft": 50
     }
   },
-  {
+  "254": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6089,7 +6089,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "255": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6127,7 +6127,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "256": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6165,7 +6165,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "257": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6203,7 +6203,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "259": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6241,7 +6241,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "260": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6279,7 +6279,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "261": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6317,7 +6317,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "262": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6355,7 +6355,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "263": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6394,7 +6394,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "264": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6432,7 +6432,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "265": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6470,7 +6470,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "266": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6508,7 +6508,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "267": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6546,7 +6546,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "269": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6584,7 +6584,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "271": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6622,7 +6622,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "272": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6660,7 +6660,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "273": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6696,7 +6696,7 @@
     },
     "properties": {}
   },
-  {
+  "275": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6734,7 +6734,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "277": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6772,7 +6772,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "278": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6808,7 +6808,7 @@
     },
     "properties": {}
   },
-  {
+  "279": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6846,7 +6846,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "280": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6884,7 +6884,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "281": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6922,7 +6922,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "282": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6960,7 +6960,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "283": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -6998,7 +6998,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "284": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7036,7 +7036,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "285": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7074,7 +7074,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "286": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7112,7 +7112,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "287": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7150,7 +7150,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "289": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7186,7 +7186,7 @@
     },
     "properties": {}
   },
-  {
+  "290": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7224,7 +7224,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "291": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7262,7 +7262,7 @@
       "mResourcesLeft": 66
     }
   },
-  {
+  "292": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7300,7 +7300,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "293": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7338,7 +7338,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "294": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7376,7 +7376,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "295": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7414,7 +7414,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "296": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7452,7 +7452,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "297": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7490,7 +7490,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "298": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7528,7 +7528,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "299": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7566,7 +7566,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "301": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7604,7 +7604,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "302": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7642,7 +7642,7 @@
       "mResourcesLeft": 50
     }
   },
-  {
+  "303": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7678,7 +7678,7 @@
     },
     "properties": {}
   },
-  {
+  "304": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7716,7 +7716,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "305": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7754,7 +7754,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "306": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7792,7 +7792,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "308": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7828,7 +7828,7 @@
     },
     "properties": {}
   },
-  {
+  "310": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7866,7 +7866,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "311": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7904,7 +7904,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "313": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7942,7 +7942,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "315": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -7980,7 +7980,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "316": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8018,7 +8018,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "317": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8056,7 +8056,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "318": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8094,7 +8094,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "319": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8132,7 +8132,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "320": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8170,7 +8170,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "321": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8208,7 +8208,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "323": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8246,7 +8246,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "324": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8284,7 +8284,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "325": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8322,7 +8322,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "326": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8360,7 +8360,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "327": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8398,7 +8398,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "328": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8436,7 +8436,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "329": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8472,7 +8472,7 @@
     },
     "properties": {}
   },
-  {
+  "330": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8510,7 +8510,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "331": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8548,7 +8548,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "333": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8586,7 +8586,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "334": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8624,7 +8624,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "336": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8660,7 +8660,7 @@
     },
     "properties": {}
   },
-  {
+  "338": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8698,7 +8698,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "339": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8736,7 +8736,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "340": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8774,7 +8774,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "341": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8812,7 +8812,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "342": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8850,7 +8850,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "343": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8888,7 +8888,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "344": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8926,7 +8926,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "345": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -8964,7 +8964,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "346": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9002,7 +9002,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "347": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9040,7 +9040,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "349": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9078,7 +9078,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "350": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9116,7 +9116,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "355": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9154,7 +9154,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "356": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9192,7 +9192,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "357": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9230,7 +9230,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "358": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9268,7 +9268,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "359": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9304,7 +9304,7 @@
     },
     "properties": {}
   },
-  {
+  "360": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9340,7 +9340,7 @@
     },
     "properties": {}
   },
-  {
+  "361": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9376,7 +9376,7 @@
     },
     "properties": {}
   },
-  {
+  "362": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9414,7 +9414,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "364": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9450,7 +9450,7 @@
     },
     "properties": {}
   },
-  {
+  "365": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9488,7 +9488,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "366": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9526,7 +9526,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "367": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9564,7 +9564,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "368": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9602,7 +9602,7 @@
       "mResourcesLeft": 50
     }
   },
-  {
+  "369": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9640,7 +9640,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "370": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9678,7 +9678,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "371": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9716,7 +9716,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "372": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9755,7 +9755,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "374": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9793,7 +9793,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "375": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9831,7 +9831,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "376": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9869,7 +9869,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "377": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9908,7 +9908,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "378": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9946,7 +9946,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "379": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -9982,7 +9982,7 @@
     },
     "properties": {}
   },
-  {
+  "380": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10020,7 +10020,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "381": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10056,7 +10056,7 @@
     },
     "properties": {}
   },
-  {
+  "382": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10092,7 +10092,7 @@
     },
     "properties": {}
   },
-  {
+  "383": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10130,7 +10130,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "384": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10168,7 +10168,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "385": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10206,7 +10206,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "386": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10244,7 +10244,7 @@
       "mResourcesLeft": 52
     }
   },
-  {
+  "394": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10282,7 +10282,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "395": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10320,7 +10320,7 @@
       "mResourcesLeft": 87
     }
   },
-  {
+  "396": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10358,7 +10358,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "397": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10394,7 +10394,7 @@
     },
     "properties": {}
   },
-  {
+  "398": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10432,7 +10432,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "399": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10471,7 +10471,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "401": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10509,7 +10509,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "402": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10547,7 +10547,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "403": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10585,7 +10585,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "405": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10623,7 +10623,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "406": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10661,7 +10661,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "407": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10699,7 +10699,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "408": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10737,7 +10737,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "409": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10775,7 +10775,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "411": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10813,7 +10813,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "413": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10851,7 +10851,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "414": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10889,7 +10889,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "415": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10927,7 +10927,7 @@
       "mResourcesLeft": 52
     }
   },
-  {
+  "418": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -10965,7 +10965,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "421": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11001,7 +11001,7 @@
     },
     "properties": {}
   },
-  {
+  "422": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11039,7 +11039,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "423": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11075,7 +11075,7 @@
     },
     "properties": {}
   },
-  {
+  "424": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11113,7 +11113,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "426": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11151,7 +11151,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "427": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11189,7 +11189,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "428": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11227,7 +11227,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "430": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11265,7 +11265,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "431": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11303,7 +11303,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "433": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11341,7 +11341,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "434": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11379,7 +11379,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "435": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11417,7 +11417,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "436": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11455,7 +11455,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "438": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11493,7 +11493,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "439": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11531,7 +11531,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "440": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11569,7 +11569,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "441": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11605,7 +11605,7 @@
     },
     "properties": {}
   },
-  {
+  "443": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11643,7 +11643,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "444": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11681,7 +11681,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "446": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11719,7 +11719,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "447": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11757,7 +11757,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "448": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11795,7 +11795,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "449": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11833,7 +11833,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "450": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11869,7 +11869,7 @@
     },
     "properties": {}
   },
-  {
+  "451": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11905,7 +11905,7 @@
     },
     "properties": {}
   },
-  {
+  "462": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11943,7 +11943,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "463": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -11981,7 +11981,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "464": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12019,7 +12019,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "472": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12057,7 +12057,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "473": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12095,7 +12095,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "474": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12133,7 +12133,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "475": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12171,7 +12171,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "479": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12209,7 +12209,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "481": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12247,7 +12247,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "482": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12285,7 +12285,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "483": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12323,7 +12323,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "485": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12361,7 +12361,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "486": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12399,7 +12399,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "487": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12437,7 +12437,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "489": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12475,7 +12475,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "490": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12514,7 +12514,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "492": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12552,7 +12552,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "493": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12588,7 +12588,7 @@
     },
     "properties": {}
   },
-  {
+  "494": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12626,7 +12626,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "496": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12662,7 +12662,7 @@
     },
     "properties": {}
   },
-  {
+  "497": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12698,7 +12698,7 @@
     },
     "properties": {}
   },
-  {
+  "499": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12734,7 +12734,7 @@
     },
     "properties": {}
   },
-  {
+  "500": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12772,7 +12772,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "501": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12810,7 +12810,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "503": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12848,7 +12848,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "505": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12887,7 +12887,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "507": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12925,7 +12925,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "509": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -12963,7 +12963,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "510": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13001,7 +13001,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "511": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13037,7 +13037,7 @@
     },
     "properties": {}
   },
-  {
+  "512": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13075,7 +13075,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "521": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13113,7 +13113,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "523": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13151,7 +13151,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "524": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13189,7 +13189,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "525": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13225,7 +13225,7 @@
     },
     "properties": {}
   },
-  {
+  "526": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13261,7 +13261,7 @@
     },
     "properties": {}
   },
-  {
+  "527": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13299,7 +13299,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "528": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13337,7 +13337,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "529": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13375,7 +13375,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "537": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13413,7 +13413,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "538": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13449,7 +13449,7 @@
     },
     "properties": {}
   },
-  {
+  "539": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13487,7 +13487,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "541": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13525,7 +13525,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "543": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13561,7 +13561,7 @@
     },
     "properties": {}
   },
-  {
+  "544": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13599,7 +13599,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "545": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13635,7 +13635,7 @@
     },
     "properties": {}
   },
-  {
+  "546": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13671,7 +13671,7 @@
     },
     "properties": {}
   },
-  {
+  "547": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13709,7 +13709,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "548": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13747,7 +13747,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "549": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13785,7 +13785,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "550": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13823,7 +13823,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "552": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13861,7 +13861,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "553": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13897,7 +13897,7 @@
     },
     "properties": {}
   },
-  {
+  "554": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13935,7 +13935,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "555": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -13971,7 +13971,7 @@
     },
     "properties": {}
   },
-  {
+  "556": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14010,7 +14010,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "557": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14048,7 +14048,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "558": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14086,7 +14086,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "559": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14124,7 +14124,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "560": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14162,7 +14162,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "561": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14200,7 +14200,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "562": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14238,7 +14238,7 @@
       "mResourcesLeft": 50
     }
   },
-  {
+  "563": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14276,7 +14276,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "573": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14314,7 +14314,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "574": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14352,7 +14352,7 @@
       "mResourcesLeft": 90
     }
   },
-  {
+  "583": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14390,7 +14390,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "584": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14428,7 +14428,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "586": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14467,7 +14467,7 @@
       "mDoSpawnParticle": false
     }
   },
-  {
+  "587": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14505,7 +14505,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "597": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14543,7 +14543,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "598": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14581,7 +14581,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "607": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14619,7 +14619,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "616": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14657,7 +14657,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "617": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14695,7 +14695,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "618": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14733,7 +14733,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "619": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14771,7 +14771,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "620": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14809,7 +14809,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "628": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14845,7 +14845,7 @@
     },
     "properties": {}
   },
-  {
+  "630": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14883,7 +14883,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "640": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14921,7 +14921,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "641": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14959,7 +14959,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "642": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -14997,7 +14997,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "643": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15035,7 +15035,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "645": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15073,7 +15073,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "646": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15111,7 +15111,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "647": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15149,7 +15149,7 @@
       "mResourcesLeft": 52
     }
   },
-  {
+  "648": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15187,7 +15187,7 @@
       "mResourcesLeft": 87
     }
   },
-  {
+  "661": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15225,7 +15225,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "663": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15263,7 +15263,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "664": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15301,7 +15301,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "666": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15339,7 +15339,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "667": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15375,7 +15375,7 @@
     },
     "properties": {}
   },
-  {
+  "668": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15411,7 +15411,7 @@
     },
     "properties": {}
   },
-  {
+  "669": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15449,7 +15449,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "690": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15487,7 +15487,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "692": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15525,7 +15525,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "702": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15561,7 +15561,7 @@
     },
     "properties": {}
   },
-  {
+  "703": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15599,7 +15599,7 @@
       "mResourcesLeft": -1
     }
   },
-  {
+  "704": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ResourceNode.BP_ResourceNode_C",
     "reference": {
@@ -15637,4 +15637,4 @@
       "mResourcesLeft": -1
     }
   }
-]
+}

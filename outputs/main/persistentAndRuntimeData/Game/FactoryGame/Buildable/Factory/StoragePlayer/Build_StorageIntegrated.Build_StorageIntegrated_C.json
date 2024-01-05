@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2859": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Build_StorageIntegrated.Build_StorageIntegrated_C",
     "reference": {
@@ -59,4 +59,4 @@
       "mBuildTimeStamp": -129407.078125
     }
   }
-]
+}

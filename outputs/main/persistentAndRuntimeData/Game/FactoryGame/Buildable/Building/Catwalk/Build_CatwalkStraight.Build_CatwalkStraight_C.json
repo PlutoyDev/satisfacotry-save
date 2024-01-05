@@ -1,5 +1,5 @@
-[
-  {
+{
+  "7522": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStraight.Build_CatwalkStraight_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -16267.6875
     }
   },
-  {
+  "7523": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStraight.Build_CatwalkStraight_C",
     "reference": {
@@ -95,4 +95,4 @@
       "mBuildTimeStamp": -16267.6875
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "7757": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Player/Char_Player.Char_Player_C",
     "reference": {
@@ -115,4 +115,4 @@
       }
     }
   }
-]
+}

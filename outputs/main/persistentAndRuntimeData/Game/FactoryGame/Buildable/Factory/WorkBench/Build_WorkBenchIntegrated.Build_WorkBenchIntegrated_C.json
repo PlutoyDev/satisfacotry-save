@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2861": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBenchIntegrated.Build_WorkBenchIntegrated_C",
     "reference": {
@@ -48,4 +48,4 @@
       "mBuildTimeStamp": -129407.078125
     }
   }
-]
+}

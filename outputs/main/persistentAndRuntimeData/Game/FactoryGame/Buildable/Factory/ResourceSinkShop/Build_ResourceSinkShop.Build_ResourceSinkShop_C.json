@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1306": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Build_ResourceSinkShop.Build_ResourceSinkShop_C",
     "reference": {
@@ -62,4 +62,4 @@
       "mBuildTimeStamp": -168587.796875
     }
   }
-]
+}

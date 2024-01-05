@@ -1,5 +1,5 @@
-[
-  {
+{
+  "708": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/Mushroom/BP_Shroom_01.BP_Shroom_01_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

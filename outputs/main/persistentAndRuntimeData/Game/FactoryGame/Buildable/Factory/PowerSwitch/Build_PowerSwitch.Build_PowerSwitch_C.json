@@ -1,5 +1,5 @@
-[
-  {
+{
+  "7912": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Build_PowerSwitch.Build_PowerSwitch_C",
     "reference": {
@@ -56,4 +56,4 @@
       "mBuildTimeStamp": -9874.396484375
     }
   }
-]
+}

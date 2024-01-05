@@ -1,5 +1,5 @@
-[
-  {
+{
+  "810": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_RailroadSubsystem.BP_RailroadSubsystem_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

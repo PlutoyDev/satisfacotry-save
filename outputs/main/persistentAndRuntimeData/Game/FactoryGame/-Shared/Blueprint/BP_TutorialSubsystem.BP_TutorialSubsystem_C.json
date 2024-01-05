@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8420": {
     "type": 0,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TutorialSubsystem.BP_TutorialSubsystem_C",
     "reference": {
@@ -16,7 +16,7 @@
       }
     }
   },
-  {
+  "12598": {
     "type": 0,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TutorialSubsystem.BP_TutorialSubsystem_C",
     "reference": {
@@ -33,4 +33,4 @@
       }
     }
   }
-]
+}

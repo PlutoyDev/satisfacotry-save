@@ -1,5 +1,5 @@
-[
-  {
+{
+  "121": {
     "type": 1,
     "className": "/Game/FactoryGame/Testing/BoomBox/BP_TapePickup.BP_TapePickup_C",
     "reference": {
@@ -37,4 +37,4 @@
       "mPickupState": "ESchematicPickupState::Collected"
     }
   }
-]
+}

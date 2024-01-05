@@ -1,5 +1,5 @@
-[
-  {
+{
+  "813": {
     "type": 1,
     "className": "/Game/FactoryGame/Schematics/Progression/BP_SchematicManager.BP_SchematicManager_C",
     "reference": {
@@ -1508,4 +1508,4 @@
       "mShipLandTimeStampSave": -220.93264770507812
     }
   }
-]
+}

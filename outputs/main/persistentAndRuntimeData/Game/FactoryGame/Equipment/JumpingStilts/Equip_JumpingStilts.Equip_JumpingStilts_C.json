@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6363": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/JumpingStilts/Equip_JumpingStilts.Equip_JumpingStilts_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

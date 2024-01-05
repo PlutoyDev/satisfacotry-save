@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2856": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/TradingPost/Build_TradingPost.Build_TradingPost_C",
     "reference": {
@@ -76,4 +76,4 @@
       "mBuildTimeStamp": -129407.078125
     }
   }
-]
+}

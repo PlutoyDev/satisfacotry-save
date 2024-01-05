@@ -1,5 +1,5 @@
-[
-  {
+{
+  "739": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_02.BP_GasPillar_02_C",
     "reference": {
@@ -37,4 +37,4 @@
       "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
     }
   }
-]
+}

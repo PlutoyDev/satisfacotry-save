@@ -1,5 +1,5 @@
-[
-  {
+{
+  "827": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Player/BP_PlayerState.BP_PlayerState_C",
     "reference": {
@@ -1029,7 +1029,7 @@
       ]
     }
   },
-  {
+  "6362": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Player/BP_PlayerState.BP_PlayerState_C",
     "reference": {
@@ -2105,4 +2105,4 @@
       ]
     }
   }
-]
+}

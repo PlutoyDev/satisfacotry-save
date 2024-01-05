@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8086": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -10,7 +10,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8089": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -21,7 +21,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8092": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -34,7 +34,7 @@
       "mTargetConsumption": 138
     }
   },
-  {
+  "8095": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -45,7 +45,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8098": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -58,7 +58,7 @@
       "mTargetConsumption": 10
     }
   },
-  {
+  "8101": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -69,7 +69,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8104": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -82,7 +82,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8107": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -93,7 +93,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8110": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -104,7 +104,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8113": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -115,7 +115,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8116": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -128,7 +128,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "8119": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -141,7 +141,7 @@
       "mTargetConsumption": 67
     }
   },
-  {
+  "8122": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -152,7 +152,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8125": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -163,7 +163,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8128": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -174,7 +174,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8131": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -187,7 +187,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8134": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -198,7 +198,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8137": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -211,7 +211,7 @@
       "mTargetConsumption": 138
     }
   },
-  {
+  "8140": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -224,7 +224,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8143": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -235,7 +235,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8146": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -248,7 +248,7 @@
       "mTargetConsumption": 50
     }
   },
-  {
+  "8149": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -261,7 +261,7 @@
       "mTargetConsumption": 73
     }
   },
-  {
+  "8152": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -274,7 +274,7 @@
       "mTargetConsumption": 19
     }
   },
-  {
+  "8155": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -287,7 +287,7 @@
       "mTargetConsumption": 42
     }
   },
-  {
+  "8158": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -298,7 +298,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8161": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -309,7 +309,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8164": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -322,7 +322,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "8167": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -333,7 +333,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8170": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -344,7 +344,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8173": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -357,7 +357,7 @@
       "mTargetConsumption": 25
     }
   },
-  {
+  "8176": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -368,7 +368,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8179": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -381,7 +381,7 @@
       "mTargetConsumption": 50
     }
   },
-  {
+  "8182": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -392,7 +392,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8185": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -405,7 +405,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "8188": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -416,7 +416,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8191": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -429,7 +429,7 @@
       "mTargetConsumption": 40
     }
   },
-  {
+  "8194": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -440,7 +440,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8197": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -451,7 +451,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8200": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -462,7 +462,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8203": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -473,7 +473,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8206": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -484,7 +484,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8209": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -495,7 +495,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8212": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -508,7 +508,7 @@
       "mTargetConsumption": 42
     }
   },
-  {
+  "8215": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -519,7 +519,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8218": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -530,7 +530,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8221": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -543,7 +543,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "8224": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -554,7 +554,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8227": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -565,7 +565,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8230": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -576,7 +576,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8233": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -589,7 +589,7 @@
       "mTargetConsumption": 112
     }
   },
-  {
+  "8236": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -600,7 +600,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8239": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -611,7 +611,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8242": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -624,7 +624,7 @@
       "mTargetConsumption": 48
     }
   },
-  {
+  "8245": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -637,7 +637,7 @@
       "mTargetConsumption": 15
     }
   },
-  {
+  "8248": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -650,7 +650,7 @@
       "mTargetConsumption": 200
     }
   },
-  {
+  "8251": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -661,7 +661,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8254": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -672,7 +672,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8257": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -685,7 +685,7 @@
       "mTargetConsumption": 70
     }
   },
-  {
+  "8260": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -696,7 +696,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8263": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -707,7 +707,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8266": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -720,7 +720,7 @@
       "mTargetConsumption": 50
     }
   },
-  {
+  "8269": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -731,7 +731,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8272": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -742,7 +742,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8275": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -753,7 +753,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8278": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -764,7 +764,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8281": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -775,7 +775,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8284": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -786,7 +786,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8287": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -797,7 +797,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8290": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -808,7 +808,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8293": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -819,7 +819,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8296": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -830,7 +830,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8299": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -843,7 +843,7 @@
       "mTargetConsumption": 40
     }
   },
-  {
+  "8302": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -856,7 +856,7 @@
       "mTargetConsumption": 50
     }
   },
-  {
+  "8305": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -869,7 +869,7 @@
       "mTargetConsumption": 40
     }
   },
-  {
+  "8308": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -880,7 +880,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8311": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -893,7 +893,7 @@
       "mTargetConsumption": 50
     }
   },
-  {
+  "8314": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -904,7 +904,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8317": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -915,7 +915,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8320": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -926,7 +926,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8323": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -937,7 +937,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8326": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -948,7 +948,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8329": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -959,7 +959,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8332": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -972,7 +972,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8335": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -985,7 +985,7 @@
       "mTargetConsumption": 256
     }
   },
-  {
+  "8338": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -996,7 +996,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8341": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1009,7 +1009,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8344": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1022,7 +1022,7 @@
       "mTargetConsumption": 420
     }
   },
-  {
+  "8347": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1033,7 +1033,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8350": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1046,7 +1046,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8353": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1057,7 +1057,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8356": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1068,7 +1068,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8359": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1079,7 +1079,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8362": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1092,7 +1092,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8365": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1103,7 +1103,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8368": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1116,7 +1116,7 @@
       "mTargetConsumption": 53
     }
   },
-  {
+  "8371": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1127,7 +1127,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8374": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1138,7 +1138,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8377": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1149,7 +1149,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8380": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1160,7 +1160,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8383": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1171,7 +1171,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8386": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1182,7 +1182,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8389": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1195,7 +1195,7 @@
       "mTargetConsumption": 267
     }
   },
-  {
+  "8392": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1208,7 +1208,7 @@
       "mTargetConsumption": 10
     }
   },
-  {
+  "8395": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1221,7 +1221,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "8398": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1232,7 +1232,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8401": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1243,7 +1243,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8404": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1254,7 +1254,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "8424": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1267,7 +1267,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "8445": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1280,7 +1280,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "8453": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1293,7 +1293,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8461": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1306,7 +1306,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8469": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1319,7 +1319,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8477": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1332,7 +1332,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8485": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1345,7 +1345,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8493": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1358,7 +1358,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8549": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1371,7 +1371,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8564": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1384,7 +1384,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8574": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1397,7 +1397,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8613": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1410,7 +1410,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8621": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1423,7 +1423,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8629": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1436,7 +1436,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8686": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1449,7 +1449,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "8723": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1462,7 +1462,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "8733": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1475,7 +1475,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "8756": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1488,7 +1488,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "8770": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1501,7 +1501,7 @@
       "mTargetConsumption": 15
     }
   },
-  {
+  "8779": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1514,7 +1514,7 @@
       "mTargetConsumption": 15
     }
   },
-  {
+  "8800": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1527,7 +1527,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8808": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1540,7 +1540,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8816": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1553,7 +1553,7 @@
       "mTargetConsumption": 0.06568080186843872
     }
   },
-  {
+  "8876": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1566,7 +1566,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8889": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1579,7 +1579,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "8910": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1592,7 +1592,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8918": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1605,7 +1605,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8926": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1618,7 +1618,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "8934": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1631,7 +1631,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "8974": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1644,7 +1644,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "8982": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1657,7 +1657,7 @@
       "mTargetConsumption": 5.850865840911865
     }
   },
-  {
+  "8999": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1670,7 +1670,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9015": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1683,7 +1683,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "9096": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1696,7 +1696,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "9107": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1709,7 +1709,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9117": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1722,7 +1722,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9125": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1735,7 +1735,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9133": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1748,7 +1748,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9225": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1761,7 +1761,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9233": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1774,7 +1774,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9241": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1787,7 +1787,7 @@
       "mTargetConsumption": 2.734637975692749
     }
   },
-  {
+  "9249": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1800,7 +1800,7 @@
       "mTargetConsumption": 2.734637975692749
     }
   },
-  {
+  "9257": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1813,7 +1813,7 @@
       "mTargetConsumption": 2.734637975692749
     }
   },
-  {
+  "9315": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1826,7 +1826,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9332": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1839,7 +1839,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "9403": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1852,7 +1852,7 @@
       "mTargetConsumption": 2.734637975692749
     }
   },
-  {
+  "9411": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1865,7 +1865,7 @@
       "mTargetConsumption": 2.734637975692749
     }
   },
-  {
+  "9419": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1878,7 +1878,7 @@
       "mTargetConsumption": 2.734637975692749
     }
   },
-  {
+  "9490": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1891,7 +1891,7 @@
       "mTargetConsumption": 10.254892349243164
     }
   },
-  {
+  "9499": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1904,7 +1904,7 @@
       "mTargetConsumption": 10.254892349243164
     }
   },
-  {
+  "9578": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1917,7 +1917,7 @@
       "mTargetConsumption": 10.254892349243164
     }
   },
-  {
+  "9600": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1930,7 +1930,7 @@
       "mTargetConsumption": 10.254892349243164
     }
   },
-  {
+  "9628": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1943,7 +1943,7 @@
       "mTargetConsumption": 15
     }
   },
-  {
+  "9685": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1956,7 +1956,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "9733": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1970,7 +1970,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9740": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1984,7 +1984,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9747": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -1998,7 +1998,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9754": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2012,7 +2012,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9761": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2026,7 +2026,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9768": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2040,7 +2040,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9821": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2054,7 +2054,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9828": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2068,7 +2068,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "9859": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2081,7 +2081,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "9884": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2094,7 +2094,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "9899": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2107,7 +2107,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "9904": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2120,7 +2120,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "9992": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2133,7 +2133,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10022": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2144,7 +2144,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "10026": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2155,7 +2155,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "10031": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2168,7 +2168,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10037": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2181,7 +2181,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "10096": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2194,7 +2194,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10102": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2207,7 +2207,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10212": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2220,7 +2220,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10282": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2233,7 +2233,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10298": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2246,7 +2246,7 @@
       "mTargetConsumption": 9.361385345458984
     }
   },
-  {
+  "10307": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2259,7 +2259,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10396": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2272,7 +2272,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10413": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2285,7 +2285,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "10421": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2298,7 +2298,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10446": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2311,7 +2311,7 @@
       "mTargetConsumption": 15
     }
   },
-  {
+  "10463": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2324,7 +2324,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10488": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2337,7 +2337,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10517": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2350,7 +2350,7 @@
       "mTargetConsumption": 5.999996662139893
     }
   },
-  {
+  "10557": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2363,7 +2363,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "10566": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2376,7 +2376,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "10575": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2389,7 +2389,7 @@
       "mTargetConsumption": 2.3403449058532715
     }
   },
-  {
+  "10645": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2402,7 +2402,7 @@
       "mTargetConsumption": 12
     }
   },
-  {
+  "10653": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2415,7 +2415,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "10739": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2428,7 +2428,7 @@
       "mTargetConsumption": 3.143315553665161
     }
   },
-  {
+  "10748": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2441,7 +2441,7 @@
       "mTargetConsumption": 3.143315553665161
     }
   },
-  {
+  "10783": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2454,7 +2454,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10791": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2467,7 +2467,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10827": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2480,7 +2480,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10836": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2493,7 +2493,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "10845": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2506,7 +2506,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "10854": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2519,7 +2519,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "11045": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2532,7 +2532,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "11054": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2545,7 +2545,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "11063": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2558,7 +2558,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "11072": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2571,7 +2571,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "11225": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2584,7 +2584,7 @@
       "mTargetConsumption": 12
     }
   },
-  {
+  "11232": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2597,7 +2597,7 @@
       "mTargetConsumption": 35.054317474365234
     }
   },
-  {
+  "11247": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2610,7 +2610,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "11403": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2623,7 +2623,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "11408": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2637,7 +2637,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11418": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2651,7 +2651,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11452": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2665,7 +2665,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11462": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2679,7 +2679,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11496": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2693,7 +2693,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11506": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2707,7 +2707,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11540": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2721,7 +2721,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11550": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2735,7 +2735,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11582": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2748,7 +2748,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "11587": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2761,7 +2761,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11592": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2774,7 +2774,7 @@
       "mTargetConsumption": 20
     }
   },
-  {
+  "11597": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2787,7 +2787,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11644": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2801,7 +2801,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11654": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2815,7 +2815,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11688": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2829,7 +2829,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11698": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2843,7 +2843,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11732": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2857,7 +2857,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11742": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2871,7 +2871,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11776": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2885,7 +2885,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11786": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2899,7 +2899,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11820": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2913,7 +2913,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11830": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2927,7 +2927,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "11861": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2940,7 +2940,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11870": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2953,7 +2953,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11878": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2966,7 +2966,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11886": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2979,7 +2979,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11894": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -2992,7 +2992,7 @@
       "mTargetConsumption": 13.673190116882324
     }
   },
-  {
+  "11936": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3005,7 +3005,7 @@
       "mTargetConsumption": 5
     }
   },
-  {
+  "11941": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3016,7 +3016,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11943": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3027,7 +3027,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11945": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3038,7 +3038,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11947": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3049,7 +3049,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11949": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3060,7 +3060,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11951": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3071,7 +3071,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11953": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3082,7 +3082,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11955": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3093,7 +3093,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11957": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3104,7 +3104,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11959": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3115,7 +3115,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11961": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3126,7 +3126,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11963": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3137,7 +3137,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11965": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3148,7 +3148,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11967": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3159,7 +3159,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11969": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3170,7 +3170,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11971": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3181,7 +3181,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11989": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3192,7 +3192,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11991": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3203,7 +3203,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11993": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3214,7 +3214,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11995": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3225,7 +3225,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11997": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3236,7 +3236,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "11999": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3247,7 +3247,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12001": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3258,7 +3258,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12003": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3269,7 +3269,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12005": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3280,7 +3280,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12007": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3291,7 +3291,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12009": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3302,7 +3302,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12011": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3313,7 +3313,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12013": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3324,7 +3324,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12015": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3335,7 +3335,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12017": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3346,7 +3346,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12019": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3357,7 +3357,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "12157": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3370,7 +3370,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "12167": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3383,7 +3383,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "12175": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3396,7 +3396,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "12183": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3409,7 +3409,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "12327": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3422,7 +3422,7 @@
       "mTargetConsumption": 3.054096221923828
     }
   },
-  {
+  "12365": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3435,7 +3435,7 @@
       "mTargetConsumption": 6
     }
   },
-  {
+  "12368": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3448,7 +3448,7 @@
       "mTargetConsumption": 6
     }
   },
-  {
+  "12371": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3461,7 +3461,7 @@
       "mTargetConsumption": 6
     }
   },
-  {
+  "12374": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3474,7 +3474,7 @@
       "mTargetConsumption": 6
     }
   },
-  {
+  "12377": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3487,7 +3487,7 @@
       "mTargetConsumption": 6
     }
   },
-  {
+  "12385": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3500,7 +3500,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "12395": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3513,7 +3513,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "12601": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3526,7 +3526,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "12618": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3539,7 +3539,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "12737": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3552,7 +3552,7 @@
       "mTargetConsumption": 134.31002807617188
     }
   },
-  {
+  "12741": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3565,7 +3565,7 @@
       "mTargetConsumption": 134.31002807617188
     }
   },
-  {
+  "12752": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3578,7 +3578,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12762": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3591,7 +3591,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12784": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3604,7 +3604,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12844": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3617,7 +3617,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12860": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3630,7 +3630,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12909": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3643,7 +3643,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12919": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3656,7 +3656,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "12941": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3669,7 +3669,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "13005": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3682,7 +3682,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "13021": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3695,7 +3695,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "13101": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3708,7 +3708,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "13111": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3721,7 +3721,7 @@
       "mTargetConsumption": 25.14548683166504
     }
   },
-  {
+  "13159": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3734,7 +3734,7 @@
       "mTargetConsumption": 25.14548683166504
     }
   },
-  {
+  "13178": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3747,7 +3747,7 @@
       "mTargetConsumption": 10
     }
   },
-  {
+  "13181": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3760,7 +3760,7 @@
       "mTargetConsumption": 10
     }
   },
-  {
+  "13228": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3774,7 +3774,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "13238": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3788,7 +3788,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "13272": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3802,7 +3802,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "13282": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3816,7 +3816,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "13316": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3830,7 +3830,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "13326": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3844,7 +3844,7 @@
       "mIsFullBlast": true
     }
   },
-  {
+  "13343": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3857,7 +3857,7 @@
       "mTargetConsumption": 38.77290344238281
     }
   },
-  {
+  "13351": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3870,7 +3870,7 @@
       "mTargetConsumption": 38.77290344238281
     }
   },
-  {
+  "13359": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3883,7 +3883,7 @@
       "mTargetConsumption": 38.77290344238281
     }
   },
-  {
+  "13372": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3896,7 +3896,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "13380": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3909,7 +3909,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "13388": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3922,7 +3922,7 @@
       "mTargetConsumption": 4
     }
   },
-  {
+  "13494": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3933,7 +3933,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "13496": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3944,7 +3944,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "13498": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3955,7 +3955,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "13500": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3966,7 +3966,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "13651": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3979,7 +3979,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "13700": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -3992,7 +3992,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "13764": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -4005,7 +4005,7 @@
       "mTargetConsumption": 0.10000000149011612
     }
   },
-  {
+  "13815": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -4018,7 +4018,7 @@
       "mTargetConsumption": 30
     }
   },
-  {
+  "13940": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerInfoComponent",
     "reference": {
@@ -4031,4 +4031,4 @@
       "mTargetConsumption": 0.10000000149011612
     }
   }
-]
+}

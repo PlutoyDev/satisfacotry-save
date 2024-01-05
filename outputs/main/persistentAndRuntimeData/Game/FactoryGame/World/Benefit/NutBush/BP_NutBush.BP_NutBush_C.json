@@ -1,5 +1,5 @@
-[
-  {
+{
+  "747": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/NutBush/BP_NutBush.BP_NutBush_C",
     "reference": {
@@ -37,7 +37,7 @@
       "mSavedNumItems": 5
     }
   },
-  {
+  "754": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/NutBush/BP_NutBush.BP_NutBush_C",
     "reference": {
@@ -75,4 +75,4 @@
       "mSavedNumItems": 5
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "820": {
     "type": 1,
     "className": "/Game/FactoryGame/Unlocks/BP_UnlockSubsystem.BP_UnlockSubsystem_C",
     "reference": {
@@ -349,4 +349,4 @@
       ]
     }
   }
-]
+}

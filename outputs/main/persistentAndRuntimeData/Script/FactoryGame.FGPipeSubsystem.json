@@ -1,5 +1,5 @@
-[
-  {
+{
+  "821": {
     "type": 1,
     "className": "/Script/FactoryGame.FGPipeSubsystem",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

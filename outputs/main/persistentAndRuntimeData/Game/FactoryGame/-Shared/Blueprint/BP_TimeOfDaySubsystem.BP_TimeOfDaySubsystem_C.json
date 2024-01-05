@@ -1,5 +1,5 @@
-[
-  {
+{
+  "816": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TimeOfDaySubsystem.BP_TimeOfDaySubsystem_C",
     "reference": {
@@ -38,4 +38,4 @@
       "mNumberOfPassedDays": 55
     }
   }
-]
+}

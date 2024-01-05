@@ -1,5 +1,5 @@
-[
-  {
+{
+  "824": {
     "type": 1,
     "className": "/Script/FactoryGame.FGStatisticsSubsystem",
     "reference": {
@@ -1368,4 +1368,4 @@
       ]
     }
   }
-]
+}

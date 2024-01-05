@@ -1,5 +1,5 @@
-[
-  {
+{
+  "5496": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/LandingPad/Build_LandingPad.Build_LandingPad_C",
     "reference": {
@@ -66,4 +66,4 @@
       "mBuildTimeStamp": -72352.0390625
     }
   }
-]
+}

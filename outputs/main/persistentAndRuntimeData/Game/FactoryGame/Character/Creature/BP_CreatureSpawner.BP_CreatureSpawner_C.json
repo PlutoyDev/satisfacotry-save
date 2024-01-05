@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -47,7 +47,7 @@
       ]
     }
   },
-  {
+  "3": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -105,7 +105,7 @@
       "mCachedIsNearBase": true
     }
   },
-  {
+  "4": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -171,7 +171,7 @@
       ]
     }
   },
-  {
+  "5": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -219,7 +219,7 @@
       ]
     }
   },
-  {
+  "6": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -285,7 +285,7 @@
       ]
     }
   },
-  {
+  "7": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -333,7 +333,7 @@
       ]
     }
   },
-  {
+  "8": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -399,7 +399,7 @@
       ]
     }
   },
-  {
+  "9": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -447,7 +447,7 @@
       ]
     }
   },
-  {
+  "10": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -505,7 +505,7 @@
       "mCachedIsNearBase": true
     }
   },
-  {
+  "11": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -562,7 +562,7 @@
       ]
     }
   },
-  {
+  "12": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -611,7 +611,7 @@
       "mCachedIsNearBase": true
     }
   },
-  {
+  "13": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -669,7 +669,7 @@
       "mCachedIsNearBase": true
     }
   },
-  {
+  "14": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -717,7 +717,7 @@
       ]
     }
   },
-  {
+  "15": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -765,7 +765,7 @@
       ]
     }
   },
-  {
+  "16": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -813,7 +813,7 @@
       ]
     }
   },
-  {
+  "17": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -849,7 +849,7 @@
     },
     "properties": {}
   },
-  {
+  "18": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
     "reference": {
@@ -907,4 +907,4 @@
       "mCachedIsNearBase": true
     }
   }
-]
+}

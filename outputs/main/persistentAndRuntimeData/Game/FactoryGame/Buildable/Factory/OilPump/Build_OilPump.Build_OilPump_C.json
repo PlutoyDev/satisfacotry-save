@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6663": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilPump/Build_OilPump.Build_OilPump_C",
     "reference": {
@@ -99,7 +99,7 @@
       "mBuildTimeStamp": -32481.45703125
     }
   },
-  {
+  "6682": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilPump/Build_OilPump.Build_OilPump_C",
     "reference": {
@@ -199,4 +199,4 @@
       "mBuildTimeStamp": -31865.755859375
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "982": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/PortableMiner/BP_PortableMiner.BP_PortableMiner_C",
     "reference": {
@@ -49,4 +49,4 @@
       }
     }
   }
-]
+}

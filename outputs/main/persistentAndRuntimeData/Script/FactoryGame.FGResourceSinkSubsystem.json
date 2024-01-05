@@ -1,5 +1,5 @@
-[
-  {
+{
+  "822": {
     "type": 1,
     "className": "/Script/FactoryGame.FGResourceSinkSubsystem",
     "reference": {
@@ -75,4 +75,4 @@
       ]
     }
   }
-]
+}

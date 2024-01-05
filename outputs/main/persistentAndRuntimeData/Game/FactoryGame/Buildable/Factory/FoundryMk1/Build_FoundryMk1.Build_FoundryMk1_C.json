@@ -1,5 +1,5 @@
-[
-  {
+{
+  "3297": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C",
     "reference": {
@@ -111,7 +111,7 @@
       "mBuildTimeStamp": -119294.5703125
     }
   },
-  {
+  "3305": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C",
     "reference": {
@@ -226,7 +226,7 @@
       "mBuildTimeStamp": -119016.6171875
     }
   },
-  {
+  "3306": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C",
     "reference": {
@@ -338,4 +338,4 @@
       "mBuildTimeStamp": -119014.6484375
     }
   }
-]
+}

@@ -1,5 +1,16 @@
 import CppDataReader from "./cppDataReader.js";
 
+export type ObjectReference = {
+  levelName: string;
+  pathName: string;
+};
+
+type FGuid = {
+  a: number;
+  b: number;
+  c: number;
+  d: number;
+};
 export class UnrealDataReader extends CppDataReader {
   readDuration(incOffset = true) {
     const totalSeconds = this.readInt32(incOffset);
@@ -31,13 +42,6 @@ export class UnrealDataReader extends CppDataReader {
     return value.substring(0, value.length - 1);
   }
 
-  readFName(incOffset = true) {
-    const index = this.readInt32(incOffset);
-    const number = this.readInt32(incOffset);
-    const value = this.readFString(incOffset);
-    return { index, number, value };
-  }
-
   readFText(incOffset = true) {
     this.currentOffset += 4; // Flags (unused)
     const historyType = this.readInt8(incOffset);
@@ -61,7 +65,7 @@ export class UnrealDataReader extends CppDataReader {
     return { isValid, hash };
   }
 
-  readObjectReference() {
+  readObjectReference(): ObjectReference {
     // res/headers/FGObjectReferencer.h:23
     const levelName = this.readFString();
     const pathName = this.readFString();
@@ -81,7 +85,7 @@ export class UnrealDataReader extends CppDataReader {
     return value;
   }
 
-  readFGuid(incOffset = true) {
+  readFGuid(incOffset = true): FGuid {
     const a = this.readUInt32(incOffset);
     const b = this.readUInt32(incOffset);
     const c = this.readUInt32(incOffset);
@@ -121,9 +125,9 @@ export class UnrealDataReader extends CppDataReader {
       valueType?: string; // Value type if UMapPropery
       arrayIndex?: number; // Index if an array (default is 0)
       sizeOffset?: number; // location in stream of tag size member ?? (default is 0)
-      structGuid?: ReturnType<typeof UnrealDataReader.prototype.readFGuid>;
+      structGuid?: FGuid;
       hasPropertyGuid?: boolean; // (default is false)
-      propertyGuid?: ReturnType<typeof UnrealDataReader.prototype.readFGuid>;
+      propertyGuid?: FGuid;
     }
 
     const name = this.readFString(incOffset);
@@ -165,17 +169,6 @@ export class UnrealDataReader extends CppDataReader {
 
     return tag;
   }
-
-  // readProperties(incOffset = true) {
-  //   const props = new Map<string, any>();
-  //   while (true) {
-  //     const name = this.readFString(incOffset);
-  //     if (name === "none") return props;
-  //     const type = this.readFString(incOffset);
-  //   }
-  // }
 }
-
-export type ObjectReference = ReturnType<UnrealDataReader["readObjectReference"]>;
 
 export default UnrealDataReader;

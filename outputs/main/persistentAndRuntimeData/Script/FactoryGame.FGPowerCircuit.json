@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8407": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerCircuit",
     "reference": {
@@ -310,7 +310,7 @@
       ]
     }
   },
-  {
+  "8408": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPowerCircuit",
     "reference": {
@@ -2513,4 +2513,4 @@
       ]
     }
   }
-]
+}

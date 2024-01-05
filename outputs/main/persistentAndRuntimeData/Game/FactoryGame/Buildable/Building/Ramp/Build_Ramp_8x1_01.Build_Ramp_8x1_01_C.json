@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2036": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_8x1_01.Build_Ramp_8x1_01_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -143770.21875
     }
   },
-  {
+  "2037": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_8x1_01.Build_Ramp_8x1_01_C",
     "reference": {
@@ -95,7 +95,7 @@
       "mBuildTimeStamp": -143770.21875
     }
   },
-  {
+  "2145": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_8x1_01.Build_Ramp_8x1_01_C",
     "reference": {
@@ -143,4 +143,4 @@
       "mBuildTimeStamp": -139866.875
     }
   }
-]
+}

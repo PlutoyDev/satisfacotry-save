@@ -1,5 +1,5 @@
-[
-  {
+{
+  "817": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_StorySubsystem.BP_StorySubsystem_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

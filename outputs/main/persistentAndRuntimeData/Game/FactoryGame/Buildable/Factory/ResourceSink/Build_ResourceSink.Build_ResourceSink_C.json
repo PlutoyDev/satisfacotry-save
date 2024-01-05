@@ -1,5 +1,5 @@
-[
-  {
+{
+  "3605": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C",
     "reference": {
@@ -77,7 +77,7 @@
       "mBuildTimeStamp": -108928.6015625
     }
   },
-  {
+  "4071": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C",
     "reference": {
@@ -157,7 +157,7 @@
       "mBuildTimeStamp": -104894.484375
     }
   },
-  {
+  "4789": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C",
     "reference": {
@@ -237,7 +237,7 @@
       "mBuildTimeStamp": -85423.546875
     }
   },
-  {
+  "7758": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C",
     "reference": {
@@ -315,7 +315,7 @@
       "mBuildTimeStamp": -13689.0830078125
     }
   },
-  {
+  "7871": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C",
     "reference": {
@@ -395,4 +395,4 @@
       "mBuildTimeStamp": -11300.8798828125
     }
   }
-]
+}

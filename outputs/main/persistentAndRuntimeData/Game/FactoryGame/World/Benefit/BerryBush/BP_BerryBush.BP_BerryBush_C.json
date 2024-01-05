@@ -1,5 +1,5 @@
-[
-  {
+{
+  "714": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
     "reference": {
@@ -38,7 +38,7 @@
       "mSavedNumItems": 3
     }
   },
-  {
+  "718": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
     "reference": {
@@ -80,7 +80,7 @@
       "mSavedNumItems": 2
     }
   },
-  {
+  "732": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
     "reference": {
@@ -122,7 +122,7 @@
       "mSavedNumItems": 2
     }
   },
-  {
+  "778": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
     "reference": {
@@ -161,7 +161,7 @@
       "mSavedNumItems": 3
     }
   },
-  {
+  "781": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
     "reference": {
@@ -203,4 +203,4 @@
       "mSavedNumItems": 3
     }
   }
-]
+}

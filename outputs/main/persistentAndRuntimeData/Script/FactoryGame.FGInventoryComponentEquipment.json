@@ -1,5 +1,5 @@
-[
-  {
+{
+  "13642": {
     "type": 0,
     "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
     "reference": {
@@ -32,7 +32,7 @@
       ]
     }
   },
-  {
+  "13643": {
     "type": 0,
     "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
     "reference": {
@@ -65,7 +65,7 @@
       ]
     }
   },
-  {
+  "13645": {
     "type": 0,
     "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
     "reference": {
@@ -103,7 +103,7 @@
       ]
     }
   },
-  {
+  "13646": {
     "type": 0,
     "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
     "reference": {
@@ -141,7 +141,7 @@
       ]
     }
   },
-  {
+  "13647": {
     "type": 0,
     "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
     "reference": {
@@ -254,4 +254,4 @@
       ]
     }
   }
-]
+}

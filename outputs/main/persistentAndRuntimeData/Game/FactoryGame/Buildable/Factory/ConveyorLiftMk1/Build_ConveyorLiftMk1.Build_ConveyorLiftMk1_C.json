@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1390": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -74,7 +74,7 @@
       "mBuildTimeStamp": -164714.21875
     }
   },
-  {
+  "1953": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -154,7 +154,7 @@
       "mBuildTimeStamp": -147049.0625
     }
   },
-  {
+  "1962": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -228,7 +228,7 @@
       "mBuildTimeStamp": -146790.78125
     }
   },
-  {
+  "1986": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -308,7 +308,7 @@
       "mBuildTimeStamp": -145727.9375
     }
   },
-  {
+  "3309": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -382,7 +382,7 @@
       "mBuildTimeStamp": -118871.40625
     }
   },
-  {
+  "3332": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -456,7 +456,7 @@
       "mBuildTimeStamp": -118616.6875
     }
   },
-  {
+  "3622": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -537,7 +537,7 @@
       "mBuildTimeStamp": -107689.4765625
     }
   },
-  {
+  "4167": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -612,7 +612,7 @@
       "mBuildTimeStamp": -100331.6875
     }
   },
-  {
+  "6041": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -692,7 +692,7 @@
       "mBuildTimeStamp": -55990.16796875
     }
   },
-  {
+  "6113": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -773,7 +773,7 @@
       "mBuildTimeStamp": -54593.72265625
     }
   },
-  {
+  "6180": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -853,7 +853,7 @@
       "mBuildTimeStamp": -52395.8515625
     }
   },
-  {
+  "6181": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -933,7 +933,7 @@
       "mBuildTimeStamp": -52390.53125
     }
   },
-  {
+  "6182": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1013,7 +1013,7 @@
       "mBuildTimeStamp": -52386.453125
     }
   },
-  {
+  "6183": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1093,7 +1093,7 @@
       "mBuildTimeStamp": -52376.57421875
     }
   },
-  {
+  "6985": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1168,7 +1168,7 @@
       "mBuildTimeStamp": -24634.97265625
     }
   },
-  {
+  "7204": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1242,7 +1242,7 @@
       "mBuildTimeStamp": -22708.259765625
     }
   },
-  {
+  "7907": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1322,7 +1322,7 @@
       "mBuildTimeStamp": -10446.208984375
     }
   },
-  {
+  "7909": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1402,7 +1402,7 @@
       "mBuildTimeStamp": -10436.953125
     }
   },
-  {
+  "7923": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
     "reference": {
@@ -1477,4 +1477,4 @@
       "mBuildTimeStamp": -9089.0087890625
     }
   }
-]
+}

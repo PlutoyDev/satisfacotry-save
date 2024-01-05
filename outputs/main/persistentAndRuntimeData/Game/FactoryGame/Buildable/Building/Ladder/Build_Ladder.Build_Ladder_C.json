@@ -1,5 +1,5 @@
-[
-  {
+{
+  "7171": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ladder/Build_Ladder.Build_Ladder_C",
     "reference": {
@@ -48,7 +48,7 @@
       "mBuildTimeStamp": -23365.896484375
     }
   },
-  {
+  "7189": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ladder/Build_Ladder.Build_Ladder_C",
     "reference": {
@@ -97,4 +97,4 @@
       "mBuildTimeStamp": -23146.0546875
     }
   }
-]
+}

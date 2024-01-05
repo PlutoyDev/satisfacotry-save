@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6298": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayStraight.Build_WalkwayStraight_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -45945.07421875
     }
   },
-  {
+  "6299": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayStraight.Build_WalkwayStraight_C",
     "reference": {
@@ -95,4 +95,4 @@
       "mBuildTimeStamp": -45945.07421875
     }
   }
-]
+}

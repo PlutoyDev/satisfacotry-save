@@ -1,5 +1,5 @@
-[
-  {
+{
+  "19": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C",
     "reference": {
@@ -39,4 +39,4 @@
       "mStartingPointTagName": "Northern Forest"
     }
   }
-]
+}

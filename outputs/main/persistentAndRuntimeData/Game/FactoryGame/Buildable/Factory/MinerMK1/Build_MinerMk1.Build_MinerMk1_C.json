@@ -1,5 +1,5 @@
-[
-  {
+{
+  "829": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -97,7 +97,7 @@
       "mBuildTimeStamp": -192402.9375
     }
   },
-  {
+  "1290": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -195,7 +195,7 @@
       "mBuildTimeStamp": -170762.78125
     }
   },
-  {
+  "1531": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -293,7 +293,7 @@
       "mBuildTimeStamp": -156133.78125
     }
   },
-  {
+  "1772": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -391,7 +391,7 @@
       "mBuildTimeStamp": -151009.15625
     }
   },
-  {
+  "2038": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -489,7 +489,7 @@
       "mBuildTimeStamp": -143761.140625
     }
   },
-  {
+  "2803": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -585,7 +585,7 @@
       "mBuildTimeStamp": -130579.7734375
     }
   },
-  {
+  "2863": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -682,7 +682,7 @@
       "mBuildTimeStamp": -129007.6640625
     }
   },
-  {
+  "2890": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -780,7 +780,7 @@
       "mBuildTimeStamp": -128580.9921875
     }
   },
-  {
+  "3099": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -876,7 +876,7 @@
       "mBuildTimeStamp": -125248.6171875
     }
   },
-  {
+  "3101": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -972,7 +972,7 @@
       "mBuildTimeStamp": -125228.5703125
     }
   },
-  {
+  "3221": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C",
     "reference": {
@@ -1069,4 +1069,4 @@
       "mBuildTimeStamp": -121785.9609375
     }
   }
-]
+}

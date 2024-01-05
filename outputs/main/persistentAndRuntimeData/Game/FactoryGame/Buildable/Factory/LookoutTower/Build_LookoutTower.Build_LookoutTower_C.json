@@ -1,5 +1,5 @@
-[
-  {
+{
+  "5498": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/LookoutTower/Build_LookoutTower.Build_LookoutTower_C",
     "reference": {
@@ -54,4 +54,4 @@
       "mBuildTimeStamp": -72132.015625
     }
   }
-]
+}

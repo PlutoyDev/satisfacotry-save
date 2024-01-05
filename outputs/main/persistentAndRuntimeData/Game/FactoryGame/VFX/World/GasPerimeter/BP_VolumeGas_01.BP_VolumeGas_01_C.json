@@ -1,5 +1,5 @@
-[
-  {
+{
+  "728": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "731": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "734": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "744": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -143,7 +143,7 @@
     },
     "properties": {}
   },
-  {
+  "748": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -217,7 +217,7 @@
       ]
     }
   },
-  {
+  "759": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -311,7 +311,7 @@
       ]
     }
   },
-  {
+  "764": {
     "type": 1,
     "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
     "reference": {
@@ -347,4 +347,4 @@
     },
     "properties": {}
   }
-]
+}

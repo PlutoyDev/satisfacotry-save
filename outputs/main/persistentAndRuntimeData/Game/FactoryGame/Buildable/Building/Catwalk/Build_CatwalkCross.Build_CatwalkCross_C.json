@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8051": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCross.Build_CatwalkCross_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -3050.561279296875
     }
   },
-  {
+  "8052": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCross.Build_CatwalkCross_C",
     "reference": {
@@ -95,7 +95,7 @@
       "mBuildTimeStamp": -3050.561279296875
     }
   },
-  {
+  "8053": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCross.Build_CatwalkCross_C",
     "reference": {
@@ -143,7 +143,7 @@
       "mBuildTimeStamp": -3047.37060546875
     }
   },
-  {
+  "8054": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCross.Build_CatwalkCross_C",
     "reference": {
@@ -191,4 +191,4 @@
       "mBuildTimeStamp": -3047.37060546875
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "962": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C",
     "reference": {
@@ -52,4 +52,4 @@
       "mBuildTimeStamp": -184102.828125
     }
   }
-]
+}

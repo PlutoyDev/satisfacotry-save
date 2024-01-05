@@ -1,5 +1,5 @@
-[
-  {
+{
+  "729": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
     "reference": {
@@ -37,7 +37,7 @@
       "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
     }
   },
-  {
+  "774": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
     "reference": {
@@ -75,7 +75,7 @@
       "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
     }
   },
-  {
+  "775": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
     "reference": {
@@ -113,7 +113,7 @@
       "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
     }
   },
-  {
+  "780": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
     "reference": {
@@ -151,4 +151,4 @@
       "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
     }
   }
-]
+}

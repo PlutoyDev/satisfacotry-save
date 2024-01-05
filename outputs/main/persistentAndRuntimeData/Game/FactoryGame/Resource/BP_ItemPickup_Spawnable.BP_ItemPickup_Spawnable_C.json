@@ -1,5 +1,5 @@
-[
-  {
+{
+  "828": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ItemPickup_Spawnable.BP_ItemPickup_Spawnable_C",
     "reference": {
@@ -46,7 +46,7 @@
       }
     }
   },
-  {
+  "7928": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_ItemPickup_Spawnable.BP_ItemPickup_Spawnable_C",
     "reference": {
@@ -93,4 +93,4 @@
       }
     }
   }
-]
+}

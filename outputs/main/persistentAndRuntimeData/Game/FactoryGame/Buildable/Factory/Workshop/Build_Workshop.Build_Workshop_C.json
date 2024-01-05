@@ -1,5 +1,5 @@
-[
-  {
+{
+  "957": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C",
     "reference": {
@@ -52,4 +52,4 @@
       "mBuildTimeStamp": -185327.046875
     }
   }
-]
+}

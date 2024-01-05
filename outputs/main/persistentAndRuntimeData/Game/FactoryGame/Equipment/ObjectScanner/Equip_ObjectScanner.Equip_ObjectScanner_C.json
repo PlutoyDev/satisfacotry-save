@@ -1,5 +1,5 @@
-[
-  {
+{
+  "963": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/ObjectScanner/Equip_ObjectScanner.Equip_ObjectScanner_C",
     "reference": {
@@ -40,7 +40,7 @@
       }
     }
   },
-  {
+  "6364": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/ObjectScanner/Equip_ObjectScanner.Equip_ObjectScanner_C",
     "reference": {
@@ -81,4 +81,4 @@
       }
     }
   }
-]
+}

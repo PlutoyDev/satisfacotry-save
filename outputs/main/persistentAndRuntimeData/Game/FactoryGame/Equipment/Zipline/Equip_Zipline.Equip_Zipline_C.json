@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8071": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/Zipline/Equip_Zipline.Equip_Zipline_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

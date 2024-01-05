@@ -1,5 +1,5 @@
-[
-  {
+{
+  "7172": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PipePump/Build_PipelinePump.Build_PipelinePump_C",
     "reference": {
@@ -74,7 +74,7 @@
       "mBuildTimeStamp": -23277.0703125
     }
   },
-  {
+  "7176": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PipePump/Build_PipelinePump.Build_PipelinePump_C",
     "reference": {
@@ -149,7 +149,7 @@
       "mBuildTimeStamp": -23265.3671875
     }
   },
-  {
+  "7180": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PipePump/Build_PipelinePump.Build_PipelinePump_C",
     "reference": {
@@ -224,4 +224,4 @@
       "mBuildTimeStamp": -23229.34765625
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "393": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "461": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "471": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "520": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -143,7 +143,7 @@
     },
     "properties": {}
   },
-  {
+  "536": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -179,7 +179,7 @@
     },
     "properties": {}
   },
-  {
+  "571": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -215,7 +215,7 @@
     },
     "properties": {}
   },
-  {
+  "582": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -251,7 +251,7 @@
     },
     "properties": {}
   },
-  {
+  "595": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -287,7 +287,7 @@
     },
     "properties": {}
   },
-  {
+  "606": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -323,7 +323,7 @@
     },
     "properties": {}
   },
-  {
+  "615": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -359,7 +359,7 @@
     },
     "properties": {}
   },
-  {
+  "627": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -395,7 +395,7 @@
     },
     "properties": {}
   },
-  {
+  "639": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -431,7 +431,7 @@
     },
     "properties": {}
   },
-  {
+  "660": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -467,7 +467,7 @@
     },
     "properties": {}
   },
-  {
+  "678": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -503,7 +503,7 @@
     },
     "properties": {}
   },
-  {
+  "686": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -539,7 +539,7 @@
     },
     "properties": {}
   },
-  {
+  "701": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingCore.BP_FrackingCore_C",
     "reference": {
@@ -575,4 +575,4 @@
     },
     "properties": {}
   }
-]
+}

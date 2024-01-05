@@ -1,5 +1,5 @@
-[
-  {
+{
+  "4640": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Build_QuarterPipeMiddle_Ficsit_8x2.Build_QuarterPipeMiddle_Ficsit_8x2_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -95245.9921875
     }
   },
-  {
+  "5492": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Build_QuarterPipeMiddle_Ficsit_8x2.Build_QuarterPipeMiddle_Ficsit_8x2_C",
     "reference": {
@@ -95,7 +95,7 @@
       "mBuildTimeStamp": -72567.8125
     }
   },
-  {
+  "5494": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Build_QuarterPipeMiddle_Ficsit_8x2.Build_QuarterPipeMiddle_Ficsit_8x2_C",
     "reference": {
@@ -143,4 +143,4 @@
       "mBuildTimeStamp": -72557.2109375
     }
   }
-]
+}

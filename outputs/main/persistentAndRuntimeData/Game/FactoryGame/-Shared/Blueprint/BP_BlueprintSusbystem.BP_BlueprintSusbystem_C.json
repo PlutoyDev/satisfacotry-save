@@ -1,5 +1,5 @@
-[
-  {
+{
+  "825": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_BlueprintSusbystem.BP_BlueprintSusbystem_C",
     "reference": {
@@ -214,4 +214,4 @@
       ]
     }
   }
-]
+}

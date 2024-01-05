@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1529": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -52,7 +52,7 @@
       "mBuildTimeStamp": -158038.1875
     }
   },
-  {
+  "2011": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -105,7 +105,7 @@
       "mBuildTimeStamp": -144364.875
     }
   },
-  {
+  "2449": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -158,7 +158,7 @@
       "mBuildTimeStamp": -136179.40625
     }
   },
-  {
+  "2966": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -211,7 +211,7 @@
       "mBuildTimeStamp": -127693.9140625
     }
   },
-  {
+  "3293": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -264,7 +264,7 @@
       "mBuildTimeStamp": -119419.2265625
     }
   },
-  {
+  "3295": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -317,7 +317,7 @@
       "mBuildTimeStamp": -119396.6796875
     }
   },
-  {
+  "3298": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -370,7 +370,7 @@
       "mBuildTimeStamp": -119197.4765625
     }
   },
-  {
+  "4067": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -423,7 +423,7 @@
       "mBuildTimeStamp": -105014.0546875
     }
   },
-  {
+  "4149": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -476,7 +476,7 @@
       "mBuildTimeStamp": -101749.5703125
     }
   },
-  {
+  "5582": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -533,7 +533,7 @@
       }
     }
   },
-  {
+  "5585": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -586,7 +586,7 @@
       "mBuildTimeStamp": -70062.5625
     }
   },
-  {
+  "5670": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -643,7 +643,7 @@
       }
     }
   },
-  {
+  "5691": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -696,7 +696,7 @@
       "mBuildTimeStamp": -69700.8046875
     }
   },
-  {
+  "6615": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C",
     "reference": {
@@ -749,4 +749,4 @@
       "mBuildTimeStamp": -32698.48046875
     }
   }
-]
+}

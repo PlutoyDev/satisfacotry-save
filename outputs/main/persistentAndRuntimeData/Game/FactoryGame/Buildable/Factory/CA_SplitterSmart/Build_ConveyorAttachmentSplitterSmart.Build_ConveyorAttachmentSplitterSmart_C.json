@@ -1,5 +1,5 @@
-[
-  {
+{
+  "3602": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -97,7 +97,7 @@
       "mBuildTimeStamp": -108973.1953125
     }
   },
-  {
+  "4080": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -194,7 +194,7 @@
       "mBuildTimeStamp": -104476.0390625
     }
   },
-  {
+  "4791": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -292,7 +292,7 @@
       "mBuildTimeStamp": -85371.9140625
     }
   },
-  {
+  "4794": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -389,7 +389,7 @@
       "mBuildTimeStamp": -85314
     }
   },
-  {
+  "4795": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -486,7 +486,7 @@
       "mBuildTimeStamp": -85313.2265625
     }
   },
-  {
+  "4822": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -593,7 +593,7 @@
       "mBuildTimeStamp": -84844.796875
     }
   },
-  {
+  "6039": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -691,7 +691,7 @@
       "mBuildTimeStamp": -56007.66015625
     }
   },
-  {
+  "6410": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -789,7 +789,7 @@
       "mBuildTimeStamp": -37605.515625
     }
   },
-  {
+  "7250": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -896,7 +896,7 @@
       "mBuildTimeStamp": -21831.298828125
     }
   },
-  {
+  "7289": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -993,7 +993,7 @@
       "mBuildTimeStamp": -18783.330078125
     }
   },
-  {
+  "7759": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -1090,7 +1090,7 @@
       "mBuildTimeStamp": -13669.9873046875
     }
   },
-  {
+  "7857": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -1188,7 +1188,7 @@
       "mBuildTimeStamp": -11518.8359375
     }
   },
-  {
+  "7860": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C",
     "reference": {
@@ -1285,4 +1285,4 @@
       "mBuildTimeStamp": -11450.3466796875
     }
   }
-]
+}

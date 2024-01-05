@@ -1,5 +1,5 @@
-[
-  {
+{
+  "826": {
     "type": 1,
     "className": "/Script/FactoryGame.FGGameRulesSubsystem",
     "reference": {
@@ -37,4 +37,4 @@
       "mHasInitialized": true
     }
   }
-]
+}

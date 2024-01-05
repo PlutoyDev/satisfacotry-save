@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6258": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_AlphaHogParts.BP_AlphaHogParts_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "6259": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_AlphaHogParts.BP_AlphaHogParts_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "6260": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_AlphaHogParts.BP_AlphaHogParts_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "6261": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_AlphaHogParts.BP_AlphaHogParts_C",
     "reference": {
@@ -143,4 +143,4 @@
     },
     "properties": {}
   }
-]
+}

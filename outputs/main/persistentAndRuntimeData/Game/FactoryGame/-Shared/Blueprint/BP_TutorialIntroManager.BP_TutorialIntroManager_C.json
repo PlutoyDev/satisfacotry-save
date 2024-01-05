@@ -1,5 +1,5 @@
-[
-  {
+{
+  "818": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TutorialIntroManager.BP_TutorialIntroManager_C",
     "reference": {
@@ -55,4 +55,4 @@
       "mDidOpenCodex": true
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "709": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "711": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "716": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "717": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -143,7 +143,7 @@
     },
     "properties": {}
   },
-  {
+  "719": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -179,7 +179,7 @@
     },
     "properties": {}
   },
-  {
+  "720": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -215,7 +215,7 @@
     },
     "properties": {}
   },
-  {
+  "723": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -251,7 +251,7 @@
     },
     "properties": {}
   },
-  {
+  "724": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -289,7 +289,7 @@
       "mDayOfDeath": 38
     }
   },
-  {
+  "726": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -325,7 +325,7 @@
     },
     "properties": {}
   },
-  {
+  "730": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -361,7 +361,7 @@
     },
     "properties": {}
   },
-  {
+  "736": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -397,7 +397,7 @@
     },
     "properties": {}
   },
-  {
+  "740": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -433,7 +433,7 @@
     },
     "properties": {}
   },
-  {
+  "741": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -471,7 +471,7 @@
       "mDayOfDeath": 38
     }
   },
-  {
+  "750": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -507,7 +507,7 @@
     },
     "properties": {}
   },
-  {
+  "751": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -543,7 +543,7 @@
     },
     "properties": {}
   },
-  {
+  "760": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -579,7 +579,7 @@
     },
     "properties": {}
   },
-  {
+  "765": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -615,7 +615,7 @@
     },
     "properties": {}
   },
-  {
+  "771": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -651,7 +651,7 @@
     },
     "properties": {}
   },
-  {
+  "782": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -687,7 +687,7 @@
     },
     "properties": {}
   },
-  {
+  "783": {
     "type": 1,
     "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
     "reference": {
@@ -727,4 +727,4 @@
       "mCurrentHealth": -7
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1": {
     "type": 1,
     "className": "/Script/FactoryGame.FGFoliageRemovalSubsystem",
     "reference": {
@@ -93107,4 +93107,4 @@
       ]
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "811": {
     "type": 1,
     "className": "/Script/FactoryGame.FGRecipeManager",
     "reference": {
@@ -1964,4 +1964,4 @@
       ]
     }
   }
-]
+}

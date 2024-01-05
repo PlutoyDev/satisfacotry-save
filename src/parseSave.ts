@@ -2,6 +2,7 @@
 Parsing of Satisfactory File
 */
 import UnrealDataReader from "./unrealDataReader.js";
+import type { ObjectReference } from "./unrealDataReader.js";
 import * as StructReaders from "./stuctReader.js";
 import { unzlibSync } from "fflate";
 import { readFile, writeFile, mkdir } from "fs/promises";
@@ -67,6 +68,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
   options: SatisfactoryFileReaderOptions = {};
   outputPrefix: string;
   readPr: Promise<void>;
+  writePrs: Promise<void>[] = [];
 
   constructor(saveFilePath: string, options?: SatisfactoryFileReaderOptions) {
     super();
@@ -77,7 +79,11 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     });
     this.outputPrefix = "outputs/" + saveFilePath.split("/").pop()!.split(".").shift()! + "/";
     if (this.options.toOutput && Object.values(this.options.toOutput).some((v) => v)) {
-      mkdir(this.outputPrefix, { recursive: true }).catch(() => {});
+      if (this.options.toOutput.all || this.options.toOutput.persistentAndRuntimeData) {
+        mkdir(this.outputPrefix + "persistentAndRuntimeData", { recursive: true }).catch(() => {});
+      } else {
+        mkdir(this.outputPrefix, { recursive: true }).catch(() => {});
+      }
     }
   }
 
@@ -397,8 +403,8 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const expectedEndOffset = this.currentOffset + size;
 
     interface ParentChildrenData {
-      parent?: ReturnType<(typeof SatisfactoryFileReader)["prototype"]["readObjectReference"]>;
-      children?: ReturnType<(typeof SatisfactoryFileReader)["prototype"]["readObjectReference"]>[];
+      parent?: ObjectReference;
+      children?: ObjectReference[];
     }
 
     const pcInfo: ParentChildrenData = {};
@@ -504,7 +510,13 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       );
     }
 
-    return levelData;
+    return levelData as {
+      objects: SatisfactoryObject[];
+      destroyedActors: {
+        inTOC?: DestroyedActorType[];
+        afterData?: DestroyedActorType[] | [string, DestroyedActorType[]][];
+      };
+    };
   }
 
   async readSaveBody() {
@@ -562,65 +574,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       }
     });
 
-    if (this.options.toOutput?.all || this.options.toOutput?.perLevelDataMap) {
-      await writeFile(
-        this.outputPrefix + "perLevelDataMap.json",
-        JSON.stringify(
-          Object.fromEntries(Array.from(perLevelDataMap).map(([k, v]) => [k, { ...v, objectDataBase64: null }])),
-          null,
-          2,
-        ),
-      );
-    }
-
     const persistentAndRuntimeData = this.readLevelData("Persistent_Level");
-
-    if (this.options.toOutput?.all || this.options.toOutput?.persistentAndRuntimeData) {
-      await mkdir(this.outputPrefix + "persistentAndRuntimeData", { recursive: true }).catch(() => {});
-
-      // Split up persistentAndRuntimeData.objects by classname
-      const groupedObjects = new Map<string, ReturnType<typeof this.readLevelData>["objects"]>();
-      for (const obj of persistentAndRuntimeData.objects) {
-        const className = obj.className;
-        if (!groupedObjects.has(className)) {
-          groupedObjects.set(className, []);
-        }
-        groupedObjects.get(className)!.push(obj);
-      }
-
-      await writeFile(
-        this.outputPrefix + "persistentAndRuntimeData/split_groupedLengths.json",
-        JSON.stringify(
-          Object.entries(Object.fromEntries(groupedObjects)).reduce(
-            (acc, [k, v]) => {
-              acc[k] = v.length;
-              return acc;
-            },
-            {} as Record<string, number>,
-          ),
-          null,
-          2,
-        ),
-      );
-
-      const outputPrs: Promise<void>[] = [];
-      for (const [className, objects] of groupedObjects) {
-        const filepath = this.outputPrefix + "persistentAndRuntimeData/" + className + ".json";
-        const dir = filepath.split("/").slice(0, -1).join("/");
-
-        outputPrs.push(
-          mkdir(dir, { recursive: true })
-            .catch(() => {})
-            .then(() =>
-              writeFile(
-                this.outputPrefix + "persistentAndRuntimeData/" + className + ".json",
-                JSON.stringify(objects, null, 2),
-              ),
-            ),
-        );
-      }
-    }
-
     const unresolvedDestoryedActors = this.readTArray(() => this.readObjectReference());
 
     if (this.currentOffset !== bodyEndOffset) {
@@ -649,16 +603,55 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const headers = this.readSaveHeader();
 
     if (this.options.toOutput?.all || this.options.toOutput?.header) {
-      await writeFile(this.outputPrefix + "header.json", JSON.stringify(headers, null, 2));
+      this.writePrs.push(writeFile(this.outputPrefix + "header.json", JSON.stringify(headers, null, 2)));
     }
 
     this.inflateChunks(); // Inflate and override this.buffer and this.dataView
 
     if (this.options.toOutput?.all || this.options.toOutput?.inflatedBin) {
-      await writeFile(this.outputPrefix + "inflated.bin", this.buffer);
+      this.writePrs.push(writeFile(this.outputPrefix + "inflated.bin", this.buffer));
     }
 
     const body = await this.readSaveBody();
+
+    if (this.options.toOutput?.all || this.options.toOutput?.perLevelDataMap) {
+      this.writePrs.push(
+        writeFile(
+          this.outputPrefix + "perLevelDataMap.json",
+          JSON.stringify(Object.fromEntries(body.perLevelDataMap), null, 2),
+        ),
+      );
+    }
+
+    if (this.options.toOutput?.all || this.options.toOutput?.persistentAndRuntimeData) {
+      // Split the objects by classname
+      const groupedObjects = new Map<string, Record<number, SatisfactoryObject>>();
+      const pathsToCreate = new Set<string>();
+      for (let i = 0; i < body.persistentAndRuntimeData.objects.length; i++) {
+        const obj = body.persistentAndRuntimeData.objects[i];
+        const className = obj.className;
+        if (!groupedObjects.has(className)) {
+          groupedObjects.set(className, {});
+          pathsToCreate.add("persistentAndRuntimeData/" + className.split(".").slice(0, -1).join("/"));
+        }
+        groupedObjects.get(className)![i] = obj;
+      }
+
+      await Promise.all(
+        Array.from(pathsToCreate).map((path) => mkdir(this.outputPrefix + path, { recursive: true }).catch(() => {})),
+      );
+
+      this.writePrs.push(
+        ...Object.entries(Object.fromEntries(groupedObjects)).map(([className, objects]) =>
+          writeFile(
+            this.outputPrefix + "persistentAndRuntimeData/" + className + ".json",
+            JSON.stringify(objects, null, 2),
+          ),
+        ),
+      );
+    }
+
+    await Promise.all(this.writePrs);
 
     return {
       headers,
@@ -668,3 +661,27 @@ export class SatisfactoryFileReader extends UnrealDataReader {
 }
 
 export default SatisfactoryFileReader;
+
+import type { Vector, Quat } from "./stuctReader.js";
+import { group } from "console";
+
+export type SatisfactoryObject<
+  ClassName extends string = string,
+  Properties extends Record<string, unknown> = Record<string, unknown>,
+> = {
+  type: 0 | 1;
+  className: ClassName;
+  reference: ObjectReference;
+  needTransform?: boolean;
+  transform?: {
+    rotation: Quat;
+    translation: Vector;
+    scale: Vector;
+  };
+  wasPlacedInLevel?: boolean;
+  pcInfo?: {
+    parent?: ObjectReference;
+    children?: ObjectReference[];
+  };
+  properties: Properties;
+};

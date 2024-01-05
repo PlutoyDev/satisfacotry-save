@@ -1,5 +1,5 @@
-[
-  {
+{
+  "387": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "388": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "389": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "390": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -143,7 +143,7 @@
     },
     "properties": {}
   },
-  {
+  "391": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -179,7 +179,7 @@
     },
     "properties": {}
   },
-  {
+  "392": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -215,7 +215,7 @@
     },
     "properties": {}
   },
-  {
+  "453": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -251,7 +251,7 @@
     },
     "properties": {}
   },
-  {
+  "454": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -287,7 +287,7 @@
     },
     "properties": {}
   },
-  {
+  "455": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -323,7 +323,7 @@
     },
     "properties": {}
   },
-  {
+  "456": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -359,7 +359,7 @@
     },
     "properties": {}
   },
-  {
+  "457": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -395,7 +395,7 @@
     },
     "properties": {}
   },
-  {
+  "458": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -431,7 +431,7 @@
     },
     "properties": {}
   },
-  {
+  "459": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -467,7 +467,7 @@
     },
     "properties": {}
   },
-  {
+  "460": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -503,7 +503,7 @@
     },
     "properties": {}
   },
-  {
+  "465": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -539,7 +539,7 @@
     },
     "properties": {}
   },
-  {
+  "466": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -575,7 +575,7 @@
     },
     "properties": {}
   },
-  {
+  "467": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -611,7 +611,7 @@
     },
     "properties": {}
   },
-  {
+  "468": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -647,7 +647,7 @@
     },
     "properties": {}
   },
-  {
+  "469": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -683,7 +683,7 @@
     },
     "properties": {}
   },
-  {
+  "470": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -719,7 +719,7 @@
     },
     "properties": {}
   },
-  {
+  "513": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -755,7 +755,7 @@
     },
     "properties": {}
   },
-  {
+  "514": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -791,7 +791,7 @@
     },
     "properties": {}
   },
-  {
+  "515": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -827,7 +827,7 @@
     },
     "properties": {}
   },
-  {
+  "516": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -863,7 +863,7 @@
     },
     "properties": {}
   },
-  {
+  "517": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -899,7 +899,7 @@
     },
     "properties": {}
   },
-  {
+  "518": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -935,7 +935,7 @@
     },
     "properties": {}
   },
-  {
+  "519": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -971,7 +971,7 @@
     },
     "properties": {}
   },
-  {
+  "530": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1007,7 +1007,7 @@
     },
     "properties": {}
   },
-  {
+  "531": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1043,7 +1043,7 @@
     },
     "properties": {}
   },
-  {
+  "532": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1079,7 +1079,7 @@
     },
     "properties": {}
   },
-  {
+  "533": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1115,7 +1115,7 @@
     },
     "properties": {}
   },
-  {
+  "534": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1151,7 +1151,7 @@
     },
     "properties": {}
   },
-  {
+  "535": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1187,7 +1187,7 @@
     },
     "properties": {}
   },
-  {
+  "564": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1223,7 +1223,7 @@
     },
     "properties": {}
   },
-  {
+  "565": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1259,7 +1259,7 @@
     },
     "properties": {}
   },
-  {
+  "566": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1295,7 +1295,7 @@
     },
     "properties": {}
   },
-  {
+  "567": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1331,7 +1331,7 @@
     },
     "properties": {}
   },
-  {
+  "568": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1367,7 +1367,7 @@
     },
     "properties": {}
   },
-  {
+  "569": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1403,7 +1403,7 @@
     },
     "properties": {}
   },
-  {
+  "570": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1439,7 +1439,7 @@
     },
     "properties": {}
   },
-  {
+  "575": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1475,7 +1475,7 @@
     },
     "properties": {}
   },
-  {
+  "576": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1511,7 +1511,7 @@
     },
     "properties": {}
   },
-  {
+  "577": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1547,7 +1547,7 @@
     },
     "properties": {}
   },
-  {
+  "578": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1583,7 +1583,7 @@
     },
     "properties": {}
   },
-  {
+  "579": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1619,7 +1619,7 @@
     },
     "properties": {}
   },
-  {
+  "580": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1655,7 +1655,7 @@
     },
     "properties": {}
   },
-  {
+  "581": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1691,7 +1691,7 @@
     },
     "properties": {}
   },
-  {
+  "588": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1727,7 +1727,7 @@
     },
     "properties": {}
   },
-  {
+  "589": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1763,7 +1763,7 @@
     },
     "properties": {}
   },
-  {
+  "590": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1799,7 +1799,7 @@
     },
     "properties": {}
   },
-  {
+  "591": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1835,7 +1835,7 @@
     },
     "properties": {}
   },
-  {
+  "592": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1871,7 +1871,7 @@
     },
     "properties": {}
   },
-  {
+  "593": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1907,7 +1907,7 @@
     },
     "properties": {}
   },
-  {
+  "594": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1943,7 +1943,7 @@
     },
     "properties": {}
   },
-  {
+  "599": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -1979,7 +1979,7 @@
     },
     "properties": {}
   },
-  {
+  "600": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2015,7 +2015,7 @@
     },
     "properties": {}
   },
-  {
+  "601": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2051,7 +2051,7 @@
     },
     "properties": {}
   },
-  {
+  "602": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2087,7 +2087,7 @@
     },
     "properties": {}
   },
-  {
+  "603": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2123,7 +2123,7 @@
     },
     "properties": {}
   },
-  {
+  "604": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2159,7 +2159,7 @@
     },
     "properties": {}
   },
-  {
+  "605": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2195,7 +2195,7 @@
     },
     "properties": {}
   },
-  {
+  "608": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2231,7 +2231,7 @@
     },
     "properties": {}
   },
-  {
+  "609": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2267,7 +2267,7 @@
     },
     "properties": {}
   },
-  {
+  "610": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2303,7 +2303,7 @@
     },
     "properties": {}
   },
-  {
+  "611": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2339,7 +2339,7 @@
     },
     "properties": {}
   },
-  {
+  "612": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2375,7 +2375,7 @@
     },
     "properties": {}
   },
-  {
+  "613": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2411,7 +2411,7 @@
     },
     "properties": {}
   },
-  {
+  "614": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2447,7 +2447,7 @@
     },
     "properties": {}
   },
-  {
+  "621": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2483,7 +2483,7 @@
     },
     "properties": {}
   },
-  {
+  "622": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2519,7 +2519,7 @@
     },
     "properties": {}
   },
-  {
+  "623": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2555,7 +2555,7 @@
     },
     "properties": {}
   },
-  {
+  "624": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2591,7 +2591,7 @@
     },
     "properties": {}
   },
-  {
+  "625": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2627,7 +2627,7 @@
     },
     "properties": {}
   },
-  {
+  "626": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2663,7 +2663,7 @@
     },
     "properties": {}
   },
-  {
+  "631": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2699,7 +2699,7 @@
     },
     "properties": {}
   },
-  {
+  "632": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2735,7 +2735,7 @@
     },
     "properties": {}
   },
-  {
+  "633": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2771,7 +2771,7 @@
     },
     "properties": {}
   },
-  {
+  "634": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2807,7 +2807,7 @@
     },
     "properties": {}
   },
-  {
+  "635": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2843,7 +2843,7 @@
     },
     "properties": {}
   },
-  {
+  "636": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2879,7 +2879,7 @@
     },
     "properties": {}
   },
-  {
+  "637": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2915,7 +2915,7 @@
     },
     "properties": {}
   },
-  {
+  "638": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2951,7 +2951,7 @@
     },
     "properties": {}
   },
-  {
+  "650": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -2987,7 +2987,7 @@
     },
     "properties": {}
   },
-  {
+  "651": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3023,7 +3023,7 @@
     },
     "properties": {}
   },
-  {
+  "652": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3059,7 +3059,7 @@
     },
     "properties": {}
   },
-  {
+  "653": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3095,7 +3095,7 @@
     },
     "properties": {}
   },
-  {
+  "654": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3131,7 +3131,7 @@
     },
     "properties": {}
   },
-  {
+  "655": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3167,7 +3167,7 @@
     },
     "properties": {}
   },
-  {
+  "656": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3203,7 +3203,7 @@
     },
     "properties": {}
   },
-  {
+  "657": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3239,7 +3239,7 @@
     },
     "properties": {}
   },
-  {
+  "658": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3275,7 +3275,7 @@
     },
     "properties": {}
   },
-  {
+  "659": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3311,7 +3311,7 @@
     },
     "properties": {}
   },
-  {
+  "672": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3347,7 +3347,7 @@
     },
     "properties": {}
   },
-  {
+  "673": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3383,7 +3383,7 @@
     },
     "properties": {}
   },
-  {
+  "674": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3419,7 +3419,7 @@
     },
     "properties": {}
   },
-  {
+  "675": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3455,7 +3455,7 @@
     },
     "properties": {}
   },
-  {
+  "676": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3491,7 +3491,7 @@
     },
     "properties": {}
   },
-  {
+  "677": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3527,7 +3527,7 @@
     },
     "properties": {}
   },
-  {
+  "679": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3563,7 +3563,7 @@
     },
     "properties": {}
   },
-  {
+  "680": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3599,7 +3599,7 @@
     },
     "properties": {}
   },
-  {
+  "681": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3635,7 +3635,7 @@
     },
     "properties": {}
   },
-  {
+  "682": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3671,7 +3671,7 @@
     },
     "properties": {}
   },
-  {
+  "683": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3707,7 +3707,7 @@
     },
     "properties": {}
   },
-  {
+  "684": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3743,7 +3743,7 @@
     },
     "properties": {}
   },
-  {
+  "685": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3779,7 +3779,7 @@
     },
     "properties": {}
   },
-  {
+  "694": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3815,7 +3815,7 @@
     },
     "properties": {}
   },
-  {
+  "695": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3851,7 +3851,7 @@
     },
     "properties": {}
   },
-  {
+  "696": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3887,7 +3887,7 @@
     },
     "properties": {}
   },
-  {
+  "697": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3923,7 +3923,7 @@
     },
     "properties": {}
   },
-  {
+  "698": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3959,7 +3959,7 @@
     },
     "properties": {}
   },
-  {
+  "699": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -3995,7 +3995,7 @@
     },
     "properties": {}
   },
-  {
+  "700": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
     "reference": {
@@ -4031,4 +4031,4 @@
     },
     "properties": {}
   }
-]
+}

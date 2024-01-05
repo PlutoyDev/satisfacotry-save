@@ -1,5 +1,5 @@
-[
-  {
+{
+  "808": {
     "type": 1,
     "className": "/Game/FactoryGame/-Shared/Blueprint/BP_GameState.BP_GameState_C",
     "reference": {
@@ -313,4 +313,4 @@
       "mHasGivenStartingRecipes": true
     }
   }
-]
+}

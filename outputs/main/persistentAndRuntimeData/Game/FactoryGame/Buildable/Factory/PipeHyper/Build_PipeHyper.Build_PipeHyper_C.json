@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6911": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/PipeHyper/Build_PipeHyper.Build_PipeHyper_C",
     "reference": {
@@ -170,4 +170,4 @@
       "mBuildTimeStamp": -26242.30078125
     }
   }
-]
+}

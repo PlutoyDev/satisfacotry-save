@@ -1,5 +1,5 @@
-[
-  {
+{
+  "812": {
     "type": 1,
     "className": "/Game/FactoryGame/Events/BP_EventSubsystem.BP_EventSubsystem_C",
     "reference": {
@@ -371,4 +371,4 @@
       ]
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1398": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_StingerParts.BP_StingerParts_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "1399": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_StingerParts.BP_StingerParts_C",
     "reference": {
@@ -71,4 +71,4 @@
     },
     "properties": {}
   }
-]
+}

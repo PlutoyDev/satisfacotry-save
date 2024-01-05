@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2860": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/HubTerminal/Build_HubTerminal.Build_HubTerminal_C",
     "reference": {
@@ -48,4 +48,4 @@
       "mBuildTimeStamp": -129407.078125
     }
   }
-]
+}

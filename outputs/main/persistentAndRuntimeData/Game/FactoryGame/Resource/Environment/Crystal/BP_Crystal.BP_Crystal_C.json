@@ -1,5 +1,5 @@
-[
-  {
+{
+  "749": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/Crystal/BP_Crystal.BP_Crystal_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

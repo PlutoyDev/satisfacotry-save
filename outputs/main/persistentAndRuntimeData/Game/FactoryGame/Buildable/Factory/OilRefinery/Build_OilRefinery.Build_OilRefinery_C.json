@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6696": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -120,7 +120,7 @@
       }
     }
   },
-  {
+  "6697": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -241,7 +241,7 @@
       }
     }
   },
-  {
+  "6702": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -362,7 +362,7 @@
       }
     }
   },
-  {
+  "6731": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -483,7 +483,7 @@
       }
     }
   },
-  {
+  "6734": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -604,7 +604,7 @@
       }
     }
   },
-  {
+  "6760": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -725,7 +725,7 @@
       }
     }
   },
-  {
+  "6761": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -846,7 +846,7 @@
       }
     }
   },
-  {
+  "6766": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -967,7 +967,7 @@
       }
     }
   },
-  {
+  "6812": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -1088,7 +1088,7 @@
       }
     }
   },
-  {
+  "6815": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -1209,7 +1209,7 @@
       }
     }
   },
-  {
+  "6876": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -1330,7 +1330,7 @@
       }
     }
   },
-  {
+  "6877": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -1453,7 +1453,7 @@
       }
     }
   },
-  {
+  "6904": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
     "reference": {
@@ -1572,4 +1572,4 @@
       "mBuildTimeStamp": -27697.236328125
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "956": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/Mam/Build_Mam.Build_Mam_C",
     "reference": {
@@ -52,4 +52,4 @@
       "mBuildTimeStamp": -185338.59375
     }
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6504": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCorner.Build_CatwalkCorner_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -34259.48046875
     }
   },
-  {
+  "6508": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCorner.Build_CatwalkCorner_C",
     "reference": {
@@ -95,7 +95,7 @@
       "mBuildTimeStamp": -34209.125
     }
   },
-  {
+  "6511": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCorner.Build_CatwalkCorner_C",
     "reference": {
@@ -143,7 +143,7 @@
       "mBuildTimeStamp": -34166.90625
     }
   },
-  {
+  "6512": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCorner.Build_CatwalkCorner_C",
     "reference": {
@@ -191,7 +191,7 @@
       "mBuildTimeStamp": -34163.3984375
     }
   },
-  {
+  "8022": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCorner.Build_CatwalkCorner_C",
     "reference": {
@@ -239,4 +239,4 @@
       "mBuildTimeStamp": -3127.635986328125
     }
   }
-]
+}

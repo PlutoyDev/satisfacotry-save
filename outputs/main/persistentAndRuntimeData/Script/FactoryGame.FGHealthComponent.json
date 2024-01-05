@@ -1,5 +1,5 @@
-[
-  {
+{
+  "13644": {
     "type": 0,
     "className": "/Script/FactoryGame.FGHealthComponent",
     "reference": {
@@ -10,7 +10,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "13955": {
     "type": 0,
     "className": "/Script/FactoryGame.FGHealthComponent",
     "reference": {
@@ -21,7 +21,7 @@
     "pcInfo": {},
     "properties": {}
   },
-  {
+  "13958": {
     "type": 0,
     "className": "/Script/FactoryGame.FGHealthComponent",
     "reference": {
@@ -32,4 +32,4 @@
     "pcInfo": {},
     "properties": {}
   }
-]
+}

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "8410": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -53,7 +53,7 @@
       ]
     }
   },
-  {
+  "8411": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -107,7 +107,7 @@
       ]
     }
   },
-  {
+  "8412": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -161,7 +161,7 @@
       ]
     }
   },
-  {
+  "8413": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -215,7 +215,7 @@
       ]
     }
   },
-  {
+  "8414": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -269,7 +269,7 @@
       ]
     }
   },
-  {
+  "8415": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -323,7 +323,7 @@
       ]
     }
   },
-  {
+  "8416": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -377,7 +377,7 @@
       ]
     }
   },
-  {
+  "8417": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -431,7 +431,7 @@
       ]
     }
   },
-  {
+  "8418": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -485,7 +485,7 @@
       ]
     }
   },
-  {
+  "8419": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -539,7 +539,7 @@
       ]
     }
   },
-  {
+  "12588": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -593,7 +593,7 @@
       ]
     }
   },
-  {
+  "12589": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -647,7 +647,7 @@
       ]
     }
   },
-  {
+  "12590": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -701,7 +701,7 @@
       ]
     }
   },
-  {
+  "12591": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -755,7 +755,7 @@
       ]
     }
   },
-  {
+  "12592": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -809,7 +809,7 @@
       ]
     }
   },
-  {
+  "12593": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -863,7 +863,7 @@
       ]
     }
   },
-  {
+  "12594": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -917,7 +917,7 @@
       ]
     }
   },
-  {
+  "12595": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -971,7 +971,7 @@
       ]
     }
   },
-  {
+  "12596": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -1025,7 +1025,7 @@
       ]
     }
   },
-  {
+  "12597": {
     "type": 0,
     "className": "/Script/FactoryGame.FGPlayerHotbar",
     "reference": {
@@ -1079,4 +1079,4 @@
       ]
     }
   }
-]
+}

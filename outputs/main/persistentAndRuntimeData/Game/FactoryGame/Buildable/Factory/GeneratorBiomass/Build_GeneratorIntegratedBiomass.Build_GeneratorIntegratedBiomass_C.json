@@ -1,5 +1,5 @@
-[
-  {
+{
+  "2857": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/GeneratorBiomass/Build_GeneratorIntegratedBiomass.Build_GeneratorIntegratedBiomass_C",
     "reference": {
@@ -77,7 +77,7 @@
       "mBuildTimeStamp": -129407.078125
     }
   },
-  {
+  "2858": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Factory/GeneratorBiomass/Build_GeneratorIntegratedBiomass.Build_GeneratorIntegratedBiomass_C",
     "reference": {
@@ -155,4 +155,4 @@
       "mBuildTimeStamp": -129407.078125
     }
   }
-]
+}

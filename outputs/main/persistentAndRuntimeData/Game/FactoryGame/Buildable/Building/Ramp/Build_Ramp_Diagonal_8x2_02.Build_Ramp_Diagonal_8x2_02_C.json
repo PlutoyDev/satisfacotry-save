@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6435": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_Diagonal_8x2_02.Build_Ramp_Diagonal_8x2_02_C",
     "reference": {
@@ -47,7 +47,7 @@
       "mBuildTimeStamp": -35665.77734375
     }
   },
-  {
+  "6436": {
     "type": 1,
     "className": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_Diagonal_8x2_02.Build_Ramp_Diagonal_8x2_02_C",
     "reference": {
@@ -95,4 +95,4 @@
       "mBuildTimeStamp": -35662.76953125
     }
   }
-]
+}

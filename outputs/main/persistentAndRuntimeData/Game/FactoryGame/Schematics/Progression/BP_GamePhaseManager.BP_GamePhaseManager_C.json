@@ -1,5 +1,5 @@
-[
-  {
+{
+  "814": {
     "type": 1,
     "className": "/Game/FactoryGame/Schematics/Progression/BP_GamePhaseManager.BP_GamePhaseManager_C",
     "reference": {
@@ -136,4 +136,4 @@
       ]
     }
   }
-]
+}

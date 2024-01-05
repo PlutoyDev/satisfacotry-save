@@ -1,5 +1,5 @@
-[
-  {
+{
+  "7929": {
     "type": 1,
     "className": "/Game/FactoryGame/Equipment/Parachute/Equip_Parachute.Equip_Parachute_C",
     "reference": {
@@ -35,4 +35,4 @@
     },
     "properties": {}
   }
-]
+}

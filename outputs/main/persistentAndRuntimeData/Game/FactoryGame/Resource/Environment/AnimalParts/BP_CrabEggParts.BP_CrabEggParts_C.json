@@ -1,5 +1,5 @@
-[
-  {
+{
+  "6265": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_CrabEggParts.BP_CrabEggParts_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "6518": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_CrabEggParts.BP_CrabEggParts_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "7945": {
     "type": 1,
     "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_CrabEggParts.BP_CrabEggParts_C",
     "reference": {
@@ -107,4 +107,4 @@
     },
     "properties": {}
   }
-]
+}

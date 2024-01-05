@@ -1,5 +1,5 @@
-[
-  {
+{
+  "705": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -35,7 +35,7 @@
     },
     "properties": {}
   },
-  {
+  "707": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -71,7 +71,7 @@
     },
     "properties": {}
   },
-  {
+  "712": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -107,7 +107,7 @@
     },
     "properties": {}
   },
-  {
+  "715": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -143,7 +143,7 @@
     },
     "properties": {}
   },
-  {
+  "721": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -179,7 +179,7 @@
     },
     "properties": {}
   },
-  {
+  "722": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -215,7 +215,7 @@
     },
     "properties": {}
   },
-  {
+  "725": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -251,7 +251,7 @@
     },
     "properties": {}
   },
-  {
+  "727": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -287,7 +287,7 @@
     },
     "properties": {}
   },
-  {
+  "733": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -323,7 +323,7 @@
     },
     "properties": {}
   },
-  {
+  "737": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -359,7 +359,7 @@
     },
     "properties": {}
   },
-  {
+  "743": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -395,7 +395,7 @@
     },
     "properties": {}
   },
-  {
+  "755": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -431,7 +431,7 @@
     },
     "properties": {}
   },
-  {
+  "757": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -467,7 +467,7 @@
     },
     "properties": {}
   },
-  {
+  "761": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -503,7 +503,7 @@
     },
     "properties": {}
   },
-  {
+  "766": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -539,7 +539,7 @@
     },
     "properties": {}
   },
-  {
+  "767": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -575,7 +575,7 @@
     },
     "properties": {}
   },
-  {
+  "769": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -611,7 +611,7 @@
     },
     "properties": {}
   },
-  {
+  "770": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -647,7 +647,7 @@
     },
     "properties": {}
   },
-  {
+  "772": {
     "type": 1,
     "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
     "reference": {
@@ -683,4 +683,4 @@
     },
     "properties": {}
   }
-]
+}
