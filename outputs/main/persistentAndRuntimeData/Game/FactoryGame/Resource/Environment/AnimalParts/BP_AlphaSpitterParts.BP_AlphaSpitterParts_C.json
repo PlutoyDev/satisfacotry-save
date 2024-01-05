@@ -1,0 +1,38 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_AlphaSpitterParts.BP_AlphaSpitterParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_AlphaSpitterParts_C_2147312514"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -153000.046875,
+        "y": 35700.0234375,
+        "z": 19125.603515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

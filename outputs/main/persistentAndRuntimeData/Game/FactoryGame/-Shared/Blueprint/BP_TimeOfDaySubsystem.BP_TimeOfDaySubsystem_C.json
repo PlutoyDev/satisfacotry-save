@@ -1,0 +1,41 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TimeOfDaySubsystem.BP_TimeOfDaySubsystem_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.TimeSubsystem"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mDaySeconds": 50125.18359375,
+      "mNumberOfPassedDays": 55
+    }
+  }
+]

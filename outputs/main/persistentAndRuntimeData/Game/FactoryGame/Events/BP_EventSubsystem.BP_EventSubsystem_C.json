@@ -1,0 +1,374 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Events/BP_EventSubsystem.BP_EventSubsystem_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.EventSubsystem"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCalendarData": [
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Events/Christmas/UI/Calendar/ChristmasCalendarRewards2023.ChristmasCalendarRewards2023_C"
+          },
+          {
+            "InventoryStacks": [
+              {
+                "Item": {
+                  "itemClass": "",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 0
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 1
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 1
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 1
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 0
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 20
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 5
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Parts/SnowballProjectile/Desc_SnowballProjectile.Desc_SnowballProjectile_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 50
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall4.Desc_XmasBall4_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 25
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasStar.Desc_XmasStar_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 1
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 0
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 10
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 100
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 25
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 20
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 30
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Parts/ColorCartridge/Desc_ColorCartridge.Desc_ColorCartridge_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 200
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 10
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 25
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 50
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall3.Desc_XmasBall3_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 25
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Parts/ComputerQuantum/Desc_ComputerQuantum.Desc_ComputerQuantum_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 2
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "/Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 7
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 0
+                }
+              },
+              {
+                "Item": {
+                  "itemClass": "",
+                  "reference": {
+                    "levelName": "",
+                    "pathName": ""
+                  },
+                  "numItems": 0
+                }
+              }
+            ],
+            "OpenedSlotsInCalendar": [
+              1
+            ],
+            "InventoryIndexToRandomRewardIndexMapping": [
+              [
+                1,
+                10
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6,
+                8
+              ],
+              [
+                7,
+                5
+              ],
+              [
+                8,
+                13
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                12,
+                9
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                15,
+                14
+              ],
+              [
+                16,
+                6
+              ],
+              [
+                17,
+                16
+              ],
+              [
+                18,
+                4
+              ],
+              [
+                19,
+                3
+              ],
+              [
+                20,
+                12
+              ],
+              [
+                21,
+                0
+              ],
+              [
+                22,
+                1
+              ]
+            ]
+          }
+        ]
+      ]
+    }
+  }
+]

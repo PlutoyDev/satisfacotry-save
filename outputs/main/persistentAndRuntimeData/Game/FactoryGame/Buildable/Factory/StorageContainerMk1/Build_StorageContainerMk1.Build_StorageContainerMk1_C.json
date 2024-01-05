@@ -1,0 +1,1209 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9659258127212524,
+        "w": 0.258819043636322
+      },
+      "translation": {
+        "x": -36919.61328125,
+        "y": -135138.40625,
+        "z": 8030.45458984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -177373.390625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -35900,
+        "y": -146600,
+        "z": 8100.00048828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -166869.03125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -35900,
+        "y": -146100,
+        "z": 8100.01025390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -166861.296875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38800,
+        "y": -142400,
+        "z": 8300.0009765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -149120.71875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38800,
+        "y": -142400,
+        "z": 8700.0009765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -149078.3125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38800,
+        "y": -142900,
+        "z": 8300.00390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -147274.34375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38850,
+        "y": -136700,
+        "z": 8300.00390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -144214.59375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -51500,
+        "y": -147600,
+        "z": 8300.0126953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -143339.8125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38800,
+        "y": -143400,
+        "z": 8300.0078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -141979.5625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -50500,
+        "y": -144500,
+        "z": 8300.013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -114341.2109375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -35100,
+        "y": -146300,
+        "z": 8100.005859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -112245.5078125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -50500,
+        "y": -144500,
+        "z": 8700.013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -108001.4453125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -59300,
+        "y": -157300,
+        "z": 8299.9921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -38506.234375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -58800,
+        "y": -157300,
+        "z": 8300.013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -38450.62890625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -58800,
+        "y": -157300,
+        "z": 8700.013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -38448.015625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -58000,
+        "y": -157000,
+        "z": 6900.00830078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -11436.693359375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -65600,
+        "y": -155300,
+        "z": 8300.013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481.StorageInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mStorageInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481.StorageInventory"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+      },
+      "mBuildTimeStamp": -10539.5615234375
+    }
+  }
+]

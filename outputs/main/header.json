@@ -1,0 +1,25 @@
+{
+  "saveHeaderVersion": 13,
+  "saveVersion": 42,
+  "buildVersion": 269772,
+  "mapName": "Persistent_Level",
+  "mapOptions": "?Name=Player?startloc=Northern Forest?sessionName=First?Visibility=SV_Private",
+  "sessionName": "First",
+  "playDurationSeconds": {
+    "hours": 54,
+    "minutes": 44,
+    "seconds": 58
+  },
+  "saveDateTime": "2023-12-02T11:55:31.983Z",
+  "sessionVisibility": 0,
+  "editorObjectVersion": 40,
+  "modMetadata": "",
+  "isModdedSave": false,
+  "saveIdentifier": "NjEaYEyVje_HYzGOBqxeFA",
+  "isPartitionedWorld": true,
+  "saveDataHash": {
+    "isValid": true,
+    "hash": "6a17d58ed3d0d902d8493ad7f96180ab"
+  },
+  "isCreativeModeEnabled": false
+}

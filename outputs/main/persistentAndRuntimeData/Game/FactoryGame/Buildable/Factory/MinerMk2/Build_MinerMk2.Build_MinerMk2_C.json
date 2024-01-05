@@ -1,0 +1,394 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/MinerMk2/Build_MinerMk2.Build_MinerMk2_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9848077297210693,
+        "w": 0.1736481785774231
+      },
+      "translation": {
+        "x": -20566.470703125,
+        "y": -105374.625,
+        "z": 9091.75
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.Output0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.PowerInput"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractStartupTimer": 0,
+      "mCurrentExtractProgress": 0.048775553703308105,
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.OutputInventory"
+      },
+      "mExtractableResource": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode58_504"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 2.0027737617492676,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 178.98257446289062,
+      "mLastProductivityMeasurementDuration": 300.0002746582031,
+      "mCurrentProductivityMeasurementProduceDuration": 75.77386474609375,
+      "mCurrentProductivityMeasurementDuration": 126.19092559814453,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk2.Recipe_MinerMk2_C"
+      },
+      "mBuildTimeStamp": -105728.171875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/MinerMk2/Build_MinerMk2.Build_MinerMk2_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -99604.046875,
+        "y": -146823.21875,
+        "z": -1299.9871826171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.Output0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.PowerInput"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractStartupTimer": 0,
+      "mCurrentExtractProgress": 0.8071127533912659,
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.OutputInventory"
+      },
+      "mExtractableResource": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode122"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0051574707031,
+      "mLastProductivityMeasurementDuration": 300.0051574707031,
+      "mCurrentProductivityMeasurementProduceDuration": 201.54010009765625,
+      "mCurrentProductivityMeasurementDuration": 201.54010009765625,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk2.Recipe_MinerMk2_C"
+      },
+      "mBuildTimeStamp": -86266.9453125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/MinerMk2/Build_MinerMk2.Build_MinerMk2_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -102630.015625,
+        "y": -140319.84375,
+        "z": -1299.9876708984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.Output0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.PowerInput"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractStartupTimer": 0,
+      "mCurrentExtractProgress": 0.7323499321937561,
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.OutputInventory"
+      },
+      "mExtractableResource": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode7_380"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.25,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.InventoryPotential"
+      },
+      "mCurrentPotential": 2.25,
+      "mLastProductivityMeasurementProduceDuration": 300.027099609375,
+      "mLastProductivityMeasurementDuration": 300.027099609375,
+      "mCurrentProductivityMeasurementProduceDuration": 144.55657958984375,
+      "mCurrentProductivityMeasurementDuration": 144.55657958984375,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk2.Recipe_MinerMk2_C"
+      },
+      "mBuildTimeStamp": -86209.875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/MinerMk2/Build_MinerMk2.Build_MinerMk2_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -107739.1015625,
+        "y": -130639.9609375,
+        "z": -1300.0078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.Output0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.PowerInput"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractStartupTimer": 0,
+      "mCurrentExtractProgress": 0.027412891387939453,
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.OutputInventory"
+      },
+      "mExtractableResource": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode5_381"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 0,
+      "mLastProductivityMeasurementDuration": 300.0247802734375,
+      "mCurrentProductivityMeasurementDuration": 94.33546447753906,
+      "mProductivityMonitorEnabled": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk2.Recipe_MinerMk2_C"
+      },
+      "mBuildTimeStamp": -81516.6953125
+    }
+  }
+]

@@ -1,0 +1,341 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -54400,
+        "y": -142900,
+        "z": 8300.0078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.Input1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.0031838417053222656,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotSteel.Recipe_IngotSteel_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 6.541550636291504,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 73.32054901123047,
+      "mLastProductivityMeasurementDuration": 300.02947998046875,
+      "mCurrentProductivityMeasurementProduceDuration": 6.672517776489258,
+      "mCurrentProductivityMeasurementDuration": 22.4000244140625,
+      "mProductivityMonitorEnabled": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C"
+      },
+      "mBuildTimeStamp": -119294.5703125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -53400,
+        "y": -142900,
+        "z": 8300.0126953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.Input1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.7653067708015442,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotSteel.Recipe_IngotSteel_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 1078.5838623046875,
+      "mPendingPotential": 0.6666669845581055,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.InventoryPotential"
+      },
+      "mCurrentPotential": 0.6666669845581055,
+      "mLastProductivityMeasurementProduceDuration": 300.02947998046875,
+      "mLastProductivityMeasurementDuration": 300.02947998046875,
+      "mCurrentProductivityMeasurementProduceDuration": 22.4000244140625,
+      "mCurrentProductivityMeasurementDuration": 22.4000244140625,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C"
+      },
+      "mBuildTimeStamp": -119016.6171875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -52400,
+        "y": -142900,
+        "z": 8300.0126953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.Input1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.0013409852981567383,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotSteel.Recipe_IngotSteel_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.799077272415161,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 159.66285705566406,
+      "mLastProductivityMeasurementDuration": 300.0117492675781,
+      "mCurrentProductivityMeasurementProduceDuration": 92.33323669433594,
+      "mCurrentProductivityMeasurementDuration": 172.9248809814453,
+      "mProductivityMonitorEnabled": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C"
+      },
+      "mBuildTimeStamp": -119014.6484375
+    }
+  }
+]

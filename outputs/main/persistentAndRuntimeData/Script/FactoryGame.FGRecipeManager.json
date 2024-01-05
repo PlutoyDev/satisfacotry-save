@@ -1,0 +1,1967 @@
+[
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGRecipeManager",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.recipeManager"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mAvailableRecipes": [
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronPlate.Recipe_IronPlate_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronRod.Recipe_IronRod_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_TradingPost.Recipe_TradingPost_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoZapper.Recipe_XenoZapper_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_PortableMiner.Recipe_PortableMiner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCopper.Recipe_IngotCopper_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Wire.Recipe_Wire_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Cable.Recipe_Cable_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Concrete.Recipe_Concrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Screw.Recipe_Screw_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_IronPlateReinforced.Recipe_IronPlateReinforced_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPole.Recipe_ConveyorPole_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk1.Recipe_MinerMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/TowTruck/Recipe_SpaceElevator.Recipe_SpaceElevator_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorBiomass.Recipe_GeneratorBiomass_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_Wood.Recipe_Biomass_Wood_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_Leaves.Recipe_Biomass_Leaves_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentMerger.Recipe_ConveyorAttachmentMerger_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Mam.Recipe_Mam_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_ObjectScanner.Recipe_ObjectScanner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StoragePlayer.Recipe_StoragePlayer_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_Beacon.Recipe_Beacon_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_LookoutTower.Recipe_LookoutTower_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x1_01.Recipe_Foundation_8x1_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_Default.Recipe_Material_Foundation_Default_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x2_01.Recipe_Foundation_8x2_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x4_01.Recipe_Foundation_8x4_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x1_01.Recipe_Ramp_8x1_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x2_01.Recipe_Ramp_8x2_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_01.Recipe_Ramp_8x4_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_8x4_01.Recipe_Wall_8x4_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Wall_Orange.Recipe_Material_Wall_Orange_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Orange_8x1.Recipe_Wall_Orange_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_PowerCrystalShard_1.Recipe_PowerCrystalShard_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Silica.Recipe_Silica_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_QuartzCrystal.Recipe_QuartzCrystal_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_AssemblerMk1.Recipe_AssemblerMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_CopperSheet.Recipe_CopperSheet_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_Rotor.Recipe_Rotor_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_ModularFrame.Recipe_ModularFrame_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_1.Recipe_SpaceElevatorPart_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_BladeRunners.Recipe_BladeRunners_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Hog.Recipe_Protein_Hog_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_Gunpowder.Recipe_Gunpowder_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCaterium.Recipe_IngotCaterium_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSink.Recipe_ResourceSink_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSinkShop.Recipe_ResourceSinkShop_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_ColorCartridge.Recipe_ColorCartridge_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot0.Recipe_Swatch_Slot0_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot1.Recipe_Swatch_Slot1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot2.Recipe_Swatch_Slot2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot3.Recipe_Swatch_Slot3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot4.Recipe_Swatch_Slot4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot5.Recipe_Swatch_Slot5_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot6.Recipe_Swatch_Slot6_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot7.Recipe_Swatch_Slot7_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot8.Recipe_Swatch_Slot8_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot9.Recipe_Swatch_Slot9_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot10.Recipe_Swatch_Slot10_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot11.Recipe_Swatch_Slot11_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot12.Recipe_Swatch_Slot12_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot13.Recipe_Swatch_Slot13_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot14.Recipe_Swatch_Slot14_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot15.Recipe_Swatch_Slot15_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot16.Recipe_Swatch_Slot16_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Custom.Recipe_Swatch_Custom_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot17.Recipe_Swatch_Slot17_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_Chainsaw.Recipe_Chainsaw_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biofuel.Recipe_Biofuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Manufacturer/Recipe_CrystalOscillator.Recipe_CrystalOscillator_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Crab.Recipe_Protein_Crab_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Spitter.Recipe_Protein_Spitter_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_AlienDNACapsule.Recipe_AlienDNACapsule_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_AlienProtein.Recipe_Biomass_AlienProtein_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk2.Recipe_ConveyorBeltMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPoleStackable.Recipe_ConveyorPoleStackable_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk2.Recipe_ConveyorLiftMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_ReinforcedIronPlate_1.Recipe_Alternate_ReinforcedIronPlate_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Quickwire.Recipe_Quickwire_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_ZipLine.Recipe_ZipLine_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk2.Recipe_PowerPoleMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Wire_2.Recipe_Alternate_Wire_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_PowerCrystalShard_2.Recipe_PowerCrystalShard_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_WaterPump.Recipe_WaterPump_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupport.Recipe_PipeSupport_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeStorageTank.Recipe_PipeStorageTank_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Vehicle/Recipe_Tractor.Recipe_Tractor_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_TruckStation.Recipe_TruckStation_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_Mycelia.Recipe_Biomass_Mycelia_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Fabric.Recipe_Fabric_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Stinger.Recipe_Protein_Stinger_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_AILimiter.Recipe_AILimiter_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_RebarGun.Recipe_RebarGun_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_SpikedRebar.Recipe_SpikedRebar_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_PowerCrystalShard_3.Recipe_PowerCrystalShard_3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoBasher.Recipe_XenoBasher_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotSteel.Recipe_IngotSteel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_SteelBeam.Recipe_SteelBeam_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_SteelPipe.Recipe_SteelPipe_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_2.Recipe_SpaceElevatorPart_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_JumpPadAdjustable.Recipe_JumpPadAdjustable_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_UJellyLandingPad.Recipe_UJellyLandingPad_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Vehicle/Recipe_Explorer.Recipe_Explorer_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_MinerMk2.Recipe_MinerMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_EncasedIndustrialBeam.Recipe_EncasedIndustrialBeam_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_Stator.Recipe_Stator_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_Motor.Recipe_Motor_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_3.Recipe_SpaceElevatorPart_3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Manufacturer/Recipe_ModularFrameHeavy.Recipe_ModularFrameHeavy_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk2.Recipe_StorageContainerMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk3.Recipe_ConveyorBeltMk3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk3.Recipe_ConveyorLiftMk3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupportStackable.Recipe_PipeSupportStackable_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerStorageMk1.Recipe_PowerStorageMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerTower.Recipe_PowerTower_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerTowerPlatform.Recipe_PowerTowerPlatform_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Lift.Recipe_FoundationPassthrough_Lift_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWall.Recipe_PowerPoleWall_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDouble.Recipe_PowerPoleWallDouble_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallMk2.Recipe_PowerPoleWallMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDoubleMk2.Recipe_PowerPoleWallDoubleMk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x1_02.Recipe_Ramp_Diagonal_8x1_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x2_02.Recipe_Ramp_Diagonal_8x2_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x4_02.Recipe_Ramp_Diagonal_8x4_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x1_01.Recipe_Ramp_Diagonal_8x1_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x2_01.Recipe_Ramp_Diagonal_8x2_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Diagonal_8x4_01.Recipe_Ramp_Diagonal_8x4_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddle_Ficsit_4x1.Recipe_QuarterPipeMiddle_Ficsit_4x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddle_Ficsit_4x2.Recipe_QuarterPipeMiddle_Ficsit_4x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddle_Ficsit_4x4.Recipe_QuarterPipeMiddle_Ficsit_4x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1_Corner_01.Recipe_RampInverted_8x1_Corner_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_01.Recipe_RampInverted_8x2_Corner_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x4_Corner_01.Recipe_RampInverted_8x4_Corner_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1_Corner_02.Recipe_RampInverted_8x1_Corner_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_02.Recipe_RampInverted_8x2_Corner_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x4_Corner_02.Recipe_RampInverted_8x4_Corner_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe.Recipe_QuarterPipe_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe_02.Recipe_QuarterPipe_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_01.Recipe_QuarterPipeCorner_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_02.Recipe_QuarterPipeCorner_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_03.Recipe_QuarterPipeCorner_03_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_04.Recipe_QuarterPipeCorner_04_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_BlueprintDesigner.Recipe_BlueprintDesigner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitterSmart.Recipe_ConveyorAttachmentSplitterSmart_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1.Recipe_RampInverted_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_01.Recipe_RampInverted_8x2_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_Inverted_01.Recipe_Ramp_8x4_Inverted_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampDouble_8x1.Recipe_RampDouble_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampDouble.Recipe_RampDouble_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x8x8.Recipe_Ramp_8x8x8_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Rotor.Recipe_Alternate_Rotor_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_ReinforcedIronPlate_2.Recipe_Alternate_ReinforcedIronPlate_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_ModularFrame.Recipe_Alternate_ModularFrame_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_NutritionalInhaler.Recipe_NutritionalInhaler_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_Parachute.Recipe_Parachute_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_TherapeuticInhaler.Recipe_TherapeuticInhaler_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Recipe_Rebar_Stunshot.Recipe_Rebar_Stunshot_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Coal_1.Recipe_Alternate_Coal_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Screw.Recipe_Alternate_Screw_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_EncasedIndustrialBeam.Recipe_Alternate_EncasedIndustrialBeam_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Quickwire.Recipe_Alternate_Quickwire_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Wire_1.Recipe_Alternate_Wire_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StreetLight.Recipe_StreetLight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_CeilingLight.Recipe_CeilingLight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_FloodlightPole.Recipe_FloodlightPole_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_FloodlightWall.Recipe_FloodlightWall_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_LightsControlPanel.Recipe_LightsControlPanel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Medium.Recipe_StandaloneWidgetSign_Medium_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Portrait.Recipe_StandaloneWidgetSign_Portrait_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Square_Small.Recipe_StandaloneWidgetSign_Square_Small_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Square.Recipe_StandaloneWidgetSign_Square_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Small.Recipe_StandaloneWidgetSign_Small_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_SmallWide.Recipe_StandaloneWidgetSign_SmallWide_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_SmallVeryWide.Recipe_StandaloneWidgetSign_SmallVeryWide_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Square_Tiny.Recipe_StandaloneWidgetSign_Square_Tiny_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_Thin_8x4_01.Recipe_Wall_Window_Thin_8x4_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_Thin_8x4_02.Recipe_Wall_Window_Thin_8x4_02_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Flat_Frame_01.Recipe_Flat_Frame_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_FoundationGlass_01.Recipe_FoundationGlass_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_Frame_01.Recipe_Foundation_Frame_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Frame_01.Recipe_Wall_Frame_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_01.Recipe_Ramp_Frame_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_Inverted_01.Recipe_Ramp_Frame_Inverted_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarMiddle_Frame.Recipe_PillarMiddle_Frame_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarBase.Recipe_PillarBase_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Pillars/Recipe_Pillar_Small_Frame.Recipe_Pillar_Small_Frame_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Pillars/Recipe_PillarBase_Small.Recipe_PillarBase_Small_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Fence_01.Recipe_Fence_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Railing_01.Recipe_Railing_01_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Straight.Recipe_Catwalk_Straight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Cross.Recipe_Catwalk_Cross_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_T.Recipe_Catwalk_T_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Turn.Recipe_Catwalk_Turn_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Ramp.Recipe_Catwalk_Ramp_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Stairs.Recipe_Catwalk_Stairs_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Straight.Recipe_Walkway_Straight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Cross.Recipe_Walkway_Cross_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_T.Recipe_Walkway_T_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Turn.Recipe_Walkway_Turn_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Ramp.Recipe_Walkway_Ramp_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Ladder/Recipe_Ladder.Recipe_Ladder_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_CopperAlloyIngot.Recipe_Alternate_CopperAlloyIngot_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_NobeliskDetonator.Recipe_NobeliskDetonator_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_Nobelisk.Recipe_Nobelisk_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Valve.Recipe_Valve_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Rubber.Recipe_Rubber_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_LiquidFuel.Recipe_LiquidFuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PetroleumCoke.Recipe_PetroleumCoke_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Assembler/Recipe_CircuitBoard.Recipe_CircuitBoard_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_ResidualPlastic.Recipe_ResidualPlastic_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_ResidualRubber.Recipe_ResidualRubber_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_ResidualFuel.Recipe_ResidualFuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_CopperRotor.Recipe_Alternate_CopperRotor_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_SteelRod.Recipe_Alternate_SteelRod_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_HeavyOilResidue.Recipe_Alternate_HeavyOilResidue_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_PureCateriumIngot.Recipe_Alternate_PureCateriumIngot_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_DilutedPackagedFuel.Recipe_Alternate_DilutedPackagedFuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_CircuitBoard_2.Recipe_Alternate_CircuitBoard_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_EnrichedCoal.Recipe_Alternate_EnrichedCoal_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Coal_2.Recipe_Alternate_Coal_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerSwitch.Recipe_PowerSwitch_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Events/Christmas/Buildings/TreeDecor/Recipe_XMassTree.Recipe_XMassTree_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBranch.Recipe_XmasBranch_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Recipe_NobeliskShockwave.Recipe_NobeliskShockwave_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Recipe_Rebar_Spreadshot.Recipe_Rebar_Spreadshot_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipe_PipeHyperStart.Recipe_PipeHyperStart_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeHyper.Recipe_PipeHyper_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeHyperSupport.Recipe_PipeHyperSupport_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_HyperPoleStackable.Recipe_HyperPoleStackable_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Manufacturer/Recipe_HighSpeedConnector.Recipe_HighSpeedConnector_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Equipment/Recipe_GunpowderMK2.Recipe_GunpowderMK2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_PolishedConcrete.Recipe_Material_Foundation_PolishedConcrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Foundation_ConcretePolished_8x1.Recipe_Foundation_ConcretePolished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Foundation_ConcretePolished_8x2.Recipe_Foundation_ConcretePolished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Foundation_ConcretePolished_8x4.Recipe_Foundation_ConcretePolished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_Polished_8x1.Recipe_Ramp_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_Polished_8x2.Recipe_Ramp_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_Polished_8x4.Recipe_Ramp_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_UpCorner_Polished_8x1.Recipe_Ramp_UpCorner_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_UpCorner_Polished_8x2.Recipe_Ramp_UpCorner_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_UpCorner_Polished_8x4.Recipe_Ramp_UpCorner_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_DownCorner_Polished_8x1.Recipe_Ramp_DownCorner_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_DownCorner_Polished_8x2.Recipe_Ramp_DownCorner_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_Ramp_DownCorner_Polished_8x4.Recipe_Ramp_DownCorner_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x1.Recipe_RampDouble_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x2.Recipe_RampDouble_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x4.Recipe_RampDouble_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_DCorner_Polished_8x1.Recipe_InvertedRamp_DCorner_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_DCorner_Polished_8x2.Recipe_InvertedRamp_DCorner_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_DCorner_Polished_8x4.Recipe_InvertedRamp_DCorner_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_UCorner_Polished_8x1.Recipe_InvertedRamp_UCorner_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_UCorner_Polished_8x2.Recipe_InvertedRamp_UCorner_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_UCorner_Polished_8x4.Recipe_InvertedRamp_UCorner_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x1.Recipe_InvertedRamp_Polished_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x2.Recipe_InvertedRamp_Polished_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x4.Recipe_InvertedRamp_Polished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_DownQuarterPipe_ConcretePolished_8x4.Recipe_DownQuarterPipe_ConcretePolished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_DownQuarterPipe_ConcretePolishedInCorner_8x4.Recipe_DownQuarterPipe_ConcretePolishedInCorner_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_DownQuarterPipe_ConcretePolishedOutCorner_8x4.Recipe_DownQuarterPipe_ConcretePolishedOutCorner_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipe_ConcretePolished_8x4.Recipe_QuarterPipe_ConcretePolished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeInCorner_ConcretePolished_8x4.Recipe_QuarterPipeInCorner_ConcretePolished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeOutCorner_ConcretePolished_8x4.Recipe_QuarterPipeOutCorner_ConcretePolished_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Concrete.Recipe_Swatch_Concrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddle_PolishedConcrete_8x1.Recipe_QuarterPipeMiddle_PolishedConcrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddle_PolishedConcrete_8x2.Recipe_QuarterPipeMiddle_PolishedConcrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddle_PolishedConcrete_8x4.Recipe_QuarterPipeMiddle_PolishedConcrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x1.Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x2.Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x4.Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x1.Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x2.Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4.Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_Concrete.Recipe_Material_Foundation_Concrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x1.Recipe_Foundation_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x2.Recipe_Foundation_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x4.Recipe_Foundation_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x1.Recipe_Ramp_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x2.Recipe_Ramp_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x4.Recipe_Ramp_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x1.Recipe_Ramp_DownCorner_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x2.Recipe_Ramp_DownCorner_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x4.Recipe_Ramp_DownCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x1.Recipe_Ramp_UpCorner_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x2.Recipe_Ramp_UpCorner_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x4.Recipe_Ramp_UpCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x1.Recipe_RampDouble_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x2.Recipe_RampDouble_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x4.Recipe_RampDouble_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x1.Recipe_InvertedRamp_DCorner_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x2.Recipe_InvertedRamp_DCorner_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x4.Recipe_InvertedRamp_DCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x1.Recipe_InvertedRamp_UCorner_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x2.Recipe_InvertedRamp_UCorner_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x4.Recipe_InvertedRamp_UCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x1.Recipe_InvertedRamp_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x2.Recipe_InvertedRamp_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x4.Recipe_InvertedRamp_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_Concrete_8x4.Recipe_DownQuarterPipe_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteInCorner_8x4.Recipe_DownQuarterPipe_ConcreteInCorner_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteOutCorner_8x4.Recipe_DownQuarterPipe_ConcreteOutCorner_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipe_Concrete_8x4.Recipe_QuarterPipe_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeInCorner_Concrete_8x4.Recipe_QuarterPipeInCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeOutCorner_Concrete_8x4.Recipe_QuarterPipeOutCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x1.Recipe_QuarterPipeMiddle_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x2.Recipe_QuarterPipeMiddle_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x4.Recipe_QuarterPipeMiddle_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x1.Recipe_QuarterPipeMiddleInCorner_Concrete_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x2.Recipe_QuarterPipeMiddleInCorner_Concrete_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x4.Recipe_QuarterPipeMiddleInCorner_Concrete_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_Asphalt.Recipe_Material_Foundation_Asphalt_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Foundation_Asphalt_8x1.Recipe_Foundation_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Foundation_Asphalt_8x2.Recipe_Foundation_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Foundation_Asphalt_8x4.Recipe_Foundation_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_Asphalt_8x1.Recipe_Ramp_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_Asphalt_8x2.Recipe_Ramp_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_Asphalt_8x4.Recipe_Ramp_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_DownCorner_Asphalt_8x1.Recipe_Ramp_DownCorner_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_DownCorner_Asphalt_8x2.Recipe_Ramp_DownCorner_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_DownCorner_Asphalt_8x4.Recipe_Ramp_DownCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_UpCorner_Asphalt_8x1.Recipe_Ramp_UpCorner_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_UpCorner_Asphalt_8x2.Recipe_Ramp_UpCorner_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_UpCorner_Asphalt_8x4.Recipe_Ramp_UpCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_RampDouble_Asphalt_8x1.Recipe_RampDouble_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_RampDouble_Asphalt_8x2.Recipe_RampDouble_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_RampDouble_Asphalt_8x4.Recipe_RampDouble_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x1.Recipe_InvertedRamp_DCorner_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x2.Recipe_InvertedRamp_DCorner_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x4.Recipe_InvertedRamp_DCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x1.Recipe_InvertedRamp_UCorner_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x2.Recipe_InvertedRamp_UCorner_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x4.Recipe_InvertedRamp_UCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_Asphalt_8x1.Recipe_InvertedRamp_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_Asphalt_8x2.Recipe_InvertedRamp_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_Asphalt_8x4.Recipe_InvertedRamp_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_DownQuarterPipe_Asphalt_8x4.Recipe_DownQuarterPipe_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_DownQuarterPipe_AsphaltInCorner_8x4.Recipe_DownQuarterPipe_AsphaltInCorner_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_DownQuarterPipe_AsphaltOutCorner_8x4.Recipe_DownQuarterPipe_AsphaltOutCorner_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipe_Asphalt_8x4.Recipe_QuarterPipe_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeInCorner_Asphalt_8x4.Recipe_QuarterPipeInCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeOutCorner_Asphalt_8x4.Recipe_QuarterPipeOutCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddle_Asphalt_8x1.Recipe_QuarterPipeMiddle_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddle_Asphalt_8x2.Recipe_QuarterPipeMiddle_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddle_Asphalt_8x4.Recipe_QuarterPipeMiddle_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleInCorner_Asphalt_8x1.Recipe_QuarterPipeMiddleInCorner_Asphalt_8x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleInCorner_Asphalt_8x2.Recipe_QuarterPipeMiddleInCorner_Asphalt_8x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleInCorner_Asphalt_8x4.Recipe_QuarterPipeMiddleInCorner_Asphalt_8x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x1.Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x2.Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x4.Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowStraight.Recipe_Pattern_ArrowStraight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowLeft.Recipe_Pattern_ArrowLeft_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowRight.Recipe_Pattern_ArrowRight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowBack.Recipe_Pattern_ArrowBack_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_NO_ArrowStraight.Recipe_Pattern_NO_ArrowStraight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_NO_ArrowLeft.Recipe_Pattern_NO_ArrowLeft_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_NO_ArrowRight.Recipe_Pattern_NO_ArrowRight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_Remover_Arrows.Recipe_Pattern_Remover_Arrows_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number0.Recipe_Pattern_Number0_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number1.Recipe_Pattern_Number1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number2.Recipe_Pattern_Number2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number3.Recipe_Pattern_Number3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number4.Recipe_Pattern_Number4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number5.Recipe_Pattern_Number5_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number6.Recipe_Pattern_Number6_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number7.Recipe_Pattern_Number7_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number8.Recipe_Pattern_Number8_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number9.Recipe_Pattern_Number9_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Remover_Numbers.Recipe_Pattern_Remover_Numbers_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedCentre.Recipe_Pattern_DottedCentre_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedCentreCorner.Recipe_Pattern_DottedCentreCorner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedSplit.Recipe_Pattern_DottedSplit_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedCross.Recipe_Pattern_DottedCross_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedSide.Recipe_Pattern_DottedSide_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedSideCorner.Recipe_Pattern_DottedSideCorner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedDouble.Recipe_Pattern_DottedDouble_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_Remover_Lines.Recipe_Pattern_Remover_Lines_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PriorityPowerSwitch.Recipe_PriorityPowerSwitch_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_WetConcrete.Recipe_Alternate_WetConcrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Screw_2.Recipe_Alternate_Screw_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_PureCopperIngot.Recipe_Alternate_PureCopperIngot_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Packager.Recipe_Packager_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_FluidCanister.Recipe_FluidCanister_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedWater.Recipe_PackagedWater_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedCrudeOil.Recipe_PackagedCrudeOil_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Fuel.Recipe_Fuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedOilResidue.Recipe_PackagedOilResidue_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedBiofuel.Recipe_PackagedBiofuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_LiquidBiofuel.Recipe_LiquidBiofuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_IndustrialTank.Recipe_IndustrialTank_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageWater.Recipe_UnpackageWater_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageOil.Recipe_UnpackageOil_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageFuel.Recipe_UnpackageFuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageOilResidue.Recipe_UnpackageOilResidue_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageBioFuel.Recipe_UnpackageBioFuel_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ManufacturerMk1.Recipe_ManufacturerMk1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Vehicle/Recipe_Truck.Recipe_Truck_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/Manufacturer/Recipe_Computer.Recipe_Computer_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_4.Recipe_SpaceElevatorPart_4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_5.Recipe_SpaceElevatorPart_5_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Stator.Recipe_Alternate_Stator_C"
+        }
+      ],
+      "mAvailableCustomizationRecipes": [
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_Default.Recipe_Material_Foundation_Default_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Wall_Orange.Recipe_Material_Wall_Orange_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot0.Recipe_Swatch_Slot0_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot1.Recipe_Swatch_Slot1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot2.Recipe_Swatch_Slot2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot3.Recipe_Swatch_Slot3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot4.Recipe_Swatch_Slot4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot5.Recipe_Swatch_Slot5_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot6.Recipe_Swatch_Slot6_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot7.Recipe_Swatch_Slot7_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot8.Recipe_Swatch_Slot8_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot9.Recipe_Swatch_Slot9_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot10.Recipe_Swatch_Slot10_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot11.Recipe_Swatch_Slot11_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot12.Recipe_Swatch_Slot12_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot13.Recipe_Swatch_Slot13_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot14.Recipe_Swatch_Slot14_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot15.Recipe_Swatch_Slot15_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot16.Recipe_Swatch_Slot16_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Custom.Recipe_Swatch_Custom_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot17.Recipe_Swatch_Slot17_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_PolishedConcrete.Recipe_Material_Foundation_PolishedConcrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Concrete.Recipe_Swatch_Concrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_Concrete.Recipe_Material_Foundation_Concrete_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Materials/Recipe_Material_Foundation_Asphalt.Recipe_Material_Foundation_Asphalt_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowStraight.Recipe_Pattern_ArrowStraight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowLeft.Recipe_Pattern_ArrowLeft_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowRight.Recipe_Pattern_ArrowRight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_ArrowBack.Recipe_Pattern_ArrowBack_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_NO_ArrowStraight.Recipe_Pattern_NO_ArrowStraight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_NO_ArrowLeft.Recipe_Pattern_NO_ArrowLeft_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_NO_ArrowRight.Recipe_Pattern_NO_ArrowRight_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Arrows/Recipe_Pattern_Remover_Arrows.Recipe_Pattern_Remover_Arrows_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number0.Recipe_Pattern_Number0_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number1.Recipe_Pattern_Number1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number2.Recipe_Pattern_Number2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number3.Recipe_Pattern_Number3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number4.Recipe_Pattern_Number4_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number5.Recipe_Pattern_Number5_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number6.Recipe_Pattern_Number6_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number7.Recipe_Pattern_Number7_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number8.Recipe_Pattern_Number8_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Number9.Recipe_Pattern_Number9_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Numbers/Recipe_Pattern_Remover_Numbers.Recipe_Pattern_Remover_Numbers_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedCentre.Recipe_Pattern_DottedCentre_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedCentreCorner.Recipe_Pattern_DottedCentreCorner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedSplit.Recipe_Pattern_DottedSplit_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedCross.Recipe_Pattern_DottedCross_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedSide.Recipe_Pattern_DottedSide_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedSideCorner.Recipe_Pattern_DottedSideCorner_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_DottedDouble.Recipe_Pattern_DottedDouble_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Patterns/Lines/Recipe_Pattern_Remover_Lines.Recipe_Pattern_Remover_Lines_C"
+        }
+      ]
+    }
+  }
+]

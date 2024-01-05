@@ -1,0 +1,1371 @@
+[
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGStatisticsSubsystem",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.StatisticsSubsystem"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mConsumablesConsumedCount": [
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C"
+          },
+          1
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C"
+          },
+          30
+        ]
+      ],
+      "mCreaturesKilledCount": [
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Hog/Char_Hog.Char_Hog_C"
+          },
+          25
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Hog/AlphaHog/Char_AlphaHog.Char_AlphaHog_C"
+          },
+          10
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Spitter/SpitterAquatic/Char_SpitterAquaticAlpha.Char_SpitterAquaticAlpha_C"
+          },
+          10
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Stinger/SmallStinger/Char_Stinger_Child.Char_Stinger_Child_C"
+          },
+          15
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Spitter/SpitterForest/Char_SpitterForestSmall.Char_SpitterForestSmall_C"
+          },
+          10
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Wildlife/NonFlyingBird/Char_NonFlyingBird.Char_NonFlyingBird_C"
+          },
+          4
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Spitter/SpitterAquatic/Char_SpitterAquaticSmall.Char_SpitterAquaticSmall_C"
+          },
+          14
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Spitter/SpitterForest/Char_SpitterForestAlpha.Char_SpitterForestAlpha_C"
+          },
+          2
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Spitter/SpitterForestRed/Char_SpitterForestRedAlpha.Char_SpitterForestRedAlpha_C"
+          },
+          5
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Stinger/BigStinger/Char_EliteStinger.Char_EliteStinger_C"
+          },
+          3
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Spitter/SpitterDesert/Char_SpitterDesertSmall.Char_SpitterDesertSmall_C"
+          },
+          2
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Stinger/Char_Stinger.Char_Stinger_C"
+          },
+          3
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Character/Creature/Enemy/Hog/CliffHog/Char_CliffHog.Char_CliffHog_C"
+          },
+          1
+        ]
+      ],
+      "mItemsManuallyCraftedCount": [
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C"
+          },
+          244
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+          },
+          298
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+          },
+          200
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C"
+          },
+          20
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C"
+          },
+          69
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C"
+          },
+          262
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C"
+          },
+          638
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C"
+          },
+          232
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C"
+          },
+          1288
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C"
+          },
+          65
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C"
+          },
+          760
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C"
+          },
+          5
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C"
+          },
+          16
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C"
+          },
+          70
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C"
+          },
+          232
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/JumpingStilts/BP_EquipmentDescriptorJumpingStilts.BP_EquipmentDescriptorJumpingStilts_C"
+          },
+          1
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C"
+          },
+          226
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C"
+          },
+          123
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C"
+          },
+          1
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C"
+          },
+          84
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C"
+          },
+          4
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/Zipline/BP_EqDescZipLine.BP_EqDescZipLine_C"
+          },
+          2
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C"
+          },
+          186
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C"
+          },
+          132
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C"
+          },
+          132
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorStunSpear.BP_EquipmentDescriptorStunSpear_C"
+          },
+          2
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C"
+          },
+          22
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C"
+          },
+          198
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C"
+          },
+          23
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C"
+          },
+          201
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGunProjectile.Desc_RebarGunProjectile_C"
+          },
+          2
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C"
+          },
+          249
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C"
+          },
+          81
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C"
+          },
+          452
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C"
+          },
+          2
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C"
+          },
+          44
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Resource/Equipment/Beacon/Desc_Parachute.Desc_Parachute_C"
+          },
+          1
+        ]
+      ],
+      "mActorsBuiltCount": [
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/TradingPost/BP_StartingPod.BP_StartingPod_C"
+          },
+          {
+            "Current": -1,
+            "CurrentMax": 0,
+            "Total": 0,
+            "TotalDismantled": 1
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/TradingPost/Build_TradingPost.Build_TradingPost_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 1,
+            "Total": 5,
+            "TotalDismantled": 4
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 2,
+            "Total": 11,
+            "TotalDismantled": 10
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C"
+          },
+          {
+            "Current": 10,
+            "CurrentMax": 17,
+            "Total": 69,
+            "TotalDismantled": 59
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerLine/Build_PowerLine.Build_PowerLine_C"
+          },
+          {
+            "Current": 826,
+            "CurrentMax": 826,
+            "Total": 925,
+            "TotalDismantled": 99
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Build_PowerPoleMk1.Build_PowerPoleMk1_C"
+          },
+          {
+            "Current": -102,
+            "CurrentMax": 14,
+            "Total": 96,
+            "TotalDismantled": 198
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+          },
+          {
+            "Current": 13,
+            "CurrentMax": 36,
+            "Total": 106,
+            "TotalDismantled": 93
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk1/Build_ConveyorBeltMk1.Build_ConveyorBeltMk1_C"
+          },
+          {
+            "Current": 393,
+            "CurrentMax": 394,
+            "Total": 958,
+            "TotalDismantled": 565
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorPole/Build_ConveyorPole.Build_ConveyorPole_C"
+          },
+          {
+            "Current": -219,
+            "CurrentMax": 1,
+            "Total": 25,
+            "TotalDismantled": 244
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/MinerMK1/Build_MinerMk1.Build_MinerMk1_C"
+          },
+          {
+            "Current": 14,
+            "CurrentMax": 14,
+            "Total": 27,
+            "TotalDismantled": 13
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/GeneratorBiomass/Build_GeneratorBiomass.Build_GeneratorBiomass_C"
+          },
+          {
+            "Current": 0,
+            "CurrentMax": 15,
+            "Total": 43,
+            "TotalDismantled": 43
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Build_StorageContainerMk1.Build_StorageContainerMk1_C"
+          },
+          {
+            "Current": 17,
+            "CurrentMax": 30,
+            "Total": 142,
+            "TotalDismantled": 125
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Build_ConveyorAttachmentSplitter.Build_ConveyorAttachmentSplitter_C"
+          },
+          {
+            "Current": 90,
+            "CurrentMax": 97,
+            "Total": 382,
+            "TotalDismantled": 292
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/Build_Foundation_8x2_01.Build_Foundation_8x2_01_C"
+          },
+          {
+            "Current": -659,
+            "CurrentMax": 30,
+            "Total": 892,
+            "TotalDismantled": 1551
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_8x2_01.Build_Ramp_8x2_01_C"
+          },
+          {
+            "Current": -15,
+            "CurrentMax": 5,
+            "Total": 62,
+            "TotalDismantled": 77
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/LookoutTower/Build_LookoutTower.Build_LookoutTower_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 6,
+            "Total": 18,
+            "TotalDismantled": 17
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/CA_Merger/Build_ConveyorAttachmentMerger.Build_ConveyorAttachmentMerger_C"
+          },
+          {
+            "Current": 73,
+            "CurrentMax": 75,
+            "Total": 195,
+            "TotalDismantled": 122
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/Mam/Build_Mam.Build_Mam_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 2,
+            "Total": 21,
+            "TotalDismantled": 20
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/SpaceElevator/Build_SpaceElevator.Build_SpaceElevator_C"
+          },
+          {
+            "Current": 0,
+            "CurrentMax": 1,
+            "Total": 4,
+            "TotalDismantled": 4
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_8x4_01.Build_Ramp_8x4_01_C"
+          },
+          {
+            "Current": -187,
+            "CurrentMax": 5,
+            "Total": 157,
+            "TotalDismantled": 344
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 2,
+            "Total": 15,
+            "TotalDismantled": 14
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C"
+          },
+          {
+            "Current": 46,
+            "CurrentMax": 46,
+            "Total": 110,
+            "TotalDismantled": 64
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Wall/Build_Wall_8x4_01.Build_Wall_8x4_01_C"
+          },
+          {
+            "Current": -44,
+            "CurrentMax": 11,
+            "Total": 47,
+            "TotalDismantled": 91
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+          },
+          {
+            "Current": -3,
+            "CurrentMax": 10,
+            "Total": 29,
+            "TotalDismantled": 32
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C"
+          },
+          {
+            "Current": 5,
+            "CurrentMax": 5,
+            "Total": 12,
+            "TotalDismantled": 7
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/Build_Foundation_8x4_01.Build_Foundation_8x4_01_C"
+          },
+          {
+            "Current": 23,
+            "CurrentMax": 23,
+            "Total": 29,
+            "TotalDismantled": 6
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/Build_ConveyorBeltMk2.Build_ConveyorBeltMk2_C"
+          },
+          {
+            "Current": 296,
+            "CurrentMax": 296,
+            "Total": 522,
+            "TotalDismantled": 226
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Build_ResourceSinkShop.Build_ResourceSinkShop_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 1,
+            "Total": 1,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk2/Build_ConveyorLiftMk2.Build_ConveyorLiftMk2_C"
+          },
+          {
+            "Current": 27,
+            "CurrentMax": 28,
+            "Total": 49,
+            "TotalDismantled": 22
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Build_PowerPoleMk2.Build_PowerPoleMk2_C"
+          },
+          {
+            "Current": 12,
+            "CurrentMax": 15,
+            "Total": 25,
+            "TotalDismantled": 13
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Vehicle/Tractor/BP_Tractor.BP_Tractor_C"
+          },
+          {
+            "Current": 0,
+            "CurrentMax": 1,
+            "Total": 2,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/Build_Foundation_8x1_01.Build_Foundation_8x1_01_C"
+          },
+          {
+            "Current": -48,
+            "CurrentMax": 7,
+            "Total": 35,
+            "TotalDismantled": 83
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_8x1_01.Build_Ramp_8x1_01_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 3,
+            "Total": 3,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/WaterPump/Build_WaterPump.Build_WaterPump_C"
+          },
+          {
+            "Current": 16,
+            "CurrentMax": 16,
+            "Total": 27,
+            "TotalDismantled": 11
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 16,
+            "Total": 23,
+            "TotalDismantled": 21
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/Pipeline/Build_Pipeline.Build_Pipeline_C"
+          },
+          {
+            "Current": 15,
+            "CurrentMax": 37,
+            "Total": 111,
+            "TotalDismantled": 96
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PipelineSupport/Build_PipelineSupport.Build_PipelineSupport_C"
+          },
+          {
+            "Current": -19,
+            "CurrentMax": 5,
+            "Total": 26,
+            "TotalDismantled": 45
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C"
+          },
+          {
+            "Current": -31,
+            "CurrentMax": 0,
+            "Total": 0,
+            "TotalDismantled": 31
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C"
+          },
+          {
+            "Current": -4,
+            "CurrentMax": 10,
+            "Total": 17,
+            "TotalDismantled": 21
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/JumpPad/Build_JumpPadAdjustable.Build_JumpPadAdjustable_C"
+          },
+          {
+            "Current": 0,
+            "CurrentMax": 1,
+            "Total": 2,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleStackable/Build_ConveyorPoleStackable.Build_ConveyorPoleStackable_C"
+          },
+          {
+            "Current": -37,
+            "CurrentMax": 21,
+            "Total": 92,
+            "TotalDismantled": 129
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C"
+          },
+          {
+            "Current": 3,
+            "CurrentMax": 3,
+            "Total": 9,
+            "TotalDismantled": 6
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerTower/Build_PowerTowerPlatform.Build_PowerTowerPlatform_C"
+          },
+          {
+            "Current": 3,
+            "CurrentMax": 8,
+            "Total": 54,
+            "TotalDismantled": 51
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_Diagonal_8x2_02.Build_Ramp_Diagonal_8x2_02_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 2,
+            "Total": 4,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerTower/Build_PowerTower.Build_PowerTower_C"
+          },
+          {
+            "Current": 3,
+            "CurrentMax": 3,
+            "Total": 3,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/Build_BlueprintDesigner.Build_BlueprintDesigner_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 2,
+            "Total": 3,
+            "TotalDismantled": 1
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/BlueprintBuildable/Build_Blueprint.Build_Blueprint_C"
+          },
+          {
+            "Current": 176,
+            "CurrentMax": 176,
+            "Total": 176,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Script/FactoryGame.FGBlueprintProxy"
+          },
+          {
+            "Current": -42,
+            "CurrentMax": 0,
+            "Total": 0,
+            "TotalDismantled": 42
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Build_ConveyorAttachmentSplitterSmart.Build_ConveyorAttachmentSplitterSmart_C"
+          },
+          {
+            "Current": 17,
+            "CurrentMax": 18,
+            "Total": 34,
+            "TotalDismantled": 17
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk2/Build_StorageContainerMk2.Build_StorageContainerMk2_C"
+          },
+          {
+            "Current": 39,
+            "CurrentMax": 39,
+            "Total": 69,
+            "TotalDismantled": 30
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C"
+          },
+          {
+            "Current": 15,
+            "CurrentMax": 15,
+            "Total": 31,
+            "TotalDismantled": 16
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/MinerMk2/Build_MinerMk2.Build_MinerMk2_C"
+          },
+          {
+            "Current": 4,
+            "CurrentMax": 4,
+            "Total": 4,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/Build_ConveyorCeilingAttachment.Build_ConveyorCeilingAttachment_C"
+          },
+          {
+            "Current": -1,
+            "CurrentMax": 0,
+            "Total": 0,
+            "TotalDismantled": 1
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Build_QuarterPipeMiddle_Ficsit_8x2.Build_QuarterPipeMiddle_Ficsit_8x2_C"
+          },
+          {
+            "Current": -22,
+            "CurrentMax": 5,
+            "Total": 15,
+            "TotalDismantled": 37
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk3/Build_ConveyorBeltMk3.Build_ConveyorBeltMk3_C"
+          },
+          {
+            "Current": 97,
+            "CurrentMax": 97,
+            "Total": 146,
+            "TotalDismantled": 49
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Build_QuarterPipeMiddle_Ficsit_8x1.Build_QuarterPipeMiddle_Ficsit_8x1_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 4,
+            "Total": 14,
+            "TotalDismantled": 13
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerStorage/Build_PowerStorageMk1.Build_PowerStorageMk1_C"
+          },
+          {
+            "Current": 34,
+            "CurrentMax": 34,
+            "Total": 99,
+            "TotalDismantled": 65
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/LandingPad/Build_LandingPad.Build_LandingPad_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 1,
+            "Total": 1,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk3/Build_ConveyorLiftMk3.Build_ConveyorLiftMk3_C"
+          },
+          {
+            "Current": 13,
+            "CurrentMax": 13,
+            "Total": 19,
+            "TotalDismantled": 6
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/Floodlight/Build_FloodlightPole.Build_FloodlightPole_C"
+          },
+          {
+            "Current": 5,
+            "CurrentMax": 5,
+            "Total": 7,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStraight.Build_CatwalkStraight_C"
+          },
+          {
+            "Current": -39,
+            "CurrentMax": 5,
+            "Total": 18,
+            "TotalDismantled": 57
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayCross.Build_WalkwayCross_C"
+          },
+          {
+            "Current": -1,
+            "CurrentMax": 9,
+            "Total": 17,
+            "TotalDismantled": 18
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayRamp.Build_WalkwayRamp_C"
+          },
+          {
+            "Current": 3,
+            "CurrentMax": 3,
+            "Total": 3,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayStraight.Build_WalkwayStraight_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 1,
+            "Total": 1,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Build_StoragePlayer.Build_StoragePlayer_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 3,
+            "Total": 3,
+            "TotalDismantled": 1
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Ramp/Build_Ramp_Diagonal_8x2_01.Build_Ramp_Diagonal_8x2_01_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 3,
+            "Total": 5,
+            "TotalDismantled": 3
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkStairs.Build_CatwalkStairs_C"
+          },
+          {
+            "Current": -1,
+            "CurrentMax": 4,
+            "Total": 9,
+            "TotalDismantled": 10
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCorner.Build_CatwalkCorner_C"
+          },
+          {
+            "Current": 5,
+            "CurrentMax": 6,
+            "Total": 10,
+            "TotalDismantled": 5
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/OilPump/Build_OilPump.Build_OilPump_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 2,
+            "Total": 4,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C"
+          },
+          {
+            "Current": -2,
+            "CurrentMax": 3,
+            "Total": 5,
+            "TotalDismantled": 7
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/StorageTank/Build_PipeStorageTank.Build_PipeStorageTank_C"
+          },
+          {
+            "Current": 0,
+            "CurrentMax": 3,
+            "Total": 3,
+            "TotalDismantled": 3
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/Build_PipeHyperStart.Build_PipeHyperStart_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 2,
+            "Total": 4,
+            "TotalDismantled": 2
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PipelineSupport/Build_HyperPoleStackable.Build_HyperPoleStackable_C"
+          },
+          {
+            "Current": 0,
+            "CurrentMax": 1,
+            "Total": 1,
+            "TotalDismantled": 1
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PipeHyper/Build_PipeHyper.Build_PipeHyper_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 1,
+            "Total": 1,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Ladder/Build_Ladder.Build_Ladder_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 2,
+            "Total": 2,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PipePump/Build_PipelinePump.Build_PipelinePump_C"
+          },
+          {
+            "Current": 3,
+            "CurrentMax": 3,
+            "Total": 3,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkT.Build_CatwalkT_C"
+          },
+          {
+            "Current": -5,
+            "CurrentMax": 3,
+            "Total": 10,
+            "TotalDismantled": 15
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Build_Foundation_ConcretePolished_8x2_2.Build_Foundation_ConcretePolished_8x2_2_C"
+          },
+          {
+            "Current": -22,
+            "CurrentMax": 0,
+            "Total": 2,
+            "TotalDismantled": 24
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Build_PowerSwitch.Build_PowerSwitch_C"
+          },
+          {
+            "Current": 1,
+            "CurrentMax": 1,
+            "Total": 1,
+            "TotalDismantled": 0
+          }
+        ],
+        [
+          {
+            "levelName": "",
+            "pathName": "/Game/FactoryGame/Buildable/Building/Catwalk/Build_CatwalkCross.Build_CatwalkCross_C"
+          },
+          {
+            "Current": 2,
+            "CurrentMax": 2,
+            "Total": 2,
+            "TotalDismantled": 0
+          }
+        ]
+      ]
+    }
+  }
+]

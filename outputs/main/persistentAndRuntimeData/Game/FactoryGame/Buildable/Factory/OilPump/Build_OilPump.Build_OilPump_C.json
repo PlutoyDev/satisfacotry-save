@@ -1,0 +1,202 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilPump/Build_OilPump.Build_OilPump_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -32599.646484375,
+        "y": -192537.5,
+        "z": 2600.0087890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.PowerInput"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractStartupTimer": -10,
+      "mCurrentExtractProgress": 0.34767159819602966,
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.OutputInventory"
+      },
+      "mExtractableResource": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode15"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.5,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.InventoryPotential"
+      },
+      "mCurrentPotential": 2.5,
+      "mLastProductivityMeasurementProduceDuration": 300.0028991699219,
+      "mLastProductivityMeasurementDuration": 300.0028991699219,
+      "mCurrentProductivityMeasurementProduceDuration": 8.18618392944336,
+      "mCurrentProductivityMeasurementDuration": 8.18618392944336,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C"
+      },
+      "mBuildTimeStamp": -32481.45703125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilPump/Build_OilPump.Build_OilPump_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -43612.140625,
+        "y": -190316.359375,
+        "z": 2600.01171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.PowerInput"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractStartupTimer": -10,
+      "mCurrentExtractProgress": 0.44096359610557556,
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.OutputInventory"
+      },
+      "mExtractableResource": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode16"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.5,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.InventoryPotential"
+      },
+      "mCurrentPotential": 2.5,
+      "mLastProductivityMeasurementProduceDuration": 300.0040588378906,
+      "mLastProductivityMeasurementDuration": 300.0040588378906,
+      "mCurrentProductivityMeasurementProduceDuration": 53.89100646972656,
+      "mCurrentProductivityMeasurementDuration": 53.89100646972656,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C"
+      },
+      "mBuildTimeStamp": -31865.755859375
+    }
+  }
+]

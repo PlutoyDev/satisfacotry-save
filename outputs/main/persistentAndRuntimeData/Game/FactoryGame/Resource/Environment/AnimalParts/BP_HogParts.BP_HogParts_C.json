@@ -1,0 +1,218 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_HogParts_C_2146050861"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -47443.57421875,
+        "y": -67972.546875,
+        "z": 22791.86328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_HogParts_C_2146042675"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -46695.4765625,
+        "y": -68691.359375,
+        "z": 22791.078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_HogParts_C_2147385958"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -108319.140625,
+        "y": -129725.9609375,
+        "z": -1555.801513671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_HogParts_C_2145785426"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -33179.703125,
+        "y": -69837.9765625,
+        "z": 20744.88671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_HogParts_C_2145780882"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -32087.578125,
+        "y": -66502.1015625,
+        "z": 20643.853515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_HogParts.BP_HogParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_HogParts_C_2145778068"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -47246.79296875,
+        "y": -68348.6328125,
+        "z": 22788.69921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

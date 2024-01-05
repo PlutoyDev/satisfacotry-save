@@ -1,0 +1,74 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_StingerParts.BP_StingerParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_StingerParts_C_2147364656"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -18145.69921875,
+        "y": -116212.40625,
+        "z": 8810.81640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_StingerParts.BP_StingerParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_StingerParts_C_2147364609"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -17657.646484375,
+        "y": -116084.0859375,
+        "z": 8861.0673828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

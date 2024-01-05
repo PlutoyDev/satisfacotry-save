@@ -1,0 +1,94 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/-Shared/Crate/BP_Crate.BP_Crate_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_Crate_C_2145962783"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.016252094879746437,
+        "y": -0.14876915514469147,
+        "z": -0.6912797689437866,
+        "w": 0.7069199681282043
+      },
+      "translation": {
+        "x": -39334.1796875,
+        "y": -3903.0771484375,
+        "z": 29952.8046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_Crate_C_2145962783.inventory"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_Crate_C_2145962783.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/-Shared/Crate/BP_Crate.BP_Crate_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_Crate_C_2147043454"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -40000,
+        "y": -165100,
+        "z": 8099.9931640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_Crate_C_2147043454.inventory"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_Crate_C_2147043454.inventory"
+      }
+    }
+  }
+]

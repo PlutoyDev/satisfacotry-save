@@ -1,0 +1,78 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/NutBush/BP_NutBush.BP_NutBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_NutBush991_185"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.8873676061630249,
+        "w": 0.46106263995170593
+      },
+      "translation": {
+        "x": 267836.625,
+        "y": 135.203125,
+        "z": 2296.850341796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSavedNumItems": 5
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/NutBush/BP_NutBush.BP_NutBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_NutBush825_221"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9193354845046997,
+        "w": 0.39347463846206665
+      },
+      "translation": {
+        "x": 57.87109375,
+        "y": 54081.59765625,
+        "z": 21196.5
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSavedNumItems": 5
+    }
+  }
+]

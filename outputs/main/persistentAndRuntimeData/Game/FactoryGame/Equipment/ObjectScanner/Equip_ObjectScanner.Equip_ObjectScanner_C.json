@@ -1,0 +1,84 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Equipment/ObjectScanner/Equip_ObjectScanner.Equip_ObjectScanner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Equip_ObjectScanner_C_2146414009"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.14878477156162262,
+        "y": -0.08617495000362396,
+        "z": -0.7825025916099548,
+        "w": 0.5984368324279785
+      },
+      "translation": {
+        "x": -1206.976318359375,
+        "y": -206082.203125,
+        "z": -1377.96875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mCurrentScannableDescriptor": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Environment/CrashSites/Desc_HardDrive.Desc_HardDrive_C"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Equipment/ObjectScanner/Equip_ObjectScanner.Equip_ObjectScanner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Equip_ObjectScanner_C_2147377495"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.1514575183391571,
+        "y": -0.1572161167860031,
+        "z": -0.22352717816829681,
+        "w": 0.9499365091323853
+      },
+      "translation": {
+        "x": -234718.1875,
+        "y": -156091.015625,
+        "z": 13989.3095703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mCurrentScannableDescriptor": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C"
+      }
+    }
+  }
+]

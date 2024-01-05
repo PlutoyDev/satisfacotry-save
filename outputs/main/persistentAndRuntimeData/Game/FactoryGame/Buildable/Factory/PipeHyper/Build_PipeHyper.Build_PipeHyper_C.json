@@ -1,0 +1,173 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeHyper/Build_PipeHyper.Build_PipeHyper_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -42600,
+        "y": -193200,
+        "z": 2775
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876.PipeHyperConnection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876.PipeHyperConnection0"
+        }
+      ]
+    },
+    "properties": {
+      "mSplineData": [
+        {
+          "Location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ArriveTangent": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+          },
+          "LeaveTangent": {
+            "x": -50,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "Location": {
+            "x": -100,
+            "y": 0,
+            "z": 0
+          },
+          "ArriveTangent": {
+            "x": -50,
+            "y": 0,
+            "z": 0
+          },
+          "LeaveTangent": {
+            "x": -467.4349670410156,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "Location": {
+            "x": -399.52816367149353,
+            "y": 0,
+            "z": 283.1812407821417
+          },
+          "ArriveTangent": {
+            "x": -19.06273770186743,
+            "y": 0,
+            "z": 467.04610098355937
+          },
+          "LeaveTangent": {
+            "x": -100.19024257304164,
+            "y": 0,
+            "z": 2454.7083888035727
+          }
+        },
+        {
+          "Location": {
+            "x": -599.9086439609528,
+            "y": 0,
+            "z": 5192.597899399698
+          },
+          "ArriveTangent": {
+            "x": -100.19024257304163,
+            "y": 0,
+            "z": 2454.7083888035722
+          },
+          "LeaveTangent": {
+            "x": -20.293412310450567,
+            "y": 0,
+            "z": 497.19821168809455
+          }
+        },
+        {
+          "Location": {
+            "x": -300,
+            "y": 0,
+            "z": 5500
+          },
+          "ArriveTangent": {
+            "x": 497.6121826171875,
+            "y": 0,
+            "z": 0
+          },
+          "LeaveTangent": {
+            "x": 50,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "Location": {
+            "x": -200,
+            "y": 0,
+            "z": 5500
+          },
+          "ArriveTangent": {
+            "x": 50,
+            "y": 0,
+            "z": 0
+          },
+          "LeaveTangent": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeHyper.Recipe_PipeHyper_C"
+      },
+      "mBuildTimeStamp": -26242.30078125
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_02.BP_GasPillar_02_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_GasPillar_02_C_10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0039048325270414352,
+        "y": -0.006763755809515715,
+        "z": -0.49998462200164795,
+        "w": 0.8659990429878235
+      },
+      "translation": {
+        "x": -132790,
+        "y": -146,
+        "z": 22836
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
+    }
+  }
+]

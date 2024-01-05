@@ -1,0 +1,2971 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147129045"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -74399.984375,
+        "y": -145181.578125,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147129045.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147129045.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147129045.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147129045.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.93441390991211
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -137604.28125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147088923"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -74399.984375,
+        "y": -143183.65625,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147088923.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147088923.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147088923.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147088923.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.502898216247559
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -136927.53125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147085329"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -74399.984375,
+        "y": -139192.21875,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147085329.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147085329.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147085329.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147085329.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 14.024064064025879
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -136890.203125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147081232"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -74399.984375,
+        "y": -141189.09375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147081232.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147081232.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147081232.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147081232.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.315342903137207
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -136871.90625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367528"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -145205.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367528.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367528.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367528.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367528.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 11.955842018127441
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367355"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147359670"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -143205.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147359670.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147359670.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147359670.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147359670.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.11553955078125
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147359497"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147329961"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -141205.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147329961.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147329961.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147329961.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147329961.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 10.841756820678711
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147329788"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147327248"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -139205.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147327248.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147327248.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147327248.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147327248.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 10.865018844604492
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147327075"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147197523"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -137205.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147197523.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147197523.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147197523.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147197523.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 11.998370170593262
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147197350"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147195469"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -135205.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147195469.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147195469.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147195469.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147195469.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 11.670424461364746
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147195296"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147192537"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -133105.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147192537.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147192537.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147192537.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147192537.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 11.694877624511719
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147192364"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147187857"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -131105.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147187857.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147187857.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147187857.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147187857.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.794126510620117
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147187684"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147186138"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -81099.984375,
+        "y": -129105.734375,
+        "z": -825
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147186138.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147186138.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147186138.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147186138.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.396678924560547
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -80536.859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147185965"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370796"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -41300,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370796.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370796.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370796.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370796.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 4.56271505355835
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32444.849609375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370794"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.70710688829422,
+        "w": 0.7071067094802856
+      },
+      "translation": {
+        "x": -40300,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370794.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370794.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370794.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370794.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 6.947529315948486
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32441.80859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370789"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.70710688829422,
+        "w": 0.7071067094802856
+      },
+      "translation": {
+        "x": -42300,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370789.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370789.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370789.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370789.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 4.186816215515137
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32356.82421875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370776"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -40300,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370776.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370776.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370776.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370776.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.641982078552246
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32238.79296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370774"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -41300,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370774.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370774.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370774.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370774.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.594926834106445
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32235.916015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370772"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -42300,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370772.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370772.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370772.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147370772.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.637388229370117
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32234.041015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367644"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38300,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367644.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367644.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367644.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367644.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 4.604804992675781
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32444.849609375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367637"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.70710688829422,
+        "w": 0.7071067094802856
+      },
+      "translation": {
+        "x": -39300,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367637.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367637.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367637.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367637.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 6.116194725036621
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32356.82421875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367622"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -38300,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367622.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367622.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367622.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367622.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.062124252319336
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32235.916015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367620"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -39300,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367620.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367620.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367620.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147367620.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 11.44875431060791
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32234.041015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333093"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -35100,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333093.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333093.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333093.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333093.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.545751571655273
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32444.849609375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333091"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -36100,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333091.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333091.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333091.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333091.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 6.479671478271484
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32441.80859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333086"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -34100,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333086.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333086.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333086.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333086.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.32565689086914
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32356.82421875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333073"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.70710688829422,
+        "y": 0.7071067094802856,
+        "z": -4.329779639968787e-17,
+        "w": 4.329780963457767e-17
+      },
+      "translation": {
+        "x": -36100,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333073.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333073.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333073.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333073.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.27019214630127
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32238.79296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333071"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.70710688829422,
+        "y": 0.7071067094802856,
+        "z": -4.329779639968787e-17,
+        "w": 4.329780963457767e-17
+      },
+      "translation": {
+        "x": -35100,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333071.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333071.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333071.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333071.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.634306907653809
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32235.916015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333069"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.70710688829422,
+        "y": 0.7071067094802856,
+        "z": -4.329779639968787e-17,
+        "w": 4.329780963457767e-17
+      },
+      "translation": {
+        "x": -34100,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333069.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333069.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333069.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147333069.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.24767780303955
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32234.041015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303571"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38100,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303571.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303571.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303571.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303571.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 4.074951648712158
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32444.849609375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303564"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -37100,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303564.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303564.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303564.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303564.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 5.807822227478027
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32356.82421875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303549"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.70710688829422,
+        "y": 0.7071067094802856,
+        "z": -4.329779639968787e-17,
+        "w": 4.329780963457767e-17
+      },
+      "translation": {
+        "x": -38100,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303549.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303549.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303549.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303549.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 10.408988952636719
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32235.916015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303547"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.70710688829422,
+        "y": 0.7071067094802856,
+        "z": -4.329779639968787e-17,
+        "w": 4.329780963457767e-17
+      },
+      "translation": {
+        "x": -37100,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303547.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303547.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303547.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147303547.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 11.898197174072266
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -32234.041015625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147235194"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -6.123234262925839e-17,
+        "y": -1,
+        "z": 6.123234262925839e-17,
+        "w": 3.7493993930529855e-33
+      },
+      "translation": {
+        "x": -38700,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147235194.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147235194.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147235194.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147235194.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 2.1030049324035645
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -29602.671875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440075"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -33600,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440075.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440075.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440075.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440075.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 1.1160719394683838
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -28878.3828125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440073"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -34600,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440073.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440073.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440073.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440073.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 1.1029874086380005
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -28875.50390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440071"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067094802856,
+        "y": -0.70710688829422,
+        "z": 4.329780963457767e-17,
+        "w": 4.329779639968787e-17
+      },
+      "translation": {
+        "x": -35600,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440071.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440071.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440071.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147440071.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 1.7635776996612549
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -28873.630859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147428946"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -37493.38671875,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147428946.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147428946.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147428946.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147428946.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 1.698952317237854
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -27849.55078125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147265209"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -41199.98828125,
+        "y": -165905.734375,
+        "z": -25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147265209.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147265209.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147265209.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147265209.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.034090042114258
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -26683.63671875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147265034"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147263691"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -41199.98828125,
+        "y": -163905.734375,
+        "z": -25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147263691.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147263691.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147263691.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147263691.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 13.28388500213623
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -26683.63671875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147263516"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147262508"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.7071067690849304,
+        "y": 0.7071067690849304,
+        "z": -4.329780301713277e-17,
+        "w": 4.329780301713277e-17
+      },
+      "translation": {
+        "x": -41199.98828125,
+        "y": -161905.734375,
+        "z": -25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147262508.Connection0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147262508.Connection3"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147262508.Connection1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_PipelineJunction_Cross_C_2147262508.Connection2"
+        }
+      ]
+    },
+    "properties": {
+      "mFluidBox": {
+        "content": 12.401785850524902
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot17.SwatchDesc_Slot17_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mBuildTimeStamp": -26683.63671875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147262333"
+      }
+    }
+  }
+]

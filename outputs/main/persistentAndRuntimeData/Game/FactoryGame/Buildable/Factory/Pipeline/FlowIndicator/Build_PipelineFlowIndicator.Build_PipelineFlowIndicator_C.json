@@ -1,0 +1,1862 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147125039"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.004528000485152006,
+        "y": -0.70709228515625,
+        "z": -0.7070923447608948,
+        "w": 0.004521484486758709
+      },
+      "translation": {
+        "x": -75661.859375,
+        "y": -145195.15625,
+        "z": -825.009765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147125066"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -142387.25
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147087571"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.004018560983240604,
+        "y": -0.7070953249931335,
+        "z": -0.7070953845977783,
+        "w": 0.0040120454505085945
+      },
+      "translation": {
+        "x": -75661.8671875,
+        "y": -143195.703125,
+        "z": -825.009765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147087597"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -142387.25
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147084048"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.0021895943209528923,
+        "y": 0.7071033120155334,
+        "z": -0.7071034908294678,
+        "w": 0.0021970688831061125
+      },
+      "translation": {
+        "x": -75661.8828125,
+        "y": -139197.78125,
+        "z": -825.0094604492188
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147084074"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -142387.25
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147079496"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.0030684827361255884,
+        "y": 0.7070999145507812,
+        "z": -0.7071002721786499,
+        "w": 0.003075958229601383
+      },
+      "translation": {
+        "x": -75661.8828125,
+        "y": -141196.890625,
+        "z": -825.0094604492188
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147079522"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -142387.25
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147308098"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -139200,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147308124"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147307481"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -141200,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147307507"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147307093"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -143200,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147307119"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147284804"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -145200,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147284830"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147129454"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -137200,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147129480"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147121106"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -135200,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147121132"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147105207"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5016685128211975,
+        "y": 0.498325914144516,
+        "z": -0.5016685128211975,
+        "w": 0.498325914144516
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -133098.515625,
+        "z": -1137.32373046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147105233"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147097960"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -131100,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147097986"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147090561"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5013265013694763,
+        "y": 0.49866998195648193,
+        "z": -0.5013265013694763,
+        "w": 0.49866998195648193
+      },
+      "translation": {
+        "x": -81840.0078125,
+        "y": -129100,
+        "z": -1137.3326416015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147090587"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -80252.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147370757"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41800,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370787"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.92578125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147370756"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -40800,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370786"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.92578125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147370755"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41800,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370770"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.92578125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147370754"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -40800,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370769"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.92578125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147367605"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -38800,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367635"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.92578125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147367603"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -38800,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367618"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.92578125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147333054"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -1,
+        "w": 3.3289520473545053e-8
+      },
+      "translation": {
+        "x": -34600,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333084"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.9296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147333053"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -1,
+        "w": 1.99737026918001e-8
+      },
+      "translation": {
+        "x": -35600,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333083"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.9296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147333052"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 1.2246467698671066e-17,
+        "y": -8.153579048626738e-25,
+        "z": 1,
+        "w": 6.657902673623539e-8
+      },
+      "translation": {
+        "x": -34600,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333067"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.9296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147333051"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 1.2246467698671066e-17,
+        "y": -8.153579048626738e-25,
+        "z": 1,
+        "w": 6.657902673623539e-8
+      },
+      "translation": {
+        "x": -35600,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333066"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.9296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147303532"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -1,
+        "w": 3.3289520473545053e-8
+      },
+      "translation": {
+        "x": -37600,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147303562"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.9296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147303530"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 1.2246467698671066e-17,
+        "y": -8.153579048626738e-25,
+        "z": 1,
+        "w": 6.657902673623539e-8
+      },
+      "translation": {
+        "x": -37600,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147303545"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -33018.9296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147291907"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -39800,
+        "y": -190300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147291917"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -32039.72265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147274321"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -39800,
+        "y": -187500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147274331"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -32039.72265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147269663"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 1.2246467698671066e-17,
+        "y": -7.7422521815025295e-25,
+        "z": 1,
+        "w": 6.322028411887004e-8
+      },
+      "translation": {
+        "x": -36600,
+        "y": -192500,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147269673"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -32039.72265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147264989"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -36600,
+        "y": -195300,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147264999"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -32039.72265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147225901"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 1.818573740695542e-18,
+        "y": -1.8087100254811532e-18,
+        "z": 0.7090269923210144,
+        "w": 0.7051813006401062
+      },
+      "translation": {
+        "x": -38700.1484375,
+        "y": -193611.359375,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147225923"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -32039.72265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147440054"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -35100,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147440069"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -29658.513671875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147440053"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -34100,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147440068"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -29658.513671875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147428938"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -38046.83984375,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147428943"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -28679.310546875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147428936"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -36595.90234375,
+        "y": -191700,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147428941"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -28679.310546875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147421740"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.6948096752166748,
+        "w": 0.7191936373710632
+      },
+      "translation": {
+        "x": -37563.5078125,
+        "y": -189465.65625,
+        "z": 3075
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147421758"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -28679.310546875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147245159"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -2.406785366236841e-35,
+        "y": -5.494229852376103e-37,
+        "z": 0.02282213792204857,
+        "w": 0.9997395277023315
+      },
+      "translation": {
+        "x": -42444.33203125,
+        "y": -165953.65625,
+        "z": -25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147245172"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -26398.900390625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147238017"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.0018045739270746708,
+        "w": 0.9999983906745911
+      },
+      "translation": {
+        "x": -42399.9921875,
+        "y": -163901.75,
+        "z": -25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147238028"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -26398.900390625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147235911"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.00172176375053823,
+        "w": 0.9999985098838806
+      },
+      "translation": {
+        "x": -42399.9921875,
+        "y": -161902,
+        "z": -25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147235922"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -26398.900390625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147215033"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.6965365409851074,
+        "y": -0.12045183777809143,
+        "z": -0.11247644573450089,
+        "w": 0.6983389258384705
+      },
+      "translation": {
+        "x": -45386.3203125,
+        "y": -161921.375,
+        "z": -633.0156860351562
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147215040"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -26398.900390625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147214808"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.6961808204650879,
+        "y": -0.1221076175570488,
+        "z": -0.11184528470039368,
+        "w": 0.6985074281692505
+      },
+      "translation": {
+        "x": -45437.62890625,
+        "y": -163928.265625,
+        "z": -653.65185546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147214815"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -26398.900390625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/FlowIndicator/Build_PipelineFlowIndicator.Build_PipelineFlowIndicator_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelineFlowIndicator_C_2147214026"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.1219237819314003,
+        "y": -0.6963363289833069,
+        "z": 0.6977362632751465,
+        "w": -0.1158204972743988
+      },
+      "translation": {
+        "x": -45550.11328125,
+        "y": -165983.25,
+        "z": -672.9408569335938
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147214032"
+      },
+      "children": []
+    },
+    "properties": {
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuildTimeStamp": -26398.900390625
+    }
+  }
+]

@@ -1,0 +1,1575 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -40500,
+        "y": -188900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.24660879373550415,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.003662109375,
+      "mLastProductivityMeasurementDuration": 300.003662109375,
+      "mCurrentProductivityMeasurementProduceDuration": 170.1658172607422,
+      "mCurrentProductivityMeasurementDuration": 170.1658172607422,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32598.26953125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -41500,
+        "y": -188900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.4739144742488861,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0139465332031,
+      "mLastProductivityMeasurementDuration": 300.0139465332031,
+      "mCurrentProductivityMeasurementProduceDuration": 174.1551971435547,
+      "mCurrentProductivityMeasurementDuration": 174.1551971435547,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32531.005859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -42500,
+        "y": -188900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.12406979501247406,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0175476074219,
+      "mLastProductivityMeasurementDuration": 300.0175476074219,
+      "mCurrentProductivityMeasurementProduceDuration": 179.42672729492188,
+      "mCurrentProductivityMeasurementDuration": 179.42672729492188,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32433.79296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38500,
+        "y": -188900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.31538426876068115,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Rubber.Recipe_Rubber_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0187683105469,
+      "mLastProductivityMeasurementDuration": 300.0187683105469,
+      "mCurrentProductivityMeasurementProduceDuration": 190.79660034179688,
+      "mCurrentProductivityMeasurementDuration": 190.79660034179688,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32531.005859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -39500,
+        "y": -188900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.19792035222053528,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0187683105469,
+      "mLastProductivityMeasurementDuration": 300.0187683105469,
+      "mCurrentProductivityMeasurementProduceDuration": 190.79660034179688,
+      "mCurrentProductivityMeasurementDuration": 190.79660034179688,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32433.79296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -35900,
+        "y": -193900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.9460319876670837,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0073547363281,
+      "mLastProductivityMeasurementDuration": 300.0073547363281,
+      "mCurrentProductivityMeasurementProduceDuration": 270.8114013671875,
+      "mCurrentProductivityMeasurementDuration": 270.8114013671875,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32598.26953125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -34900,
+        "y": -193900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.5244743227958679,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0186462402344,
+      "mLastProductivityMeasurementDuration": 300.0186462402344,
+      "mCurrentProductivityMeasurementProduceDuration": 274.6034851074219,
+      "mCurrentProductivityMeasurementDuration": 274.6034851074219,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32531.005859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -33900,
+        "y": -193900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.6558245420455933,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.00811767578125,
+      "mLastProductivityMeasurementDuration": 300.00811767578125,
+      "mCurrentProductivityMeasurementProduceDuration": 281.9203186035156,
+      "mCurrentProductivityMeasurementDuration": 281.9203186035156,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32433.79296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -37900,
+        "y": -193900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.1913602352142334,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0129089355469,
+      "mLastProductivityMeasurementDuration": 300.0129089355469,
+      "mCurrentProductivityMeasurementProduceDuration": 121.75005340576172,
+      "mCurrentProductivityMeasurementDuration": 121.75005340576172,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32531.005859375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -36900,
+        "y": -193900,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.7464843988418579,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_Plastic.Recipe_Plastic_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0150146484375,
+      "mLastProductivityMeasurementDuration": 300.0150146484375,
+      "mCurrentProductivityMeasurementProduceDuration": 126.45313262939453,
+      "mCurrentProductivityMeasurementDuration": 126.45313262939453,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -32433.79296875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -33800,
+        "y": -190300,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.3398799002170563,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PetroleumCoke.Recipe_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0296325683594,
+      "mLastProductivityMeasurementDuration": 300.0296325683594,
+      "mCurrentProductivityMeasurementProduceDuration": 139.85836791992188,
+      "mCurrentProductivityMeasurementDuration": 139.85836791992188,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -29237.85546875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -35800,
+        "y": -190300,
+        "z": 2600.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.1902264654636383,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PetroleumCoke.Recipe_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 0.875,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.InventoryPotential"
+      },
+      "mCurrentPotential": 0.875,
+      "mLastProductivityMeasurementProduceDuration": 300.0296325683594,
+      "mLastProductivityMeasurementDuration": 300.0296325683594,
+      "mCurrentProductivityMeasurementProduceDuration": 139.85836791992188,
+      "mCurrentProductivityMeasurementDuration": 139.85836791992188,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -29073.3828125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -34800,
+        "y": -190300,
+        "z": 2600.013916015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.Output1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.FGFactoryLegs"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.PipeInputFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.PipeOutputFactory"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.5856935381889343,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PetroleumCoke.Recipe_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 0.875,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.InventoryPotential"
+      },
+      "mCurrentPotential": 0.875,
+      "mLastProductivityMeasurementProduceDuration": 300.0296325683594,
+      "mLastProductivityMeasurementDuration": 300.0296325683594,
+      "mCurrentProductivityMeasurementProduceDuration": 139.85836791992188,
+      "mCurrentProductivityMeasurementDuration": 139.85836791992188,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilRefinery.Recipe_OilRefinery_C"
+      },
+      "mBuildTimeStamp": -27697.236328125
+    }
+  }
+]

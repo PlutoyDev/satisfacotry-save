@@ -1,0 +1,40 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Testing/BoomBox/BP_TapePickup.BP_TapePickup_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_TapePickup2_11"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -37230,
+        "y": -60710,
+        "z": 15850
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupState": "ESchematicPickupState::Collected"
+    }
+  }
+]

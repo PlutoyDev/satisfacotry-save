@@ -1,0 +1,1650 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -148000,
+        "z": 8300.009765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.003390073776245117,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 0.30364319682121277,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 224.3618621826172,
+      "mLastProductivityMeasurementDuration": 300.01031494140625,
+      "mCurrentProductivityMeasurementProduceDuration": 74.83538818359375,
+      "mCurrentProductivityMeasurementDuration": 95.35065460205078,
+      "mProductivityMonitorEnabled": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -172325.640625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -148800,
+        "z": 8300.01171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.6233454942703247,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 17.22045135498047,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 224.37506103515625,
+      "mLastProductivityMeasurementDuration": 300.01031494140625,
+      "mCurrentProductivityMeasurementProduceDuration": 75.18219757080078,
+      "mCurrentProductivityMeasurementDuration": 95.35065460205078,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -172320.46875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -149600,
+        "z": 8300.00390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.6881291270256042,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.01031494140625,
+      "mLastProductivityMeasurementDuration": 300.01031494140625,
+      "mCurrentProductivityMeasurementProduceDuration": 95.35065460205078,
+      "mCurrentProductivityMeasurementDuration": 95.35065460205078,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -172230.78125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -151200,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.8983355760574341,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.01031494140625,
+      "mLastProductivityMeasurementDuration": 300.01031494140625,
+      "mCurrentProductivityMeasurementProduceDuration": 95.35065460205078,
+      "mCurrentProductivityMeasurementDuration": 95.35065460205078,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -171520.65625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -157400,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.8863091468811035,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCopper.Recipe_IngotCopper_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.7450759410858154,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 148.7462158203125,
+      "mLastProductivityMeasurementDuration": 300.002197265625,
+      "mCurrentProductivityMeasurementProduceDuration": 136.1455078125,
+      "mCurrentProductivityMeasurementDuration": 272.2422180175781,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -155206.953125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -156800,
+        "z": 8300.0068359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.012204647064208984,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCopper.Recipe_IngotCopper_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 2.2100250720977783,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 76.0014877319336,
+      "mLastProductivityMeasurementDuration": 300.0204162597656,
+      "mCurrentProductivityMeasurementProduceDuration": 68.01360321044922,
+      "mCurrentProductivityMeasurementDuration": 273.3236999511719,
+      "mProductivityMonitorEnabled": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -155195.6875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -158000,
+        "z": 8300.0078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.008141875267028809,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCopper.Recipe_IngotCopper_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 0.12134529650211334,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 75.74147033691406,
+      "mLastProductivityMeasurementDuration": 300.0278625488281,
+      "mCurrentProductivityMeasurementProduceDuration": 67.99271392822266,
+      "mCurrentProductivityMeasurementDuration": 269.8344421386719,
+      "mProductivityMonitorEnabled": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -155194.734375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -48200,
+        "y": -158800,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.8370404243469238,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCopper.Recipe_IngotCopper_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 1.3333333730697632,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.InventoryPotential"
+      },
+      "mCurrentPotential": 1.3333333730697632,
+      "mLastProductivityMeasurementProduceDuration": 300.0023498535156,
+      "mLastProductivityMeasurementDuration": 300.0023498535156,
+      "mCurrentProductivityMeasurementProduceDuration": 265.14312744140625,
+      "mCurrentProductivityMeasurementDuration": 265.14312744140625,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -155031.625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -43800,
+        "y": -141450,
+        "z": 8320
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.4918431043624878,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0135192871094,
+      "mLastProductivityMeasurementDuration": 300.0135192871094,
+      "mCurrentProductivityMeasurementProduceDuration": 240.68603515625,
+      "mCurrentProductivityMeasurementDuration": 240.68603515625,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -150679.3125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -43200,
+        "y": -141450,
+        "z": 8320
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.07796423137187958,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.005126953125,
+      "mLastProductivityMeasurementDuration": 300.005126953125,
+      "mCurrentProductivityMeasurementProduceDuration": 238.4823455810547,
+      "mCurrentProductivityMeasurementDuration": 238.4823455810547,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -150666.125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -42600,
+        "y": -141450,
+        "z": 8320
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.16192016005516052,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0030212402344,
+      "mLastProductivityMeasurementDuration": 300.0030212402344,
+      "mCurrentProductivityMeasurementProduceDuration": 234.2996368408203,
+      "mCurrentProductivityMeasurementDuration": 234.2996368408203,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -150665.3125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -42000,
+        "y": -141450,
+        "z": 8320
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.7357336282730103,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotIron.Recipe_IngotIron_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0020446777344,
+      "mLastProductivityMeasurementDuration": 300.0020446777344,
+      "mCurrentProductivityMeasurementProduceDuration": 232.582763671875,
+      "mCurrentProductivityMeasurementDuration": 232.582763671875,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -150659.421875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -60000,
+        "y": -142850,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.48197034001350403,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCaterium.Recipe_IngotCaterium_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 5.91645622253418,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 234.41656494140625,
+      "mLastProductivityMeasurementDuration": 300.0262145996094,
+      "mCurrentProductivityMeasurementProduceDuration": 29.171262741088867,
+      "mCurrentProductivityMeasurementDuration": 34.213539123535156,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -110754.6796875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147440086"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -60600,
+        "y": -142850,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.7093684077262878,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCaterium.Recipe_IngotCaterium_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 2.8295962810516357,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 120.01704406738281,
+      "mLastProductivityMeasurementDuration": 300.0237121582031,
+      "mCurrentProductivityMeasurementProduceDuration": 6.811100006103516,
+      "mCurrentProductivityMeasurementDuration": 17.15999412536621,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -110754.6796875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147440086"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -61200,
+        "y": -142850,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.Output2"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.OutputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.InputInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mCurrentManufacturingProgress": 0.7373015284538269,
+      "mInputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.InputInventory"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.OutputInventory"
+      },
+      "mCurrentRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Smelter/Recipe_IngotCaterium.Recipe_IngotCaterium_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 4.406376361846924,
+      "mPendingPotential": 0.6666666865348816,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.InventoryPotential"
+      },
+      "mCurrentPotential": 0.6666666865348816,
+      "mLastProductivityMeasurementProduceDuration": 178.98619079589844,
+      "mLastProductivityMeasurementDuration": 300.01129150390625,
+      "mCurrentProductivityMeasurementProduceDuration": 5.412048816680908,
+      "mCurrentProductivityMeasurementDuration": 10.458935737609863,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C"
+      },
+      "mBuildTimeStamp": -110754.6796875,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147440086"
+      }
+    }
+  }
+]

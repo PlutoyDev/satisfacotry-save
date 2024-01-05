@@ -1,0 +1,40 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Equipment/Chainsaw/Equip_Chainsaw.Equip_Chainsaw_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Equip_Chainsaw_C_2145807143"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.20062552392482758,
+        "y": 0.25630566477775574,
+        "z": -0.9205882549285889,
+        "w": 0.215810164809227
+      },
+      "translation": {
+        "x": -234902.84375,
+        "y": -156367.671875,
+        "z": 15430.904296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mEnergyStored": 402.9676208496094
+    }
+  }
+]

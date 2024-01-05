@@ -1,0 +1,24 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGShoppingListComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.ShoppingListComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGShoppingListComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.ShoppingListComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {}
+  }
+]

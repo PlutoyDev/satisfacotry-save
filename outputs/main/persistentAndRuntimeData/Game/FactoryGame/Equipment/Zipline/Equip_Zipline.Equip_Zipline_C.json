@@ -1,0 +1,38 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Equipment/Zipline/Equip_Zipline.Equip_Zipline_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Equip_Zipline_C_2147459376"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.4169837534427643,
+        "y": 0.014557062648236752,
+        "z": 0.8800914287567139,
+        "w": 0.22660917043685913
+      },
+      "translation": {
+        "x": -41090.12109375,
+        "y": -146879.328125,
+        "z": 8443.134765625
+      },
+      "scale": {
+        "x": 1.000000238418579,
+        "y": 1,
+        "z": 0.9999997019767761
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472"
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

@@ -1,0 +1,316 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/-Shared/Blueprint/BP_GameState.BP_GameState_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mTimeSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.TimeSubsystem"
+      },
+      "mStorySubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.StorySubsystem"
+      },
+      "mRailroadSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.RailroadSubsystem"
+      },
+      "mCircuitSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.CircuitSubsystem"
+      },
+      "mRecipeManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.recipeManager"
+      },
+      "mSchematicManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.schematicManager"
+      },
+      "mGamePhaseManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.GamePhaseManager"
+      },
+      "mResearchManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.ResearchManager"
+      },
+      "mTutorialIntroManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.TutorialIntroManager"
+      },
+      "mActorRepresentationManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.ActorRepresentationManager"
+      },
+      "mMapManager": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.MapManager"
+      },
+      "mPipeSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.PipeSubsystem"
+      },
+      "mUnlockSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.unlockSubsystem"
+      },
+      "mResourceSinkSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.ResourceSinkSubsystem"
+      },
+      "mStatisticsSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.StatisticsSubsystem"
+      },
+      "mBlueprintSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BlueprintSubsystem"
+      },
+      "mGameRulesSubsystem": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.GameRulesSubsystem"
+      },
+      "mVisitedMapAreas": [
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_NorthernForest_1.Area_NorthernForest_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_DesertCanyons_1.Area_DesertCanyons_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_LakeForest_1.Area_LakeForest_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_NoMansLand_1.Area_NoMansLand_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_Savanna_1.Area_Savanna_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_NorthernForest_2.Area_NorthernForest_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_crater_2.Area_crater_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_SpireCoast.Area_SpireCoast_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_RedJungle_1.Area_RedJungle_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_RockyDesert_1.Area_RockyDesert_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_Savanna_2.Area_Savanna_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_RockyDesert_2.Area_RockyDesert_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_RedJungle_2.Area_RedJungle_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_WesternDuneForest_1.Area_WesternDuneForest_1_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_WesternDuneForest_2.Area_WesternDuneForest_2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Interface/UI/Minimap/MapAreaPersistenLevel/Area_RedBambooFields_2.Area_RedBambooFields_2_C"
+        }
+      ],
+      "mPickedUpItems": [
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HogParts.Desc_HogParts_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HatcherParts.Desc_HatcherParts_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk2.Desc_Crystal_mk2_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_SpitterParts.Desc_SpitterParts_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/CrashSites/Desc_HardDrive.Desc_HardDrive_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk3.Desc_Crystal_mk3_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_StingerParts.Desc_StingerParts_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C"
+        }
+      ],
+      "mPlayDurationWhenLoaded": 197098,
+      "mReplicatedSessionName": "First",
+      "mBuildableLightColorSlots": [
+        {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        {
+          "r": 1,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        {
+          "r": 1,
+          "g": 1,
+          "b": 0,
+          "a": 1
+        },
+        {
+          "r": 0,
+          "g": 1,
+          "b": 0,
+          "a": 1
+        },
+        {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        {
+          "r": 0,
+          "g": 0,
+          "b": 1,
+          "a": 1
+        },
+        {
+          "r": 1,
+          "g": 0,
+          "b": 1,
+          "a": 1
+        }
+      ],
+      "mIsTradingPostBuilt": true,
+      "mHasInitalTradingPostLandAnimPlayed": true,
+      "mHasGivenStartingRecipes": true
+    }
+  }
+]

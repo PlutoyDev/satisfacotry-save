@@ -1,0 +1,1480 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147427327"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -53500,
+        "y": -148800,
+        "z": 8400
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147427327.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147427327.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 400
+        }
+      },
+      "mIsReversed": true,
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -164714.21875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147132027"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -37900,
+        "y": -141000,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147132027.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147132027.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.7071067811865476,
+          "w": 0.7071067811865477
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -147049.0625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147098695"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.70710688829422,
+        "w": 0.7071067094802856
+      },
+      "translation": {
+        "x": -38895.4765625,
+        "y": -141400,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147098695.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147098695.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -146790.78125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147469540"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -38200,
+        "y": -138500,
+        "z": 8400
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147469540.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147469540.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -145727.9375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147258498"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -52200,
+        "y": -141800,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147258498.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147258498.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -118871.40625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147223779"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -53200,
+        "y": -141800,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147223779.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147223779.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -118616.6875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147172518"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071075439453125,
+        "w": 0.7071060538291931
+      },
+      "translation": {
+        "x": -48900,
+        "y": -143800,
+        "z": 8400.0078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147172518.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147172518.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 400
+        }
+      },
+      "mIsReversed": true,
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -107689.4765625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147035945"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -59500,
+        "y": -147800,
+        "z": 8200
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147035945.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147035945.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -300
+        }
+      },
+      "mIsReversed": true,
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundationPassthrough_Lift_C_2147058121"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -100331.6875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147222835"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071065306663513,
+        "w": 0.7071070075035095
+      },
+      "translation": {
+        "x": -50600,
+        "y": -149300,
+        "z": 8400
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147222835.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147222835.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 900
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -55990.16796875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146996073"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -46200,
+        "y": -152100,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146996073.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146996073.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 600
+        }
+      },
+      "mIsReversed": true,
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -54593.72265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146642343"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -60900,
+        "y": -154900,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146642343.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146642343.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -52395.8515625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146641791"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -61300,
+        "y": -154900,
+        "z": 9000
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146641791.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146641791.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -600
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -52390.53125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146641296"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -61900,
+        "y": -154900,
+        "z": 8800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146641296.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146641296.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -400
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -52386.453125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146639676"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -62300,
+        "y": -154900,
+        "z": 9000
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146639676.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146639676.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -600
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -52376.57421875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147320891"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -38300,
+        "y": -167100,
+        "z": 2500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147320891.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147320891.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 400
+        }
+      },
+      "mIsReversed": true,
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundationPassthrough_Lift_C_2147323012"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -24634.97265625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147173487"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38300,
+        "y": -167100,
+        "z": 2500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147173487.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147173487.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -2700
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_FoundationPassthrough_Lift_C_2147323012"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -22708.259765625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147147507"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -64300,
+        "y": -154900,
+        "z": 9200
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147147507.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147147507.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -800
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -10446.208984375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147146059"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067094802856,
+        "w": 0.70710688829422
+      },
+      "translation": {
+        "x": -63300,
+        "y": -154900,
+        "z": 9200
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147146059.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147146059.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.9999999999999999,
+          "w": 6.123233995736766e-17
+        },
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": -800
+        }
+      },
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -10436.953125
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147038889"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -51200,
+        "y": -158000,
+        "z": 8800.0107421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147038889.ConveyorAny1"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2147038889.ConveyorAny0"
+        }
+      ]
+    },
+    "properties": {
+      "mTopTransform": {
+        "Translation": {
+          "x": 0,
+          "y": 0,
+          "z": 400
+        }
+      },
+      "mIsReversed": true,
+      "mSnappedPassthroughs": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ],
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mBuildTimeStamp": -9089.0087890625
+    }
+  }
+]

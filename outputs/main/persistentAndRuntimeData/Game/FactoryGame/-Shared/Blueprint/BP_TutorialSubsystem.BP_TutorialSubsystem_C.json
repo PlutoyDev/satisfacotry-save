@@ -1,0 +1,36 @@
+[
+  {
+    "type": 0,
+    "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TutorialSubsystem.BP_TutorialSubsystem_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.BP_TutorialSubsystem_C_2147474850"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mHasSeenIntroTutorial": true,
+      "mOwningPlayerState": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TutorialSubsystem.BP_TutorialSubsystem_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.BP_TutorialSubsystem_C_2147473062"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mHasSeenIntroTutorial": true,
+      "mOwningPlayerState": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888"
+      }
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_CrabEggParts.BP_CrabEggParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CrabEggParts_C_2146190652"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.011158478446304798,
+        "y": -0.012205309234559536,
+        "z": 0.0001360598107567057,
+        "w": 0.9998632669448853
+      },
+      "translation": {
+        "x": -153567.671875,
+        "y": 36404,
+        "z": 18996.685546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_CrabEggParts.BP_CrabEggParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CrabEggParts_C_2147432601"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0046392460353672504,
+        "y": -0.007919828407466412,
+        "z": 0.00439824815839529,
+        "w": 0.9999482035636902
+      },
+      "translation": {
+        "x": -13844.484375,
+        "y": -182731.015625,
+        "z": 3713.72412109375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/AnimalParts/BP_CrabEggParts.BP_CrabEggParts_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CrabEggParts_C_2147376502"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.037804361432790756,
+        "y": 0.013093099929392338,
+        "z": -0.0005563872400671244,
+        "w": 0.9991992115974426
+      },
+      "translation": {
+        "x": -246826.109375,
+        "y": -141658.140625,
+        "z": 4447.42138671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

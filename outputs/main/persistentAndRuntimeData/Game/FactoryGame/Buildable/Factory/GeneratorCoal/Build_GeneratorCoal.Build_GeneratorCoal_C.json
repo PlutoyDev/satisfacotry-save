@@ -1,0 +1,3438 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -145500,
+        "z": -1299.9866943359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.FuelInventory"
+      },
+      "mCurrentFuelAmount": 264.70025634765625,
+      "mCurrentSupplementalAmount": 647.6180419921875,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0205383300781,
+      "mLastProductivityMeasurementDuration": 300.0205383300781,
+      "mCurrentProductivityMeasurementProduceDuration": 111.93224334716797,
+      "mCurrentProductivityMeasurementDuration": 111.93224334716797,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -139039.625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -144500,
+        "z": -1299.9876708984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.FuelInventory"
+      },
+      "mCurrentFuelAmount": 223.15631103515625,
+      "mCurrentSupplementalAmount": 232.17225646972656,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0111083984375,
+      "mLastProductivityMeasurementDuration": 300.0111083984375,
+      "mCurrentProductivityMeasurementProduceDuration": 288.3458251953125,
+      "mCurrentProductivityMeasurementDuration": 288.3458251953125,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -139008.59375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -143500,
+        "z": -1299.9913330078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.FuelInventory"
+      },
+      "mCurrentFuelAmount": 57.15625,
+      "mCurrentSupplementalAmount": 572.179931640625,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0207214355469,
+      "mLastProductivityMeasurementDuration": 300.0207214355469,
+      "mCurrentProductivityMeasurementProduceDuration": 15.814055442810059,
+      "mCurrentProductivityMeasurementDuration": 15.814055442810059,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -138998.9375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -142500,
+        "z": -1299.9884033203125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.FuelInventory"
+      },
+      "mCurrentFuelAmount": 106.50869750976562,
+      "mCurrentSupplementalAmount": 65.53634643554688,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0290832519531,
+      "mLastProductivityMeasurementDuration": 300.0290832519531,
+      "mCurrentProductivityMeasurementProduceDuration": 10.976167678833008,
+      "mCurrentProductivityMeasurementDuration": 10.976167678833008,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -138993.296875
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -141500,
+        "z": -1299.986083984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.FuelInventory"
+      },
+      "mCurrentFuelAmount": 233.1118927001953,
+      "mCurrentSupplementalAmount": 331.7861633300781,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0151672363281,
+      "mLastProductivityMeasurementDuration": 300.0151672363281,
+      "mCurrentProductivityMeasurementProduceDuration": 5.260045051574707,
+      "mCurrentProductivityMeasurementDuration": 5.260045051574707,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -138991.9375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -140500,
+        "z": -1299.986083984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.FuelInventory"
+      },
+      "mCurrentFuelAmount": 198.39634704589844,
+      "mCurrentSupplementalAmount": 984.3460083007812,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0197448730469,
+      "mLastProductivityMeasurementDuration": 300.0197448730469,
+      "mCurrentProductivityMeasurementProduceDuration": 298.9436950683594,
+      "mCurrentProductivityMeasurementDuration": 298.9436950683594,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -138989.90625
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -139500,
+        "z": -1299.9920654296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.FuelInventory"
+      },
+      "mCurrentFuelAmount": 165.92674255371094,
+      "mCurrentSupplementalAmount": 659.6927490234375,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.00164794921875,
+      "mLastProductivityMeasurementDuration": 300.00164794921875,
+      "mCurrentProductivityMeasurementProduceDuration": 289.9634704589844,
+      "mCurrentProductivityMeasurementDuration": 289.9634704589844,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -138664.9375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -72700,
+        "y": -138500,
+        "z": -1299.9906005859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.FuelInventory"
+      },
+      "mCurrentFuelAmount": 165.92674255371094,
+      "mCurrentSupplementalAmount": 659.598388671875,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.003662109375,
+      "mLastProductivityMeasurementDuration": 300.003662109375,
+      "mCurrentProductivityMeasurementProduceDuration": 291.3536071777344,
+      "mCurrentProductivityMeasurementDuration": 291.3536071777344,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -138663.9375
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -145500,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.FuelInventory"
+      },
+      "mCurrentFuelAmount": 93.1375732421875,
+      "mCurrentSupplementalAmount": 931.8076782226562,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.00006103515625,
+      "mLastProductivityMeasurementDuration": 300.00006103515625,
+      "mCurrentProductivityMeasurementProduceDuration": 183.56935119628906,
+      "mCurrentProductivityMeasurementDuration": 183.56935119628906,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367355"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -144500,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.FuelInventory"
+      },
+      "mCurrentFuelAmount": 299.14471435546875,
+      "mCurrentSupplementalAmount": 991.9593505859375,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0066833496094,
+      "mLastProductivityMeasurementDuration": 300.0066833496094,
+      "mCurrentProductivityMeasurementProduceDuration": 180.8957977294922,
+      "mCurrentProductivityMeasurementDuration": 180.8957977294922,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367355"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -143500,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.FuelInventory"
+      },
+      "mCurrentFuelAmount": 280.5697021484375,
+      "mCurrentSupplementalAmount": 806.155029296875,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.02044677734375,
+      "mLastProductivityMeasurementDuration": 300.02044677734375,
+      "mCurrentProductivityMeasurementProduceDuration": 177.0155487060547,
+      "mCurrentProductivityMeasurementDuration": 177.0155487060547,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147359497"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -142500,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.FuelInventory"
+      },
+      "mCurrentFuelAmount": 299.81719970703125,
+      "mCurrentSupplementalAmount": 998.6611328125,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.00970458984375,
+      "mLastProductivityMeasurementDuration": 300.00970458984375,
+      "mCurrentProductivityMeasurementProduceDuration": 172.65345764160156,
+      "mCurrentProductivityMeasurementDuration": 172.65345764160156,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147359497"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -141500,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.FuelInventory"
+      },
+      "mCurrentFuelAmount": 2.310093402862549,
+      "mCurrentSupplementalAmount": 23.58999252319336,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.01666259765625,
+      "mLastProductivityMeasurementDuration": 300.01666259765625,
+      "mCurrentProductivityMeasurementProduceDuration": 152.6634063720703,
+      "mCurrentProductivityMeasurementDuration": 152.6634063720703,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147329788"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -140500,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.FuelInventory"
+      },
+      "mCurrentFuelAmount": 220.06517028808594,
+      "mCurrentSupplementalAmount": 201.06866455078125,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0088195800781,
+      "mLastProductivityMeasurementDuration": 300.0088195800781,
+      "mCurrentProductivityMeasurementProduceDuration": 149.5936279296875,
+      "mCurrentProductivityMeasurementDuration": 149.5936279296875,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147329788"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -139500,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.FuelInventory"
+      },
+      "mCurrentFuelAmount": 208.0286865234375,
+      "mCurrentSupplementalAmount": 80.62420654296875,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0251770019531,
+      "mLastProductivityMeasurementDuration": 300.0251770019531,
+      "mCurrentProductivityMeasurementProduceDuration": 137.89834594726562,
+      "mCurrentProductivityMeasurementDuration": 137.89834594726562,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147327075"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -138500,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.FuelInventory"
+      },
+      "mCurrentFuelAmount": 101.2452392578125,
+      "mCurrentSupplementalAmount": 12.83974838256836,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0098571777344,
+      "mLastProductivityMeasurementDuration": 300.0098571777344,
+      "mCurrentProductivityMeasurementProduceDuration": 135.2051544189453,
+      "mCurrentProductivityMeasurementDuration": 135.2051544189453,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147327075"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -137500,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.FuelInventory"
+      },
+      "mCurrentFuelAmount": 229.31690979003906,
+      "mCurrentSupplementalAmount": 293.6094665527344,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0249328613281,
+      "mLastProductivityMeasurementDuration": 300.0249328613281,
+      "mCurrentProductivityMeasurementProduceDuration": 43.791465759277344,
+      "mCurrentProductivityMeasurementDuration": 43.791465759277344,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147197350"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -136500,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.FuelInventory"
+      },
+      "mCurrentFuelAmount": 219.8533477783203,
+      "mCurrentSupplementalAmount": 198.95037841796875,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.014892578125,
+      "mLastProductivityMeasurementDuration": 300.014892578125,
+      "mCurrentProductivityMeasurementProduceDuration": 41.75785827636719,
+      "mCurrentProductivityMeasurementDuration": 41.75785827636719,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147197350"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -135500,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.FuelInventory"
+      },
+      "mCurrentFuelAmount": 97.83303833007812,
+      "mCurrentSupplementalAmount": 978.7255859375,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0013732910156,
+      "mLastProductivityMeasurementDuration": 300.0013732910156,
+      "mCurrentProductivityMeasurementProduceDuration": 40.142093658447266,
+      "mCurrentProductivityMeasurementDuration": 40.142093658447266,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147195296"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -134500,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.FuelInventory"
+      },
+      "mCurrentFuelAmount": 20.8961238861084,
+      "mCurrentSupplementalAmount": 209.44842529296875,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.02001953125,
+      "mLastProductivityMeasurementDuration": 300.02001953125,
+      "mCurrentProductivityMeasurementProduceDuration": 38.10782241821289,
+      "mCurrentProductivityMeasurementDuration": 38.10782241821289,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147195296"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -133400,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.FuelInventory"
+      },
+      "mCurrentFuelAmount": 111.19078826904297,
+      "mCurrentSupplementalAmount": 112.2581787109375,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0140075683594,
+      "mLastProductivityMeasurementDuration": 300.0140075683594,
+      "mCurrentProductivityMeasurementProduceDuration": 36.12947463989258,
+      "mCurrentProductivityMeasurementDuration": 36.12947463989258,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147192364"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -132400,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.FuelInventory"
+      },
+      "mCurrentFuelAmount": 27.315494537353516,
+      "mCurrentSupplementalAmount": 273.6831970214844,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0262145996094,
+      "mLastProductivityMeasurementDuration": 300.0262145996094,
+      "mCurrentProductivityMeasurementProduceDuration": 34.213539123535156,
+      "mCurrentProductivityMeasurementDuration": 34.213539123535156,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147192364"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -131400,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.FuelInventory"
+      },
+      "mCurrentFuelAmount": 258.29937744140625,
+      "mCurrentSupplementalAmount": 583.4329833984375,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0158996582031,
+      "mLastProductivityMeasurementDuration": 300.0158996582031,
+      "mCurrentProductivityMeasurementProduceDuration": 31.791818618774414,
+      "mCurrentProductivityMeasurementDuration": 31.791818618774414,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147187684"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -130400,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.FuelInventory"
+      },
+      "mCurrentFuelAmount": 146.7312469482422,
+      "mCurrentSupplementalAmount": 467.6876525878906,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0213928222656,
+      "mLastProductivityMeasurementDuration": 300.0213928222656,
+      "mCurrentProductivityMeasurementProduceDuration": 29.690298080444336,
+      "mCurrentProductivityMeasurementDuration": 29.690298080444336,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147187684"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -129400,
+        "z": -1299.9998779296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.FuelInventory"
+      },
+      "mCurrentFuelAmount": 140.45216369628906,
+      "mCurrentSupplementalAmount": 404.8679504394531,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0149230957031,
+      "mLastProductivityMeasurementDuration": 300.0149230957031,
+      "mCurrentProductivityMeasurementProduceDuration": 191.96722412109375,
+      "mCurrentProductivityMeasurementDuration": 191.96722412109375,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80599.5390625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147185965"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79400,
+        "y": -128400,
+        "z": -1299.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.FuelInventory"
+      },
+      "mCurrentFuelAmount": 281.0506591796875,
+      "mCurrentSupplementalAmount": 810.95361328125,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.InventoryPotential"
+      },
+      "mLastProductivityMeasurementProduceDuration": 300.0305480957031,
+      "mLastProductivityMeasurementDuration": 300.0305480957031,
+      "mCurrentProductivityMeasurementProduceDuration": 25.60338592529297,
+      "mCurrentProductivityMeasurementDuration": 25.60338592529297,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -80572.15625,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147185965"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39500,
+        "y": -166200,
+        "z": -499.9998474121094
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.FuelInventory"
+      },
+      "mCurrentFuelAmount": 168.9473876953125,
+      "mCurrentSupplementalAmount": 689.4381713867188,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.200000047683716,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.InventoryPotential"
+      },
+      "mCurrentPotential": 2.200000047683716,
+      "mLastProductivityMeasurementProduceDuration": 300.0076904296875,
+      "mLastProductivityMeasurementDuration": 300.0076904296875,
+      "mCurrentProductivityMeasurementProduceDuration": 225.30426025390625,
+      "mCurrentProductivityMeasurementDuration": 225.30426025390625,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -26746.3125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147265034"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39500,
+        "y": -165200,
+        "z": -499.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.FuelInventory"
+      },
+      "mCurrentFuelAmount": 69.86815643310547,
+      "mCurrentSupplementalAmount": 298.6907653808594,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.200000047683716,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.InventoryPotential"
+      },
+      "mCurrentPotential": 2.200000047683716,
+      "mLastProductivityMeasurementProduceDuration": 300.03057861328125,
+      "mLastProductivityMeasurementDuration": 300.03057861328125,
+      "mCurrentProductivityMeasurementProduceDuration": 146.49961853027344,
+      "mCurrentProductivityMeasurementDuration": 146.49961853027344,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -26718.927734375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147265034"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39500,
+        "y": -164200,
+        "z": -499.9998474121094
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.FuelInventory"
+      },
+      "mCurrentFuelAmount": 73.62738800048828,
+      "mCurrentSupplementalAmount": 736.2642211914062,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.200000047683716,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.InventoryPotential"
+      },
+      "mCurrentPotential": 2.200000047683716,
+      "mLastProductivityMeasurementProduceDuration": 300.0166931152344,
+      "mLastProductivityMeasurementDuration": 300.0166931152344,
+      "mCurrentProductivityMeasurementProduceDuration": 131.5097198486328,
+      "mCurrentProductivityMeasurementDuration": 131.5097198486328,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -26746.3125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147263516"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39500,
+        "y": -163200,
+        "z": -499.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.FuelInventory"
+      },
+      "mCurrentFuelAmount": 66.40302276611328,
+      "mCurrentSupplementalAmount": 664.02734375,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 582.287353515625,
+      "mPendingPotential": 2.1500000953674316,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.InventoryPotential"
+      },
+      "mCurrentPotential": 2.1500000953674316,
+      "mLastProductivityMeasurementProduceDuration": 300.0015563964844,
+      "mLastProductivityMeasurementDuration": 300.0015563964844,
+      "mCurrentProductivityMeasurementProduceDuration": 144.12109375,
+      "mCurrentProductivityMeasurementDuration": 144.12109375,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -26718.927734375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147263516"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39500,
+        "y": -162200,
+        "z": -499.9998474121094
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.FuelInventory"
+      },
+      "mCurrentFuelAmount": 89.75128936767578,
+      "mCurrentSupplementalAmount": 97.52568817138672,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.200000047683716,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.InventoryPotential"
+      },
+      "mCurrentPotential": 2.200000047683716,
+      "mLastProductivityMeasurementProduceDuration": 300.0296325683594,
+      "mLastProductivityMeasurementDuration": 300.0296325683594,
+      "mCurrentProductivityMeasurementProduceDuration": 139.85836791992188,
+      "mCurrentProductivityMeasurementDuration": 139.85836791992188,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -26746.3125,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147262333"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Buildable/Factory/GeneratorCoal/Build_GeneratorCoal.Build_GeneratorCoal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39500,
+        "y": -161200,
+        "z": -499.9996337890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.FuelInventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.Input0"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.InventoryPotential"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.powerInfo"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.FGPipeConnectionFactory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.PowerConnection"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.FGFactoryLegs"
+        }
+      ]
+    },
+    "properties": {
+      "mFuelInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.FuelInventory"
+      },
+      "mCurrentFuelAmount": 60.99718475341797,
+      "mCurrentSupplementalAmount": 609.9600219726562,
+      "mHasFuelCached": true,
+      "mHasSupplementalCached": true,
+      "mCurrentFuelClass": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C"
+      },
+      "mPowerInfo": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.powerInfo"
+      },
+      "mTimeSinceStartStopProducing": 3.3999999521443642e+38,
+      "mPendingPotential": 2.200000047683716,
+      "mInventoryPotential": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.InventoryPotential"
+      },
+      "mCurrentPotential": 2.200000047683716,
+      "mLastProductivityMeasurementProduceDuration": 300.0056457519531,
+      "mLastProductivityMeasurementDuration": 300.0056457519531,
+      "mCurrentProductivityMeasurementProduceDuration": 139.82736206054688,
+      "mCurrentProductivityMeasurementDuration": 139.82736206054688,
+      "mProductivityMonitorEnabled": true,
+      "mIsProducing": true,
+      "mCustomizationData": {
+        "SwatchDesc": {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+        }
+      },
+      "mBuiltWithRecipe": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorCoal.Recipe_GeneratorCoal_C"
+      },
+      "mBuildTimeStamp": -26718.927734375,
+      "mBlueprintProxy": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147262333"
+      }
+    }
+  }
+]

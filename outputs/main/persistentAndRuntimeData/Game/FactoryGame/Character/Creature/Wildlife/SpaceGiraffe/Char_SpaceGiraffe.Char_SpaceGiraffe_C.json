@@ -1,0 +1,102 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Wildlife/SpaceGiraffe/Char_SpaceGiraffe.Char_SpaceGiraffe_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147405921"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9569128751754761,
+        "w": 0.29037514328956604
+      },
+      "translation": {
+        "x": -40425.79296875,
+        "y": -148250.25,
+        "z": -448.8846740722656
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147405921.HealthComponent"
+        }
+      ]
+    },
+    "properties": {
+      "mOwningSpawner": {
+        "levelName": "Persistent_Level_ExplorationGrid_L0_X-3_Y-8",
+        "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner748"
+      },
+      "mHealthComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147405921.HealthComponent"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Wildlife/SpaceGiraffe/Char_SpaceGiraffe.Char_SpaceGiraffe_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147336817"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.8314695954322815,
+        "w": 0.5555702447891235
+      },
+      "translation": {
+        "x": -28516.70703125,
+        "y": -144168.859375,
+        "z": 8320.54296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147336817.HealthComponent"
+        }
+      ]
+    },
+    "properties": {
+      "mOwningSpawner": {
+        "levelName": "Persistent_Level_ExplorationGrid_L0_X-2_Y-7",
+        "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner111"
+      },
+      "mHealthComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147336817.HealthComponent"
+      }
+    }
+  }
+]

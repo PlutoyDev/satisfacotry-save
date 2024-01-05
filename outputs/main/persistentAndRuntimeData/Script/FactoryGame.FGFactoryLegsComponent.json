@@ -1,0 +1,6962 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146933503.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146933503",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -117.49412536621094
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -193.46548461914062
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -129.9875030517578
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Mam_C_2146556168.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_Mam_C_2146556168",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.02024531364440918
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.020206212997436523
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02024531364440918
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Workshop_C_2146554608.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_Workshop_C_2146554608",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02716541290283203
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WorkBench_C_2146418649.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WorkBench_C_2146418649",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.003669262398034334
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147172557",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260670.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260670",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.000049114227294921875
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260294.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260294",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252984.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252984",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252627.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252627",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.004796597640961409
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.004811856430023909
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.004811856430023909
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.004811856430023909
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.006646487396210432
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.006646487396210432
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.006646487396210432
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.006646487396210432
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147195899.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147195899",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147194499.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147194499",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147153013.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147153013",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.021034717559814453
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.016608238220214844
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.022530555725097656
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152610.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152610",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.014597415924072266
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.020534992218017578
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.021146535873413086
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152281.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152281",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0043942928314208984
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.025845766067504883
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.004699230194091797
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147113685.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147113685",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -217.0316619873047
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -204.94451904296875
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSinkShop_C_2147458398.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSinkShop_C_2147458398",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0033473968505859375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0033473968505859375
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147344980.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147344980",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.02341485023498535
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02341485023498535
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147331613.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147331613",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02399587631225586
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.023946762084960938
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147289263",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.007402896881103516
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.007402896881103516
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147288608",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.011619329452514648
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.017284154891967773
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.009913444519042969
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147446059.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147446059",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.000016927719116210938
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.005342960823327303
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.005342960823327303
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147343015.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147343015",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.024077892303466797
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.000027894973754882812
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.024044036865234375
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00004076957702636719
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147342528.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147342528",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.010688304901123047
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.010688304901123047
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0063686370849609375
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290177119197324
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.008183956146240234
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147315178.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147315178",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.014323804527521133
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.014339063316583633
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.014339063316583633
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.014339063316583633
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314363.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314363",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.009431455284357071
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.009382341057062149
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.009382341057062149
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.009382341057062149
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314095.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314095",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.005955311935395002
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0059061977081000805
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0059061977081000805
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0059061977081000805
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147239412.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147239412",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147136921.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147136921",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -5.271598815917969
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -25.437484741210938
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -96.7181396484375
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405156.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405156",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.002495288848876953
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.002510547637939453
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.008899543434381485
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.008899543434381485
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008899543434381485
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008899543434381485
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.010991666465997696
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01691398397088051
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.01691398397088051
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.010991666465997696
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147387125.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147387125",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.014692306518554688
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.014692306518554688
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.004747483413666487
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.002977225463837385
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.002977225463837385
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.004747483413666487
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378666.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378666",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.010557983070611954
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.010573241859674454
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.007740828674286604
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.007740828674286604
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147369771.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147369771",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.015464783646166325
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.02779221534729004
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.021805524826049805
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147444831.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147444831",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0076751708984375
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00766754150390625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -20.000776290893555
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -20.000776290893555
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -20.000776290893555
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -20.000776290893555
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -20.010013580322266
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -20.010013580322266
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -20.010013580322266
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -20.010013580322266
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -20.0012264251709
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -20.0012264251709
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -20.0012264251709
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -20.0012264251709
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -20.0012264251709
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -19.989994049072266
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -19.989994049072266
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -20.0012264251709
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465623.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465623",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.012988090515136719
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.010492801666259766
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.022079944610595703
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465362.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465362",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.021839380264282227
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.004699230194091797
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.012938976287841797
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465057.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465057",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.012793302536010742
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.019327163696289062
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.002171754837036133
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464653.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464653",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0009181499481201172
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0033795833587646484
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.012778043746948242
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464245.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464245",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.009029150009155273
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.019054412841796875
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.002510547637939453
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147381528.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147381528",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01411294937133789
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.02167701907455921
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.021708965301513672
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378304.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378304",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.028092652559280396
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.024107694625854492
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147373702",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01165151596069336
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01165151596069336
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147364887",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147254562.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147254562",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.003509137313812971
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00349220959469676
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.013727519661188126
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.013727519661188126
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147253035.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147253035",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.005070209503173828
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.005085468292236328
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252623.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252623",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.007096290588378906
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.007096290588378906
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185932.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185932",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.000033855438232421875
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000033855438232421875
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.012418985366821289
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00003147125244140625
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.012431859970092773
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185423.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185423",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.010334253311157227
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0027382373809814453
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008138895034790039
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.018636703491210938
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.012400388717651367
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160249",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0144195556640625
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.016382932662963867
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0027680397033691406
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147450732.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147450732",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02001567743718624
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.02001567743718624
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.014279802329838276
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02004619501531124
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.020013293251395226
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.01429267693310976
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147386866.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147386866",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.009104450233280659
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.009104450233280659
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.007327517028898001
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008459051139652729
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.008426149375736713
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00808068085461855
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147340579.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147340579",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01464052964001894
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01464052964001894
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.014279802329838276
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008201559074223042
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.008233030326664448
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000001867603714345023
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147295433",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01886129379272461
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.006598234176635742
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.009752511978149414
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147237746.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147237746",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -20.881179809570312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -5.733184814453125
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -20.865615844726562
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147430931",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.016382932662963867
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.016994476318359375
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02571702003479004
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147436319",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.009511087089776993
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.009511087089776993
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0011425946140661836
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0011425946140661836
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.008046627044677734
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.021404027938842773
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0009012222290039062
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.004570484161376953
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.027036666870117188
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02615811862051487
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0036275628954172134
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.000022674019419355318
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.006556535139679909
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.024677539244294167
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.026705289259552956
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02303602732717991
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.02100827731192112
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.002887273207306862
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.000022674019419355318
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0030803922563791275
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.015343451872467995
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.018336797133088112
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.006009364500641823
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0029516462236642838
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.000022674019419355318
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0006342176930047572
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.023229146376252174
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.007779622450470924
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.012639785185456276
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.004786277189850807
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0056874994188547134
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.000022674019419355318
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.01753213442862034
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01750946044921875
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.005664825439453125
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0250089168548584
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.01165151596069336
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.021178722381591797
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.015214705839753151
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0056874994188547134
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.019077086821198463
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.007522130385041237
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.016791844740509987
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000022674019419355318
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0014483928680419922
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0182497501373291
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008980035781860352
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.012134313583374023
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0069522857666015625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146551953.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146551953",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.000518798828125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000518798828125
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.000030517578125
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_TradingPost_C_2146432488.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_TradingPost_C_2146432488",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01186370849609375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01186370849609375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.020513534545898438
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.020513534545898438
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0039949421770870686
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146384191.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146384191",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -16.93230438232422
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -30.39223861694336
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -60.93349075317383
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146340269.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146340269",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -3.191608428955078
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -98.6153564453125
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -14.479267120361328
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147443964.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147443964",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -171.42474365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -211.14083862304688
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147441003.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147441003",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -153.20565795898438
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -46.73756408691406
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147461422.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147461422",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0000152587890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0034761428833007812
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0034761428833007812
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01924753189086914
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.015320777893066406
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.024493932723999023
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.015320777893066406
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.024493932723999023
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.024493932723999023
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.017606019973754883
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02063155174255371
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.024493932723999023
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.02063155174255371
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147163083.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147163083",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.019824055954813957
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.01723504066467285
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147151742.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147151742",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0036199819296598434
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.02164638787508011
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.018039537593722343
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147149751.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147149751",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.018924439325928688
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01631849631667137
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0036691976711153984
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147435044",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008014440536499023
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008014440536499023
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147419953.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147419953",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.021663904190063477
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.024464130401611328
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.024489641189575195
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008015155792236328
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00000858306884765625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147455984",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.009720325469970703
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.009720325469970703
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147356624.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147356624",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.003008604049682617
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.003008604049682617
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147314389.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147314389",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01206827163696289
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.004055500030517578
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0013196468353271484
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147283874.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147283874",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.008062694221735
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.008062694221735
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0101226307451725
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0101226307451725
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147214483",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147187357.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147187357",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.016840219497680664
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.016840219497680664
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.010111570358276367
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.010078668594360352
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.018938541412353516
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147150980.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147150980",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.01683354377746582
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.01683354377746582
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00017699931049719453
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000804397786851041
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.000048253281420329586
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0001448128023184836
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00017699931049719453
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000804397786851041
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.000048253281420329586
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0001448128023184836
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00017699931049719453
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0000804397786851041
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.000048253281420329586
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0001448128023184836
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147438496.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147438496",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.014614343643188477
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008048295974731445
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02707052230834961
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147432003.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147432003",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01458048913627863
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01458048913627863
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147326158.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147326158",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.013711453415453434
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.013711453415453434
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147075904.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147075904",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147066058.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147066058",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147406136.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147406136",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.010186195373535156
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0000152587890625
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.010186195373535156
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405416.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405416",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.000049114227294921875
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.004827976226806641
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.004827976226806641
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147317824.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147317824",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0017702579498291016
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0017702579498291016
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452305.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452305",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452300.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452300",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452295.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452295",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452290.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452290",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147267845.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147267845",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.006308556068688631
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.006308556068688631
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147267572.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147267572",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00550389289855957
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00550389289855957
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147267317.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147267317",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.004763603210449219
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00550389289855957
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.002639293670654297
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147266138.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147266138",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0007402896881103516
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0007402896881103516
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147265869.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147265869",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.024976730346679688
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0007402896881103516
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.020534992218017578
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147265568.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147265568",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0044095516204833984
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0044095516204833984
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147265162.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147265162",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00519809452816844
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.010058257728815079
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.005616519134491682
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0022691222839057446
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147239022.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147239022",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00514984130859375
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00514984130859375
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198746.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198746",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198741.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198741",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198736.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198736",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198731.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198731",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00011348724365234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00012874603271484375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00006437302363337949
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147336729.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147336729",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.013244722038507462
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.013244722038507462
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.013727519661188126
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.013727519661188126
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147175646.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147175646",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.002058267593383789
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.012488365173339844
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.010396242141723633
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147429349.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147429349",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00622806278988719
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00622806278988719
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008481118828058243
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008481118828058243
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147437518.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147437518",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.02339959144592285
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.02339959144592285
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147425435.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147425435",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.011490583419799805
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.011490583419799805
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147417902.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147417902",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.015996694564819336
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.009237527847290039
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.006179810035973787
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147410108.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147410108",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.002993345260620117
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.002993345260620117
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147403465.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147403465",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.005439520347863436
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0032508373260498047
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.009881258010864258
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147452152.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147452152",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.017702579498291016
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.017702579498291016
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -137.38568115234375
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00537109375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0035400390625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_LandingPad_C_2146564116.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_LandingPad_C_2146564116",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.004579451400786638
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.012095955200493336
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.01104989368468523
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0019250181503593922
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_LookoutTower_C_2147450199.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_LookoutTower_C_2147450199",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.000010013580322265625
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00002193450927734375
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147271237.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147271237",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.006759167183190584
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.006759167183190584
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147300305.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147300305",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.013325214385986328
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00006437301635742188
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.021790266036987305
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147294387.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147294387",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02095341682434082
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.02095341682434082
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147199878.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147199878",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0060663227923214436
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.021129608154296875
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.007514715660363436
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147197254.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147197254",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0016245843144133687
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.003684520721435547
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.009735584259033203
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196699.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196699",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.016623497009277344
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.001431465265341103
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.003008604049682617
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196270.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196270",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00651860237121582
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.027358531951904297
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.016608238220214844
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147128725.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147128725",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0005793571472167969
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0011587144108489156
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.022176504135131836
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147091006.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147091006",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00006437301635742188
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00006437301635742188
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146996721.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146996721",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -38.447914123535156
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -38.447818756103516
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.007129285018891096
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.007129285018891096
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146960020.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146960020",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.008416745811700821
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.008416745811700821
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0005954239168204367
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0005954239168204367
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146953829.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146953829",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.012568805366754532
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.012568805366754532
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.008416745811700821
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.008416745811700821
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146945655.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146945655",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0017058849334716797
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0017058849334716797
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146939443.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146939443",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00873861089348793
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00873861089348793
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.010573241859674454
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.010573241859674454
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146912941.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2146912941",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.022530555725097656
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.010138750076293945
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.013614892959594727
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146875416.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146875416",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146699553.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146699553",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.0016828842926770449
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002917387173511088
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00032631089561618865
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.005446054041385651
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146695497.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146695497",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00002506095916032791
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.015734463930130005
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0017032334581017494
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146690200.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146690200",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0069451602175831795
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.006947545800358057
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0109729478135705
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146683796.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146683796",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0026965411379933357
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.024939805269241333
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.024974077939987183
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146678690.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146678690",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.008053752593696117
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.014003517106175423
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.01400560513138771
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146668852.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146668852",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146662531.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146662531",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2145524939.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2145524939",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.02191901206970215
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.01886129379272461
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.01715540885925293
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401316.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401316",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401305.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401305",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147366020",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0024461746215820312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0024461746215820312
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147355042",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.021790266036987305
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.011072158813476562
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.024300813674926758
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147354673",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147248576.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147248576",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0155029296875
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0155029296875
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.008819580078125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00567626953125
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00439453125
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00002288819814566523
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00008726120722712949
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00006270408630371094
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.000032186522730626166
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00009655953181209043
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009222826338373125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00015660127974115312
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00023027262068353593
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00018878778791986406
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00018878777336794883
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000198086112504825
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009222826338373125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00015660127974115312
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00023027262068353593
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00018878778791986406
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00018878777336794883
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000198086112504825
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00002288819814566523
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00008726120722712949
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00006270408630371094
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.000032186522730626166
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00009655953181209043
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009222826338373125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00015660127974115312
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00023027262068353593
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00018878778791986406
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00018878777336794883
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000198086112504825
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009222826338373125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00015660127974115312
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00023027262068353593
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00018878778791986406
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00018878777336794883
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000198086112504825
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00002288819814566523
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00008726120722712949
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00006270408630371094
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.000032186522730626166
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00009655953181209043
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00018878778791986406
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00018878777336794883
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00016423067427240312
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00023027262068353593
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.000198086112504825
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.01995130442082882
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.020884713158011436
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.000003298123829154065
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.012847383506596088
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.018093785271048546
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.015615423209965229
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00003218650090275332
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.00009655950998421758
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00012874601816292852
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00031235258211381733
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.0002801660739351064
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00031235258211381733
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147082987.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147082987",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.00859379768371582
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.01750946044921875
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00308990478515625
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147069676.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147069676",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.005664825439453125
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.010428428649902344
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.013293027877807617
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147465978.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147465978",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.018796920776367188
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.019022226333618164
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0001609325408935547
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147456397.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147456397",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.01197504997253418
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.011942863464355469
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0000016689300537109375
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147418629.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147418629",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147329690.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147329690",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.00009894371760310605
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.000002384185791015625
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.00009226797556038946
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.00003290175664005801
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.0000729560706531629
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147249450",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.016608238220214844
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.014709234237670898
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.013325214385986328
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147233720.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147233720",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.010716438293457031
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.014033317565917969
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.017927885055541992
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk1_C_2147160481",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.027583837509155273
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.027583837509155273
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": 0
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147060221.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147060221",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147394276.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_StorageContainerMk2_C_2147394276",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": 0
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.0059223179705441
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.0059223179705441
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147436824.FGFactoryLegs"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147436824",
+    "pcInfo": {},
+    "properties": {
+      "mCachedFeetOffset": [
+        {
+          "FeetIndex": 1,
+          "OffsetZ": -0.006658276077359915
+        },
+        {
+          "FeetIndex": 2,
+          "OffsetZ": -0.006658276077359915
+        },
+        {
+          "FeetIndex": 3,
+          "OffsetZ": -0.007939060218632221
+        },
+        {
+          "FeetIndex": 4,
+          "OffsetZ": -0.01937027834355831
+        },
+        {
+          "FeetIndex": 5,
+          "OffsetZ": -0.019401749595999718
+        },
+        {
+          "FeetIndex": 6,
+          "OffsetZ": -0.00038810569094493985
+        }
+      ]
+    }
+  }
+]

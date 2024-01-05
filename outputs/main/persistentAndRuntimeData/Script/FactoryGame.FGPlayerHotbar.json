@@ -1,0 +1,1082 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147410631"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147475642"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147475641"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147475640"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147180651"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147181041"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2146522931"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147390290"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185481"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185462"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185428"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185383"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147146531"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147128392"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475651"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475650"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475649"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475648"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475647"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475646"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475645"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146904008"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146905034"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146903383"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147329632"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147369395"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147369254"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147106955"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146261554"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474891"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474890"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474889"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474888"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147253854"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147392646"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147392403"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147334187"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399355"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399331"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399288"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399253"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147398664"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147398612"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147398463"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147464114"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147464061"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147464028"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147463985"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474898"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474897"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474896"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474895"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474894"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474893"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPlayerHotbar",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888",
+    "pcInfo": {},
+    "properties": {
+      "mShortcuts": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147391058"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147390949"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147390699"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147390528"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387581"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387945"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387903"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387205"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387171"
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/-Shared/Blueprint/BP_BlueprintSusbystem.BP_BlueprintSusbystem_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BlueprintSubsystem"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintCategoryRecords": [
+        {
+          "CategoryName": "Undef",
+          "IconID": -1,
+          "MenuPriority": 0,
+          "IsUndefined": true,
+          "SubCategoryRecords": [
+            {
+              "SubCategoryName": "Undef",
+              "MenuPriority": 0,
+              "IsUndefined": 1,
+              "BlueprintNames": [
+                "Walkway for Towers with Catwalks",
+                "VB 1 Smelter Right",
+                "Power Pylons with Walkway",
+                "3x4 Foundation",
+                "3x Refinery",
+                "1 Smelter"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Vertical Bus",
+          "IconID": 598,
+          "MenuPriority": 1,
+          "IsUndefined": false,
+          "SubCategoryRecords": [
+            {
+              "SubCategoryName": "Basic",
+              "MenuPriority": 0,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "VB 1 Smelter R"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "With Power",
+          "IconID": 352,
+          "MenuPriority": 2,
+          "IsUndefined": false,
+          "SubCategoryRecords": [
+            {
+              "SubCategoryName": "Smelters",
+              "MenuPriority": 0,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "4 Smelters",
+                "1 Smelters"
+              ]
+            },
+            {
+              "SubCategoryName": "Construtors",
+              "MenuPriority": 1,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "4 Construtor",
+                "1 Construtor"
+              ]
+            },
+            {
+              "SubCategoryName": "Assembler",
+              "MenuPriority": 2,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "3 Assembler",
+                "1 Assembler"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Foundation",
+          "IconID": 350,
+          "MenuPriority": 3,
+          "IsUndefined": false,
+          "SubCategoryRecords": [
+            {
+              "SubCategoryName": "Basic",
+              "MenuPriority": 0,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "4x4 (2m) Foundation"
+              ]
+            },
+            {
+              "SubCategoryName": "New Sub Category",
+              "MenuPriority": 1,
+              "IsUndefined": 0,
+              "BlueprintNames": []
+            },
+            {
+              "SubCategoryName": "New Sub Category",
+              "MenuPriority": 2,
+              "IsUndefined": 0,
+              "BlueprintNames": []
+            },
+            {
+              "SubCategoryName": "New Sub Category",
+              "MenuPriority": 3,
+              "IsUndefined": 0,
+              "BlueprintNames": []
+            }
+          ]
+        },
+        {
+          "CategoryName": "Powerrrrrr",
+          "IconID": 352,
+          "MenuPriority": 4,
+          "IsUndefined": false,
+          "SubCategoryRecords": [
+            {
+              "SubCategoryName": "Coal",
+              "MenuPriority": 0,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "Dual Coal Power",
+                "Dual Coal Power Flip"
+              ]
+            },
+            {
+              "SubCategoryName": "Battery",
+              "MenuPriority": 1,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "Battery 2x2",
+                "4x4 Battery",
+                "4x4 Battery Opened",
+                "4x4 Battery Enclosed"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Converyer Bus",
+          "IconID": 356,
+          "MenuPriority": 5,
+          "IsUndefined": false,
+          "SubCategoryRecords": [
+            {
+              "SubCategoryName": "Basic",
+              "MenuPriority": 0,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "Walkway for Towers",
+                "Walkway for Towers with Catwalk",
+                "Straight Conveyer Pole",
+                "3x3 Bus Foundation"
+              ]
+            },
+            {
+              "SubCategoryName": "Secondary",
+              "MenuPriority": 1,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "Straight Pole with Foundation"
+              ]
+            },
+            {
+              "SubCategoryName": "Power Towers",
+              "MenuPriority": 2,
+              "IsUndefined": 0,
+              "BlueprintNames": [
+                "Power Tower with Walkway"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "New Category",
+          "IconID": 598,
+          "MenuPriority": 6,
+          "IsUndefined": false,
+          "SubCategoryRecords": []
+        }
+      ]
+    }
+  }
+]

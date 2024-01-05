@@ -1,0 +1,139 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Schematics/Progression/BP_GamePhaseManager.BP_GamePhaseManager_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.GamePhaseManager"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mGamePhase": "EGP_LateGame",
+      "mGamePhaseCosts": [
+        {
+          "gamePhase": "EGP_MidGame",
+          "cost": [
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "gamePhase": "EGP_LateGame",
+          "cost": [
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C"
+              },
+              "Amount": 0
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C"
+              },
+              "Amount": 0
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "gamePhase": "EGP_EndGame",
+          "cost": [
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C"
+              },
+              "Amount": 2500
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C"
+              },
+              "Amount": 500
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C"
+              },
+              "Amount": 100
+            }
+          ]
+        },
+        {
+          "gamePhase": "EGP_FoodCourt",
+          "cost": [
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C"
+              },
+              "Amount": 4000
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C"
+              },
+              "Amount": 4000
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C"
+              },
+              "Amount": 1000
+            },
+            {
+              "ItemClass": {
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C"
+              },
+              "Amount": 1000
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

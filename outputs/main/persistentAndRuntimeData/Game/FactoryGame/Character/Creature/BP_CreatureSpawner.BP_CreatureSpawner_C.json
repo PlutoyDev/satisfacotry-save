@@ -1,0 +1,910 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner_C_UAID_04421A9713F0097F01_1583183863"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 151888.765625,
+        "y": -4586.54296875,
+        "z": 15109.8671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner_C_125"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.04450793191790581,
+        "w": 0.9990090131759644
+      },
+      "translation": {
+        "x": -52120.1640625,
+        "y": -638.6798095703125,
+        "z": 23127.630859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ],
+      "mCachedIsNearBase": true
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner399_58"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.08648288249969482,
+        "w": 0.9962533116340637
+      },
+      "translation": {
+        "x": -2356.9013671875,
+        "y": 29742.48828125,
+        "z": 24438.2421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner1085_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.09309220314025879,
+        "w": 0.9956575036048889
+      },
+      "translation": {
+        "x": 34761.21875,
+        "y": -972.1577758789062,
+        "z": 22973.943359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner_C_UAID_04421A9713F0AE7E01_1939295864"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 197287.375,
+        "y": -91.05865478515625,
+        "z": 10381.6298828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner290"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -220486.1875,
+        "y": -1700.8321533203125,
+        "z": -915.806884765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner210"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 92838.703125,
+        "y": 3601.0244140625,
+        "z": 16180.8046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner181"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.023649780079722404,
+        "w": 0.9997202754020691
+      },
+      "translation": {
+        "x": 53863.12109375,
+        "y": -1321.296630859375,
+        "z": 13260.7958984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner_C_UAID_04421A9713F0D28101_1470311347"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -152514.625,
+        "y": 951.8908081054688,
+        "z": 19612.05859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ],
+      "mCachedIsNearBase": true
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner161"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 89204.1875,
+        "y": 92.38433837890625,
+        "z": 17477.1796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner_C_UAID_04421A9713F0DB8101_1306454938"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -130728.890625,
+        "y": 3463.9423828125,
+        "z": 23146.28515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 1,
+          "KilledOnDayNr": -1
+        }
+      ],
+      "mCachedIsNearBase": true
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner975_27"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -138731.546875,
+        "y": 2122.54736328125,
+        "z": 22902.728515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 1,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 1,
+          "KilledOnDayNr": -1
+        }
+      ],
+      "mCachedIsNearBase": true
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner455"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 1089.66015625,
+        "y": -237121.578125,
+        "z": -1587.205810546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 1,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner175"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 69202.984375,
+        "y": -3718.5615234375,
+        "z": 13658.8330078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_EnemySpawner160"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 100664.0078125,
+        "y": -2544.071044921875,
+        "z": 16703.3984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 0,
+          "KilledOnDayNr": -1
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner611"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 103305.765625,
+        "y": -3760.35009765625,
+        "z": 11407.23828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/BP_CreatureSpawner.BP_CreatureSpawner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_CreatureSpawner407"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -1604.4921875,
+        "y": -193883.375,
+        "z": -1655.603515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mSpawnData": [
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 1,
+          "KilledOnDayNr": -1
+        },
+        {
+          "creature": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "WasKilled": false,
+          "NumTimesKilled": 1,
+          "KilledOnDayNr": -1
+        }
+      ],
+      "mCachedIsNearBase": true
+    }
+  }
+]

@@ -1,0 +1,686 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower537_53"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.015469429083168507,
+        "y": 0.031482793390750885,
+        "z": -0.0004873208235949278,
+        "w": 0.9993844628334045
+      },
+      "translation": {
+        "x": -111576.8828125,
+        "y": -160.84765625,
+        "z": 23198.267578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower103_11"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.01090010441839695,
+        "y": -0.029913272708654404,
+        "z": -0.0004371829272713512,
+        "w": 0.9994929432868958
+      },
+      "translation": {
+        "x": -35868.64453125,
+        "y": 439.78515625,
+        "z": 23629.587890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9520739912986755,
+        "w": 0.3058677911758423
+      },
+      "translation": {
+        "x": 1656.296875,
+        "y": -186841.015625,
+        "z": -388.98382568359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower82"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.06655760109424591,
+        "y": 0.023755140602588654,
+        "z": -0.8971759080886841,
+        "w": 0.43598297238349915
+      },
+      "translation": {
+        "x": -10926.59765625,
+        "y": 2105.08984375,
+        "z": 23912.154296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower294"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.061311546713113785,
+        "y": 0.02952522039413452,
+        "z": 0.9537754058837891,
+        "w": 0.2927142083644867
+      },
+      "translation": {
+        "x": -773.26953125,
+        "y": -140468.53125,
+        "z": 15577.3759765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower79_37"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.00798253994435072,
+        "y": 0.015288281254470348,
+        "z": -0.8094817399978638,
+        "w": 0.5868916511535645
+      },
+      "translation": {
+        "x": -8006.625,
+        "y": 1425.59765625,
+        "z": 24088.80078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower448"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9122966527938843,
+        "w": 0.40953004360198975
+      },
+      "translation": {
+        "x": -201365.09375,
+        "y": -1778.453125,
+        "z": 20943.484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower449"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.8596324920654297,
+        "w": 0.5109128952026367
+      },
+      "translation": {
+        "x": -199777.265625,
+        "y": 52.86328125,
+        "z": 21744.66796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower83_46"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0664558857679367,
+        "y": -0.059700824320316315,
+        "z": -0.9848374128341675,
+        "w": 0.14871017634868622
+      },
+      "translation": {
+        "x": -9770.953125,
+        "y": -1591.046875,
+        "z": 24003.064453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower75_25"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.07755637913942337,
+        "y": -0.06793864816427231,
+        "z": -0.0019522280199453235,
+        "w": 0.9946685433387756
+      },
+      "translation": {
+        "x": -509.125,
+        "y": 23597.9921875,
+        "z": 23452.912109375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower295"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0764731839299202,
+        "y": 0.11384948343038559,
+        "z": -0.009400838986039162,
+        "w": 0.9905058145523071
+      },
+      "translation": {
+        "x": -546.38671875,
+        "y": -138311.59375,
+        "z": 15273.6181640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower447"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.007687069941312075,
+        "w": 0.9999704360961914
+      },
+      "translation": {
+        "x": -201871.078125,
+        "y": 24.515625,
+        "z": 20916.53125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower80"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.011846977286040783,
+        "y": -0.07800782471895218,
+        "z": 0.3599928021430969,
+        "w": 0.9296126365661621
+      },
+      "translation": {
+        "x": -11756.81640625,
+        "y": -165.9765625,
+        "z": 23673.115234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower535"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.027813859283924103,
+        "y": 0.00855852197855711,
+        "z": -0.29397574067115784,
+        "w": 0.955369770526886
+      },
+      "translation": {
+        "x": -105655.921875,
+        "y": -949.02734375,
+        "z": 23119.50390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower101_5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.054973240941762924,
+        "y": 0.0014761298662051558,
+        "z": -0.8909047245979309,
+        "w": 0.45084863901138306
+      },
+      "translation": {
+        "x": -30665.478515625,
+        "y": 2148.90234375,
+        "z": 23747.41796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower81_42"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3997853696346283,
+        "w": 0.9166087508201599
+      },
+      "translation": {
+        "x": -7470.921875,
+        "y": -1423.859375,
+        "z": 24108.482421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower536"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0552004873752594,
+        "y": 0.022293105721473694,
+        "z": -0.03737364709377289,
+        "w": 0.9975265264511108
+      },
+      "translation": {
+        "x": -108251.5625,
+        "y": 63.1171875,
+        "z": 23186.01171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower296"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.8200197219848633,
+        "w": 0.5723352432250977
+      },
+      "translation": {
+        "x": -422.26171875,
+        "y": -135331.796875,
+        "z": 13634.6044921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Hazard/SporeCloudPlant/BP_SporeFlower.BP_SporeFlower_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_SporeFlower450"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.038362205028533936,
+        "y": -0.039596106857061386,
+        "z": -0.21830199658870697,
+        "w": 0.9743226766586304
+      },
+      "translation": {
+        "x": -203122.6875,
+        "y": 55.98046875,
+        "z": 18927.65625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

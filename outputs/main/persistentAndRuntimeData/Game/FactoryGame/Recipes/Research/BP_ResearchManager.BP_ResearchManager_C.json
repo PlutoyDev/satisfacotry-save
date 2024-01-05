@@ -1,0 +1,78 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Recipes/Research/BP_ResearchManager.BP_ResearchManager_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.ResearchManager"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mUnlockedResearchTrees": [
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_Quartz.BPD_ResearchTree_Quartz_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_Sulfur.BPD_ResearchTree_Sulfur_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_Caterium.BPD_ResearchTree_Caterium_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_PowerSlugs.BPD_ResearchTree_PowerSlugs_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_Nutrients.BPD_ResearchTree_Nutrients_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_AlienOrganisms.BPD_ResearchTree_AlienOrganisms_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_HardDrive.BPD_ResearchTree_HardDrive_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_Mycelia.BPD_ResearchTree_Mycelia_C"
+        },
+        {
+          "levelName": "",
+          "pathName": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_XMas.BPD_ResearchTree_XMas_C"
+        }
+      ],
+      "mIsActivated": true
+    }
+  }
+]

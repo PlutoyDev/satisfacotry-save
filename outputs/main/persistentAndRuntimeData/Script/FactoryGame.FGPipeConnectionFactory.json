@@ -1,0 +1,1583 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.360202789306641
+      },
+      "mPipeNetworkID": 25,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147131928.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mPipeNetworkID": 25,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147133704.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.760263919830322
+      },
+      "mPipeNetworkID": 32,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147097347.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.694300651550293
+      },
+      "mPipeNetworkID": 32,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147097864.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.900089740753174
+      },
+      "mPipeNetworkID": 34,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147098494.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.876777172088623
+      },
+      "mPipeNetworkID": 34,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147100090.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.456562519073486
+      },
+      "mPipeNetworkID": 33,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147100497.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.900336742401123
+      },
+      "mPipeNetworkID": 33,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147101926.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147127465.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147127465",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999465465545654
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147127465.OutputInventory"
+      },
+      "mPipeNetworkID": 25,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147125066.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147090146.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147090146",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147090146.OutputInventory"
+      },
+      "mPipeNetworkID": 32,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147087597.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086665.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086665",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086665.OutputInventory"
+      },
+      "mPipeNetworkID": 34,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147079522.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086211.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086211",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999814987182617
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086211.OutputInventory"
+      },
+      "mPipeNetworkID": 33,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147084074.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.795931339263916
+      },
+      "mPipeNetworkID": 1,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367533.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.121199131011963
+      },
+      "mPipeNetworkID": 1,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367530.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.13562536239624
+      },
+      "mPipeNetworkID": 4,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147359675.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.172806739807129
+      },
+      "mPipeNetworkID": 4,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147359672.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.171726226806641
+      },
+      "mPipeNetworkID": 7,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147329966.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.754078388214111
+      },
+      "mPipeNetworkID": 7,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147329963.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.544504642486572
+      },
+      "mPipeNetworkID": 10,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147327253.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.585169315338135
+      },
+      "mPipeNetworkID": 10,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147327250.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311766.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311766",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311766.OutputInventory"
+      },
+      "mPipeNetworkID": 1,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147284830.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311033.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311033",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999753475189209
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311033.OutputInventory"
+      },
+      "mPipeNetworkID": 4,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147307119.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147310271.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147310271",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999250888824463
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147310271.OutputInventory"
+      },
+      "mPipeNetworkID": 7,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147307507.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147309925.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147309925",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.9999260902404785
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147309925.OutputInventory"
+      },
+      "mPipeNetworkID": 10,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147308124.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.909215450286865
+      },
+      "mPipeNetworkID": 13,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147197528.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.3811163902282715
+      },
+      "mPipeNetworkID": 13,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147197525.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.263911247253418
+      },
+      "mPipeNetworkID": 16,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147195474.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.807024955749512
+      },
+      "mPipeNetworkID": 16,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147195471.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.50291109085083
+      },
+      "mPipeNetworkID": 19,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147192542.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.618204593658447
+      },
+      "mPipeNetworkID": 19,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147192539.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.441280841827393
+      },
+      "mPipeNetworkID": 26,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147187862.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.787458896636963
+      },
+      "mPipeNetworkID": 26,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147187859.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.838783264160156
+      },
+      "mPipeNetworkID": 29,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147186143.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.076590061187744
+      },
+      "mPipeNetworkID": 29,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147186140.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147174928.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147174928",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147174928.OutputInventory"
+      },
+      "mPipeNetworkID": 13,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147129480.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147123153.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147123153",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999367713928223
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147123153.OutputInventory"
+      },
+      "mPipeNetworkID": 16,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147121132.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147106244.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147106244",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999135971069336
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147106244.OutputInventory"
+      },
+      "mPipeNetworkID": 19,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147105233.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147099449.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147099449",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.9997687339782715
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147099449.OutputInventory"
+      },
+      "mPipeNetworkID": 26,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147097986.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147092900.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147092900",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999595642089844
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147092900.OutputInventory"
+      },
+      "mPipeNetworkID": 29,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147090587.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.OutputInventory"
+      },
+      "mPipeNetworkID": 28,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147326554.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999908447265625
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.OutputInventory"
+      },
+      "mPipeNetworkID": 9,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147360367.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.397261619567871
+      },
+      "mPipeNetworkID": 9,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370779.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 4.937736988067627
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370797.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.973039627075195
+      },
+      "mPipeNetworkID": 9,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370778.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.159629821777344
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370798.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.428275108337402
+      },
+      "mPipeNetworkID": 9,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370777.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 4.214433670043945
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147370790.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.306162357330322
+      },
+      "mPipeNetworkID": 9,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367626.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.435968399047852
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367646.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.461118698120117
+      },
+      "mPipeNetworkID": 9,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367625.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.555960178375244
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147367638.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.664190292358398
+      },
+      "mPipeNetworkID": 28,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333076.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.403654098510742
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333094.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.96613883972168
+      },
+      "mPipeNetworkID": 28,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333075.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.664672374725342
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333095.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mPipeNetworkID": 28,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333074.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.2078776359558105
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147333087.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.695941925048828
+      },
+      "mPipeNetworkID": 28,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147303553.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.315819263458252
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147303573.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.8243489265441895
+      },
+      "mPipeNetworkID": 28,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147303552.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 5.822303295135498
+      },
+      "mInventoryAccessIndex": 1,
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147303565.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 0.0004978738725185394
+      },
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147440078.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101",
+    "pcInfo": {},
+    "properties": {
+      "mInventoryAccessIndex": -1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.99592924118042
+      },
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147440076.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091",
+    "pcInfo": {},
+    "properties": {
+      "mInventoryAccessIndex": -1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.PipeInputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.978601455688477
+      },
+      "mPipeNetworkID": 14,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147410232.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.PipeOutputFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075",
+    "pcInfo": {},
+    "properties": {
+      "mInventoryAccessIndex": -1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.0616536140441895
+      },
+      "mPipeNetworkID": 42,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147265214.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mPipeNetworkID": 42,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147265211.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.063093185424805
+      },
+      "mPipeNetworkID": 41,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147263696.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.209939956665039
+      },
+      "mPipeNetworkID": 41,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147263693.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 7
+      },
+      "mPipeNetworkID": 40,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147262513.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.0533671379089355
+      },
+      "mPipeNetworkID": 40,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147262510.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147250564.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147250564",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.9996538162231445
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147250564.OutputInventory"
+      },
+      "mPipeNetworkID": 42,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147214030.PipelineConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147239171.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147239171",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.999025344848633
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147239171.OutputInventory"
+      },
+      "mPipeNetworkID": 41,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147214817.PipelineConnection0"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionFactory",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147237269.FGPipeConnectionFactory"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147237269",
+    "pcInfo": {},
+    "properties": {
+      "mFluidBox": {
+        "content": 6.9994096755981445
+      },
+      "mConnectionInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147237269.OutputInventory"
+      },
+      "mPipeNetworkID": 40,
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_2147215042.PipelineConnection0"
+      }
+    }
+  }
+]

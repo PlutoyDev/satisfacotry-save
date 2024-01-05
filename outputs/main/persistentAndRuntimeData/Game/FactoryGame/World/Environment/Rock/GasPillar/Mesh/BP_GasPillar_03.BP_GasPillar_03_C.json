@@ -1,0 +1,154 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_GasPillar_03_C_20"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0.258819043636322,
+        "z": 0,
+        "w": 0.9659258127212524
+      },
+      "translation": {
+        "x": -130550,
+        "y": 680,
+        "z": 22750
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_GasPillar_124"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.011669772677123547,
+        "y": 0.02631579339504242,
+        "z": -0.4088679254055023,
+        "w": 0.9121394157409668
+      },
+      "translation": {
+        "x": -1187.421875,
+        "y": -205803.796875,
+        "z": -1610.18359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_GasPillar_03_C_22"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.04494299367070198,
+        "y": -0.2548873722553253,
+        "z": 0.16773004829883575,
+        "w": 0.9512513875961304
+      },
+      "translation": {
+        "x": -135920,
+        "y": -950,
+        "z": 22600
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Environment/Rock/GasPillar/Mesh/BP_GasPillar_03.BP_GasPillar_03_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_GasPillar_96"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.030708108097314835,
+        "y": 0.04923404008150101,
+        "z": 0.0015144377248361707,
+        "w": 0.9983139634132385
+      },
+      "translation": {
+        "x": -2738.84375,
+        "y": -204727.3125,
+        "z": -1407.255126953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDestructibleActorState": "EDestructibleActorState::DSS_Destroyed"
+    }
+  }
+]

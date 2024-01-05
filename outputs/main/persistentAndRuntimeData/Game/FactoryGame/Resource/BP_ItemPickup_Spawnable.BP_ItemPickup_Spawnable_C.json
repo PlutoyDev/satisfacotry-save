@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ItemPickup_Spawnable.BP_ItemPickup_Spawnable_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ItemPickup_Spawnable_C_2147079761"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.10065475106239319,
+        "y": 0.08403372019529343,
+        "z": -0.7020956873893738,
+        "w": 0.6999061703681946
+      },
+      "translation": {
+        "x": -54794.87109375,
+        "y": -129565.4765625,
+        "z": 7015.998046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 500
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ItemPickup_Spawnable.BP_ItemPickup_Spawnable_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ItemPickup_Spawnable_C_2147007078"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -1.470250055035649e-7,
+        "y": 1.470250055035649e-7,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -58244.4375,
+        "y": -145231.015625,
+        "z": 7189.69775390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 22
+        }
+      }
+    }
+  }
+]

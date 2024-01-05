@@ -1,0 +1,1412 @@
+[
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable_365"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.5384181141853333,
+        "y": -0.5175853967666626,
+        "z": -0.6207917332649231,
+        "w": -0.2383880615234375
+      },
+      "translation": {
+        "x": 292717.4375,
+        "y": 14.21875,
+        "z": 850.1952514648438
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 15
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable425_1"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.599193811416626,
+        "y": 0.193149596452713,
+        "z": -0.2610449492931366,
+        "w": 0.7317892909049988
+      },
+      "translation": {
+        "x": 199394.9375,
+        "y": 132916.59375,
+        "z": 406.7619323730469
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 9
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable429_5"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.20887474715709686,
+        "y": -0.1133182942867279,
+        "z": 0.1063518077135086,
+        "w": 0.9655151963233948
+      },
+      "translation": {
+        "x": 200954.96875,
+        "y": 132790.796875,
+        "z": 6797.27099609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 167
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable428_4"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.21030807495117188,
+        "y": 0.013461939990520477,
+        "z": -0.7622058987617493,
+        "w": 0.6120714545249939
+      },
+      "translation": {
+        "x": 198875,
+        "y": 133130.6875,
+        "z": 254.56007385253906
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 448
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable424_0"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.08305734395980835,
+        "y": -0.18026724457740784,
+        "z": 0.9282840490341187,
+        "w": 0.31447410583496094
+      },
+      "translation": {
+        "x": 200307.3125,
+        "y": 133345.1875,
+        "z": 6776.94091796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 6
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable427_3"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.16055069863796234,
+        "y": 0.06227964162826538,
+        "z": -0.8514261245727539,
+        "w": 0.49539706110954285
+      },
+      "translation": {
+        "x": 200044.796875,
+        "y": 132766.6875,
+        "z": 6591.65625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 18
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable426_2"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.05933750420808792,
+        "y": -0.18390032649040222,
+        "z": 0.23193180561065674,
+        "w": 0.9533453583717346
+      },
+      "translation": {
+        "x": 200173.125,
+        "y": 134061.03125,
+        "z": 6622.03466796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 16
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable437"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.007173806894570589,
+        "y": -0.053390372544527054,
+        "z": -0.29574763774871826,
+        "w": 0.95374596118927
+      },
+      "translation": {
+        "x": -79461.78125,
+        "y": 294128.75,
+        "z": -4941.32421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 189
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable438"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.08630365878343582,
+        "y": 0.07487965375185013,
+        "z": 0.9851523637771606,
+        "w": 0.1281386762857437
+      },
+      "translation": {
+        "x": -80777.671875,
+        "y": 292760.9375,
+        "z": -5013.4443359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 500
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable436"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.0530451163649559,
+        "y": -0.04984857514500618,
+        "z": -0.6829923987388611,
+        "w": 0.7267892956733704
+      },
+      "translation": {
+        "x": -78305.296875,
+        "y": 292701,
+        "z": -4818.6552734375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 186
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable435"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.06949418783187866,
+        "y": -0.08631189912557602,
+        "z": -0.1349588930606842,
+        "w": 0.9846354126930237
+      },
+      "translation": {
+        "x": -80321.8515625,
+        "y": 293190,
+        "z": -4996.99560546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 423
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable368"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.003495050361379981,
+        "y": 0.00999818742275238,
+        "z": 0.9439315795898438,
+        "w": 0.3299711346626282
+      },
+      "translation": {
+        "x": 235801.65625,
+        "y": -315678.40625,
+        "z": 9944.9892578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 167
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable185"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.0011665760539472103,
+        "y": -0.004303149878978729,
+        "z": -0.7070931792259216,
+        "w": 0.707106351852417
+      },
+      "translation": {
+        "x": 234882.203125,
+        "y": -313032.15625,
+        "z": 9920.2041015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 6
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable365"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.02044541761279106,
+        "y": 0.0016397775616496801,
+        "z": 0.0798770859837532,
+        "w": 0.9965936541557312
+      },
+      "translation": {
+        "x": 233179.59375,
+        "y": -313652.5625,
+        "z": 9910.4140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 18
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable363"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.025440052151679993,
+        "y": 0.005614053923636675,
+        "z": 0.21550528705120087,
+        "w": 0.9761551022529602
+      },
+      "translation": {
+        "x": 235412.078125,
+        "y": -313192.09375,
+        "z": 9968.087890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 10
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable186"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.019111184403300285,
+        "y": 0.01940258778631687,
+        "z": 0.7121708393096924,
+        "w": 0.7014777660369873
+      },
+      "translation": {
+        "x": 235953.015625,
+        "y": -313224.875,
+        "z": 9964.05078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 9
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable367"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.0148202795535326,
+        "y": 0.0033290814608335495,
+        "z": 0.2191639244556427,
+        "w": 0.9755697846412659
+      },
+      "translation": {
+        "x": 236115.078125,
+        "y": -313769.5625,
+        "z": 9927.642578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 448
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable364"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.010366146452724934,
+        "y": -0.04864459112286568,
+        "z": 0.9768303632736206,
+        "w": 0.20815551280975342
+      },
+      "translation": {
+        "x": 234464,
+        "y": -313291.3125,
+        "z": 9923.5322265625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 16
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable366"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.025137195363640785,
+        "y": 0.005537268705666065,
+        "z": 0.21519958972930908,
+        "w": 0.976230800151825
+      },
+      "translation": {
+        "x": 235022.296875,
+        "y": -313515.25,
+        "z": 9961.4287109375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 30
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable_27"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.06436192989349365,
+        "y": 0.0016286331228911877,
+        "z": 0.025286147370934486,
+        "w": 0.9976049065589905
+      },
+      "translation": {
+        "x": 144686.0625,
+        "y": 93143.578125,
+        "z": 25491.591796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 7
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable_26"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.06514694541692734,
+        "y": 0.009672743268311024,
+        "z": 0.14679977297782898,
+        "w": 0.9869711995124817
+      },
+      "translation": {
+        "x": 146003.59375,
+        "y": 93424.921875,
+        "z": 25519.1015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 11
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable431_7"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.009111623279750347,
+        "y": 0.06478558480739594,
+        "z": 0.9881327152252197,
+        "w": 0.13897307217121124
+      },
+      "translation": {
+        "x": 89425.125,
+        "y": 129746.421875,
+        "z": 9010.458984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 7
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable430_6"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.00032709669903852046,
+        "y": -0.07480291277170181,
+        "z": -0.9971887469291687,
+        "w": 0.00436547864228487
+      },
+      "translation": {
+        "x": 90771.6875,
+        "y": 131123.03125,
+        "z": 9555.6474609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 9
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable433_9"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.005871945526450872,
+        "y": -0.055396370589733124,
+        "z": -0.9928755164146423,
+        "w": 0.10533248633146286
+      },
+      "translation": {
+        "x": 91142.421875,
+        "y": 130047.25,
+        "z": 8992.1630859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 21
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable432_8"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.002915654331445694,
+        "y": -0.04965179041028023,
+        "z": -0.9970428347587585,
+        "w": 0.05858144536614418
+      },
+      "translation": {
+        "x": 90997.84375,
+        "y": 129580.0625,
+        "z": 9063.462890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 12
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable434"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.01102353259921074,
+        "y": -0.10083940625190735,
+        "z": -0.9889171123504639,
+        "w": 0.10841071605682373
+      },
+      "translation": {
+        "x": 90014.453125,
+        "y": 131578.109375,
+        "z": 8640.4140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 146
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable440"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.06157904118299484,
+        "y": 0.03881620988249779,
+        "z": 0.5318335890769958,
+        "w": 0.8437145948410034
+      },
+      "translation": {
+        "x": -152814.265625,
+        "y": 229748.234375,
+        "z": 996.3447265625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 186
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable441"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.04987402260303497,
+        "y": -0.020361170172691345,
+        "z": 0.8488120436668396,
+        "w": 0.5259430408477783
+      },
+      "translation": {
+        "x": -152943.4375,
+        "y": 229333.1875,
+        "z": 933.67578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 189
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable442"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": -0.051310304552316666,
+        "y": -0.08220140635967255,
+        "z": 0.37820568680763245,
+        "w": -0.920635998249054
+      },
+      "translation": {
+        "x": -151403.34375,
+        "y": 229343.109375,
+        "z": 866.5556640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 500
+        }
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGItemPickup_Spawnable",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGItemPickup_Spawnable439"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0.06042466685175896,
+        "y": -0.07524625957012177,
+        "z": 0.9203392267227173,
+        "w": 0.3790284991264343
+      },
+      "translation": {
+        "x": -151735.3125,
+        "y": 228939.96875,
+        "z": 848.00439453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mPickupItems": {
+        "Item": {
+          "itemClass": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+          "reference": {
+            "levelName": "",
+            "pathName": ""
+          },
+          "numItems": 423
+        }
+      }
+    }
+  }
+]

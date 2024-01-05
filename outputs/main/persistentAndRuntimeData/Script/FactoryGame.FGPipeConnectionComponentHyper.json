@@ -1,0 +1,88 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionComponentHyper",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876.PipeHyperConnection1"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876",
+    "pcInfo": {},
+    "properties": {
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147454208.PipeHyperStartConnection"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionComponentHyper",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876.PipeHyperConnection0"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876",
+    "pcInfo": {},
+    "properties": {
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147449823.PipeHyperStartConnection"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionComponentHyper",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperSupport_C_2147454864.PipeHyperSupportSnap"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyperSupport_C_2147454864",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionComponentHyper",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperSupport_C_2147454859.PipeHyperSupportSnap"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyperSupport_C_2147454859",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionComponentHyper",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147454208.PipeHyperStartConnection"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147454208",
+    "pcInfo": {},
+    "properties": {
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876.PipeHyperConnection1"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPipeConnectionComponentHyper",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147449823.PipeHyperStartConnection"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147449823",
+    "pcInfo": {},
+    "properties": {
+      "mConnectedComponent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyper_C_2147454876.PipeHyperConnection0"
+      }
+    }
+  }
+]

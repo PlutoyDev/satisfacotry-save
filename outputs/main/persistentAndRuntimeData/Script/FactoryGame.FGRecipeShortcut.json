@@ -1,0 +1,845 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147410631"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147475642"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147475641"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147475640"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147180651"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mShortcutIndex": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147181041"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x2_01.Recipe_Foundation_8x2_01_C"
+      },
+      "mShortcutIndex": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2146522931"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x2_01.Recipe_Ramp_8x2_01_C"
+      },
+      "mShortcutIndex": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653.FGRecipeShortcut_2147390290"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475653",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Lift.Recipe_FoundationPassthrough_Lift_C"
+      },
+      "mShortcutIndex": 7
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185481"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185462"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185428"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147185383"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupport.Recipe_PipeSupport_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147146531"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_WaterPump.Recipe_WaterPump_C"
+      },
+      "mShortcutIndex": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652.FGRecipeShortcut_2147128392"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475652",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+      },
+      "mShortcutIndex": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146904008"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorBiomass.Recipe_GeneratorBiomass_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146905034"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerTowerPlatform.Recipe_PowerTowerPlatform_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146903383"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147329632"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Mam.Recipe_Mam_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147369395"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_01.Recipe_Ramp_8x4_01_C"
+      },
+      "mShortcutIndex": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147369254"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x2_01.Recipe_Foundation_8x2_01_C"
+      },
+      "mShortcutIndex": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2147106955"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C"
+      },
+      "mShortcutIndex": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644.FGRecipeShortcut_2146261554"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147479215.FGPlayerHotbar_2147475644",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C"
+      },
+      "mShortcutIndex": 7
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474891"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474890"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474889"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147474888"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147253854"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+      },
+      "mShortcutIndex": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147392646"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x2_01.Recipe_Foundation_8x2_01_C"
+      },
+      "mShortcutIndex": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147392403"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x2_01.Recipe_Ramp_8x2_01_C"
+      },
+      "mShortcutIndex": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901.FGRecipeShortcut_2147334187"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474901",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Lift.Recipe_FoundationPassthrough_Lift_C"
+      },
+      "mShortcutIndex": 7
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399355"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399331"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399288"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147399253"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Valve.Recipe_Valve_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147398664"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupport.Recipe_PipeSupport_C"
+      },
+      "mShortcutIndex": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147398612"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupportStackable.Recipe_PipeSupportStackable_C"
+      },
+      "mShortcutIndex": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900.FGRecipeShortcut_2147398463"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474900",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C"
+      },
+      "mShortcutIndex": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147464114"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeHyper.Recipe_PipeHyper_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147464061"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipe_PipeHyperStart.Recipe_PipeHyperStart_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147464028"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeHyperSupport.Recipe_PipeHyperSupport_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899.FGRecipeShortcut_2147463985"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474899",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_HyperPoleStackable.Recipe_HyperPoleStackable_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147391058"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerTowerPlatform.Recipe_PowerTowerPlatform_C"
+      }
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147390949"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+      },
+      "mShortcutIndex": 1
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147390699"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorBiomass.Recipe_GeneratorBiomass_C"
+      },
+      "mShortcutIndex": 2
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147390528"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Mam.Recipe_Mam_C"
+      },
+      "mShortcutIndex": 3
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387581"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Catwalks/Recipe_Catwalk_Straight.Recipe_Catwalk_Straight_C"
+      },
+      "mShortcutIndex": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387945"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x4_01.Recipe_Foundation_8x4_01_C"
+      },
+      "mShortcutIndex": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387903"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_01.Recipe_Ramp_8x4_01_C"
+      },
+      "mShortcutIndex": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387205"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C"
+      },
+      "mShortcutIndex": 7
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGRecipeShortcut",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892.FGRecipeShortcut_2147387171"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_PlayerState_C_2147478888.FGPlayerHotbar_2147474892",
+    "pcInfo": {},
+    "properties": {
+      "mRecipeToActivate": {
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C"
+      },
+      "mShortcutIndex": 8
+    }
+  }
+]

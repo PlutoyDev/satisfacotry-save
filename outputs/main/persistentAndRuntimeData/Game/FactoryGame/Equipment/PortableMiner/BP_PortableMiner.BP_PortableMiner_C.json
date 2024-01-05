@@ -1,0 +1,52 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Equipment/PortableMiner/BP_PortableMiner.BP_PortableMiner_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_PortableMiner_C_2147231947"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -13189.4384765625,
+        "y": -104469.953125,
+        "z": 10950.75390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_PortableMiner_C_2147231947.OutputInventory"
+        }
+      ]
+    },
+    "properties": {
+      "mExtractResourceNode": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_ResourceNode487"
+      },
+      "mOutputInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_PortableMiner_C_2147231947.OutputInventory"
+      }
+    }
+  }
+]

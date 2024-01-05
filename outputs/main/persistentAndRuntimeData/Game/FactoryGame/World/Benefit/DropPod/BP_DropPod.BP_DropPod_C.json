@@ -1,0 +1,5804 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.027210254222154617,
+        "y": -0.012062322348356247,
+        "z": -0.0932372584939003,
+        "w": 0.9951989054679871
+      },
+      "translation": {
+        "x": 174948.34375,
+        "y": -276436.40625,
+        "z": 21151.328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.5569849014282227,
+        "y": -0.054474856704473495,
+        "z": -0.0181173924356699,
+        "w": 0.8285360932350159
+      },
+      "translation": {
+        "x": -108774,
+        "y": 107811,
+        "z": 10154
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.45833027362823486,
+        "y": 0.3281719386577606,
+        "z": 0.7253167629241943,
+        "w": 0.3951609432697296
+      },
+      "translation": {
+        "x": -94708.8515625,
+        "y": 40337.609375,
+        "z": 19832.365234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.09654461592435837,
+        "y": 0.22426027059555054,
+        "z": 0.05292529985308647,
+        "w": 0.9682899117469788
+      },
+      "translation": {
+        "x": -56144.28125,
+        "y": -72864.0546875,
+        "z": 27668.361328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.23073787987232208,
+        "y": -0.04768841341137886,
+        "z": -0.030914271250367165,
+        "w": 0.9713547825813293
+      },
+      "translation": {
+        "x": -56987.55859375,
+        "y": -144603.625,
+        "z": 2072.423828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.19938741624355316,
+        "y": 0.40740570425987244,
+        "z": 0.09163257479667664,
+        "w": 0.8864923715591431
+      },
+      "translation": {
+        "x": 94267,
+        "y": 47237,
+        "z": 9435
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.4908977448940277,
+        "y": -0.5676199197769165,
+        "z": -0.27689599990844727,
+        "w": 0.6001296639442444
+      },
+      "translation": {
+        "x": 21373.3828125,
+        "y": 132336.28125,
+        "z": 2510.828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.12986184656620026,
+        "y": 0.12296692281961441,
+        "z": -0.827742338180542,
+        "w": 0.5318436026573181
+      },
+      "translation": {
+        "x": -108812.875,
+        "y": 214051.125,
+        "z": 3200.816650390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.009549354203045368,
+        "y": -0.015496251173317432,
+        "z": -0.09272731840610504,
+        "w": 0.9955251216888428
+      },
+      "translation": {
+        "x": 219146.140625,
+        "y": -199880.15625,
+        "z": 6503.64990234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod37"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.030360328033566475,
+        "y": -0.02029246836900711,
+        "z": -0.03802746534347534,
+        "w": 0.9986092448234558
+      },
+      "translation": {
+        "x": 44579.46484375,
+        "y": -244343.984375,
+        "z": -874.5206298828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod37.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod37.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod37.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod37.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.27137574553489685,
+        "y": 0.5041741728782654,
+        "z": 0.755672037601471,
+        "w": 0.3179990351200104
+      },
+      "translation": {
+        "x": -195756.015625,
+        "y": -59210.41015625,
+        "z": -84.3333740234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.6597397923469543,
+        "y": 0.17677870392799377,
+        "z": -0.6356433629989624,
+        "w": 0.3597918450832367
+      },
+      "translation": {
+        "x": 232255.375,
+        "y": 79925.5546875,
+        "z": -1275.73828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.025085318833589554,
+        "y": 0.1691114902496338,
+        "z": -0.1445702612400055,
+        "w": 0.9746134877204895
+      },
+      "translation": {
+        "x": 188304,
+        "y": 17059,
+        "z": 12949
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod31"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.1609138548374176,
+        "y": 0.10459446907043457,
+        "z": -0.9148104786872864,
+        "w": 0.3553708791732788
+      },
+      "translation": {
+        "x": 200510.453125,
+        "y": 131912.359375,
+        "z": 6341.11279296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod31.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod31.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod31.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod31.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0965740978717804,
+        "y": -0.1701386570930481,
+        "z": 0.016757195815443993,
+        "w": 0.980533242225647
+      },
+      "translation": {
+        "x": 115978,
+        "y": 21424,
+        "z": 15519
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.19390563666820526,
+        "y": -0.01154983788728714,
+        "z": -0.05833912640810013,
+        "w": 0.9792158603668213
+      },
+      "translation": {
+        "x": 150633.921875,
+        "y": 146698.78125,
+        "z": 7727.5146484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.3302094340324402,
+        "y": -0.02789209969341755,
+        "z": -0.4134586751461029,
+        "w": 0.848077654838562
+      },
+      "translation": {
+        "x": 349295.3125,
+        "y": -38831.99609375,
+        "z": -1485.3040771484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.7320746183395386,
+        "y": -0.2716725468635559,
+        "z": 0.12093357741832733,
+        "w": 0.6128913760185242
+      },
+      "translation": {
+        "x": -40194.1171875,
+        "y": 62956.59375,
+        "z": 26261.65625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.813716471195221,
+        "y": -0.13953065872192383,
+        "z": 0.5642487406730652,
+        "w": -0.00447916891425848
+      },
+      "translation": {
+        "x": 207683.09375,
+        "y": -68352.875,
+        "z": 3927.010986328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.1171485111117363,
+        "y": -0.23441669344902039,
+        "z": -0.26981520652770996,
+        "w": 0.9265661239624023
+      },
+      "translation": {
+        "x": -157080.046875,
+        "y": -67028.15625,
+        "z": 11766.45703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod20"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.43941617012023926,
+        "y": -0.4812481105327606,
+        "z": -0.5407286286354065,
+        "w": 0.5319080948829651
+      },
+      "translation": {
+        "x": 66652.421875,
+        "y": -13642.076171875,
+        "z": 13420.91796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod20.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod20.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod20.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod20.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod8"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.03814565762877464,
+        "y": -0.6248655915260315,
+        "z": 0.029400505125522614,
+        "w": 0.7792454957962036
+      },
+      "translation": {
+        "x": 261797.5,
+        "y": 124616.828125,
+        "z": -2597.287109375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod8.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod8.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod8.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod8.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.382683664560318,
+        "w": 0.9238794445991516
+      },
+      "translation": {
+        "x": 176423.359375,
+        "y": 243273.59375,
+        "z": -9780.2314453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0994349867105484,
+        "y": 0.46986818313598633,
+        "z": -0.8125858902931213,
+        "w": 0.33021312952041626
+      },
+      "translation": {
+        "x": 293299.28125,
+        "y": 51.7546272277832,
+        "z": 522.8636474609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.7281786799430847,
+        "y": -0.6643320918083191,
+        "z": -0.08843516558408737,
+        "w": 0.14351961016654968
+      },
+      "translation": {
+        "x": 191366.203125,
+        "y": 37694.171875,
+        "z": 5676.720703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.25609827041625977,
+        "y": -0.14459657669067383,
+        "z": 0.6402779817581177,
+        "w": 0.7096123099327087
+      },
+      "translation": {
+        "x": 28695.544921875,
+        "y": 193441.09375,
+        "z": 17459.802734375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.5547969937324524,
+        "y": -0.01757180504500866,
+        "z": 0.8310319781303406,
+        "w": 0.03574034944176674
+      },
+      "translation": {
+        "x": 87739.6796875,
+        "y": -62975.45703125,
+        "z": 13444.25
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0009284084080718458,
+        "y": -0.017128854990005493,
+        "z": 0.9983866810798645,
+        "w": 0.05412779375910759
+      },
+      "translation": {
+        "x": -35359.9921875,
+        "y": 116594.390625,
+        "z": 21827.935546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.4701523184776306,
+        "y": -0.4170083701610565,
+        "z": -0.5826586484909058,
+        "w": 0.5153345465660095
+      },
+      "translation": {
+        "x": 35082.1328125,
+        "y": 16211.3359375,
+        "z": 22759.03515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod13"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.013125969097018242,
+        "y": 0.10706882923841476,
+        "z": 0.32824158668518066,
+        "w": 0.9384143352508545
+      },
+      "translation": {
+        "x": 55247.98828125,
+        "y": -51316.34375,
+        "z": 14363.263671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod13.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod13.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod13.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod13.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.05311974138021469,
+        "y": -0.2512446939945221,
+        "z": 0.8476503491401672,
+        "w": 0.4642663896083832
+      },
+      "translation": {
+        "x": 127215.8828125,
+        "y": -116866.953125,
+        "z": -1397.322021484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.03491522744297981,
+        "y": -0.12527300417423248,
+        "z": -0.15474948287010193,
+        "w": 0.9793570041656494
+      },
+      "translation": {
+        "x": -89284,
+        "y": -50630,
+        "z": 16019
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod19"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0014791572466492653,
+        "y": -0.1032029241323471,
+        "z": 0.9937756657600403,
+        "w": 0.04191504791378975
+      },
+      "translation": {
+        "x": 8680,
+        "y": -41777.97265625,
+        "z": 13053.4443359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod19.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod19.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod19.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod19.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.6940656900405884,
+        "y": -0.2910114824771881,
+        "z": -0.46008679270744324,
+        "w": 0.47106826305389404
+      },
+      "translation": {
+        "x": -174494.890625,
+        "y": -197134.84375,
+        "z": -1538.0528564453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.05892005190253258,
+        "y": -0.1670379638671875,
+        "z": -0.48785462975502014,
+        "w": 0.8547658324241638
+      },
+      "translation": {
+        "x": 216096.71875,
+        "y": -268.4361877441406,
+        "z": -1592.905517578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.16616860032081604,
+        "y": 0.10454654693603516,
+        "z": -0.1405375897884369,
+        "w": 0.9704160094261169
+      },
+      "translation": {
+        "x": 46048.18359375,
+        "y": 141933.078125,
+        "z": 13064.6240234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.12096187472343445,
+        "y": 0.4601063132286072,
+        "z": -0.8703239560127258,
+        "w": 0.1273053139448166
+      },
+      "translation": {
+        "x": 232138,
+        "y": 27191,
+        "z": -1629
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod10.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod10.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod10.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod10.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.2679233253002167,
+        "y": -0.9535162448883057,
+        "z": -0.13789866864681244,
+        "w": 0.0027913108933717012
+      },
+      "translation": {
+        "x": 30383.755859375,
+        "y": 266975.65625,
+        "z": -987.3851928710938
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.025866612792015076,
+        "y": 0.0741625428199768,
+        "z": -0.9553694725036621,
+        "w": 0.2847805917263031
+      },
+      "translation": {
+        "x": -29068.62890625,
+        "y": -22640.40234375,
+        "z": 17384.154296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod35"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.012634980492293835,
+        "y": -0.01711186207830906,
+        "z": 0.2030123770236969,
+        "w": 0.9789450764656067
+      },
+      "translation": {
+        "x": 5302.2138671875,
+        "y": -187090.59375,
+        "z": -1608.4810791015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod35.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod35.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod35.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod35.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.5259369015693665,
+        "y": 0.8038733005523682,
+        "z": -0.27771449089050293,
+        "w": 0.0072663952596485615
+      },
+      "translation": {
+        "x": -238333.984375,
+        "y": 17321.701171875,
+        "z": 19741.078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.027577923610806465,
+        "y": 0.26063859462738037,
+        "z": 0.9247795343399048,
+        "w": 0.2758437395095825
+      },
+      "translation": {
+        "x": -146044.0625,
+        "y": -137047.46875,
+        "z": 2357.789306640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.05420919507741928,
+        "y": -0.0977911725640297,
+        "z": -0.47116801142692566,
+        "w": 0.8749279975891113
+      },
+      "translation": {
+        "x": 187056.4375,
+        "y": 223656.734375,
+        "z": -3215.46728515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.03153744712471962,
+        "y": -0.11347448080778122,
+        "z": -0.841350793838501,
+        "w": 0.5275014638900757
+      },
+      "translation": {
+        "x": -189258.109375,
+        "y": 116331,
+        "z": -1764.3046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.12470418214797974,
+        "y": 0.036517124623060226,
+        "z": 0.9635682106018066,
+        "w": 0.23377707600593567
+      },
+      "translation": {
+        "x": 17807.6953125,
+        "y": -136922.796875,
+        "z": 13621.9619140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.1040722206234932,
+        "y": 0.28723928332328796,
+        "z": -0.8952385783195496,
+        "w": 0.3243616223335266
+      },
+      "translation": {
+        "x": 88323.6953125,
+        "y": 188913.625,
+        "z": 1420.112060546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod12"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.023270444944500923,
+        "y": 0.03852059319615364,
+        "z": -0.0016506215324625373,
+        "w": 0.9989854693412781
+      },
+      "translation": {
+        "x": -4706.82080078125,
+        "y": -76301.984375,
+        "z": 13618.501953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod12.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod12.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod12.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod12.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.11066309362649918,
+        "y": -0.7528948783874512,
+        "z": -0.6433097720146179,
+        "w": -0.08399689942598343
+      },
+      "translation": {
+        "x": 163999,
+        "y": 61333,
+        "z": 21481
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -43144,
+        "y": 145820,
+        "z": 7472
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.007183080539107323,
+        "y": 0.18049649894237518,
+        "z": -0.5463842153549194,
+        "w": 0.8178225159645081
+      },
+      "translation": {
+        "x": -95228.078125,
+        "y": 6970.71826171875,
+        "z": 25142.943359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.1487238109111786,
+        "y": -0.09564082324504852,
+        "z": 0.9447490572929382,
+        "w": 0.27601319551467896
+      },
+      "translation": {
+        "x": -200203.453125,
+        "y": -17766.8046875,
+        "z": 12193.2958984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod18"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.4476114809513092,
+        "y": 0.03900715336203575,
+        "z": -0.6952459216117859,
+        "w": 0.5610307455062866
+      },
+      "translation": {
+        "x": -259577.125,
+        "y": 105048.828125,
+        "z": -1548.1669921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod18.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod18.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod18.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod18.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.28042539954185486,
+        "y": -0.14529302716255188,
+        "z": -0.9488154053688049,
+        "w": 0.0009127269731834531
+      },
+      "translation": {
+        "x": 144456.53125,
+        "y": 36294.046875,
+        "z": 17301.25390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.32706376910209656,
+        "y": -0.778032124042511,
+        "z": -0.22280403971672058,
+        "w": -0.48790740966796875
+      },
+      "translation": {
+        "x": 232515.75,
+        "y": -20519.28515625,
+        "z": 8979.958984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.49438709020614624,
+        "y": -0.3488798141479492,
+        "z": -0.5709242820739746,
+        "w": 0.5548961758613586
+      },
+      "translation": {
+        "x": 226418.21875,
+        "y": 98109.5078125,
+        "z": 7339.3720703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.14380566775798798,
+        "y": -0.11783089488744736,
+        "z": -0.9748280048370361,
+        "w": 0.12306981533765793
+      },
+      "translation": {
+        "x": -3511.89208984375,
+        "y": 62314.76953125,
+        "z": 22109.423828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod25"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.012052690610289574,
+        "y": -0.027214674279093742,
+        "z": 0.9951659440994263,
+        "w": 0.09358895570039749
+      },
+      "translation": {
+        "x": 159088.34375,
+        "y": -145116.40625,
+        "z": 23164.8515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod25.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod25.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod25.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod25.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod23"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.12532301247119904,
+        "y": 0.047219593077898026,
+        "z": -0.7521137595176697,
+        "w": 0.6452823281288147
+      },
+      "translation": {
+        "x": 360285,
+        "y": -217558.578125,
+        "z": 3900.66015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod23.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod23.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod23.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod23.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.11328639090061188,
+        "y": 0.1615905612707138,
+        "z": -0.013498470187187195,
+        "w": 0.9802410006523132
+      },
+      "translation": {
+        "x": -232498,
+        "y": -51432,
+        "z": -386
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod33"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -78884,
+        "y": 292640,
+        "z": -4763
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod33.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod33.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod33.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod33.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.030266355723142624,
+        "y": 0.06581047922372818,
+        "z": -0.7553160190582275,
+        "w": 0.6513452529907227
+      },
+      "translation": {
+        "x": 170057.671875,
+        "y": -10579.9609375,
+        "z": 18823.9140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.03149416297674179,
+        "y": -0.009751642122864723,
+        "z": 0.9616842865943909,
+        "w": 0.27216967940330505
+      },
+      "translation": {
+        "x": 275070,
+        "y": -52585,
+        "z": 5980.0810546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.42414572834968567,
+        "y": 0.027646347880363464,
+        "z": 0.4720565974712372,
+        "w": 0.7723332643508911
+      },
+      "translation": {
+        "x": 47834.35546875,
+        "y": 195703.109375,
+        "z": 2943.685546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.4111105501651764,
+        "y": 0.16667236387729645,
+        "z": 0.19027812778949738,
+        "w": 0.8757869005203247
+      },
+      "translation": {
+        "x": 188233.390625,
+        "y": 177201.390625,
+        "z": 9608.296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.438585489988327,
+        "y": -0.33734914660453796,
+        "z": -0.28211137652397156,
+        "w": 0.7837419509887695
+      },
+      "translation": {
+        "x": 272715.125,
+        "y": 28087.708984375,
+        "z": -1586.1102294921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.030761156231164932,
+        "y": -0.2884223759174347,
+        "z": -0.7085577249526978,
+        "w": 0.6432823538780212
+      },
+      "translation": {
+        "x": -247303.5625,
+        "y": -142348.265625,
+        "z": 4524.17041015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.027210252359509468,
+        "y": -0.01206232514232397,
+        "z": -0.0932372584939003,
+        "w": 0.9951989054679871
+      },
+      "translation": {
+        "x": 236508.34375,
+        "y": -312236.40625,
+        "z": 9971.1552734375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.8595708012580872,
+        "y": 0.33983221650123596,
+        "z": 0.21665167808532715,
+        "w": 0.31418803334236145
+      },
+      "translation": {
+        "x": -123677.3671875,
+        "y": -167107.46875,
+        "z": 29710.71875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.09171289950609207,
+        "y": -0.17061550915241241,
+        "z": 0.803637683391571,
+        "w": 0.5627126693725586
+      },
+      "translation": {
+        "x": -142000,
+        "y": 23970,
+        "z": 32660
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.12463681399822235,
+        "y": 0.1424470990896225,
+        "z": -0.9000384211540222,
+        "w": 0.39256253838539124
+      },
+      "translation": {
+        "x": 295166.53125,
+        "y": -173139.6875,
+        "z": 8083.01513671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.06383459270000458,
+        "y": 0.4243161082267761,
+        "z": -0.3898026645183563,
+        "w": 0.8148220181465149
+      },
+      "translation": {
+        "x": 156569.671875,
+        "y": 191767.78125,
+        "z": -9312.1083984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.06121551990509033,
+        "y": 0.3477992117404938,
+        "z": -0.045133911073207855,
+        "w": 0.9344791769981384
+      },
+      "translation": {
+        "x": -9988.3759765625,
+        "y": 227625.5,
+        "z": -1017.2890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.3373758792877197,
+        "y": 0.27080637216567993,
+        "z": -0.1541091799736023,
+        "w": 0.8883084058761597
+      },
+      "translation": {
+        "x": 125497.3515625,
+        "y": -34949.3828125,
+        "z": 8220.5615234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.08895062655210495,
+        "y": 0.020891858264803886,
+        "z": -0.9770656228065491,
+        "w": 0.1923384666442871
+      },
+      "translation": {
+        "x": 98306.2890625,
+        "y": -149781.84375,
+        "z": 2552.47119140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.04357928782701492,
+        "y": 0.0435778871178627,
+        "z": -0.0019026738591492176,
+        "w": 0.99809730052948
+      },
+      "translation": {
+        "x": 94940,
+        "y": 105482.9609375,
+        "z": 9860.046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.12952691316604614,
+        "y": 0.15779650211334229,
+        "z": -0.756667971611023,
+        "w": 0.6211091876029968
+      },
+      "translation": {
+        "x": 303169.40625,
+        "y": -246169.015625,
+        "z": 5487.82373046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.1478140950202942,
+        "y": -0.16116629540920258,
+        "z": 0.7232717871665955,
+        "w": 0.655022382736206
+      },
+      "translation": {
+        "x": -26327.44921875,
+        "y": -129047.5,
+        "z": 7780.93212890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.10107042640447617,
+        "y": -0.09919241070747375,
+        "z": -0.9896551370620728,
+        "w": 0.022984646260738373
+      },
+      "translation": {
+        "x": 360114.71875,
+        "y": -106614.1328125,
+        "z": 11815.2353515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.16354340314865112,
+        "y": 0,
+        "z": 0,
+        "w": 0.9865361452102661
+      },
+      "translation": {
+        "x": 64696.55859375,
+        "y": 156038.6875,
+        "z": 14067.2109375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.32104745507240295,
+        "y": -0.41726598143577576,
+        "z": 0.5842580795288086,
+        "w": 0.6176245808601379
+      },
+      "translation": {
+        "x": 291821.78125,
+        "y": 74782.0546875,
+        "z": -1574.70361328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.006502233911305666,
+        "y": -0.017403779551386833,
+        "z": -0.9379172921180725,
+        "w": 0.346360981464386
+      },
+      "translation": {
+        "x": -50655.65234375,
+        "y": -259272.375,
+        "z": -1667.7264404296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.008659560233354568,
+        "y": -0.04095018655061722,
+        "z": 0.7502586841583252,
+        "w": 0.659818172454834
+      },
+      "translation": {
+        "x": -135.6539306640625,
+        "y": -237257.375,
+        "z": -1760.7264404296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.3669850826263428,
+        "y": -0.337131142616272,
+        "z": 0.7856473326683044,
+        "w": 0.36663711071014404
+      },
+      "translation": {
+        "x": 143671.609375,
+        "y": 92573.4765625,
+        "z": 24990.03515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.22416560351848602,
+        "y": -0.1102018803358078,
+        "z": 0.4040530323982239,
+        "w": 0.879969596862793
+      },
+      "translation": {
+        "x": -152676.609375,
+        "y": 33864.58984375,
+        "z": 19283.484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.16549691557884216,
+        "y": -0.43945935368537903,
+        "z": 0.8786717057228088,
+        "w": 0.08615245670080185
+      },
+      "translation": {
+        "x": 157249.75,
+        "y": -40206.21875,
+        "z": 13694.84765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.19390563666820526,
+        "y": -0.011549841612577438,
+        "z": -0.05833912640810013,
+        "w": 0.9792158603668213
+      },
+      "translation": {
+        "x": 90313.921875,
+        "y": 129583.78125,
+        "z": 9112.5146484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.07724583148956299,
+        "y": 0.1210220605134964,
+        "z": 0.46931999921798706,
+        "w": 0.8712780475616455
+      },
+      "translation": {
+        "x": -118480.78125,
+        "y": 74929.7578125,
+        "z": 16995.3515625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.22411870956420898,
+        "y": 0.2333218902349472,
+        "z": -0.35941362380981445,
+        "w": 0.8753019571304321
+      },
+      "translation": {
+        "x": -157077.9375,
+        "y": -6312.6201171875,
+        "z": 25128.533203125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.25677362084388733,
+        "y": 0.12647005915641785,
+        "z": -0.06535930931568146,
+        "w": 0.9559292793273926
+      },
+      "translation": {
+        "x": 46951.75,
+        "y": 221859.125,
+        "z": 5917.33154296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.043012429028749466,
+        "y": -0.6181186437606812,
+        "z": 0.7812671661376953,
+        "w": 0.07550431042909622
+      },
+      "translation": {
+        "x": -33340.2265625,
+        "y": 5176.29150390625,
+        "z": 23519.095703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.7100512981414795,
+        "y": 0.25734132528305054,
+        "z": 0.22333410382270813,
+        "w": 0.616217851638794
+      },
+      "translation": {
+        "x": 118349.953125,
+        "y": 221905.25,
+        "z": -7063.04296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -151842,
+        "y": 72468,
+        "z": 9945
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0060916380025446415,
+        "y": -0.1645229160785675,
+        "z": -0.7099061608314514,
+        "w": 0.6847834587097168
+      },
+      "translation": {
+        "x": -121994,
+        "y": 166916,
+        "z": -49
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.06204492226243019,
+        "y": 0.4845018982887268,
+        "z": -0.4588916003704071,
+        "w": 0.7421770691871643
+      },
+      "translation": {
+        "x": 249919.5,
+        "y": 59534.234375,
+        "z": 2430.315185546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.06561785191297531,
+        "w": 0.9978448152542114
+      },
+      "translation": {
+        "x": -129115,
+        "y": 60165,
+        "z": 4800
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.21163472533226013,
+        "y": -0.4473806321620941,
+        "z": 0.046611517667770386,
+        "w": 0.8676915764808655
+      },
+      "translation": {
+        "x": -78236.40625,
+        "y": 90857.046875,
+        "z": 20305.7734375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod38"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.018066955730319023,
+        "y": -0.029624098911881447,
+        "z": 0.9862040877342224,
+        "w": 0.1618564873933792
+      },
+      "translation": {
+        "x": 84256.1328125,
+        "y": -171122.515625,
+        "z": -290.7247009277344
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod38.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod38.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod38.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod38.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 198418,
+        "y": -41186,
+        "z": 13786
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod26"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0611846037209034,
+        "y": -0.03180430084466934,
+        "z": 0.9933555126190186,
+        "w": 0.0921400636434555
+      },
+      "translation": {
+        "x": -55111.1015625,
+        "y": -204857.859375,
+        "z": 7844.7626953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod26.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod26.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod26.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mHasBeenOpened": true,
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod26.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.3096641004085541,
+        "y": -0.2950161397457123,
+        "z": 0.3301832973957062,
+        "w": 0.8414586186408997
+      },
+      "translation": {
+        "x": 241532,
+        "y": 131343,
+        "z": 17157
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod22"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.16612926125526428,
+        "y": 0.09591526538133621,
+        "z": -0.16830407083034515,
+        "w": 0.9668893814086914
+      },
+      "translation": {
+        "x": 366637.46875,
+        "y": -303548.8125,
+        "z": -7288.51318359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod22.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod22.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod22.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod22.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.6941865682601929,
+        "y": -0.43169739842414856,
+        "z": 0.5645998120307922,
+        "w": -0.11388346552848816
+      },
+      "translation": {
+        "x": 12249.8037109375,
+        "y": 114177.2265625,
+        "z": 26721.71875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.15763984620571136,
+        "y": -0.07460089772939682,
+        "z": 0.8730683922767639,
+        "w": 0.455341637134552
+      },
+      "translation": {
+        "x": 111212.859375,
+        "y": -113040.625,
+        "z": 12036.1845703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.14586754143238068,
+        "y": -0.036406002938747406,
+        "z": -0.9868736863136292,
+        "w": 0.05897113308310509
+      },
+      "translation": {
+        "x": 111479,
+        "y": -54515,
+        "z": 17081
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod34"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.9679087400436401,
+        "w": 0.251302033662796
+      },
+      "translation": {
+        "x": -152279,
+        "y": 229520,
+        "z": 1052
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod34.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod34.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod34.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod34.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 121061,
+        "y": 45324,
+        "z": 17373
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538.inventory"
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/DropPod/BP_DropPod.BP_DropPod_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.06316552311182022,
+        "y": -0.07817371934652328,
+        "z": 0.5640442967414856,
+        "w": 0.8196054100990295
+      },
+      "translation": {
+        "x": 80980,
+        "y": -44100,
+        "z": 8303
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": [
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1.PowerInfoComponent"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1.inventory"
+        },
+        {
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1.PowerInput"
+        }
+      ]
+    },
+    "properties": {
+      "mInventory": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1.inventory"
+      }
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/-Shared/Blueprint/BP_TutorialIntroManager.BP_TutorialIntroManager_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.TutorialIntroManager"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BP_GameState_C_2147479556"
+      },
+      "children": []
+    },
+    "properties": {
+      "mTradingPostBuilt": true,
+      "mPendingTutorial": "EIntroTutorialSteps::ITS_DONE",
+      "mHasCompletedIntroTutorial": true,
+      "mHasCompletedIntroSequence": true,
+      "mTradingPost": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Build_TradingPost_C_2146432488"
+      },
+      "mDidPickUpIronOre": true,
+      "mDidDismantleDropPod": true,
+      "mDidEquipStunSpear": true,
+      "mDidStep1Upgrade": true,
+      "mDidStep1_5Upgrade": true,
+      "mDidStep2Upgrade": true,
+      "mDidStep3Upgrade": true,
+      "mDidStep4Upgrade": true,
+      "mDidStep5Upgrade": true,
+      "mTradingPostLevel": 6,
+      "mDidOpenCodex": true
+    }
+  }
+]

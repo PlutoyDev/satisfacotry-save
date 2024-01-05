@@ -1,0 +1,206 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush1298_29132"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.8730641007423401,
+        "w": 0.4876054525375366
+      },
+      "translation": {
+        "x": 20,
+        "y": 268695,
+        "z": -1650
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBerryIndex": 2,
+      "mSavedNumItems": 3
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush329_25"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7819511890411377,
+        "w": 0.6233396530151367
+      },
+      "translation": {
+        "x": 51.15625,
+        "y": -55555.73046875,
+        "z": 15190.9736328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBerryIndex": 0,
+      "mPickupItems": {
+        "NumItems": 2
+      },
+      "mSavedNumItems": 2
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush522_363"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.01702510565519333,
+        "y": 0.10234774649143219,
+        "z": -0.8122960329055786,
+        "w": 0.5739426612854004
+      },
+      "translation": {
+        "x": 188997.1875,
+        "y": -35.7265625,
+        "z": 11228.634765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBerryIndex": 0,
+      "mPickupItems": {
+        "NumItems": 2
+      },
+      "mSavedNumItems": 2
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush1166"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.04553348943591118,
+        "y": -0.1394866704940796,
+        "z": -0.3069618344306946,
+        "w": 0.9403427839279175
+      },
+      "translation": {
+        "x": 162023.484375,
+        "y": 78.73046875,
+        "z": 15543.236328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBerryIndex": 2,
+      "mSavedNumItems": 3
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/World/Benefit/BerryBush/BP_BerryBush.BP_BerryBush_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_BerryBush1379"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.8760859370231628,
+        "w": 0.4821549654006958
+      },
+      "translation": {
+        "x": -74.78125,
+        "y": 296497.75,
+        "z": 24.93023681640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBerryIndex": 2,
+      "mPickupItems": {
+        "NumItems": 1
+      },
+      "mSavedNumItems": 3
+    }
+  }
+]

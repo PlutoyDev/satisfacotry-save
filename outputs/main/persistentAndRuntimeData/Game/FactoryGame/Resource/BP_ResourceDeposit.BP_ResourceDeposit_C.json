@@ -1,0 +1,362 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit795"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.5772613286972046,
+        "y": 0.35849785804748535,
+        "z": 0.2293998897075653,
+        "w": 0.6968675255775452
+      },
+      "translation": {
+        "x": -344.625,
+        "y": -52400.5078125,
+        "z": 14248.9150390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 0,
+      "mMineAmount": 5,
+      "mResourcesLeft": 51
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit313_20"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.17365053296089172,
+        "w": 0.9848073124885559
+      },
+      "translation": {
+        "x": 53.1484375,
+        "y": -87190.8828125,
+        "z": 10713.4462890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 6,
+      "mMineAmount": 5,
+      "mResourcesLeft": 14
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit1642"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.599360466003418,
+        "y": -0.0894245058298111,
+        "z": -0.5005342364311218,
+        "w": 0.6182522177696228
+      },
+      "translation": {
+        "x": 159055,
+        "y": -126925,
+        "z": 9480
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 9,
+      "mMineAmount": 5,
+      "mResourcesLeft": 53
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit792"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.5948799252510071,
+        "y": 0.45474088191986084,
+        "z": 0.6400696635246277,
+        "w": -0.17216120660305023
+      },
+      "translation": {
+        "x": -270.83203125,
+        "y": -52414.55078125,
+        "z": 13356.318359375
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 0,
+      "mMineAmount": 5,
+      "mResourcesLeft": 53
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit420_219"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.7605151534080505,
+        "y": -0.11997604370117188,
+        "z": -0.6331437230110168,
+        "w": -0.07969630509614944
+      },
+      "translation": {
+        "x": 242288.890625,
+        "y": 227.00390625,
+        "z": 1458.0277099609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 8,
+      "mMineAmount": 2,
+      "mResourcesLeft": 57
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit546"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.04998994991183281,
+        "y": 0.07139403373003006,
+        "z": 0.8160344958305359,
+        "w": 0.5713944435119629
+      },
+      "translation": {
+        "x": -130010,
+        "y": 100,
+        "z": 22828.9921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 1,
+      "mMineAmount": 5,
+      "mResourcesLeft": 21
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit82_5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.4257079064846039,
+        "y": 0.2873605787754059,
+        "z": 0.6342484354972839,
+        "w": 0.5778629183769226
+      },
+      "translation": {
+        "x": 126029.65625,
+        "y": 263.859375,
+        "z": 13772.4560546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 6,
+      "mMineAmount": 5,
+      "mResourcesLeft": 11
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit810"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 38167.39453125,
+        "y": 31.40625,
+        "z": 14637.8017578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 0,
+      "mMineAmount": 5,
+      "mResourcesLeft": 45
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_ResourceDeposit.BP_ResourceDeposit_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ResourceDeposit793"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.1020064726471901,
+        "y": 0.01741706393659115,
+        "z": -0.03913171961903572,
+        "w": 0.993861198425293
+      },
+      "translation": {
+        "x": -91.30859375,
+        "y": -51548.44921875,
+        "z": 13402.8447265625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mResourceDepositTableIndex": 6,
+      "mMineAmount": 5,
+      "mResourcesLeft": 13
+    }
+  }
+]

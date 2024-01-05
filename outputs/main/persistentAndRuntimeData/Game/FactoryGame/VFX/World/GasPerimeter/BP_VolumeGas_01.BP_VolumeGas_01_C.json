@@ -1,0 +1,350 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_04D9F5D25C209A8001_2103820458"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 78430,
+        "y": 300,
+        "z": 13330
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_D8CB8A31967EA77E01_1845740620"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 3540,
+        "y": 239680,
+        "z": 590
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_UAID_40B076DF2F79056401_1361850658"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.05239739641547203,
+        "y": 0,
+        "z": 0,
+        "w": 0.9986262917518616
+      },
+      "translation": {
+        "x": -1852,
+        "y": -157897.1875,
+        "z": -605.1607666015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_D8CB8A31967EB57E01_1851294074"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -169070,
+        "y": 3980,
+        "z": 21520
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_UAID_40B076DF2F791D6201_1502201752"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.05239739641547203,
+        "y": 0,
+        "z": 0,
+        "w": 0.9986262917518616
+      },
+      "translation": {
+        "x": -3604,
+        "y": -201997.1875,
+        "z": -679.1607666015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mRemovedWorldLocations": [
+        {
+          "x": -1187.421875,
+          "y": -205803.796875,
+          "z": -1010.18359375
+        },
+        {
+          "x": -2738.84375,
+          "y": -204727.3125,
+          "z": -807.255126953125
+        },
+        {
+          "x": -2695,
+          "y": -201079,
+          "z": -492.4462890625
+        },
+        {
+          "x": -6992.7890625,
+          "y": -197172.15625,
+          "z": -809.59326171875
+        },
+        {
+          "x": -4340,
+          "y": -195680.71875,
+          "z": -1373.59765625
+        },
+        {
+          "x": -2935.2734375,
+          "y": -197515.75,
+          "z": -672.0615234375
+        },
+        {
+          "x": -5315.0625,
+          "y": -200544.375,
+          "z": -949.699462890625
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_D8CB8A31967EB57E01_1709276072"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -132580,
+        "y": -3060,
+        "z": 24070
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mRemovedWorldLocations": [
+        {
+          "x": -135193.65625,
+          "y": 2046.21875,
+          "z": 23795.00390625
+        },
+        {
+          "x": -132790,
+          "y": -146,
+          "z": 23236
+        },
+        {
+          "x": -130550,
+          "y": 680,
+          "z": 23350
+        },
+        {
+          "x": -129720.5234375,
+          "y": -1215.0078125,
+          "z": 23847.88671875
+        },
+        {
+          "x": -135920,
+          "y": -950,
+          "z": 23200
+        },
+        {
+          "x": -134557.640625,
+          "y": -4003.2890625,
+          "z": 23581.51953125
+        },
+        {
+          "x": -132224.53125,
+          "y": -6490.1171875,
+          "z": 23866.556640625
+        },
+        {
+          "x": -131430,
+          "y": -3800,
+          "z": 23420
+        },
+        {
+          "x": -134520,
+          "y": -7500,
+          "z": 23310
+        },
+        {
+          "x": -128790,
+          "y": -4630,
+          "z": 23390
+        },
+        {
+          "x": -129149.6796875,
+          "y": -8127.546875,
+          "z": 23342.88671875
+        }
+      ]
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/VFX/World/GasPerimeter/BP_VolumeGas_01.BP_VolumeGas_01_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_VolumeGas_01_C_UAID_04D9F5D25C209A8001_2141943460"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 66099.1328125,
+        "y": -1782.75,
+        "z": 13558.59375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

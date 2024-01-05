@@ -1,0 +1,38 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/Environment/Crystal/BP_Crystal.BP_Crystal_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_Crystal21_86"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.05841816961765289,
+        "y": 0.14310669898986816,
+        "z": -0.6105673909187317,
+        "w": 0.7767336964607239
+      },
+      "translation": {
+        "x": 207370.828125,
+        "y": 92.19921875,
+        "z": -1131.449951171875
+      },
+      "scale": {
+        "x": 1.399999976158142,
+        "y": 1.399999976158142,
+        "z": 1.399999976158142
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

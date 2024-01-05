@@ -1,0 +1,4034 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite81"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.00859009474515915,
+        "y": -0.011744740419089794,
+        "z": -0.8352233171463013,
+        "w": 0.5497183799743652
+      },
+      "translation": {
+        "x": 95981.59375,
+        "y": 85227.59375,
+        "z": 10170.4189453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite83"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.02570030279457569,
+        "y": 0.004852440673857927,
+        "z": 0.9930851459503174,
+        "w": 0.11444598436355591
+      },
+      "translation": {
+        "x": 98700.53125,
+        "y": 86231.9375,
+        "z": 10246.2578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite85"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.001374963321723044,
+        "y": 0.008045070804655552,
+        "z": 0.9923052787780762,
+        "w": 0.12354610860347748
+      },
+      "translation": {
+        "x": 100208.75,
+        "y": 81507.7265625,
+        "z": 10271.408203125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite82"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.013011963106691837,
+        "y": -0.003767923451960087,
+        "z": 0.9943690299987793,
+        "w": 0.10510365664958954
+      },
+      "translation": {
+        "x": 101158.71875,
+        "y": 85561.3828125,
+        "z": 10250.3388671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite86"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.010145190171897411,
+        "y": -0.010703720152378082,
+        "z": 0.9390013813972473,
+        "w": 0.34359708428382874
+      },
+      "translation": {
+        "x": 102318.71875,
+        "y": 82976.3828125,
+        "z": 10270.3388671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite84"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.03464233875274658,
+        "y": -0.02026359550654888,
+        "z": 0.9926701784133911,
+        "w": 0.11399656534194946
+      },
+      "translation": {
+        "x": 97653.21875,
+        "y": 82023.7734375,
+        "z": 10255.1845703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite12"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 218169.40625,
+        "y": 137548.90625,
+        "z": -209.02577209472656
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite8"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.01931721344590187,
+        "y": -0.0010587644064798951,
+        "z": 0.19047240912914276,
+        "w": 0.9815018773078918
+      },
+      "translation": {
+        "x": 215726,
+        "y": 132791,
+        "z": -285
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite11"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 216407.40625,
+        "y": 139499.90625,
+        "z": -212.02577209472656
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite9"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 218040.875,
+        "y": 134223.296875,
+        "z": -187.51669311523438
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite10"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5439680218696594,
+        "w": 0.8391059637069702
+      },
+      "translation": {
+        "x": 212492.40625,
+        "y": 138086.90625,
+        "z": -126.02577209472656
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite6"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0022433039266616106,
+        "y": 0.013908285647630692,
+        "z": 0.18259663879871368,
+        "w": 0.9830869436264038
+      },
+      "translation": {
+        "x": 214659.703125,
+        "y": 137993.515625,
+        "z": -225.07778930664062
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite13"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0447484515607357,
+        "y": 0.03473231568932533,
+        "z": 0.18091489374637604,
+        "w": 0.9818661212921143
+      },
+      "translation": {
+        "x": 211685.875,
+        "y": 133160.875,
+        "z": -247.35888671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite7"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.030149908736348152,
+        "y": 0.005653387401252985,
+        "z": 0.1785021871328354,
+        "w": 0.9834612011909485
+      },
+      "translation": {
+        "x": 213448.875,
+        "y": 132706.875,
+        "z": -317.35888671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite57"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.008219222538173199,
+        "y": -0.008005700074136257,
+        "z": 0.14500628411769867,
+        "w": 0.9893642067909241
+      },
+      "translation": {
+        "x": -40199.91015625,
+        "y": -4304.33203125,
+        "z": 25053.796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite60"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.017271053045988083,
+        "y": -0.004909914452582598,
+        "z": 0.969030499458313,
+        "w": 0.24628734588623047
+      },
+      "translation": {
+        "x": -41776.44921875,
+        "y": -9868.3759765625,
+        "z": 25142.185546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite62"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.023180661723017693,
+        "y": -0.01701085828244686,
+        "z": -0.5221377611160278,
+        "w": 0.8523763418197632
+      },
+      "translation": {
+        "x": -36959.1328125,
+        "y": -7833.7783203125,
+        "z": 25170.345703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite63"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.06719556450843811,
+        "y": -0.09296850115060806,
+        "z": -0.5210409760475159,
+        "w": 0.845788300037384
+      },
+      "translation": {
+        "x": -43238.79296875,
+        "y": -6518.9111328125,
+        "z": 25053.646484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite59"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0001370976970065385,
+        "y": 0.023251263424754143,
+        "z": -0.5292037725448608,
+        "w": 0.848176121711731
+      },
+      "translation": {
+        "x": -43758.80078125,
+        "y": -8409.396484375,
+        "z": 25138.8828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite61"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.021672630682587624,
+        "y": -0.028210772201418877,
+        "z": -0.516366720199585,
+        "w": 0.8556283712387085
+      },
+      "translation": {
+        "x": -38956.8359375,
+        "y": -10362.68359375,
+        "z": 25325.0703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite113"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.010237219743430614,
+        "y": 0.008775955066084862,
+        "z": 0.9924656748771667,
+        "w": 0.121778704226017
+      },
+      "translation": {
+        "x": -20451.46875,
+        "y": 175654.28125,
+        "z": -99.55859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite109"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.006376015488058329,
+        "y": 0.017250074073672295,
+        "z": 0.9944265484809875,
+        "w": 0.10381557047367096
+      },
+      "translation": {
+        "x": -17700.78125,
+        "y": 174876.78125,
+        "z": -70.81640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite121"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.013761173002421856,
+        "y": -0.01959724724292755,
+        "z": -0.8350605964660645,
+        "w": 0.5496365427970886
+      },
+      "translation": {
+        "x": -20347.14453125,
+        "y": 170787.4375,
+        "z": 6.991364002227783
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite110"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.003971144091337919,
+        "y": -0.003999646753072739,
+        "z": 0.991091787815094,
+        "w": 0.13306109607219696
+      },
+      "translation": {
+        "x": -16087.40625,
+        "y": 170350.59375,
+        "z": 351.41796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite112"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.003260495839640498,
+        "y": 0.055739838629961014,
+        "z": 0.9768370389938354,
+        "w": 0.20657150447368622
+      },
+      "translation": {
+        "x": -23406.78515625,
+        "y": 174254.375,
+        "z": -437.7421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite108"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.013761173002421856,
+        "y": -0.01959724724292755,
+        "z": -0.8350605964660645,
+        "w": 0.5496365427970886
+      },
+      "translation": {
+        "x": -22450.546875,
+        "y": 171714.265625,
+        "z": -27.8046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite111"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.02031567692756653,
+        "y": -0.05095289275050163,
+        "z": -0.9462280869483948,
+        "w": 0.31881579756736755
+      },
+      "translation": {
+        "x": -15611.966796875,
+        "y": 172710.390625,
+        "z": 239.2142791748047
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite3"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.07600617408752441,
+        "y": 0.04839322715997696,
+        "z": -0.008978965692222118,
+        "w": 0.995891809463501
+      },
+      "translation": {
+        "x": 125098.8671875,
+        "y": 254321.4375,
+        "z": 159.65127563476562
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite18_3"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.09819085150957108,
+        "y": 0,
+        "z": 0,
+        "w": 0.99516761302948
+      },
+      "translation": {
+        "x": 126644,
+        "y": 253042,
+        "z": -372
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite4"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.07516801357269287,
+        "y": 0,
+        "z": 0,
+        "w": 0.9971708655357361
+      },
+      "translation": {
+        "x": 130516,
+        "y": 255126,
+        "z": -294
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite_2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.09810248762369156,
+        "y": -0.0794280394911766,
+        "z": 0.842076301574707,
+        "w": 0.5243802070617676
+      },
+      "translation": {
+        "x": 128216,
+        "y": 258878,
+        "z": 890
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite2"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.11231119930744171,
+        "y": 0.06270691007375717,
+        "z": -0.23044081032276154,
+        "w": 0.9645470976829529
+      },
+      "translation": {
+        "x": 125104,
+        "y": 256475,
+        "z": 734
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.12940523028373718,
+        "y": 0,
+        "z": 0,
+        "w": 0.9915918111801147
+      },
+      "translation": {
+        "x": 131025,
+        "y": 257428,
+        "z": 238
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite58"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0010844243224710226,
+        "y": 0.008578137494623661,
+        "z": -0.84266597032547,
+        "w": 0.5383672714233398
+      },
+      "translation": {
+        "x": 313890.5,
+        "y": -287979.46875,
+        "z": 1212.35009765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite67"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.006219026166945696,
+        "y": -0.00032660714350640774,
+        "z": -0.9883642196655273,
+        "w": 0.15197841823101044
+      },
+      "translation": {
+        "x": 316513.25,
+        "y": -293371.6875,
+        "z": 1243.293701171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite68"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.015527349896728992,
+        "y": 0.005583919584751129,
+        "z": -0.9933400750160217,
+        "w": 0.11403144896030426
+      },
+      "translation": {
+        "x": 316668.3125,
+        "y": -288089.65625,
+        "z": 1174.041015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite65"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.009346364066004753,
+        "y": 0.0035827101673930883,
+        "z": -0.998144268989563,
+        "w": 0.060065045952796936
+      },
+      "translation": {
+        "x": 319126.59375,
+        "y": -290062.65625,
+        "z": 1228.4166259765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite103_8"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.002887038979679346,
+        "y": 0.02005666121840477,
+        "z": 0.9902539253234863,
+        "w": 0.137791708111763
+      },
+      "translation": {
+        "x": 314408.25,
+        "y": -292941.6875,
+        "z": 1253.293701171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite66"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0006070311064831913,
+        "y": -0.005468978546559811,
+        "z": 0.9232417345046997,
+        "w": 0.3841802179813385
+      },
+      "translation": {
+        "x": 320535.3125,
+        "y": -291279.5625,
+        "z": 1229.567138671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite64"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.02224174700677395,
+        "y": -0.003731699427589774,
+        "z": 0.9926592707633972,
+        "w": 0.1188231036067009
+      },
+      "translation": {
+        "x": 314277.5,
+        "y": -289755.78125,
+        "z": 1267.870849609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite115"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0182268675416708,
+        "y": -0.0024953451938927174,
+        "z": 0.9464839100837708,
+        "w": 0.32222631573677063
+      },
+      "translation": {
+        "x": -111814.8125,
+        "y": 71121.2578125,
+        "z": 3061.7578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite119"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.04183768108487129,
+        "y": -0.05314892530441284,
+        "z": 0.990626871585846,
+        "w": 0.11867257952690125
+      },
+      "translation": {
+        "x": -104200.78125,
+        "y": 70976.78125,
+        "z": 2859.18359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite118"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.00794481486082077,
+        "y": 0.0018676341278478503,
+        "z": 0.272780179977417,
+        "w": 0.9620417952537537
+      },
+      "translation": {
+        "x": -110139.15625,
+        "y": 75375.21875,
+        "z": 3196.484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite117"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.02943534590303898,
+        "y": -0.02671675942838192,
+        "z": 0.9930779933929443,
+        "w": 0.11052564531564713
+      },
+      "translation": {
+        "x": -104692.40625,
+        "y": 73355.59375,
+        "z": 3096.41796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite116"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.038993511348962784,
+        "y": -0.0340573787689209,
+        "z": 0.9896824359893799,
+        "w": 0.13359755277633667
+      },
+      "translation": {
+        "x": -107606.78125,
+        "y": 71069.375,
+        "z": 2912.2578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite114_7"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.011238385923206806,
+        "y": 0.01838051527738571,
+        "z": -0.835106372833252,
+        "w": 0.5496664643287659
+      },
+      "translation": {
+        "x": -111801.46875,
+        "y": 73189.28125,
+        "z": 3120.44140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite120"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.005764774512499571,
+        "y": -0.11926766484975815,
+        "z": 0.985857367515564,
+        "w": 0.11758921295404434
+      },
+      "translation": {
+        "x": -108478.46875,
+        "y": 77599.9375,
+        "z": 3709.2578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite73"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0025943417567759752,
+        "y": 0.007738388609141111,
+        "z": 0.9615537524223328,
+        "w": 0.27449551224708557
+      },
+      "translation": {
+        "x": 183610.296875,
+        "y": -59943.703125,
+        "z": 5585.63671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite102"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.01975245028734207,
+        "y": 0.05102388188242912,
+        "z": 0.9187911748886108,
+        "w": 0.39093366265296936
+      },
+      "translation": {
+        "x": 185693.71875,
+        "y": -61072.1796875,
+        "z": 5431.79150390625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite74"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.02261544018983841,
+        "y": -0.03354015201330185,
+        "z": 0.9176313877105713,
+        "w": 0.39536845684051514
+      },
+      "translation": {
+        "x": 188079.21875,
+        "y": -54423.78125,
+        "z": 5518.6484375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite71"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0028417427092790604,
+        "y": 0.017488034442067146,
+        "z": 0.9195415377616882,
+        "w": 0.3925932049751282
+      },
+      "translation": {
+        "x": 182806.09375,
+        "y": -58147.62109375,
+        "z": 5535.63671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite69"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.001723698922432959,
+        "y": -0.009540299884974957,
+        "z": -0.9562429785728455,
+        "w": 0.29241299629211426
+      },
+      "translation": {
+        "x": 188862.859375,
+        "y": -57590.3046875,
+        "z": 5566.1953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite72"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0052116322331130505,
+        "y": 0.01940126158297062,
+        "z": 0.9234700202941895,
+        "w": 0.3831442594528198
+      },
+      "translation": {
+        "x": 186318.421875,
+        "y": -52985.66015625,
+        "z": 5425.97998046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite70"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.015407633036375046,
+        "y": 0.014632531441748142,
+        "z": 0.9244018197059631,
+        "w": 0.38082772493362427
+      },
+      "translation": {
+        "x": 183113.640625,
+        "y": -55532.7265625,
+        "z": 5512.052734375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite32"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.005922839045524597,
+        "y": -0.0008739382610656321,
+        "z": -0.21109679341316223,
+        "w": 0.9774468541145325
+      },
+      "translation": {
+        "x": -141750.375,
+        "y": 121997.734375,
+        "z": 15259.43359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite31"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.019141286611557007,
+        "y": 0.005708959884941578,
+        "z": -0.5362220406532288,
+        "w": 0.8438405990600586
+      },
+      "translation": {
+        "x": -142779.1875,
+        "y": 120243.1875,
+        "z": 15174.9140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite34"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.004633952397853136,
+        "y": -0.007052225060760975,
+        "z": -0.12052808701992035,
+        "w": 0.9926740527153015
+      },
+      "translation": {
+        "x": -145565.4375,
+        "y": 126028.375,
+        "z": 15439.01953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite28"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.011727496050298214,
+        "y": -0.04153970256447792,
+        "z": 0.4598347842693329,
+        "w": 0.8869548439979553
+      },
+      "translation": {
+        "x": -147628.71875,
+        "y": 125722.8125,
+        "z": 15315.8701171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite30"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.015751563012599945,
+        "y": 0.000496968743391335,
+        "z": -0.20548316836357117,
+        "w": 0.9785337448120117
+      },
+      "translation": {
+        "x": -145715.25,
+        "y": 119442.078125,
+        "z": 15181.5361328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite29"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.015157830901443958,
+        "y": -0.03221636638045311,
+        "z": -0.4859103262424469,
+        "w": 0.8732831478118896
+      },
+      "translation": {
+        "x": -144341.71875,
+        "y": 124609.8125,
+        "z": 15387.8701171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite33"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.049919407814741135,
+        "y": 0.013046924956142902,
+        "z": -0.21744731068611145,
+        "w": 0.9747073650360107
+      },
+      "translation": {
+        "x": -142911.4375,
+        "y": 118402.375,
+        "z": 14995.01953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite24"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.015934208407998085,
+        "y": 0.012046581134200096,
+        "z": -0.2070808857679367,
+        "w": 0.9781198501586914
+      },
+      "translation": {
+        "x": -251958.171875,
+        "y": -191565.8125,
+        "z": -1741.08642578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite21"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.09867916256189346,
+        "y": 0.013704066164791584,
+        "z": 0.6691519618034363,
+        "w": 0.7364171743392944
+      },
+      "translation": {
+        "x": -253679.4375,
+        "y": -187151.625,
+        "z": -1240.98046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite22"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.007631225977092981,
+        "y": 0.015833010897040367,
+        "z": -0.43912166357040405,
+        "w": 0.8982556462287903
+      },
+      "translation": {
+        "x": -254692.421875,
+        "y": -191072.625,
+        "z": -1581.98095703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite51_1"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.09974101930856705,
+        "y": 0.017857776954770088,
+        "z": 0.4556719958782196,
+        "w": 0.8843618631362915
+      },
+      "translation": {
+        "x": -253968.71875,
+        "y": -189214.1875,
+        "z": -1460.1298828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite27"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.08937327563762665,
+        "y": 0.04147494584321976,
+        "z": 0.6758495569229126,
+        "w": 0.7304242849349976
+      },
+      "translation": {
+        "x": -250936.71875,
+        "y": -184679.1875,
+        "z": -1457.1298828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite26"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0037574053276330233,
+        "y": 0.01717045158147812,
+        "z": -0.21917138993740082,
+        "w": 0.9755280613899231
+      },
+      "translation": {
+        "x": -249449.390625,
+        "y": -188216.265625,
+        "z": -1739.56640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite25"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.005471144802868366,
+        "y": -0.02154436893761158,
+        "z": -0.21080689132213593,
+        "w": 0.9772749543190002
+      },
+      "translation": {
+        "x": -249899.390625,
+        "y": -190381.265625,
+        "z": -1739.56640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite48"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.004393873270601034,
+        "y": 0.001528315944597125,
+        "z": -0.21310821175575256,
+        "w": 0.9770175218582153
+      },
+      "translation": {
+        "x": 271425.28125,
+        "y": 111504.1015625,
+        "z": -102.578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite45"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.006864673923701048,
+        "y": -0.004619437735527754,
+        "z": 0.4565508961677551,
+        "w": 0.8896588087081909
+      },
+      "translation": {
+        "x": 267123.125,
+        "y": 115156.3125,
+        "z": -101.34375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite46"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0024717177730053663,
+        "y": -0.010509969666600227,
+        "z": -0.22532834112644196,
+        "w": 0.9742230772972107
+      },
+      "translation": {
+        "x": 264051.5625,
+        "y": 112280.796875,
+        "z": -66.40234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite50"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0056006573140621185,
+        "y": 0.013175117783248425,
+        "z": -0.22549232840538025,
+        "w": 0.9741397500038147
+      },
+      "translation": {
+        "x": 267439.25,
+        "y": 110349.328125,
+        "z": -91.1640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite49"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.005323092453181744,
+        "y": 0.010001890361309052,
+        "z": -0.220037043094635,
+        "w": 0.9754257202148438
+      },
+      "translation": {
+        "x": 269500.40625,
+        "y": 115587.5859375,
+        "z": -83.2890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite47"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0045932261273264885,
+        "y": -0.0069575621746480465,
+        "z": -0.010219911113381386,
+        "w": 0.9999130368232727
+      },
+      "translation": {
+        "x": 264231.3125,
+        "y": 114518.453125,
+        "z": -77.76171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite90"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0035926715936511755,
+        "y": -0.013007142581045628,
+        "z": 0.9935948252677917,
+        "w": 0.11219296604394913
+      },
+      "translation": {
+        "x": 108262.0625,
+        "y": 145417.828125,
+        "z": 6486.4375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite89"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.026916028931736946,
+        "y": 0.006367133930325508,
+        "z": -0.9385940432548523,
+        "w": 0.3439130485057831
+      },
+      "translation": {
+        "x": 108080.53125,
+        "y": 142057.28125,
+        "z": 6632.44140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite88"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.009154696017503738,
+        "y": -0.0023319311439990997,
+        "z": -0.9963545799255371,
+        "w": 0.08478391915559769
+      },
+      "translation": {
+        "x": 106354.59375,
+        "y": 139678.59375,
+        "z": 6603.41796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite94"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.00036657589953392744,
+        "y": -0.017140453681349754,
+        "z": 0.9909189343452454,
+        "w": 0.13336320221424103
+      },
+      "translation": {
+        "x": 100716.75,
+        "y": 149703.71875,
+        "z": 6494.40625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite93"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0010492512956261635,
+        "y": -0.005570800043642521,
+        "z": 0.9908697605133057,
+        "w": 0.1347031444311142
+      },
+      "translation": {
+        "x": 100829.71875,
+        "y": 143446.375,
+        "z": 6461.33984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite92"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.01230918150395155,
+        "y": -0.008122718892991543,
+        "z": 0.9924713969230652,
+        "w": 0.12158535420894623
+      },
+      "translation": {
+        "x": 104641.21875,
+        "y": 149304.78125,
+        "z": 6456.18359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite87"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.016413800418376923,
+        "y": 0.0008840151131153107,
+        "z": -0.8347548246383667,
+        "w": 0.5503763556480408
+      },
+      "translation": {
+        "x": 99743.53125,
+        "y": 147302.9375,
+        "z": 6441.2578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite91"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0010629744501784444,
+        "y": -0.031030168756842613,
+        "z": 0.5344744920730591,
+        "w": 0.8446140885353088
+      },
+      "translation": {
+        "x": 103179.53125,
+        "y": 141524.9375,
+        "z": 6429.2578125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite42"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.01080765388906002,
+        "y": -0.009046870283782482,
+        "z": 0.5765646696090698,
+        "w": 0.8169299364089966
+      },
+      "translation": {
+        "x": 84661.390625,
+        "y": 99202.7734375,
+        "z": 10049.5849609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite40"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0316741019487381,
+        "y": 0.020727243274450302,
+        "z": -0.4872314929962158,
+        "w": 0.8724520802497864
+      },
+      "translation": {
+        "x": 86696.75,
+        "y": 99524.2890625,
+        "z": 10057.5859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite44"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.013259748928248882,
+        "y": 0.013426195830106735,
+        "z": -0.2072923183441162,
+        "w": 0.9780970215797424
+      },
+      "translation": {
+        "x": 86027.5625,
+        "y": 109451.109375,
+        "z": 9962.3173828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite35"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0038673970848321915,
+        "y": -0.04506048560142517,
+        "z": 0.6561490297317505,
+        "w": 0.7532748579978943
+      },
+      "translation": {
+        "x": 87916.734375,
+        "y": 102044.8671875,
+        "z": 10177.9658203125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite37"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.003602476790547371,
+        "y": -0.012937355786561966,
+        "z": 0.04656532406806946,
+        "w": 0.998824954032898
+      },
+      "translation": {
+        "x": 88734.25,
+        "y": 107722.671875,
+        "z": 9991.8251953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite41"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0033615275751799345,
+        "y": 0.01751856505870819,
+        "z": 0.46870556473731995,
+        "w": 0.8831743001937866
+      },
+      "translation": {
+        "x": 83988.21875,
+        "y": 107803.265625,
+        "z": 10103.8076171875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite36"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.005622081458568573,
+        "y": -0.03457726165652275,
+        "z": -0.625653088092804,
+        "w": 0.7793144583702087
+      },
+      "translation": {
+        "x": 81638.90625,
+        "y": 103495.171875,
+        "z": 10183.6181640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite38"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.013086056336760521,
+        "y": 0.009249488823115826,
+        "z": -0.045517370104789734,
+        "w": 0.998835027217865
+      },
+      "translation": {
+        "x": 83093.96875,
+        "y": 101821.15625,
+        "z": 10216.4384765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite43"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.01550146285444498,
+        "y": 0.012614794075489044,
+        "z": 0.6314069032669067,
+        "w": 0.7751941084861755
+      },
+      "translation": {
+        "x": 81664.46875,
+        "y": 106667.90625,
+        "z": 10241.166015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite39"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.005046324338763952,
+        "y": -0.02067767269909382,
+        "z": -0.2131749987602234,
+        "w": 0.9767821431159973
+      },
+      "translation": {
+        "x": 87990.5,
+        "y": 105052.1171875,
+        "z": 10209.373046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite78"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.008101342245936394,
+        "y": -0.014880185015499592,
+        "z": 0.9920023679733276,
+        "w": 0.1250767856836319
+      },
+      "translation": {
+        "x": 239763.4375,
+        "y": -71695.0625,
+        "z": 5256.6591796875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite80"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.04250519350171089,
+        "y": -0.013490632176399231,
+        "z": 0.9175753593444824,
+        "w": 0.39505285024642944
+      },
+      "translation": {
+        "x": 240788,
+        "y": -74885.2421875,
+        "z": 4801.5166015625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite76"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0012223167577758431,
+        "y": -0.018028439953923225,
+        "z": 0.9913157820701599,
+        "w": 0.13025549054145813
+      },
+      "translation": {
+        "x": 238332.1875,
+        "y": -69283.015625,
+        "z": 5403.42529296875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite75"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.022041771560907364,
+        "y": -0.013259640894830227,
+        "z": -0.9567195177078247,
+        "w": 0.28987258672714233
+      },
+      "translation": {
+        "x": 240891.96875,
+        "y": -66618.5625,
+        "z": 6182.66259765625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite77"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.04120420292019844,
+        "y": -0.024161135777831078,
+        "z": 0.9827357530593872,
+        "w": 0.1787426769733429
+      },
+      "translation": {
+        "x": 242801.65625,
+        "y": -71309.5390625,
+        "z": 5419.41064453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite79"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0507078692317009,
+        "y": -0.009289068169891834,
+        "z": 0.9841066002845764,
+        "w": 0.16993139684200287
+      },
+      "translation": {
+        "x": 245033.625,
+        "y": -71845.8359375,
+        "z": 4617.3818359375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite23_5"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0020106974989175797,
+        "y": 0.00771830091252923,
+        "z": -0.45234185457229614,
+        "w": 0.8918089866638184
+      },
+      "translation": {
+        "x": 226851.625,
+        "y": -311423.3125,
+        "z": 7905.64013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite14"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.010506822727620602,
+        "y": -0.03375926613807678,
+        "z": 0.21711120009422302,
+        "w": 0.9755063652992249
+      },
+      "translation": {
+        "x": 225241.625,
+        "y": -309813.3125,
+        "z": 7875.64013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite16"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.022571656852960587,
+        "y": 0.019597483798861504,
+        "z": -0.451286256313324,
+        "w": 0.8918784260749817
+      },
+      "translation": {
+        "x": 220214.53125,
+        "y": -310720.59375,
+        "z": 7879.724609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite19"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0020106974989175797,
+        "y": 0.00771830091252923,
+        "z": -0.45234185457229614,
+        "w": 0.8918089866638184
+      },
+      "translation": {
+        "x": 221263.53125,
+        "y": -312256.59375,
+        "z": 7931.724609375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite15"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.010946069844067097,
+        "y": 0.005050519946962595,
+        "z": -0.4629821479320526,
+        "w": 0.8862856030464172
+      },
+      "translation": {
+        "x": 221785.265625,
+        "y": -308346,
+        "z": 8244.490234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite20"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0020106974989175797,
+        "y": 0.00771830091252923,
+        "z": -0.45234185457229614,
+        "w": 0.8918089866638184
+      },
+      "translation": {
+        "x": 223981.328125,
+        "y": -314008.65625,
+        "z": 7867.1240234375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite17"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.014376120641827583,
+        "y": -0.0105165746062994,
+        "z": -0.4547826945781708,
+        "w": 0.8904243111610413
+      },
+      "translation": {
+        "x": 226487.78125,
+        "y": -313623.96875,
+        "z": 8160.9453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite95"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0028824324253946543,
+        "y": 0.005687314085662365,
+        "z": -0.8352856040000916,
+        "w": 0.5497793555259705
+      },
+      "translation": {
+        "x": 4933.53125,
+        "y": 184744.28125,
+        "z": -10424.55859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite100"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.01230918150395155,
+        "y": -0.008122718892991543,
+        "z": 0.9924713969230652,
+        "w": 0.12158535420894623
+      },
+      "translation": {
+        "x": 9269.21875,
+        "y": 190201.78125,
+        "z": -10440.81640625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite96"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.015669675543904305,
+        "y": -0.028979646041989326,
+        "z": 0.9939528107643127,
+        "w": 0.10474968701601028
+      },
+      "translation": {
+        "x": 7164.15625,
+        "y": 183858.4375,
+        "z": -10524.9453125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite101"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.06645248830318451,
+        "y": -0.0029890236910432577,
+        "z": 0.9886963963508606,
+        "w": 0.13436727225780487
+      },
+      "translation": {
+        "x": 3582.625,
+        "y": 187082.125,
+        "z": -10305.05859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite99"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.001374963321723044,
+        "y": 0.008045070804655552,
+        "z": 0.9923052787780762,
+        "w": 0.12354610860347748
+      },
+      "translation": {
+        "x": 10342.59375,
+        "y": 187520.59375,
+        "z": -10473.58203125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite97"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.045748986303806305,
+        "y": -0.018058620393276215,
+        "z": 0.9187005162239075,
+        "w": 0.3918803632259369
+      },
+      "translation": {
+        "x": 5973.21484375,
+        "y": 189394.375,
+        "z": -10357.7421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Resource/BP_FrackingSatellite.BP_FrackingSatellite_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_FrackingSatellite98"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.003395307809114456,
+        "y": -0.014747499488294125,
+        "z": 0.9935705661773682,
+        "w": 0.11219842731952667
+      },
+      "translation": {
+        "x": 9112.53125,
+        "y": 184869.9375,
+        "z": -10505.7421875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  }
+]

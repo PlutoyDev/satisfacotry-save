@@ -1,0 +1,5612 @@
+[
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147440086"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -60900,
+        "y": -142900,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4 Smelters",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -600,
+          "z": 50
+        },
+        "max": {
+          "x": 1200,
+          "y": 600,
+          "z": 950
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147075881"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -60000,
+        "y": -146900,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "1 Construtor",
+      "mLocalBounds": {
+        "min": {
+          "x": -400,
+          "y": -600,
+          "z": -0.00007243288564495742
+        },
+        "max": {
+          "x": 400,
+          "y": 600,
+          "z": 800.0000724328856
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147066035"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -60800,
+        "y": -146900,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "1 Construtor",
+      "mLocalBounds": {
+        "min": {
+          "x": -400,
+          "y": -600,
+          "z": -0.00007243288564495742
+        },
+        "max": {
+          "x": 400,
+          "y": 600,
+          "z": 800.0000724328856
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147452216"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -61200,
+        "y": -149200,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4 Construtor",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -600,
+          "z": -0.00007243288564495742
+        },
+        "max": {
+          "x": 1600,
+          "y": 600,
+          "z": 800.0000724328856
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147325078"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -57200,
+        "y": -157200,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147318003"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -58800,
+        "y": -158000,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147316110"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -62000,
+        "y": -154000,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147315328"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -65200,
+        "y": -154000,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147314536"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -68400,
+        "y": -154000,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147313864"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -68400,
+        "y": -157200,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147313374"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -65200,
+        "y": -157200,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147312516"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -62000,
+        "y": -157200,
+        "z": 6700
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147311890"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -60400,
+        "y": -157200,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147311332"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -63600,
+        "y": -157200,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147310613"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -66800,
+        "y": -157200,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147309897"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -66800,
+        "y": -160400,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147309312"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -63600,
+        "y": -160400,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147308644"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -60400,
+        "y": -160400,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303086"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -57200,
+        "y": -160400,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147302452"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -57200,
+        "y": -163600,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147301845"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -60400,
+        "y": -163600,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147301258"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -63600,
+        "y": -163600,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147297574"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -66800,
+        "y": -163600,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147198657"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -64400,
+        "y": -149200,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4 Construtor",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -600,
+          "z": -0.00007243288564495742
+        },
+        "max": {
+          "x": 1600,
+          "y": 600,
+          "z": 800.0000724328856
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147431416"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -86800,
+        "y": -150000,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147430708"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -86800,
+        "y": -153200,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147430040"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -86800,
+        "y": -156400,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147429189"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -82800,
+        "y": -152400,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147371002"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -144400,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370351"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -141200,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147369610"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -138000,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367355"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -145000,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147359497"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -143000,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147329788"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -141000,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147327075"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -139000,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147220173"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -134800,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147217045"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -131600,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147216261"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -128400,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147215355"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -125200,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147214550"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -122000,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147213570"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -79600,
+        "y": -118800,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147197350"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -137000,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147195296"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -135000,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147192364"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -132900,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147187684"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -130900,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147185965"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -79600,
+        "y": -128900,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147275947"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -78800,
+        "y": -152400,
+        "z": -1500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147256224"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -78800,
+        "y": -152400,
+        "z": -1300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 Battery Opened",
+      "mLocalBounds": {
+        "min": {
+          "x": -1300,
+          "y": -1300,
+          "z": -0.0001220703125
+        },
+        "max": {
+          "x": 1300,
+          "y": 1300,
+          "z": 1200.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147232988"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -78800,
+        "y": -152400,
+        "z": -99.999755859375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147230804"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -78800,
+        "y": -152400,
+        "z": 100.000244140625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 Battery Opened",
+      "mLocalBounds": {
+        "min": {
+          "x": -1300,
+          "y": -1300,
+          "z": -0.0001220703125
+        },
+        "max": {
+          "x": 1300,
+          "y": 1300,
+          "z": 1200.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147228534"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -78800,
+        "y": -152400,
+        "z": 1300.00048828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303007"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -69200,
+        "y": -149200,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147301926"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -69200,
+        "y": -152400,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147301023"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -69200,
+        "y": -155600,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147300289"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -72400,
+        "y": -149200,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147299786"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -72400,
+        "y": -152400,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147299030"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -72400,
+        "y": -155600,
+        "z": 8100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "4x4 (2m) Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1600,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1600,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2146875352"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -61100,
+        "y": -154000,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3 Assembler",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -800,
+          "z": -0.00006773073982913047
+        },
+        "max": {
+          "x": 1500,
+          "y": 800,
+          "z": 800.0000677307398
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2146668830"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -61100,
+        "y": -154000,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "1 Assembler",
+      "mLocalBounds": {
+        "min": {
+          "x": -500,
+          "y": -800,
+          "z": -0.00006773073982913047
+        },
+        "max": {
+          "x": 500,
+          "y": 800,
+          "z": 800.0000677307398
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2146662509"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -62100,
+        "y": -154000,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "1 Assembler",
+      "mLocalBounds": {
+        "min": {
+          "x": -500,
+          "y": -800,
+          "z": -0.00006773073982913047
+        },
+        "max": {
+          "x": 500,
+          "y": 800,
+          "z": 800.0000677307398
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147401249"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -61100,
+        "y": -157100,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3 Assembler",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -800,
+          "z": -0.00006773073982913047
+        },
+        "max": {
+          "x": 1500,
+          "y": 800,
+          "z": 800.0000677307398
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147404776"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -41600,
+        "y": -200000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147404380"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -202400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 4.547473508864641e-13
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 199.99999999999955
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147467654"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -204800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 4.547473508864641e-13
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 199.99999999999955
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147467235"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -207200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147466770"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -209600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147466361"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -212000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370530"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41500,
+        "y": -188900,
+        "z": 2600
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x Refinery",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -1500,
+          "z": -0.00012207031227262632
+        },
+        "max": {
+          "x": 1500,
+          "y": 1500,
+          "z": 3000.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147367378"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -38500,
+        "y": -188900,
+        "z": 2600
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x Refinery",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -1500,
+          "z": -0.00012207031272737368
+        },
+        "max": {
+          "x": 1500,
+          "y": 1500,
+          "z": 3000.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147332827"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -34900,
+        "y": -193900,
+        "z": 2600
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x Refinery",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -1500,
+          "z": -0.00012207031227262632
+        },
+        "max": {
+          "x": 1500,
+          "y": 1500,
+          "z": 3000.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147303305"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -37900,
+        "y": -193900,
+        "z": 2600
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x Refinery",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -1500,
+          "z": -0.00012207031272737368
+        },
+        "max": {
+          "x": 1500,
+          "y": 1500,
+          "z": 3000.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147439829"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -34800,
+        "y": -190300,
+        "z": 2600
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x Refinery",
+      "mLocalBounds": {
+        "min": {
+          "x": -1500,
+          "y": -1500,
+          "z": -0.00012207031272737368
+        },
+        "max": {
+          "x": 1500,
+          "y": 1500,
+          "z": 3000.0001220703125
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147265034"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39700,
+        "y": -165700,
+        "z": -500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147263516"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39700,
+        "y": -163700,
+        "z": -500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147262333"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.7071067690849304,
+        "w": 0.7071067690849304
+      },
+      "translation": {
+        "x": -39700,
+        "y": -161700,
+        "z": -500
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Dual Coal Power",
+      "mLocalBounds": {
+        "min": {
+          "x": -1000,
+          "y": -1600,
+          "z": -0.00018310546875
+        },
+        "max": {
+          "x": 1000,
+          "y": 1600,
+          "z": 3600.0001831054688
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147327347"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -171200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Power Tower with Walkway",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 3200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147237650"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -173600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": -35
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 2235
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147236824"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -176000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": -35
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 2235
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147227379"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -178400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147226719"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -180800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147226165"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -183200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147213786"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -185600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147213289"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -188000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147212804"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -190400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 4.547473508864641e-13
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 199.99999999999955
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147212178"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -192800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147211646"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -195200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147211127"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -197600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147207105"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -204800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147206572"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -207200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147206084"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -209600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147205534"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -212000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147167707"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -200000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Power Tower with Walkway",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 3200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147166124"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "w": 6.123234262925839e-17
+      },
+      "translation": {
+        "x": -38800,
+        "y": -202400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Walkway for Towers",
+      "mLocalBounds": {
+        "min": {
+          "x": -1600,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1600,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147453023"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -170400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Straight Pole with Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -400,
+          "z": -49.999999999999545
+        },
+        "max": {
+          "x": 1200,
+          "y": 400,
+          "z": 849.9999999999995
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147443589"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -172000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147443206"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -174400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147427164"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -176000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Straight Pole with Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -400,
+          "z": 50
+        },
+        "max": {
+          "x": 1200,
+          "y": 400,
+          "z": 950
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147422758"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -177600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147422065"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -180000,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147416615"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -181600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Straight Pole with Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -400,
+          "z": 50
+        },
+        "max": {
+          "x": 1200,
+          "y": 400,
+          "z": 950
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147411571"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -183200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 4.547473508864641e-13
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 199.99999999999955
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147410775"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -185600,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147409661"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -187200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Straight Pole with Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -400,
+          "z": 50
+        },
+        "max": {
+          "x": 1200,
+          "y": 400,
+          "z": 950
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147408333"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -188800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147371377"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -191200,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147370224"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -192800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "Straight Pole with Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -400,
+          "z": 50
+        },
+        "max": {
+          "x": 1200,
+          "y": 400,
+          "z": 950
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147368134"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -194400,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": 0
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147366839"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -41600,
+        "y": -196800,
+        "z": 7900
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "3x3 Bus Foundation",
+      "mLocalBounds": {
+        "min": {
+          "x": -1200,
+          "y": -1200,
+          "z": -4.547473508864641e-13
+        },
+        "max": {
+          "x": 1200,
+          "y": 1200,
+          "z": 200.00000000000045
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147418606"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -63100,
+        "y": -154000,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "1 Assembler",
+      "mLocalBounds": {
+        "min": {
+          "x": -500,
+          "y": -800,
+          "z": -0.00006773073982913047
+        },
+        "max": {
+          "x": 500,
+          "y": 800,
+          "z": 800.0000677307398
+        },
+        "isValid": true
+      }
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Script/FactoryGame.FGBlueprintProxy",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.FGBlueprintProxy_2147329667"
+    },
+    "needTransform": true,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": -64100,
+        "y": -154000,
+        "z": 8300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": false,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mBlueprintName": "1 Assembler",
+      "mLocalBounds": {
+        "min": {
+          "x": -500,
+          "y": -800,
+          "z": -0.00006773073982913047
+        },
+        "max": {
+          "x": 500,
+          "y": 800,
+          "z": 800.0000677307398
+        },
+        "isValid": true
+      }
+    }
+  }
+]

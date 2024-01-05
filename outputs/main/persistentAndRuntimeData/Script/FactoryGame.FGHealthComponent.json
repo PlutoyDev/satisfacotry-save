@@ -1,0 +1,35 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGHealthComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.HealthComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGHealthComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147405921.HealthComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147405921",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGHealthComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147336817.HealthComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_SpaceGiraffe_C_2147336817",
+    "pcInfo": {},
+    "properties": {}
+  }
+]

@@ -439,16 +439,12 @@ export class SatisfactoryFileReader extends UnrealDataReader {
       | (ReturnType<typeof this.readObjectToc> & ReturnType<typeof this.readObjectData>);
     type DestroyedActorType = ReturnType<typeof this.readObjectReference>;
     interface LevelData {
-      objects?: ObjectType[];
+      objects: ObjectType[];
       destroyedActors: {
         inTOC?: DestroyedActorType[];
         afterData?: DestroyedActorType[] | [string, DestroyedActorType[]][];
       };
     }
-    const levelData: LevelData = {
-      objects: [],
-      destroyedActors: {},
-    };
 
     /*
       FPerStreamingLevelSaveData = FPerBasicLevelSaveData = { 
@@ -462,7 +458,10 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const tocOffset = this.currentOffset;
     const tocExpectEndOffset = tocOffset + Number(tocLength);
 
-    levelData.objects = this.readTArray(() => this.readObjectToc());
+    const levelData: LevelData = {
+      objects: this.readTArray(() => this.readObjectToc()),
+      destroyedActors: {},
+    };
 
     if (this.currentOffset < tocExpectEndOffset) {
       //There is destroyed actors and we need to read them
@@ -577,10 +576,49 @@ export class SatisfactoryFileReader extends UnrealDataReader {
     const persistentAndRuntimeData = this.readLevelData("Persistent_Level");
 
     if (this.options.toOutput?.all || this.options.toOutput?.persistentAndRuntimeData) {
+      await mkdir(this.outputPrefix + "persistentAndRuntimeData", { recursive: true }).catch(() => {});
+
+      // Split up persistentAndRuntimeData.objects by classname
+      const groupedObjects = new Map<string, ReturnType<typeof this.readLevelData>["objects"]>();
+      for (const obj of persistentAndRuntimeData.objects) {
+        const className = obj.className;
+        if (!groupedObjects.has(className)) {
+          groupedObjects.set(className, []);
+        }
+        groupedObjects.get(className)!.push(obj);
+      }
+
       await writeFile(
-        this.outputPrefix + "persistentAndRuntimeData.json",
-        JSON.stringify({ ...persistentAndRuntimeData, objectDataBase64: null }, null, 2),
+        this.outputPrefix + "persistentAndRuntimeData/split_groupedLengths.json",
+        JSON.stringify(
+          Object.entries(Object.fromEntries(groupedObjects)).reduce(
+            (acc, [k, v]) => {
+              acc[k] = v.length;
+              return acc;
+            },
+            {} as Record<string, number>,
+          ),
+          null,
+          2,
+        ),
       );
+
+      const outputPrs: Promise<void>[] = [];
+      for (const [className, objects] of groupedObjects) {
+        const filepath = this.outputPrefix + "persistentAndRuntimeData/" + className + ".json";
+        const dir = filepath.split("/").slice(0, -1).join("/");
+
+        outputPrs.push(
+          mkdir(dir, { recursive: true })
+            .catch(() => {})
+            .then(() =>
+              writeFile(
+                this.outputPrefix + "persistentAndRuntimeData/" + className + ".json",
+                JSON.stringify(objects, null, 2),
+              ),
+            ),
+        );
+      }
     }
 
     const unresolvedDestoryedActors = this.readTArray(() => this.readObjectReference());

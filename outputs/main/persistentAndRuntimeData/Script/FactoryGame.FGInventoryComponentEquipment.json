@@ -1,0 +1,257 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.BodySlot"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {
+      "mInventoryStacks": [
+        {
+          "Item": {
+            "itemClass": "",
+            "reference": {
+              "levelName": "",
+              "pathName": ""
+            },
+            "numItems": 0
+          }
+        }
+      ],
+      "mArbitrarySlotSizes": [
+        0
+      ],
+      "mAllowedItemDescriptors": [
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.HeadSlot"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {
+      "mInventoryStacks": [
+        {
+          "Item": {
+            "itemClass": "",
+            "reference": {
+              "levelName": "",
+              "pathName": ""
+            },
+            "numItems": 0
+          }
+        }
+      ],
+      "mArbitrarySlotSizes": [
+        0
+      ],
+      "mAllowedItemDescriptors": [
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.LegsSlot"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {
+      "mEquipmentInSlot": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Equip_JumpingStilts_C_2147382698"
+      },
+      "mActiveEquipmentIndex": 0,
+      "mInventoryStacks": [
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/JumpingStilts/BP_EquipmentDescriptorJumpingStilts.BP_EquipmentDescriptorJumpingStilts_C",
+            "reference": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Equip_JumpingStilts_C_2147382698"
+            },
+            "numItems": 1
+          }
+        }
+      ],
+      "mArbitrarySlotSizes": [
+        0
+      ],
+      "mAllowedItemDescriptors": [
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.BackSlot"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {
+      "mEquipmentInSlot": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Equip_Parachute_C_2146962368"
+      },
+      "mActiveEquipmentIndex": 0,
+      "mInventoryStacks": [
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/Beacon/Desc_Parachute.Desc_Parachute_C",
+            "reference": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Equip_Parachute_C_2146962368"
+            },
+            "numItems": 1
+          }
+        }
+      ],
+      "mArbitrarySlotSizes": [
+        0
+      ],
+      "mAllowedItemDescriptors": [
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGInventoryComponentEquipment",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.ArmSlot"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {
+      "mEquipmentInSlot": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.Equip_Zipline_C_2147459376"
+      },
+      "mActiveEquipmentIndex": 3,
+      "mInventoryStacks": [
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorStunSpear.BP_EquipmentDescriptorStunSpear_C",
+            "reference": {
+              "levelName": "",
+              "pathName": ""
+            },
+            "numItems": 1
+          }
+        },
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGunProjectile.Desc_RebarGunProjectile_C",
+            "reference": {
+              "levelName": "",
+              "pathName": ""
+            },
+            "numItems": 1
+          }
+        },
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C",
+            "reference": {
+              "levelName": "",
+              "pathName": ""
+            },
+            "numItems": 1
+          }
+        },
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/Zipline/BP_EqDescZipLine.BP_EqDescZipLine_C",
+            "reference": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Equip_Zipline_C_2147459376"
+            },
+            "numItems": 1
+          }
+        },
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C",
+            "reference": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Equip_ObjectScanner_C_2147377495"
+            },
+            "numItems": 1
+          }
+        },
+        {
+          "Item": {
+            "itemClass": "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C",
+            "reference": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Equip_Chainsaw_C_2145807143"
+            },
+            "numItems": 1
+          }
+        }
+      ],
+      "mArbitrarySlotSizes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAllowedItemDescriptors": [
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        },
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  }
+]

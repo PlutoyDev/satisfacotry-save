@@ -1,0 +1,35 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGInventoryComponentTrash",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472.TrashSlot"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Char_Player_C_2147326472",
+    "pcInfo": {},
+    "properties": {
+      "mInventoryStacks": [
+        {
+          "Item": {
+            "itemClass": "",
+            "reference": {
+              "levelName": "",
+              "pathName": ""
+            },
+            "numItems": 0
+          }
+        }
+      ],
+      "mArbitrarySlotSizes": [
+        0
+      ],
+      "mAllowedItemDescriptors": [
+        {
+          "levelName": "",
+          "pathName": ""
+        }
+      ]
+    }
+  }
+]

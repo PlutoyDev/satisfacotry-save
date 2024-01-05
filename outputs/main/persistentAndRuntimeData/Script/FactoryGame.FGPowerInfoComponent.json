@@ -1,0 +1,4034 @@
+[
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod24_1",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod6_2102",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_9",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 138
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_2",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod29_27444",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod40_1163",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod17_7892",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_11",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod37.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod37",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1325",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_2",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 67
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03C7C01_1131248715",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod31.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod31",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1559404536",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_2",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5_9",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_11",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 138
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_1",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_1145",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod20.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod20",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 50
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod8.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod8",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 73
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_8",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 19
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_1",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 42
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_4",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_5",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod6_27",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5_26",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod13.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod13",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 25
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5_6",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_0",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 50
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod19.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod19",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod7",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_5",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 40
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod10.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod10",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod16_4595",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_4",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod35.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod35",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod11_2",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_3",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_11",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 42
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod15_821",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_1",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_6",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod12.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod12",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod27_20823",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod14_389",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_22",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 112
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_13058",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod18.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod18",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_8033",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 48
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod28_23787",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 15
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 200
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_24",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod25.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod25",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod23.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod23",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 70
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_8348",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod33.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod33",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod30_6998",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 50
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_7",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_0",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_12",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod6.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod6",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_7",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_12",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_0",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_10",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod21_2",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5_10",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod41_8375",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 40
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_6",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 50
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_7",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 40
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_4",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_4",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 50
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_6",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_8",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod3_3",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod36_UAID_40B076DF2F79496001_1121515405",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod36.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod36",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_1",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5_13",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 256
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_2",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod32_1",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_9",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 420
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_12",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod1_3",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_25",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4_9",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod5_740",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod7_5615",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod9",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod9_1568",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 53
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_10",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod38.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod38",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1712034537",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod26.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod26",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F0486401_1144991453",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod22.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod22",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod2_23",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 267
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod4.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod4",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_5",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod34.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod34",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_UAID_04421A9713F03B7C01_1807913538",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1.PowerInfoComponent"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.BP_DropPod_C_1",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146933503.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146933503",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262604",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147262246",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260670.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260670",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260294.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147260294",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252984.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252984",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252627.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252627",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147251252",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147201251",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147195899.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147195899",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147194499.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147194499",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147153013.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147153013",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152610.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152610",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152281.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147152281",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147113685.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147113685",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147344980.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147344980",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147331613.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147331613",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147446059.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147446059",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147343015.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147343015",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 15
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147342528.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147342528",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 15
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147315178.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147315178",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314363.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314363",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314095.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147314095",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.06568080186843872
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147239412.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147239412",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147136921.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147136921",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405156.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405156",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147403331",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147402080",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147401868",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147387125.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147387125",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147386564",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5.850865840911865
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378666.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378666",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147369771.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147369771",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147444831.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147444831",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147424253",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422704",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147422375",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147421078",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465623.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465623",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465362.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465362",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465057.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147465057",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.734637975692749
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464653.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464653",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.734637975692749
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464245.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147464245",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.734637975692749
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147381528.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147381528",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378304.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147378304",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147254562.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147254562",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.734637975692749
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147253035.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147253035",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.734637975692749
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252623.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147252623",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.734637975692749
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185932.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185932",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10.254892349243164
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185423.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147185423",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10.254892349243164
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147450732.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147450732",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10.254892349243164
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147386866.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147386866",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10.254892349243164
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147340579.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147340579",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 15
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147237746.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147237746",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147219013",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217896",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217518",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147217128",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216885",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147216559",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196824",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147196396",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147127465.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147127465",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147090146.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147090146",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086665.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086665",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086211.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147086211",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146551953.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146551953",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorIntegratedBiomass_C_2146432462.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorIntegratedBiomass_C_2146432462",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorIntegratedBiomass_C_2146432458.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorIntegratedBiomass_C_2146432458",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146384191.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146384191",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146340269.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2146340269",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147443964.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147443964",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147441003.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147441003",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147461422.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk1_C_2147461422",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147314991",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280590",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 9.361385345458984
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FoundryMk1_C_2147280053",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147163083.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147163083",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147151742.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147151742",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147149751.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147149751",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147419953.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147419953",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 15
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147356624.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147356624",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147314389.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147314389",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147187357.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147187357",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5.999996662139893
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440171",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440166",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_SmelterMk1_C_2147440161",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 2.3403449058532715
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147362652",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 12
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147438496.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147438496",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147075904.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147075904",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 3.143315553665161
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147066058.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147066058",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 3.143315553665161
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147406136.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147406136",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405416.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147405416",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452305.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452305",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452300.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452300",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452295.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452295",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452290.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147452290",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198746.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198746",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198741.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198741",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198736.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198736",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198731.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147198731",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147277270",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 12
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147268328",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 35.054317474365234
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147175646.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147175646",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_MinerMk2_C_2147448946",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367536",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147367532",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359678",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147359674",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329969",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147329965",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327256",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147327252",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311766.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311766",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311033.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147311033",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147310271.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147310271",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 20
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147309925.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147309925",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197531",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147197527",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195477",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147195473",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192545",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147192541",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187865",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147187861",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186146",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147186142",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 75,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147174928.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147174928",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147123153.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147123153",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147106244.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147106244",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147099449.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147099449",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147092900.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147092900",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 13.673190116882324
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_LandingPad_C_2146564116.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_LandingPad_C_2146564116",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 5
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256612.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256612",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256610.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256610",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256608.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256608",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256606.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256606",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256604.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256604",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256602.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256602",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256600.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256600",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256598.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256598",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256592.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256592",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256590.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256590",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256588.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256588",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256586.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256586",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256584.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256584",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256582.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256582",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256580.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256580",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256578.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147256578",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231192.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231192",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231190.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231190",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231188.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231188",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231186.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231186",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231184.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231184",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231182.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231182",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231180.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231180",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231178.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231178",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231172.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231172",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231170.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231170",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231168.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231168",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231166.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231166",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231164.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231164",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231162.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231162",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231160.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231160",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231158.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2147231158",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147199878.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147199878",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147197254.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147197254",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196699.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196699",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196270.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147196270",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146875416.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146875416",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 3.054096221923828
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146699553.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146699553",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146695497.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146695497",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146690200.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146690200",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146683796.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146683796",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146678690.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_FloodlightPole_C_2146678690",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 6
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146668852.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146668852",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146662531.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2146662531",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401316.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401316",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401305.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147401305",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147363427",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 134.31002807617188
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilPump_C_2147466552",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 134.31002807617188
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370802",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370800",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147370792",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367648",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147367640",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333099",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333097",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147333089",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303575",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147303567",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440101",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147440091",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 25.14548683166504
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_OilRefinery_C_2147414075",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 25.14548683166504
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147454208.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147454208",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147449823.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipeHyperStart_C_2147449823",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 10
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265217",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 165,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147265213",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 165,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263699",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 165,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147263695",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 161.25,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262516",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 165,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_GeneratorCoal_C_2147262512",
+    "pcInfo": {},
+    "properties": {
+      "mDynamicProductionCapacity": 165,
+      "mIsFullBlast": true
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147250564.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147250564",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 38.77290344238281
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147239171.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147239171",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 38.77290344238281
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147237269.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_WaterPump_C_2147237269",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 38.77290344238281
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelinePump_C_2147215045.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipelinePump_C_2147215045",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelinePump_C_2147214820.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipelinePump_C_2147214820",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PipelinePump_C_2147214035.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PipelinePump_C_2147214035",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 4
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146944622.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146944622",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146944397.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146944397",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146944165.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146944165",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146943867.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_PowerStorageMk1_C_2146943867",
+    "pcInfo": {},
+    "properties": {}
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147456397.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147456397",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147418629.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147418629",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147329690.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147329690",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147233720.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_ResourceSink_C_2147233720",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 30
+    }
+  },
+  {
+    "type": 0,
+    "className": "/Script/FactoryGame.FGPowerInfoComponent",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147436824.powerInfo"
+    },
+    "outerPathName": "Persistent_Level:PersistentLevel.Build_AssemblerMk1_C_2147436824",
+    "pcInfo": {},
+    "properties": {
+      "mTargetConsumption": 0.10000000149011612
+    }
+  }
+]

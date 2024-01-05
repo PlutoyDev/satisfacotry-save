@@ -1,0 +1,730 @@
+[
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_236"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.023119313642382622,
+        "y": -0.001970635261386633,
+        "z": -0.013321028091013432,
+        "w": 0.999642014503479
+      },
+      "translation": {
+        "x": 76558.53125,
+        "y": -2678.16796875,
+        "z": 13149.9072265625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_267"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.024938253685832024,
+        "y": 0.00951817911118269,
+        "z": 0.0007854870636947453,
+        "w": 0.9996433854103088
+      },
+      "translation": {
+        "x": 1903.89453125,
+        "y": -168737.265625,
+        "z": 1060.8721923828125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_237"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.06951697170734406,
+        "y": -0.017437651753425598,
+        "z": -0.014074701815843582,
+        "w": 0.99732905626297
+      },
+      "translation": {
+        "x": 75387.8203125,
+        "y": -282.109375,
+        "z": 13150.9013671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_232"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0733836367726326,
+        "y": 0.1382024735212326,
+        "z": -0.019645266234874725,
+        "w": 0.9874861836433411
+      },
+      "translation": {
+        "x": 2027.91796875,
+        "y": -31416.099609375,
+        "z": 13578.6123046875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_240"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0733836367726326,
+        "y": 0.1382024735212326,
+        "z": -0.019645266234874725,
+        "w": 0.9874861836433411
+      },
+      "translation": {
+        "x": 2689.69921875,
+        "y": -30220.369140625,
+        "z": 13607.0712890625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_207"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.06798155605792999,
+        "y": -0.06671696901321411,
+        "z": -0.0006575047154910862,
+        "w": 0.9954531192779541
+      },
+      "translation": {
+        "x": 17567.4921875,
+        "y": 2509.234375,
+        "z": 23396.669921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_249"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.05554037168622017,
+        "y": 0.1032431423664093,
+        "z": -0.009713905863463879,
+        "w": 0.9930567741394043
+      },
+      "translation": {
+        "x": 755.33984375,
+        "y": 1024.92578125,
+        "z": 23410.546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher19"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.022342149168252945,
+        "y": -0.34791654348373413,
+        "z": -0.0923900231719017,
+        "w": 0.9326944947242737
+      },
+      "translation": {
+        "x": -238271.046875,
+        "y": -1605.6953125,
+        "z": -796.3985595703125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDayOfDeath": 38
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_220"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.07197608798742294,
+        "y": 0.04788960516452789,
+        "z": -0.009268753230571747,
+        "w": 0.996212899684906
+      },
+      "translation": {
+        "x": 65655.59375,
+        "y": -1328.0390625,
+        "z": 13168.53125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_208"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.011052388697862625,
+        "y": -0.008011586964130402,
+        "z": -0.0019244722789153457,
+        "w": 0.999904990196228
+      },
+      "translation": {
+        "x": 11840.015625,
+        "y": 999.53515625,
+        "z": 23385.662109375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_363"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 218653,
+        "y": -1740,
+        "z": -1634
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_250"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.017079642042517662,
+        "y": 0.11698801070451736,
+        "z": -0.0016651102341711521,
+        "w": 0.9929850697517395
+      },
+      "translation": {
+        "x": -2294.49609375,
+        "y": -5131.6640625,
+        "z": 23403.921875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher18"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.11176016926765442,
+        "y": 0.03412129729986191,
+        "z": -0.023881064727902412,
+        "w": 0.9928620457649231
+      },
+      "translation": {
+        "x": -240447.84375,
+        "y": -1512.5234375,
+        "z": -1258.9207763671875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mDayOfDeath": 38
+    }
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_362"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "translation": {
+        "x": 217227,
+        "y": -1997,
+        "z": -1654
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_239"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.015365229919552803,
+        "y": 0.002666343003511429,
+        "z": -0.014146899804472923,
+        "w": 0.9997783303260803
+      },
+      "translation": {
+        "x": 73525.6640625,
+        "y": -590.51953125,
+        "z": 13134.7060546875
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_160"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.0486922450363636,
+        "y": -0.012597144581377506,
+        "z": -0.0006965304492041469,
+        "w": 0.9987341165542603
+      },
+      "translation": {
+        "x": 2159.46875,
+        "y": -169221.609375,
+        "z": -626.7141723632812
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_222"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.029016470536589622,
+        "y": 0.046708475798368454,
+        "z": -0.014058534987270832,
+        "w": 0.9983880519866943
+      },
+      "translation": {
+        "x": 66387.390625,
+        "y": -2391.7109375,
+        "z": 13150.4208984375
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_241"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.08753440529108047,
+        "y": 0.16259697079658508,
+        "z": -0.020068034529685974,
+        "w": 0.9825971722602844
+      },
+      "translation": {
+        "x": 1705.25390625,
+        "y": -29096.083984375,
+        "z": 14131.6953125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_154"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": 0.0026795670855790377,
+        "y": 0.00647719157859683,
+        "z": -0.0005446310387924314,
+        "w": 0.9999752640724182
+      },
+      "translation": {
+        "x": 337.7421875,
+        "y": -198155.859375,
+        "z": -1727.2882080078125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {}
+  },
+  {
+    "type": 1,
+    "className": "/Game/FactoryGame/Character/Creature/Enemy/CrabHatcher/Char_CrabHatcher.Char_CrabHatcher_C",
+    "reference": {
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Char_CrabHatcher_C_153"
+    },
+    "needTransform": false,
+    "transform": {
+      "rotation": {
+        "x": -0.01164930034428835,
+        "y": -0.012614304199814796,
+        "z": -0.00022924710356164724,
+        "w": 0.9998525381088257
+      },
+      "translation": {
+        "x": 1149.34375,
+        "y": -203073.9375,
+        "z": -1727.229736328125
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "wasPlacedInLevel": true,
+    "pcInfo": {
+      "parent": {
+        "levelName": "",
+        "pathName": ""
+      },
+      "children": []
+    },
+    "properties": {
+      "mTriggered": true,
+      "mDayOfDeath": 43,
+      "mCurrentHealth": -7
+    }
+  }
+]
