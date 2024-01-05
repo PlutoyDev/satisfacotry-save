@@ -632,7 +632,7 @@ export class SatisfactoryFileReader extends UnrealDataReader {
         const className = obj.className;
         if (!groupedObjects.has(className)) {
           groupedObjects.set(className, {});
-          pathsToCreate.add("persistentAndRuntimeData/" + className.split(".").slice(0, -1).join("/"));
+          pathsToCreate.add("persistentAndRuntimeData/" + className.split("/").slice(0, -1).join("/"));
         }
         groupedObjects.get(className)![i] = obj;
       }
@@ -663,7 +663,6 @@ export class SatisfactoryFileReader extends UnrealDataReader {
 export default SatisfactoryFileReader;
 
 import type { Vector, Quat } from "./stuctReader.js";
-import { group } from "console";
 
 export type SatisfactoryObject<
   ClassName extends string = string,
