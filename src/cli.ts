@@ -1,3 +1,4 @@
+import { writeFile } from "fs/promises";
 import { simplifyProduction } from "./graph.js";
 import SatisfactoryFileReader from "./parseSave.js";
 
@@ -62,4 +63,4 @@ console.timeEnd("Read save file");
 
 const res = simplifyProduction(data.body.persistentAndRuntimeData.objects);
 
-console.log(res.buildables);
+await writeFile("./output.json", JSON.stringify(res, null, 2));

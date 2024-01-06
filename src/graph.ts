@@ -38,7 +38,16 @@ export function simplifyProduction(objects: SatisfactoryObject[]) {
   const machines = new Set<string>();
   const storage = new Set<string>();
 
+  const prodLineBuildings = new Set<string>();
   const connectionMap = new Map<string, string>();
+  // key is outerName, from is
+  const conveyorMap = new Map<
+    string,
+    {
+      from?: string;
+      to?: string;
+    }
+  >();
 
   for (const obj of objects) {
     const {
@@ -59,26 +68,31 @@ export function simplifyProduction(objects: SatisfactoryObject[]) {
         // Conveyor
         if (typeOfConveyors.some((type) => buildingClass === `Build_${type}`)) {
           conveyor.add(refName);
+          prodLineBuildings.add(refName);
         }
 
         // Spliters
         if (buildingClass === "Build_ConveyorAttachmentSplitter") {
           spliters.add(refName);
+          prodLineBuildings.add(refName);
         }
 
         // Smart Spliters
         if (buildingClass === "Build_ConveyorAttachmentSplitterSmart") {
           smartSpliters.add(refName);
+          prodLineBuildings.add(refName);
         }
 
         // Merger
         if (buildingClass === "Build_ConveyorAttachmentMerger") {
           merger.add(refName);
+          prodLineBuildings.add(refName);
         }
 
         // Resource Extractors
         if (typeOfResourceExtractors.some((type) => buildingClass === `Build_${type}`)) {
           resourceExtractors.add(refName);
+          prodLineBuildings.add(refName);
         }
 
         // Machines
@@ -88,26 +102,74 @@ export function simplifyProduction(objects: SatisfactoryObject[]) {
           )
         ) {
           machines.add(refName);
+          prodLineBuildings.add(refName);
         }
 
         // Storage
         if (typeOfSorage.some((type) => buildingClass === `Build_${type}`)) {
           storage.add(refName);
+          prodLineBuildings.add(refName);
         }
       }
     }
 
+    if (type === 0 && outerPathName) {
+      // Object
+      if (
+        className === "/Script/FactoryGame.FGFactoryConnectionComponent" &&
+        typeof properties?.mConnectedComponent === "object" &&
+        properties.mConnectedComponent &&
+        "pathName" in properties.mConnectedComponent &&
+        typeof properties.mConnectedComponent.pathName === "string"
+      ) {
+        const outerName = outerPathName.slice(33);
+        const self = reference.pathName.slice(33);
+        const connected = properties.mConnectedComponent.pathName.slice(33);
+        if (conveyor.has(outerName)) {
+          // If this connection is a conveyor
+          const isOutput = properties.mDirection === "EFactoryConnectionDirection::FCD_OUTPUT";
+          const isInput = properties.mDirection === "EFactoryConnectionDirection::FCD_INPUT";
+          if (!isOutput && !isInput) {
+            continue;
+          }
+          const connectedBuilding = connected.split(".")[0];
+          if (isInput && conveyorMap.has(connectedBuilding) && conveyorMap.get(connectedBuilding)!.from) {
+            console.count("isInput");
+            // connected to another conveyor and has been recorded, simplify the connection by combining them
+            const convFrom = conveyorMap.get(connectedBuilding)!.from!;
+            conveyorMap.delete(connectedBuilding);
+            conveyorMap.set(outerName, { from: convFrom, to: connected });
+          } else if (isOutput && conveyorMap.has(connectedBuilding) && conveyorMap.get(connectedBuilding)!.to) {
+            console.count("isOutput");
+            // connected to another conveyor and has been recorded, simplify the connection by combining them
+            const convTo = conveyorMap.get(connectedBuilding)!.to!;
+            conveyorMap.delete(connectedBuilding);
+            conveyorMap.set(outerName, { from: connected, to: convTo });
+          } else {
+            const { from, to } = conveyorMap.get(outerName) ?? {};
+            // if (!from || !to) {
+            conveyorMap.set(outerName, { from: isInput ? connected : from, to: isOutput ? connected : to });
+            // } else {
+            //   console.count("reassigning");
+            // }
+          }
+        }
+        if (prodLineBuildings.has(outerName)) {
+          if (connectionMap.has(connected)) {
+            const other = connectionMap.get(connected);
+            if (other && other !== self) {
+              connectionMap.delete(connected);
+              connectionMap.set(self, other);
+            }
+          } else {
+            connectionMap.set(connected, self);
+          }
+        }
+      }
+    }
   }
 
   return {
-    buildables: {
-      conveyor,
-      spliters,
-      smartSpliters,
-      merger,
-      resourceExtractors,
-      machines,
-      storage,
-    },
+    conveyorMap: Array.from(conveyorMap.values()),
   };
 }
