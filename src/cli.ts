@@ -1,3 +1,4 @@
+import { simplifyProduction } from "./graph.js";
 import SatisfactoryFileReader from "./parseSave.js";
 
 // Create a simple cli command that excepts an optional flag for the save file path,
@@ -58,3 +59,7 @@ console.time("Read save file");
 const reader = new SatisfactoryFileReader(saveFilePath, options);
 const data = await reader.readSave();
 console.timeEnd("Read save file");
+
+const res = simplifyProduction(data.body.persistentAndRuntimeData.objects);
+
+console.log(res.buildables);

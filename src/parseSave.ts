@@ -664,13 +664,11 @@ export default SatisfactoryFileReader;
 
 import type { Vector, Quat } from "./stuctReader.js";
 
-export type SatisfactoryObject<
-  ClassName extends string = string,
-  Properties extends Record<string, unknown> = Record<string, unknown>,
-> = {
+export type SatisfactoryObject<ClassName extends string = string, Properties = Record<string, unknown>> = {
   type: 0 | 1;
   className: ClassName;
   reference: ObjectReference;
+  outerPathName?: string;
   needTransform?: boolean;
   transform?: {
     rotation: Quat;
